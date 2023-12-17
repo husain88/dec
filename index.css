@@ -106,7 +106,7 @@ a  {
 } */
 
 .section-content-image {
-  max-width: 100%;
+  max-width: 45%;
 }
 /* owl carousel */
 .owl-carousel .item {

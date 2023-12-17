@@ -3,8 +3,7 @@ class Navbar extends HTMLElement {
     this.innerHTML = `
       <style>
       .main-logo {
-        width: 200px;
-        height: auto;
+        height: 50px;
       }
       .nav-link {
         color: #273272;
@@ -120,7 +119,7 @@ class Navbar extends HTMLElement {
         }
       }
       </style>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg p-0">
       <div class="container-fluid center">
         <a class="navbar-brand" href="#"
           ><img class="main-logo" src="./assets/images/logo.webp" alt=""
