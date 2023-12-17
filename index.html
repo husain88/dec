@@ -29,12 +29,17 @@
       type="text/javascript"
       defer
     ></script>
+    <script
+      src="./components/faq.js"
+      type="text/javascript"
+      defer
+    ></script>
     <script src="./assets/modules/owl/owl.carousel.min.js"></script>
   </head>
 
   <body>
     <snackbar-comp></snackbar-comp>
-    <navbar-comp></navbar-comp>
+    <navbar-comp class="sticky-top shadow"></navbar-comp>
     <main>
       <!-- carousel starts -->
       <div
@@ -386,6 +391,9 @@
           </div>
         </div>
       </div>
+      <!-- FAQs-->
+      <faq-comp></faq-comp>
+      <!-- FAQs end-->
     </main>
     <backtotop-comp></backtotop-comp>
   </body>
