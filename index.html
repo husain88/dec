@@ -10,74 +10,380 @@
       rel="stylesheet"
       href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css"
     />
-	<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
-    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link
+      rel="stylesheet"
+      href="./assets/modules/Bootstrap/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./index.css" />
-	<script src="./index.js" type="text/javascript" defer></script>
-	<script src="./components/snackbar.js" type="text/javascript" defer></script>
-	<script src="./components/navbar.js" type="text/javascript" defer></script>
-	<script src="./components/backToTopBtn.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <script src="./index.js" type="text/javascript" defer></script>
+    <script
+      src="./components/snackbar.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script
+      src="./components/backToTopBtn.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
   </head>
 
   <body>
     <snackbar-comp></snackbar-comp>
-	<navbar-comp></navbar-comp> 
-	<main>
-		<!-- carousel starts -->
-		<div id="robotcarousel" class="carousel slide" data-bs-ride="carousel" data-interval="3000">  
-			<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img class="d-block img-fluid" src="./assets/images/Banner-6-C-Dec.jpg"/>
-			  </div>
-			  <div class="carousel-item">
-				<img class="d-block img-fluid" src="./assets/images/Banner-5-C-Dec.jpg"/>
-			  </div>
-			  <div class="carousel-item">
-				<img class="d-block img-fluid" src="./assets/images/Banner-4-C-Dec.jpg"/>
-			  </div>
-			  <div class="carousel-item">
-				<img class="d-block img-fluid" src="./assets/images/Banner-3-C-Dec.jpg"/>
-			  </div>
-			  <div class="carousel-item">
-				<img class="d-block img-fluid" src="./assets/images/image-43-2.jpg"/>
-			  </div>
-			  <div class="carousel-item">
-				<img class="d-block img-fluid" src="./assets/images/image-41-2.jpg"/>
-			  </div>
-			</div>			
-			<button class="carousel-control-prev" type="button" data-bs-target="#robotcarousel" data-bs-slide="prev">
-			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			  <span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#robotcarousel" data-bs-slide="next">
-			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  <span class="visually-hidden">Next</span>
-			</button			
-		</div>
-		<!-- carousel ends -->
-		<div class="container-fluid d-flex justify-content-center align-items-center approval-list">
-			<div id="flex-container">
-					<div class="flex-item">
-						<div class="text-center">
-							<img src="./assets/images/All_India_Council_for_Technical_Education_logo-2-128x0.webp" class="approval-img" alt="...">
-							  <h5 class="approval-text">AICTE Approved <i class="fa-sharp fa-solid fa-check" style="color: #30c564;"></i></h5>
-							</div>
-					</div>
-					<div class="flex-item">
-						<div class="text-center">
-							<img src="./assets/images/UGC-India-Logo-2-128x0.png" class="approval-img" alt="...">
-							  <h5 class="approval-text">UGC Approved <i class="fa-sharp fa-solid fa-check" style="color: #30c564;"></i></h5>
-							</div>
-					</div>
-					<div class="flex-item">
-							<div class="text-center">
-							<img src="./assets/images/naac-logo-2-128x0.png" class="approval-img" alt="...">
-							  <h5 class="approval-text">NAAC Certified <i class="fa-sharp fa-solid fa-check" style="color: #30c564;"></i></h5>
-							</div>
-					</div>
-			</div>
-		</div>
-	</main>
-  <backtotop-comp></backtotop-comp>
+    <navbar-comp></navbar-comp>
+    <main>
+      <!-- carousel starts -->
+      <div
+        id="robotcarousel"
+        class="carousel banner slide"
+        data-bs-ride="carousel"
+        data-interval="3000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block img-fluid"
+              src="./assets/images/Banner-6-C-Dec.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./assets/images/Banner-5-C-Dec.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./assets/images/Banner-4-C-Dec.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./assets/images/Banner-3-C-Dec.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./assets/images/image-43-2.jpg"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="./assets/images/image-41-2.jpg"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#robotcarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#robotcarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel ends -->
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center approval-list"
+      >
+        <div id="flex-container">
+          <div class="flex-item">
+            <div class="text-center">
+              <img
+                src="./assets/images/All_India_Council_for_Technical_Education_logo-2-128x0.webp"
+                class="approval-img"
+                alt="..."
+              />
+              <h5 class="approval-text">
+                AICTE Approved
+                <i
+                  class="fa-sharp fa-solid fa-check"
+                  style="color: #30c564"
+                ></i>
+              </h5>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="text-center">
+              <img
+                src="./assets/images/UGC-India-Logo-2-128x0.png"
+                class="approval-img"
+                alt="..."
+              />
+              <h5 class="approval-text">
+                UGC Approved
+                <i
+                  class="fa-sharp fa-solid fa-check"
+                  style="color: #30c564"
+                ></i>
+              </h5>
+            </div>
+          </div>
+          <div class="flex-item">
+            <div class="text-center">
+              <img
+                src="./assets/images/naac-logo-2-128x0.png"
+                class="approval-img"
+                alt="..."
+              />
+              <h5 class="approval-text">
+                NAAC Certified
+                <i
+                  class="fa-sharp fa-solid fa-check"
+                  style="color: #30c564"
+                ></i>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- online education key of success  -->
+      <!--  image left  -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img
+              class="section-content-image"
+              src="./assets/images/online-education-key.webp"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4 section-content">
+              <h1 class=" section-content-heading fw-bold">
+                Online Education Key Of Success
+              </h1>
+              <p class="lead section-content-paragraph">
+                Online courses are no longer full-time hectic for the students.
+                Now, these online programs made it easier to learn more courses
+                at the same time. Online degree brings you so much comfort and
+                flexibility in your academic grades to add in your resume.
+                <br /><br />
+                In this growing world, all we need is career opportunities, more
+                knowledge and time for personal life. And to cope up with this
+                developing world our Online course would give you a great
+                opportunity and an amazing resume to attract companies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- multi item owl carousel -->
+      <div class="container my-5">
+        <h1 class="text-center fw-bold p-2 section-heading">
+          Online Education Universities
+        </h1>
+        <div class="owl-carousel p-2 owl-theme">
+          <div class="item">
+            <img
+              src="./assets/images/Lovely-Professional-University-Online-logo-1-362x0.webp"
+            />
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/multi-item-corousal-manipal.webp"
+              alt=""
+            />
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/multi-item-corousal-dy-patil.webp"
+              alt=""
+            />
+          </div>
+          <div class="item">
+            <img src="./assets/images/multi-item-corousal-jain.webp" alt="" />
+          </div>
+          <div class="item">
+            <img src="./assets/images/multi-item-corousal-amity.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- navigating the digital classroom -->
+      <!--  image left  -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img
+              class="section-content-image"
+              src="./assets/images/home-navigating-left-img.webp"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4 section-content">
+              <h1 class=" section-heading fw-bold">
+                Navigating the Digital Classroom:
+                <br />
+                <span class="h4 fw-bold"
+                  >A Guide to Successful Online Learning</span
+                >
+              </h1>
+              <br />
+              <p class="lead section-content-paragraph">
+                Online courses are no longer full-time hectic for the students.
+                Now, these online programs made it easier to learn more courses
+                at the same time. Online degree brings you so much comfort and
+                flexibility in your academic grades to add in your resume.
+                <br /><br />
+                In this growing world, all we need is career opportunities, more
+                knowledge and time for personal life. And to cope up with this
+                developing world our Online course would give you a great
+                opportunity and an amazing resume to attract companies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- online courses we offer section -->
+      <div class="container text-center">
+        <h1 class="section-heading fw-bold">Online Courses We Offer</h1>
+        <p class="text-dark">
+          The inte­rnet offers a wide array of online­ courses, providing
+          educational opportunities in various subje­cts. These courses range­
+          from traditional academic disciplines like Busine­ss Administration
+          (BBA), Computer Applications (BCA), and Masters in Computer
+          Applications (MCA) to more­ specialized fields such as Artificial
+          Inte­lligence, Digital Marketing, and Sustainable­ Energy.
+          <br /><br />
+          We enlist colleges and universities that offer various online courses
+          like MBA Manipal online. These colleges are approved by UGC-DEB which
+          makes them reliable.<span class="fw-bold"
+            >Some popular online courses are:</span
+          >
+        </p>
+      </div>
+      <!-- bba right image section-->
+      <!--  image right  -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mt-4 section-content">
+              <h1 class=" section-heading fw-bold">
+                Bachelor of Business Administration (BBA)
+              </h1>
+              <br />
+              <p class="lead section-content-paragraph">
+                BBA is an undergraduate program that provides a foundation in
+                various aspects of business management. In a BBA program,
+                students gain knowledge in various are­as including finance,
+                marketing, human resource­s, and organizational behavior. BBA
+                graduates often pursue careers in management, marketing, or
+                entrepreneurship.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              class="section-content-image"
+              src="./assets/images/bba-home-right-img.webp"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- mba left image section-->
+      <!--  image left  -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img
+              class="section-content-image"
+              src="./assets/images/mba-home-left-img.webp"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4 section-content">
+              <h1 class=" section-heading fw-bold">
+                Master of Business Administration (MBA)
+              </h1>
+              <br />
+              <p class="lead section-content-paragraph">
+                An MBA is a graduate-le­vel program that expands on the
+                foundations of busine­ss administration. It provides specialized
+                knowle­dge in key areas such as finance­, strategy, leadership,
+                and ope­rations management. Online MBA Manipal University
+                graduates are prepared for leadership roles in various
+                industries and can advance their careers more rapidly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bca right image section-->
+      <!--  image right  -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mt-4 section-content">
+              <h1 class=" section-heading fw-bold">
+                Bachelor of Computer Applications (BCA)
+              </h1>
+              <br />
+              <p class="lead section-content-paragraph">
+                The BCA program is designed for undergraduates who have­ a keen
+                intere­st in computer science and its practical applications.
+                Additionally, they acquire skills in programming language­s,
+                database management, and software­ development. This
+                compre­hensive education e­quips BCA graduates for successful
+                caree­rs in software developme­nt, IT consulting, and web
+                developme­nt.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              class="section-content-image"
+              src="./assets/images/bca-home-right-img.webp"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- mca left image section-->
+      <!--  image left  -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <img
+              class="section-content-image"
+              src="./assets/images/mca-home-left-img.png"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4 section-content">
+              <h1 class=" section-heading fw-bold">
+                Master of Computer Applications (MCA)
+              </h1>
+              <br />
+              <p class="lead section-content-paragraph">
+                The Maste­r of Computer Applications (MCA) is a postgraduate
+                program that offers in-de­pth knowledge and expe­rtise in
+                computer science­ and software developme­nt. It includes
+                subje­cts like algorithms, programming, and systems
+                deve­lopment. Graduates with an MCA degre­e typically choose
+                caree­rs as software enginee­rs, systems analysts, or IT
+                managers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <backtotop-comp></backtotop-comp>
   </body>
 </html>

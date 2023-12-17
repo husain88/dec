@@ -10,6 +10,7 @@ class Navbar extends HTMLElement {
         color: #273272;
         font-size: 14px;
         font-weight: bold;
+        text-wrap: balance;
       }
       .active {
         color: #ff5700 !important;
@@ -149,7 +150,7 @@ class Navbar extends HTMLElement {
                 href="#"
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
-                >POST GRADUATE PROGRAM</a
+                >Post Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
                 <li><a class="dropdown-item" href="blog.html">Online MBA Courses</a></li>
@@ -165,7 +166,7 @@ class Navbar extends HTMLElement {
                 href="#"
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
-                >UNDER GRADUATE PROGRAM</a
+                >Under Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
                 <li><a class="dropdown-item" href="blog.html">Online BCA Courses</a></li>
@@ -181,7 +182,7 @@ class Navbar extends HTMLElement {
                 href="#"
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
-                >DISTANCE COURSES</a
+                >Distance Courses</a
               >
               <ul class="dropdown-menu fade-down">
               <li><a class="dropdown-item" href="blog.html">Online MBA Courses</a></li>
@@ -190,13 +191,13 @@ class Navbar extends HTMLElement {
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TOP UNIVERSITIES</a>
+              <a class="nav-link" href="#">Top Universities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BLOG</a>
+              <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT US</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
         </div>

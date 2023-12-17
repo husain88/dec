@@ -32,11 +32,11 @@ class Snackbar extends HTMLElement {
       <div class="d-flex flex-wrap-wrap align-items-center head-wrapper">
         <ul class="d-flex justify-content-space-between p-0">
           <li class="p-2">
-            <i class="fa-solid fa-phone"></i> <span>+91-888-2837-500</span>
+            <i class="fa-solid fa-phone"></i> <span class="d-none d-md-inline">+91-888-2837-500</span>
           </li>
           <li class="p-2">
             <i class="fa-regular fa-envelope"></i
-            ><span> onlinedistancecolleges@gmail.com</span>
+            ><span class="d-none d-md-inline"> onlinedistancecolleges@gmail.com</span>
           </li>
         </ul>
         <button type="button" class="btn btn-danger rounded-pill">

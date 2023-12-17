@@ -35,3 +35,28 @@ document.addEventListener("DOMContentLoaded", () => {
     e.target.children[0].classList.toggle("active");
   });
 });
+
+// owl carousel 
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  dots:false,
+  autoplay:true,
+  stagePadding:50,
+  autoplayTimeout:2000,
+  responsive:{
+      0:{
+          items:2
+      },
+      300:{
+        items:3
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:4
+      }
+  }
+})

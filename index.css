@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html * {
+  font-family: 'Roboto', sans-serif;
+}
+/* universal */
+h1 {
+  font-size: 34px;
+}
+p {
+  font-size: 20px;
+}
+.section-heading {
+  color: black;
+}
 ul {
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 li {
   list-style: none;
@@ -8,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
   /* font-family: 'Montserrat'; */
 }
 main {
@@ -21,6 +37,7 @@ h5,
 p,
 a {
   color: #273272;
+  font-family: 'Roboto', sans-serif;
 }
 
 #flex-container {
@@ -70,8 +87,8 @@ a {
 }
 
 .approval-list {
-  position: absolute;
-  top: 88%;
+  position: relative;
+  margin-top: -25px;
 }
 
 .approval-img {
@@ -80,4 +97,20 @@ a {
 }
 .approval-text {
   font-size: 1.25rem;
+}
+/* .section-content {
+  max-width: 75%;
+} */
+.section-content .section-content-heading {
+  color: black;
+}
+.section-content-paragraph {
+  color: black;
+}
+.section-content-image {
+  max-width: 100%;
+}
+/* owl carousel */
+.owl-carousel .item {
+  max-width: 50%;
 }
