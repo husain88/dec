@@ -86,3 +86,68 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
+// benefit card
+
+$('.moreless-button').click(function() {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button2').click(function() {
+  $('.moretext2').slideToggle();
+  if ($('.moreless-button2').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button3').click(function() {
+  $('.moretext3').slideToggle();
+  if ($('.moreless-button3').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button4').click(function() {
+  $('.moretext4').slideToggle();
+  if ($('.moreless-button4').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button5').click(function() {
+  $('.moretext5').slideToggle();
+  if ($('.moreless-button5').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button6').click(function() {
+  $('.moretext6').slideToggle();
+  if ($('.moreless-button6').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button7').click(function() {
+  $('.moretext7').slideToggle();
+  if ($('.moreless-button7').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});

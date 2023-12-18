@@ -119,3 +119,46 @@ a {
   line-height: 1;
   width: 100%;
 }
+
+.stats-wrapper {
+  background-color: #1d4463;
+}
+
+/* benefit card */
+.readmore__content {
+  max-width: 45rem;
+  width: 100%;
+  display: flex;
+}
+
+.benefit-card {
+  border: 2px solid #273272;
+  text-align: justify;
+  border-radius: 5px 5px 5px 5px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+.benefit-card-title {
+  color: #273272;
+}
+
+.card-container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  background-color: #fff;
+  color: #444;
+}
+
+#more {
+  display: none;
+}
+
+.moretext {
+  display: none;
+}
+
+.readmore-btn {
+  color: #273272;
+}
