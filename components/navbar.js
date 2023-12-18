@@ -5,6 +5,9 @@ class Navbar extends HTMLElement {
       .main-logo {
         height: 50px;
       }
+      .navbar {
+        background-color: #fff;
+      }
       .nav-link {
         color: #273272;
         font-size: 14px;

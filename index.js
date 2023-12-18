@@ -34,6 +34,32 @@ document.addEventListener("DOMContentLoaded", () => {
   navbarToggler.addEventListener("click", function (e) {
     e.target.children[0].classList.toggle("active");
   });
+
+  // Add minus icon for collapse element which is open by default
+  $(".collapse.show").each(function () {
+    $(this)
+      .prev(".accordion-header")
+      .find(".fa")
+      .addClass("fa-minus")
+      .removeClass("fa-plus");
+  });
+
+  // Toggle plus minus icon on show hide of collapse element
+  $(".collapse")
+    .on("show.bs.collapse", function () {
+      $(this)
+        .prev(".accordion-header")
+        .find(".fa")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+    })
+    .on("hide.bs.collapse", function () {
+      $(this)
+        .prev(".accordion-header")
+        .find(".fa")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    });
 });
 
 // owl carousel 
@@ -84,3 +110,68 @@ $('.popular-courses').owlCarousel({
   //     }
   // }
 })
+
+// benefit card
+
+$('.moreless-button').click(function() {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button2').click(function() {
+  $('.moretext2').slideToggle();
+  if ($('.moreless-button2').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button3').click(function() {
+  $('.moretext3').slideToggle();
+  if ($('.moreless-button3').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button4').click(function() {
+  $('.moretext4').slideToggle();
+  if ($('.moreless-button4').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button5').click(function() {
+  $('.moretext5').slideToggle();
+  if ($('.moreless-button5').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button6').click(function() {
+  $('.moretext6').slideToggle();
+  if ($('.moreless-button6').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});
+
+$('.moreless-button7').click(function() {
+  $('.moretext7').slideToggle();
+  if ($('.moreless-button7').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
+});

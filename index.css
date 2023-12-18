@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 html * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* universal */
 h2 {
@@ -15,7 +15,7 @@ p {
 
 ul {
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 li {
   list-style: none;
@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   /* font-family: 'Montserrat'; */
 }
 main {
@@ -36,11 +36,11 @@ h3,
 h4,
 h5,
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-a  {
+a {
   color: #273272;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #flex-container {
@@ -60,12 +60,10 @@ a  {
 @media only screen and (max-width: 768px) {
   #flex-container {
     height: fit-content;
-    box-shadow: none;
-    padding: 0;
+    padding: 0px 10px 0px 10px;
   }
   .approval-list {
-    position: relative !important;
-    top: unset !important;
+    margin-top: -12px !important;
   }
   .flex-item {
     margin-top: unset;
@@ -111,4 +109,56 @@ a  {
 /* owl carousel */
 .owl-carousel .item {
   max-width: 50%;
+}
+
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  width: 100%;
+}
+
+.stats-wrapper {
+  background-color: #1d4463;
+}
+
+/* benefit card */
+.readmore__content {
+  max-width: 45rem;
+  width: 100%;
+  display: flex;
+}
+
+.benefit-card {
+  border: 2px solid #273272;
+  text-align: justify;
+  border-radius: 5px 5px 5px 5px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+.benefit-card-title {
+  color: #273272;
+}
+
+.card-container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+  background-color: #fff;
+  color: #444;
+}
+
+#more {
+  display: none;
+}
+
+.moretext {
+  display: none;
+}
+
+.readmore-btn {
+  color: #273272;
 }
