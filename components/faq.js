@@ -27,8 +27,10 @@ class Faq extends HTMLElement {
           .accordion-button:not(.collapsed)::after {
             display: none;
           }
-          .faq-container{
+          .main-container{
             background-color:#273272;
+          }
+          .faq-container{
             padding: 50px;
           }
           .accordion {
@@ -49,8 +51,8 @@ class Faq extends HTMLElement {
             margin-right: 0.5rem;
           }
         </style>
-        <div class="container my-5">
-        <div class="faq-container">
+        <div class="main-container">
+        <div class="container faq-container">
           <h2 class="text-center text-decoration-underline text-white mb-5">
             FAQs
           </h2>
@@ -299,4 +301,4 @@ class Faq extends HTMLElement {
   }
 }
 
-customElements.define("faq-comp", Faq);
+customElements.define("f-a-q", Faq);

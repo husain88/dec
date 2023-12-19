@@ -38,4 +38,4 @@ class BackToTop extends HTMLElement {
   }
 }
 
-customElements.define("backtotop-comp", BackToTop);
+customElements.define("back-to-top", BackToTop);
