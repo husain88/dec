@@ -55,4 +55,4 @@ class Snackbar extends HTMLElement {
   }
 }
 
-customElements.define("snackbar-comp", Snackbar);
+customElements.define("snack-bar", Snackbar);
