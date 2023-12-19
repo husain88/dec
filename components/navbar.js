@@ -125,7 +125,7 @@ class Navbar extends HTMLElement {
       <nav class="navbar navbar-expand-lg p-0">
       <div class="container-fluid center">
         <a class="navbar-brand" href="#"
-          ><img class="main-logo" src="./assets/images/logo.webp" alt=""
+          ><img class="main-logo" src="/assets/images/logo.webp" alt=""
         /></a>
         <button
           class="navbar-toggler collapsed"

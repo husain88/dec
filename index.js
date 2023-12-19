@@ -63,13 +63,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // owl carousel 
-$('.owl-carousel').owlCarousel({
+$('.uni-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:false,
   dots:false,
   autoplay:true,
   stagePadding:50,
+  center: true,
   autoplayTimeout:2000,
   responsive:{
       0:{
@@ -83,6 +84,31 @@ $('.owl-carousel').owlCarousel({
       },
       1000:{
           items:4
+      }
+  }
+});
+
+$('.popular-courses').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  dots:false,
+  autoplay:true,
+  center: true,
+  // stagePadding:10,
+  autoplayTimeout:2000,
+  responsive:{
+      0:{
+          items:1
+      },
+      300:{
+        items:1
+      },
+      600:{
+          items:2
+      },
+      1000:{
+          items:3
       }
   }
 })
