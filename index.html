@@ -1,570 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="./jquery.js"></script>
-    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css"
-    />
-    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
-    <link
-      rel="stylesheet"
-      href="./assets/modules/Bootstrap/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
-    <script src="./index.js" type="text/javascript" defer></script>
-    <script
-      src="./components/snackbar.js"
-      type="text/javascript"
-      defer
-    ></script>
-    <script src="./components/navbar.js" type="text/javascript" defer></script>
-    <script
-      src="./components/backToTopBtn.js"
-      type="text/javascript"
-      defer
-    ></script>
-    <script
-      src="./components/faq.js"
-      type="text/javascript"
-      defer
-    ></script>
-    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
-  </head>
 
-  <body>
-    <snackbar-comp></snackbar-comp>
-    <navbar-comp class="sticky-top shadow"></navbar-comp>
-    <main>
-      <!-- carousel starts -->
-      <div
-        id="robotcarousel"
-        class="carousel banner slide"
-        data-bs-ride="carousel"
-        data-interval="3000"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block img-fluid"
-              src="./assets/images/Banner-6-C-Dec.jpg"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block img-fluid"
-              src="./assets/images/Banner-5-C-Dec.jpg"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block img-fluid"
-              src="./assets/images/Banner-4-C-Dec.jpg"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block img-fluid"
-              src="./assets/images/Banner-3-C-Dec.jpg"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block img-fluid"
-              src="./assets/images/image-43-2.jpg"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block img-fluid"
-              src="./assets/images/image-41-2.jpg"
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#robotcarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#robotcarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- carousel ends -->
-      <div
-        class="container-fluid d-flex justify-content-center align-items-center approval-list"
-      >
-        <div id="flex-container">
-          <div class="flex-item">
-            <div class="text-center">
-              <img
-                src="./assets/images/All_India_Council_for_Technical_Education_logo-2-128x0.webp"
-                class="approval-img"
-                alt="..."
-              />
-              <h5 class="approval-text">
-                AICTE Approved
-                <i
-                  class="fa-sharp fa-solid fa-check"
-                  style="color: #30c564"
-                ></i>
-              </h5>
-            </div>
-          </div>
-          <div class="flex-item">
-            <div class="text-center">
-              <img
-                src="./assets/images/UGC-India-Logo-2-128x0.png"
-                class="approval-img"
-                alt="..."
-              />
-              <h5 class="approval-text">
-                UGC Approved
-                <i
-                  class="fa-sharp fa-solid fa-check"
-                  style="color: #30c564"
-                ></i>
-              </h5>
-            </div>
-          </div>
-          <div class="flex-item">
-            <div class="text-center">
-              <img
-                src="./assets/images/naac-logo-2-128x0.png"
-                class="approval-img"
-                alt="..."
-              />
-              <h5 class="approval-text">
-                NAAC Certified
-                <i
-                  class="fa-sharp fa-solid fa-check"
-                  style="color: #30c564"
-                ></i>
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- online education key of success  -->
-      <!--  image left  -->
-      <div class="container my-5">
-        <div class="row">
-          <div
-            class="col-lg-6 text-center d-flex justify-content-center align-items-center"
-          >
-            <img
-              class="section-content-image"
-              src="./assets/images/online-education-key.webp"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="mt-4 section-content">
-              <h2 class="section-content-heading fw-bold">
-                Online Education Key Of Success
-              </h2>
-              <p>
-                Online courses are no longer full-time hectic for the students.
-                Now, these online programs made it easier to learn more courses
-                at the same time. Online degree brings you so much comfort and
-                flexibility in your academic grades to add in your resume.
-                <br /><br />
-                In this growing world, all we need is career opportunities, more
-                knowledge and time for personal life. And to cope up with this
-                developing world our Online course would give you a great
-                opportunity and an amazing resume to attract companies.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <!-- multi item owl carousel -->
-      <div class="container my-5">
-        <h2 class="text-center fw-bold p-2">Online Education Universities</h2>
-        <div class="owl-carousel p-2 owl-theme">
-          <div class="item">
-            <img
-              src="./assets/images/Lovely-Professional-University-Online-logo-1-362x0.webp"
-            />
-          </div>
-          <div class="item">
-            <img
-              src="./assets/images/multi-item-corousal-manipal.webp"
-              alt=""
-            />
-          </div>
-          <div class="item">
-            <img
-              src="./assets/images/multi-item-corousal-dy-patil.webp"
-              alt=""
-            />
-          </div>
-          <div class="item">
-            <img src="./assets/images/multi-item-corousal-jain.webp" alt="" />
-          </div>
-          <div class="item">
-            <img src="./assets/images/multi-item-corousal-amity.webp" alt="" />
-          </div>
-        </div>
-      </div>
-      <!-- background blue section  -->
-      <section class="stats-wrapper p-5">
-        <div class="container">
-          <div class="row g-4 text-center">
-            <div class="col">
-              <img
-                src="./assets/images/Educational-excellence-icon.webp"
-                alt=""
-              />
-              <h2 class="text-light fw-bold pt-4">25+</h2>
-              <span class="text-light fw-bold">Educational excellence</span>
-            </div>
-            <div class="col">
-              <img src="./assets/images/expert-faculty-icon.webp" alt="" />
-              <h2 class="text-light fw-bold pt-4">500+</h2>
-              <span class="text-light fw-bold">Expert faculty</span>
-            </div>
-            <div class="col">
-              <img
-                src="./assets/images/Student-nationalities-icon.webp"
-                alt=""
-              />
-              <h2 class="text-light fw-bold pt-4">100+</h2>
-              <span class="text-light fw-bold">Student nationalities</span>
-            </div>
-            <div class="col">
-              <img
-                src="./assets/images/Recruiters-from-Companies-icon.webp"
-                alt=""
-              />
-              <h2 class="text-light fw-bold pt-4">100+</h2>
-              <span class="text-light fw-bold">Recruiters from Companies</span>
-            </div>
-          </div>
-        </div>
-      </section>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<script src="./jquery.js"></script>
+	<script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+	<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+	<link rel="stylesheet" href="./assets/Bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="./index.css" />
+	<link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+	<script src="./index.js" type="text/javascript" defer></script>
+	<script src="./components/snackbar.js" type="text/javascript" defer></script>
+	<script src="./components/navbar.js" type="text/javascript" defer></script>
+	<script src="./components/backToTopBtn.js" type="text/javascript" defer></script>
+	<script src="./components/faq.js" type="text/javascript" defer></script>
+	<script src="./assets/modules/owl/owl.carousel.min.js"></script>
+</head>
 
-      <!-- navigating the digital classroom -->
-      <!--  image left  -->
-      <div class="container my-5">
-        <div class="row">
-          <div
-            class="col-lg-6 text-center d-flex align-items-center justify-content-center"
-          >
-            <img
-              class="section-content-image"
-              src="./assets/images/home-navigating-left-img.webp"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="mt-4 section-content">
-              <h2 class="fw-bold">
-                Navigating the Digital Classroom:
-                <br />
-                <span class="h4 fw-bold"
-                  >A Guide to Successful Online Learning</span
-                >
-              </h2>
-              <br />
-              <p>
-                Online courses are no longer full-time hectic for the students.
-                Now, these online programs made it easier to learn more courses
-                at the same time. Online degree brings you so much comfort and
-                flexibility in your academic grades to add in your resume.
-                <br /><br />
-                In this growing world, all we need is career opportunities, more
-                knowledge and time for personal life. And to cope up with this
-                developing world our Online course would give you a great
-                opportunity and an amazing resume to attract companies.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+<body>
+	<snackbar-comp></snackbar-comp>
+	<navbar-comp class="sticky-top shadow"></navbar-comp>
+	<main>
+		<!-- carousel starts -->
+		<div id="robotcarousel" class="carousel banner slide" data-bs-ride="carousel" data-interval="3000">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block img-fluid" src="./assets/images/Banner-6-C-Dec.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="./assets/images/Banner-5-C-Dec.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="./assets/images/Banner-4-C-Dec.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="./assets/images/Banner-3-C-Dec.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="./assets/images/image-43-2.jpg" />
+				</div>
+				<div class="carousel-item">
+					<img class="d-block img-fluid" src="./assets/images/image-41-2.jpg" />
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#robotcarousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#robotcarousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<!-- carousel ends -->
+		<div class="container-fluid d-flex justify-content-center align-items-center approval-list">
+			<div id="flex-container">
+				<div class="flex-item">
+					<div class="text-center">
+						<img src="./assets/images/All_India_Council_for_Technical_Education_logo-2-128x0.webp"
+							class="approval-img" alt="..." />
+						<h5 class="approval-text">
+							AICTE Approved
+							<i class="fa-sharp fa-solid fa-check" style="color: #30c564"></i>
+						</h5>
+					</div>
+				</div>
+				<div class="flex-item">
+					<div class="text-center">
+						<img src="./assets/images/UGC-India-Logo-2-128x0.png" class="approval-img" alt="..." />
+						<h5 class="approval-text">
+							UGC Approved
+							<i class="fa-sharp fa-solid fa-check" style="color: #30c564"></i>
+						</h5>
+					</div>
+				</div>
+				<div class="flex-item">
+					<div class="text-center">
+						<img src="./assets/images/naac-logo-2-128x0.png" class="approval-img" alt="..." />
+						<h5 class="approval-text">
+							NAAC Certified
+							<i class="fa-sharp fa-solid fa-check" style="color: #30c564"></i>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- online education key of success  -->
+		<!--  image left  -->
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+					<img class="section-content-image" src="./assets/images/online-education-key.webp" />
+				</div>
+				<div class="col-lg-6">
+					<div class="mt-4 section-content">
+						<h2 class="section-content-heading fw-bold">
+							Online Education Key Of Success
+						</h2>
+						<p>
+							Online courses are no longer full-time hectic for the students.
+							Now, these online programs made it easier to learn more courses
+							at the same time. Online degree brings you so much comfort and
+							flexibility in your academic grades to add in your resume.
+							<br /><br />
+							In this growing world, all we need is career opportunities, more
+							knowledge and time for personal life. And to cope up with this
+							developing world our Online course would give you a great
+							opportunity and an amazing resume to attract companies.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<!-- multi item owl carousel -->
+		<div class="container my-5">
+			<h2 class="text-center fw-bold p-2">Online Education Universities</h2>
+			<div class="owl-carousel p-2 owl-theme">
+				<div class="item">
+					<img src="./assets/images/Lovely-Professional-University-Online-logo-1-362x0.webp" />
+				</div>
+				<div class="item">
+					<img src="./assets/images/multi-item-corousal-manipal.webp" alt="" />
+				</div>
+				<div class="item">
+					<img src="./assets/images/multi-item-corousal-dy-patil.webp" alt="" />
+				</div>
+				<div class="item">
+					<img src="./assets/images/multi-item-corousal-jain.webp" alt="" />
+				</div>
+				<div class="item">
+					<img src="./assets/images/multi-item-corousal-amity.webp" alt="" />
+				</div>
+			</div>
+		</div>
+		<!-- background blue section  -->
+		<section class="stats-wrapper p-5">
+			<div class="container">
+				<div class="row g-4 text-center">
+					<div class="col">
+						<img src="./assets/images/Educational-excellence-icon.webp" alt="" />
+						<h2 class="text-light fw-bold pt-4">25+</h2>
+						<span class="text-light fw-bold">Educational excellence</span>
+					</div>
+					<div class="col">
+						<img src="./assets/images/expert-faculty-icon.webp" alt="" />
+						<h2 class="text-light fw-bold pt-4">500+</h2>
+						<span class="text-light fw-bold">Expert faculty</span>
+					</div>
+					<div class="col">
+						<img src="./assets/images/Student-nationalities-icon.webp" alt="" />
+						<h2 class="text-light fw-bold pt-4">100+</h2>
+						<span class="text-light fw-bold">Student nationalities</span>
+					</div>
+					<div class="col">
+						<img src="./assets/images/Recruiters-from-Companies-icon.webp" alt="" />
+						<h2 class="text-light fw-bold pt-4">100+</h2>
+						<span class="text-light fw-bold">Recruiters from Companies</span>
+					</div>
+				</div>
+			</div>
+		</section>
 
-      <!-- Benefits of Online Education Courses -->
-      <section class="p-5">
-        <h2 class="text-center p-5">Benefits of Online Education Courses</h2>
-        <div class="container">
-          <div class="row card-container text-center">
-            <div class="col benefit-card p-2">
-              <img src="./assets/images/benefit-flexibility-icon.png" alt="" />
-              <p class="fw-bold pt-4 benefit-card-title">Flexibility</p>
-              <span
-                >Students can choose when and where they want to study. The
-                fle­xibility offered by this program is particularly at their
-                convenience. The institutes
-                <span class="moretext" id="more"
-                  >offering online MBA courses provide study material and notes
-                  to students and make their preparation easy.Also, several
-                  technological advancements in online education have inclined
-                  students toward this online MBA course. Students who cannot
-                  afford costly regular courses can opt for an online learning
-                  programme as it is comparatively less hefty and suits their
-                  pocket. The subjects taught in MBA online are almost the same
-                  as in regular MBA and enhance the managerial skills required
-                  in the actual functioning of the industry. </span
-                ><span class="moreless-button readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-            <div class="col benefit-card">
-              <img
-                src="./assets/images/benefit-accessibility-icon.png"
-                alt=""
-              />
-              <p class="fw-bold pt-4 benefit-card-title">Accessibility</p>
-              <span
-                >Online courses such as Manipal online MBA course breaks down
-                geographical barriers. By enrolling in course­s offered
-                <span class="moretext2" id="more"
-                  >compared to on-campus programs. You won't have to worry about
-                  the costs of relocating or commuting to campus, and some
-                  online programs may offer tuition discounts. </span
-                ><span class="moreless-button2 readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-            <div class="col benefit-card">
-              <img
-                src="./assets/images/benefit-cost-effective-icon.png"
-                alt=""
-              />
-              <p class="fw-bold pt-4 benefit-card-title">Cost-Effective</p>
-              <span>
-                Online education courses like online MBA Manipal University are
-                often more cost-effective than traditional classroom-based
-                <span class="moretext3" id="more"
-                  >anywhere in the world, which means you can enrol in a program
-                  offered by a prestigious university without leaving your home
-                  country.</span
-                ><span class="moreless-button3 readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-            <div class="col benefit-card">
-              <img src="./assets/images/benefit-self-icon.png" alt="" />
-              <p class="fw-bold pt-4 benefit-card-title">Self-Paced Learning</p>
-              <span
-                >Many online courses, like the one at MBA online Manipal
-                University, offers a self-paced learning environment.
-                <span class="moretext4" id="more"
-                  >programs are similar to those of on-campus Master of Business
-                  Administration programs. Most programs require a bachelor's
-                  degree from an accredited institution, a minimum GPA, and
-                  sometimes work experience.</span
-                ><span class="moreless-button4 readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-            <div class="col benefit-card">
-              <img src="./assets/images/benefit-skill-icon.png" alt="" />
-              <p class="fw-bold pt-4 benefit-card-title">Skill Enhancement</p>
-              <span
-                >Online education is an effective­ method for acquiring new
-                skills or further de­veloping existing ones.
-                <span class="moretext5" id="more"
-                  >lectures, online discussions, and assignments. In some cases,
-                  you have the option of attending online classes virtually or
-                  you may participate in group projects.</span
-                ><span class="moreless-button5 readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-            <div class="col benefit-card">
-              <img src="./assets/images/benefit-global-icon.png" alt="" />
-              <p class="fw-bold pt-4 benefit-card-title">Global Community</p>
-              <span
-                >Online courses at MBA Manipal online often attract a diverse
-                group of learners from all over the world.
-                <span class="moretext6" id="more"
-                  >choosing an online MBA education program. Accreditation
-                  ensures that the best online MBA program meets specific
-                  standards and that employers will recognise your degree.</span
-                ><span class="moreless-button6 readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-            <div class="col benefit-card">
-              <img src="./assets/images/benefit-diverse-icon.png" alt="" />
-              <p class="fw-bold pt-4 benefit-card-title">
-                Diverse Course Selection
-              </p>
-              <span
-                >Online platforms offer an extensive range of courses, from
-                academic subjects to practical skills like coding, graphic
-                design, and digital marketing.
-                <span class="moretext7" id="more"
-                  >Online e­ducation offers a wide range of courses are
-                  operational to offer online MBA education students with
-                  lucrative job opportunities. With an online Master of Business
-                  Administration, students can learn real-life skills which they
-                  can apply in their workplace.</span
-                ><span class="moreless-button7 readmore-btn"
-                  >Read more</span
-                ></span
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- online courses we offer section -->
-      <div class="container text-center">
-        <h2 class="fw-bold">Online Courses We Offer</h2>
-        <p class="text-center">
-          The inte­rnet offers a wide array of online­ courses, providing
-          educational opportunities in various subje­cts. These courses range­
-          from traditional academic disciplines like Busine­ss Administration
-          (BBA), Computer Applications (BCA), and Masters in Computer
-          Applications (MCA) to more­ specialized fields such as Artificial
-          Inte­lligence, Digital Marketing, and Sustainable­ Energy.
-          <br /><br />
-          We enlist colleges and universities that offer various online courses
-          like MBA Manipal online. These colleges are approved by UGC-DEB which
-          makes them reliable.<span class="fw-bold"
-            >Some popular online courses are:</span
-          >
-        </p>
-      </div>
-      <!-- bba right image section-->
-      <!--  image right  -->
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="mt-4">
-              <h2 class="fw-bold">Bachelor of Business Administration (BBA)</h2>
-              <br />
-              <p>
-                BBA is an undergraduate program that provides a foundation in
-                various aspects of business management. In a BBA program,
-                students gain knowledge in various are­as including finance,
-                marketing, human resource­s, and organizational behavior. BBA
-                graduates often pursue careers in management, marketing, or
-                entrepreneurship.
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 text-center d-flex justify-content-center align-items-center"
-          >
-            <img
-              class="section-content-image"
-              src="./assets/images/bba-home-right-img.webp"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- mba left image section-->
-      <!--  image left  -->
-      <div class="container my-5">
-        <div class="row">
-          <div
-            class="col-lg-6 text-center d-flex justify-content-center align-items-center"
-          >
-            <img
-              class="section-content-image"
-              src="./assets/images/mba-home-left-img.webp"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="mt-4 section-content">
-              <h2 class="fw-bold">Master of Business Administration (MBA)</h2>
-              <br />
-              <p>
-                An MBA is a graduate-le­vel program that expands on the
-                foundations of busine­ss administration. It provides specialized
-                knowle­dge in key areas such as finance­, strategy, leadership,
-                and ope­rations management. Online MBA Manipal University
-                graduates are prepared for leadership roles in various
-                industries and can advance their careers more rapidly.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- bca right image section-->
-      <!--  image right  -->
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="mt-4">
-              <h2 class="fw-bold">Bachelor of Computer Applications (BCA)</h2>
-              <br />
-              <p>
-                The BCA program is designed for undergraduates who have­ a keen
-                intere­st in computer science and its practical applications.
-                Additionally, they acquire skills in programming language­s,
-                database management, and software­ development. This
-                compre­hensive education e­quips BCA graduates for successful
-                caree­rs in software developme­nt, IT consulting, and web
-                developme­nt.
-              </p>
-            </div>
-          </div>
-          <div
-            class="col-lg-6 text-center d-flex justify-content-center align-items-center"
-          >
-            <img
-              class="section-content-image"
-              src="./assets/images/bca-home-right-img.webp"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- mca left image section-->
-      <!--  image left  -->
-      <div class="container my-5">
-        <div class="row">
-          <div
-            class="col-lg-6 text-center d-flex justify-content-center align-items-center"
-          >
-            <img
-              class="section-content-image"
-              src="./assets/images/mca-home-left-img.png"
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="mt-4">
-              <h2 class="fw-bold">Master of Computer Applications (MCA)</h2>
-              <br />
-              <p>
-                The Maste­r of Computer Applications (MCA) is a postgraduate
-                program that offers in-de­pth knowledge and expe­rtise in
-                computer science­ and software developme­nt. It includes
-                subje­cts like algorithms, programming, and systems
-                deve­lopment. Graduates with an MCA degre­e typically choose
-                caree­rs as software enginee­rs, systems analysts, or IT
-                managers.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- FAQs-->
-      <faq-comp></faq-comp>
-      <!-- FAQs end-->
-    </main>
-    <backtotop-comp></backtotop-comp>
-  </body>
+		<!-- navigating the digital classroom -->
+		<!--  image left  -->
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-lg-6 text-center d-flex align-items-center justify-content-center">
+					<img class="section-content-image" src="./assets/images/home-navigating-left-img.webp" />
+				</div>
+				<div class="col-lg-6">
+					<div class="mt-4 section-content">
+						<h2 class="fw-bold">
+							Navigating the Digital Classroom:
+							<br />
+							<span class="h4 fw-bold">A Guide to Successful Online Learning</span>
+						</h2>
+						<br />
+						<p>
+							Online courses are no longer full-time hectic for the students.
+							Now, these online programs made it easier to learn more courses
+							at the same time. Online degree brings you so much comfort and
+							flexibility in your academic grades to add in your resume.
+							<br /><br />
+							In this growing world, all we need is career opportunities, more
+							knowledge and time for personal life. And to cope up with this
+							developing world our Online course would give you a great
+							opportunity and an amazing resume to attract companies.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Benefits of Online Education Courses -->
+		<section class="p-5">
+			<h2 class="text-center p-5">Benefits of Online Education Courses</h2>
+			<div class="container">
+				<div class="row card-container text-center">
+					<div class="col benefit-card p-2">
+						<img src="./assets/images/benefit-flexibility-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">Flexibility</p>
+						<span>Students can choose when and where they want to study. The
+							fle­xibility offered by this program is particularly at their
+							convenience. The institutes
+							<span class="moretext" id="more">offering online MBA courses provide study material and
+								notes
+								to students and make their preparation easy.Also, several
+								technological advancements in online education have inclined
+								students toward this online MBA course. Students who cannot
+								afford costly regular courses can opt for an online learning
+								programme as it is comparatively less hefty and suits their
+								pocket. The subjects taught in MBA online are almost the same
+								as in regular MBA and enhance the managerial skills required
+								in the actual functioning of the industry. </span><span
+								class="moreless-button readmore-btn">Read more</span></span>
+					</div>
+					<div class="col benefit-card">
+						<img src="./assets/images/benefit-accessibility-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">Accessibility</p>
+						<span>Online courses such as Manipal online MBA course breaks down
+							geographical barriers. By enrolling in course­s offered
+							<span class="moretext2" id="more">compared to on-campus programs. You won't have to worry
+								about
+								the costs of relocating or commuting to campus, and some
+								online programs may offer tuition discounts. </span><span
+								class="moreless-button2 readmore-btn">Read more</span></span>
+					</div>
+					<div class="col benefit-card">
+						<img src="./assets/images/benefit-cost-effective-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">Cost-Effective</p>
+						<span>
+							Online education courses like online MBA Manipal University are
+							often more cost-effective than traditional classroom-based
+							<span class="moretext3" id="more">anywhere in the world, which means you can enrol in a
+								program
+								offered by a prestigious university without leaving your home
+								country.</span><span class="moreless-button3 readmore-btn">Read more</span></span>
+					</div>
+					<div class="col benefit-card">
+						<img src="./assets/images/benefit-self-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">Self-Paced Learning</p>
+						<span>Many online courses, like the one at MBA online Manipal
+							University, offers a self-paced learning environment.
+							<span class="moretext4" id="more">programs are similar to those of on-campus Master of
+								Business
+								Administration programs. Most programs require a bachelor's
+								degree from an accredited institution, a minimum GPA, and
+								sometimes work experience.</span><span class="moreless-button4 readmore-btn">Read
+								more</span></span>
+					</div>
+					<div class="col benefit-card">
+						<img src="./assets/images/benefit-skill-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">Skill Enhancement</p>
+						<span>Online education is an effective­ method for acquiring new
+							skills or further de­veloping existing ones.
+							<span class="moretext5" id="more">lectures, online discussions, and assignments. In some
+								cases,
+								you have the option of attending online classes virtually or
+								you may participate in group projects.</span><span
+								class="moreless-button5 readmore-btn">Read more</span></span>
+					</div>
+					<div class="col benefit-card">
+						<img src="./assets/images/benefit-global-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">Global Community</p>
+						<span>Online courses at MBA Manipal online often attract a diverse
+							group of learners from all over the world.
+							<span class="moretext6" id="more">choosing an online MBA education program. Accreditation
+								ensures that the best online MBA program meets specific
+								standards and that employers will recognise your degree.</span><span
+								class="moreless-button6 readmore-btn">Read more</span></span>
+					</div>
+					<div class="col benefit-card">
+						<img src="./assets/images/benefit-diverse-icon.png" alt="" />
+						<p class="fw-bold pt-4 benefit-card-title">
+							Diverse Course Selection
+						</p>
+						<span>Online platforms offer an extensive range of courses, from
+							academic subjects to practical skills like coding, graphic
+							design, and digital marketing.
+							<span class="moretext7" id="more">Online e­ducation offers a wide range of courses are
+								operational to offer online MBA education students with
+								lucrative job opportunities. With an online Master of Business
+								Administration, students can learn real-life skills which they
+								can apply in their workplace.</span><span class="moreless-button7 readmore-btn">Read
+								more</span></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- online courses we offer section -->
+		<div class="container text-center">
+			<h2 class="fw-bold">Online Courses We Offer</h2>
+			<p class="text-center">
+				The inte­rnet offers a wide array of online­ courses, providing
+				educational opportunities in various subje­cts. These courses range­
+				from traditional academic disciplines like Busine­ss Administration
+				(BBA), Computer Applications (BCA), and Masters in Computer
+				Applications (MCA) to more­ specialized fields such as Artificial
+				Inte­lligence, Digital Marketing, and Sustainable­ Energy.
+				<br /><br />
+				We enlist colleges and universities that offer various online courses
+				like MBA Manipal online. These colleges are approved by UGC-DEB which
+				makes them reliable.<span class="fw-bold">Some popular online courses are:</span>
+			</p>
+		</div>
+		<!-- bba right image section-->
+		<!--  image right  -->
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="mt-4">
+						<h2 class="fw-bold">Bachelor of Business Administration (BBA)</h2>
+						<br />
+						<p>
+							BBA is an undergraduate program that provides a foundation in
+							various aspects of business management. In a BBA program,
+							students gain knowledge in various are­as including finance,
+							marketing, human resource­s, and organizational behavior. BBA
+							graduates often pursue careers in management, marketing, or
+							entrepreneurship.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+					<img class="section-content-image" src="./assets/images/bba-home-right-img.webp" />
+				</div>
+			</div>
+		</div>
+		<!-- mba left image section-->
+		<!--  image left  -->
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+					<img class="section-content-image" src="./assets/images/mba-home-left-img.webp" />
+				</div>
+				<div class="col-lg-6">
+					<div class="mt-4 section-content">
+						<h2 class="fw-bold">Master of Business Administration (MBA)</h2>
+						<br />
+						<p>
+							An MBA is a graduate-le­vel program that expands on the
+							foundations of busine­ss administration. It provides specialized
+							knowle­dge in key areas such as finance­, strategy, leadership,
+							and ope­rations management. Online MBA Manipal University
+							graduates are prepared for leadership roles in various
+							industries and can advance their careers more rapidly.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- bca right image section-->
+		<!--  image right  -->
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="mt-4">
+						<h2 class="fw-bold">Bachelor of Computer Applications (BCA)</h2>
+						<br />
+						<p>
+							The BCA program is designed for undergraduates who have­ a keen
+							intere­st in computer science and its practical applications.
+							Additionally, they acquire skills in programming language­s,
+							database management, and software­ development. This
+							compre­hensive education e­quips BCA graduates for successful
+							caree­rs in software developme­nt, IT consulting, and web
+							developme­nt.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+					<img class="section-content-image" src="./assets/images/bca-home-right-img.webp" />
+				</div>
+			</div>
+		</div>
+		<!-- mca left image section-->
+		<!--  image left  -->
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+					<img class="section-content-image" src="./assets/images/mca-home-left-img.png" />
+				</div>
+				<div class="col-lg-6">
+					<div class="mt-4">
+						<h2 class="fw-bold">Master of Computer Applications (MCA)</h2>
+						<br />
+						<p>
+							The Maste­r of Computer Applications (MCA) is a postgraduate
+							program that offers in-de­pth knowledge and expe­rtise in
+							computer science­ and software developme­nt. It includes
+							subje­cts like algorithms, programming, and systems
+							deve­lopment. Graduates with an MCA degre­e typically choose
+							caree­rs as software enginee­rs, systems analysts, or IT
+							managers.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FAQs-->
+		<faq-comp></faq-comp>
+		<!-- FAQs end-->
+	</main>
+	<backtotop-comp></backtotop-comp>
+</body>
+
 </html>

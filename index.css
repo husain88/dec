@@ -160,5 +160,6 @@ a {
 }
 
 .readmore-btn {
-  color: #273272;
+  color: #ff5700;
+  cursor: pointer;
 }
