@@ -214,6 +214,15 @@ a {
   text-decoration: underline;
 }
 
+.popular-carousel .card-body {
+  background: #f8f9fa;
+}
+
+.popular-carousel .period, .popular-carousel .fee  {
+  font-size: 16px;
+}
+
+
 .testimonial-card {
   border: 1px solid #ff5700;
   padding: 16px;
