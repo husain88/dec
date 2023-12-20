@@ -197,11 +197,6 @@ a {
   font-weight: 600;
 }
 
-.course-full-form {
-  color: rgb(43, 34, 34);
-  font-size: 18px;
-}
-
 .university-name {
   font-weight: bold;
 }
@@ -265,6 +260,12 @@ a {
   border: none;
 }
 
+.course-full-form {
+  color: rgb(43, 34, 34);
+  font-size: 16px;
+  line-height: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   h2 {
     font-size: 28px;
@@ -323,6 +324,7 @@ a {
   .course-full-form {
     color: rgb(43, 34, 34);
     font-size: 16px;
+    line-height: 20px;
   }
   
   .university-name {
