@@ -61,29 +61,6 @@ a {
   border-radius: 10px 10px 10px 10px;
   background-color: #fff;
 }
-@media only screen and (max-width: 768px) {
-  #flex-container {
-    height: fit-content;
-    padding: 0px 10px 0px 10px;
-  }
-  .approval-list {
-    margin-top: -12px !important;
-  }
-  .flex-item {
-    margin-top: unset;
-    margin-bottom: unset;
-    margin-right: 8px;
-    margin-left: 8px;
-    width: max-content !important;
-  }
-  .approval-img {
-    width: 2rem !important;
-    height: 2rem !important;
-  }
-  .approval-text {
-    font-size: 0.75rem !important;
-  }
-}
 
 .flex-item {
   margin-top: 20px;
@@ -256,11 +233,59 @@ a {
 /* 2nd blue background */
 .stats-para {
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
 }
 .stats-form-btn {
   padding: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 14px !important;
   border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 18px;
+  }
+  #flex-container {
+    height: fit-content;
+    padding: 0px 10px 0px 10px;
+  }
+  .approval-list {
+    margin-top: -12px !important;
+  }
+  .flex-item {
+    margin-top: unset;
+    margin-bottom: unset;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: max-content !important;
+  }
+  .approval-img {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .approval-text {
+    font-size: 0.75rem !important;
+  }
+  .testimonial-card .user-icon {
+    font-size: 20px;
+    /* padding: 16px; */
+  }
+  .testimonial-card .user-name {
+    font-size: 20px;
+  }
+  
+  .testimonial-card .stars {
+    font-size: 18px;
+  }
+  
+  .testimonial-card .content {
+    margin-top: 8px;
+  }
+  .testimonial-card .fa-quote-left {
+    font-size: 20px;
+  }
 }

@@ -90,13 +90,13 @@ $('.uni-carousel').owlCarousel({
 
 $('.popular-carousel').owlCarousel({
   loop:true,
-  margin:10,
-  nav:true,
-  dots:false,
+  margin:20,
+  nav:false,
+  dots:true,
   autoplay:true,
-  center: true,
+  center: false,
   // stagePadding:10,
-  autoplayTimeout:2000,
+  autoplayTimeout:3000,
   responsive:{
       0:{
           items:1
