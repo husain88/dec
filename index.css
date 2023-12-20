@@ -170,9 +170,27 @@ a {
   background-color: #e6e6e6;
 }
 
-.course-label {
+.course-label-blue {
   background: rgb(185, 185, 227);
   color: rgb(70, 70, 116);
+  text-align: center;
+  padding: 2px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.course-label-green {
+  background: rgb(163, 234, 163);
+  color: rgb(8, 171, 18);
+  text-align: center;
+  padding: 2px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.course-label-yellow {
+  background: rgb(208, 228, 131);
+  color: rgb(110, 129, 49);
   text-align: center;
   padding: 2px;
   border-radius: 2px;
@@ -229,7 +247,6 @@ a {
 }
 /* 2nd blue background */
 .stats-para {
-  font-size: 16px;
   text-align: justify;
 }
 .stats-form-btn {
