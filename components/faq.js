@@ -31,7 +31,8 @@ class Faq extends HTMLElement {
             background-color:#273272;
           }
           .faq-container{
-            padding: 50px;
+            padding-top: 48px;
+            padding-bottom: 48px;
           }
           .accordion {
             --bs-accordion-active-bg: #ffffff;
@@ -56,6 +57,10 @@ class Faq extends HTMLElement {
           <h2 class="text-center text-decoration-underline text-white mb-5">
             FAQs
           </h2>
+          <p class="text-justify text-white">Online courses basically mean that you are learning separate from others, success doesn’t 
+          come to you , you go to it. Take the first step of asking your queries. And it’s important to 
+          clear all your doubts before choosing the perfect career match. Here are some of the Questions 
+          our visitors asked frequently.</p>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item rounded-3">
               <h2 class="accordion-header">

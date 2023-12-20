@@ -88,15 +88,15 @@ $('.uni-carousel').owlCarousel({
   }
 });
 
-$('.popular-courses').owlCarousel({
+$('.popular-carousel').owlCarousel({
   loop:true,
-  margin:10,
-  nav:true,
-  dots:false,
+  margin:20,
+  nav:false,
+  dots:true,
   autoplay:true,
-  center: true,
+  center: false,
   // stagePadding:10,
-  autoplayTimeout:2000,
+  autoplayTimeout:3000,
   responsive:{
       0:{
           items:1
@@ -108,7 +108,7 @@ $('.popular-courses').owlCarousel({
           items:2
       },
       1000:{
-          items:3
+          items:4
       }
   }
 })
@@ -177,3 +177,28 @@ $('.moreless-button7').click(function() {
     $(this).text("Read more")
   }
 });
+
+$('.testimonial-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  dots:true,
+  autoplay:true,
+  center: true,
+  // stagePadding:10,
+  autoplayTimeout:5000,
+  responsive:{
+      0:{
+          items:1
+      },
+      300:{
+        items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
+})
