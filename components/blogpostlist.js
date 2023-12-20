@@ -45,7 +45,7 @@ class Blogpost extends HTMLElement {
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="..\\assets\\images\\medium-shot-girl-portrait-with-graduation-background.webp"
+                              src="./assets/images/medium-shot-girl-portrait-with-graduation-background.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -62,7 +62,7 @@ class Blogpost extends HTMLElement {
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="..\\assets\\images\\rear-view-young-college-student-paying-attention-listening-her-online-teacher-laptop-home.webp"
+                              src="./assets/images/rear-view-young-college-student-paying-attention-listening-her-online-teacher-laptop-home.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -78,7 +78,7 @@ class Blogpost extends HTMLElement {
                         <div class="card-img-actions">
 
                             <img
-                              src="..\\assets\\images\\education-distance-learning-e-learning-online-learning-are-all-types-personal-development.webp"
+                              src="./assets/images/education-distance-learning-e-learning-online-learning-are-all-types-personal-development.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
