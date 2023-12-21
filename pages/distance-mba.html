@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../jquery.js"></script>
-    <script src="../assets/modules/Bootstrap/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
-    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
-    <link rel="stylesheet" href="../assets/modules/Bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="../index.css" />
-    <link rel="stylesheet" href="../assets/modules/owl/owl.carousel.min.css" />
-    <script src="../components/snackbar.js" type="text/javascript" defer></script>
-    <script src="../components/navbar.js" type="text/javascript" defer></script>
-    <script src="../components/backToTopBtn.js" type="text/javascript" defer></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="../jquery.js"></script>
+        <script src="../assets/modules/Bootstrap/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="../assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+        <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+        <link rel="stylesheet"
+            href="../assets/modules/Bootstrap/bootstrap.min.css" />
+        <link rel="stylesheet" href="../index.css" />
+        <link rel="stylesheet"
+            href="../assets/modules/owl/owl.carousel.min.css" />
+        <script src="../components/snackbar.js" type="text/javascript"
+            defer></script>
+        <script src="../components/navbar.js" type="text/javascript"
+            defer></script>
+        <script src="../components/backToTopBtn.js" type="text/javascript"
+            defer></script>
 
-<body>
-    <style>
+        <body>
+            <style>
         .thumbnail {
             position: relative;
         }
@@ -78,25 +84,214 @@
                 font-size: 20px;
             }
         }
+
         .banner-text {
             @media (max-width: 470px) {
                 font-size: 10px;
             }
         }
+
+        /* semester tabs */
+
+
+        a {
+            color: #f96332;
+        }
+
+        a:hover,
+        a:focus {
+            color: #f96332;
+        }
+
+        p {
+            line-height: 1.61em;
+            font-weight: 300;
+            font-size: 1.2em;
+        }
+
+        .category {
+            text-transform: capitalize;
+            font-weight: 700;
+            color: #9A9A9A;
+        }
+
+        .nav-item .nav-link,
+        .nav-tabs .nav-link {
+            -webkit-transition: all 300ms ease 0s;
+            -moz-transition: all 300ms ease 0s;
+            -o-transition: all 300ms ease 0s;
+            -ms-transition: all 300ms ease 0s;
+            transition: all 300ms ease 0s;
+        }
+
+        .card a {
+            -webkit-transition: all 150ms ease 0s;
+            -moz-transition: all 150ms ease 0s;
+            -o-transition: all 150ms ease 0s;
+            -ms-transition: all 150ms ease 0s;
+            transition: all 150ms ease 0s;
+        }
+
+        [data-toggle="collapse"][data-parent="#accordion"] i {
+            -webkit-transition: transform 150ms ease 0s;
+            -moz-transition: transform 150ms ease 0s;
+            -o-transition: transform 150ms ease 0s;
+            -ms-transition: all 150ms ease 0s;
+            transition: transform 150ms ease 0s;
+        }
+
+        [data-toggle="collapse"][data-parent="#accordion"][aria-expanded="true"] i {
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+            -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .nav-tabs {
+            border: 0;
+            padding: 15px 0.7rem;
+        }
+
+        .nav-tabs:not(.nav-tabs-neutral)>.nav-item>.nav-link.active {
+            box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .card .nav-tabs {
+            border-top-right-radius: 0.1875rem;
+            border-top-left-radius: 0.1875rem;
+        }
+
+        .nav-tabs>.nav-item>.nav-link {
+            color: #888888;
+            margin: 0;
+            margin-right: 5px;
+            background-color: transparent;
+            border: 1px solid transparent;
+            border-radius: 30px;
+            font-size: 14px;
+            padding: 11px 23px;
+            line-height: 1.5;
+        }
+
+        .nav-tabs>.nav-item>.nav-link:hover {
+            background-color: transparent;
+        }
+
+        .nav-tabs>.nav-item>.nav-link.active {
+            background-color: #273272;
+            border-radius: 30px;
+            color: #FFFFFF;
+        }
+
+        .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
+            font-size: 14px;
+            position: relative;
+            top: 1px;
+            margin-right: 3px;
+        }
+
+        .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link {
+            color: #FFFFFF;
+        }
+
+        .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #FFFFFF !important;
+        }
+
+        .card {
+            border: 0;
+            border-radius: 0.1875rem;
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            margin-bottom: 30px;
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        .card .card-header {
+            background-color: transparent;
+            border-bottom: 0;
+            background-color: transparent;
+            border-radius: 0;
+            padding: 0;
+        }
+
+        .card[data-background-color="orange"] {
+            background-color: #f96332;
+        }
+
+        .card[data-background-color="red"] {
+            background-color: #FF3636;
+        }
+
+        .card[data-background-color="yellow"] {
+            background-color: #FFB236;
+        }
+
+        .card[data-background-color="blue"] {
+            background-color: #2CA8FF;
+        }
+
+        .card[data-background-color="green"] {
+            background-color: #15b60d;
+        }
+
+        [data-background-color="orange"] {
+            background-color: #e95e38;
+        }
+
+        [data-background-color="black"] {
+            background-color: #2c2c2c;
+        }
+
+        [data-background-color]:not([data-background-color="gray"]) {
+            color: #FFFFFF;
+        }
+
+        [data-background-color]:not([data-background-color="gray"]) p {
+            color: #FFFFFF;
+        }
+
+        [data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item) {
+            color: #FFFFFF;
+        }
+
+        [data-background-color]:not([data-background-color="gray"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
+            color: #FFFFFF;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .nav-tabs {
+                display: inline-block;
+                width: 100%;
+                padding-left: 100px;
+                padding-right: 100px;
+                text-align: center;
+            }
+
+            .nav-tabs .nav-item>.nav-link {
+                margin-bottom: 5px;
+            }
+        }
     </style>
 
-    <snack-bar></snack-bar>
-    <nav-bar class="sticky-top shadow"></nav-bar>
-    <!-- banner with form -->
-    <div class="" id="box-search">
-        <div class="thumbnail text-center">
-            <img src="../assets/images/distanceMbaBanner.png" alt="" class="img-responsive w-100">
-            <div class="caption align-baseline">
-                <h2 class="fw-bold text-dark w-75 banner-text lh-1">Beyond the Books: Exploring Practical Applications
-                    and Case
-                    Studies in Distance MBA Courses
-                </h2>
-                <!-- <form class="banner-form p-5" action="">
+            <snack-bar></snack-bar>
+            <nav-bar class="sticky-top shadow"></nav-bar>
+            <!-- banner with form -->
+            <div class id="box-search">
+                <div class="thumbnail text-center">
+                    <img src="../assets/images/distanceMbaBanner.png" alt
+                        class="img-responsive w-100">
+                    <div class="caption align-baseline">
+                        <h2
+                            class="fw-bold text-dark w-75 banner-text lh-1">Beyond
+                            the Books: Exploring Practical Applications
+                            and Case
+                            Studies in Distance MBA Courses
+                        </h2>
+                        <!-- <form class="banner-form p-5" action="">
                     <input type="text" class="p-2 m-2" placeholder="Name">
                     <input type="email" name="" id="" class="p-2 m-2" placeholder="Email">
                     <input type="number" placeholder="Mobile No." class="p-2 m-2">
@@ -119,216 +314,548 @@
                         your privacy and will not share any of your personal information with any third parties.</span>
                     <button type="submit" class="btn-primary form-submit-btn fw-bold">SUBMIT</button>
                 </form> -->
-            </div>
-        </div>
-    </div>
-    <div class="container text-center mt-5">
-        <h2 class="fw-bold">About Distance Education Program</h2>
-        <p class="text-justify">
-            The Distance MBA program, a two-year management study course or MBA degree correspondence course in India,
-            is perfect for those who can’t make it to regular classes – and that’s why students love it.
-            The study plan and length of a MBA distance course are pretty much like those of full-time MBAs,
-            but the way you learn and the campus perks aren’t quite the same.
-            In your distance MBA course, you’ll dive into big picture economics and the nitty-gritty of running a
-            business,
-            not to mention mastering corporate finance and other money matters.
-            The instructional delivery for these courses adopts a hybrid format, with the possibility of weekend visits
-            to the institute or designated centers.
-        </p>
-    </div>
-    <!-- Distance MBA Eligibility Unraveled listing -->
-    <div class="container mt-5">
-        <h2>Unlock Your Potential: Distance MBA Eligibility Unraveled
-        </h2>
-        <p>Why opt for a distance MBA? Choosing a distance MBA isn’t just picking another class—it’s smart planning for
-            those juggling career advancement and education.
-        </p>
-        <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
-            ">Time Mastery: Overcome the challenges of full-time MBA commitments with a program
-                that bends to your schedule. Say goodbye to missed lectures and hello to a learning experience tailored
-                to your availability.</li>
-            <li class="list-group-item bg-light border-info border-bottom">Flexibility Redefined: Experience the hybrid
-                charm of MBA degree distance learning
-                in India, offering the flexibility to attend weekend sessions while enjoying the liberty to manage your
-                study hours.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">Strategic Time Management: Take charge of
-                your education with the ability to
-                reschedule classes and exams according to your preferences. It’s education on your terms.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">Cost-Effective Brilliance: Bid farewell to
-                steep tuition costs.
-                Opt for an economical alternative that doesn’t compromise the quality of your education.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">Curriculum Revitalized: Designed for working
-                professionals,
-                distance MBA programs integrate case studies and practical relevance, ensuring you’re always ahead in
-                your career.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">Career Enrichment: For those facing obstacles
-                in pursuing a traditional MBA,
-                distance MBA becomes the bridge to a fulfilling and lucrative professional journey.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">Leadership Evolution: Enroll in an MBA
-                distance program in India and
-                acquire a diverse set of professional skills, including leadership and administration.
-            </li>
-        </ul>
-
-    </div>
-    <!-- Distance MBA decoding the worth -->
-    <div class="container mt-5">
-        <h2>Decoding the Worth of Distance MBA: Is It Your Ultimate Investment?
-
-        </h2>
-        <p>In the swiftly evolving educational milieu, Distance MBA programs have ascended to prominence.
-            With online programs, you can keep pushing forward in your career without hitting the pause button on your
-            work.
-        </p>
-        <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
-        ">Accreditation: The cachet and acquiescence of a distance MBA degree in the professional sphere pivot
-                substantially on the accreditation of the bestowing institution.
-                Pursuing an accredited distance MBA bolsters one’s prospects.</li>
-            <li class="list-group-item bg-light border-info border-bottom">Curriculum Architecture and Pertinence: The
-                appraisal of a
-                Distance MBA’s worth is significantly contingent upon the comprehensiveness and pertinence of its
-                curriculum.
-            </li>
-        </ul>
-        <p class="pt-3">A stellar MBA program should dive headfirst into the mechanics of business management,
-            interweaving hands-on scenarios and active learning experiences to arm students for the fierce
-            competition they’re likely to face in today’s relentless corporate landscape.
-        </p>
-        <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
-       ">Networking Prospects in the Virtual Domain: Networking constitutes a cornerstone of MBA programs, and skeptics
-                may impugn whether
-                an MBA degree correspondence can furnish analogous opportunities. </li>
-        </ul>
-        <p class="pt-3">But hey, with advancements in tech, we’re now able to network on a global scale through virtual
-            events like webinars and online discussions
-            – all perks of being a distance learner.
-        </p>
-        <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
-   ">Cost-Efficacy of Distance MBA: Cost is an eminent consideration for many contemplatives of advanced education. MBA
-                distance course fees oftentimes present a more cost-effective alternative,
-                obviating expenses attendant to relocation, commuting, and on-campus accommodations.</li>
-            <li class="list-group-item bg-light border-info border-bottom">Striking Equipoise Between Flexibility and
-                Rigor: The primary allure of Distance learning MBA resides in their flexibility. Learners can engage in
-                studies from any locale,
-                and the schedule can be customized to concur with individual commitments.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">Decision-Making Criteria for Aspirants:
-                Students must consider a few important factors as part of their decision making when choosing a
-                MBA degree correspondence. These factors include the accreditations of the program, the quality of the
-                courses, future networking opportunities and its cost-effectiveness. Carefully choosing an MBA program
-                that matches your goals is crucial to getting the most value from your investment.
-            </li>
-        </ul>
-        <p class="h6 pt-3">If you’re looking for a way to delve into the business realm that’s both adaptable and easy
-            on your pocket, then a MBA distance education might just be what you need. To score with this modern take on
-            higher education, you gotta smartly pick accredited programs and jump into the online networking scene.</p>
-    </div>
-    <!-- Exploring the Rich Tapestry of Distance MBA Degree Benefits -->
-    <div class="container text-center mt-5">
-        <h2 class="fw-bold">Exploring the Rich Tapestry of Distance MBA Degree Benefits</h2>
-        <p class="text-justify">
-            Embark on a journey to unveil the opulent array of advantages bestowed by the MBA degree correspondence
-            realm. This educational odyssey not only bequeaths flexibility tailored for the diligent professional but
-            also bestows a diverse plethora of academic offerings.
-            Flexible yet rigorous academic programs help develop well-rounded leaders.
-        </p>
-    </div>
-    <!-- benefits accordion -->
-    <div class="accordion accordion-flush container" id="accordionFlushExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Flexibility Unleashed: Design Your MBA Odyssey, Break Free from the Ordinary!
-                </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Ditch the old university routines and sculpt your MBA adventure with
-                    unrivaled flexibility. Flex your journey to match your flow. Say sayonara
-                    to rigid schedules and welcome a dynamic journey that adapts to your vibe.
-                    Are you hustling in the traditional office hours grind? A parent on a mission? No worries – your
-                    MBA, your rules!
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Affordability Redefined: Epic MBA Adventures Without the Financial Drama!
-                </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Step into a world where world-class education doesn’t break the bank –
-                    it’s a steal! With this new MBA journey, money stress is off the table – you’re in for top-notch
-                    learning without a price tag that’ll give you nightmares.
-                    Dive into excellence without the debt drama and unlock doors to a wallet-friendly MBA escapade. Your
-                    journey to the top just got a whole lot thriftier!
-                </div>
+            <div class="container text-center mt-5">
+                <h2 class="fw-bold">About Distance Education Program</h2>
+                <p class="text-justify">
+                    The Distance MBA program, a two-year management study course
+                    or MBA degree correspondence course in India,
+                    is perfect for those who can’t make it to regular classes –
+                    and that’s why students love it.
+                    The study plan and length of a MBA distance course are
+                    pretty much like those of full-time MBAs,
+                    but the way you learn and the campus perks aren’t quite the
+                    same.
+                    In your distance MBA course, you’ll dive into big picture
+                    economics and the nitty-gritty of running a
+                    business,
+                    not to mention mastering corporate finance and other money
+                    matters.
+                    The instructional delivery for these courses adopts a hybrid
+                    format, with the possibility of weekend visits
+                    to the institute or designated centers.
+                </p>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Work-Education Symbiosis: Boss Moves – Juggle Work and Learn Like Never Before!
-                </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Picture this: Earning your MBA while conquering the professional realm.
-                    Balancing work and education takes dedication, but with careful planning, it can be done.
-                    Bid farewell to the struggle of choosing between career and education – now you can do both,
-                    like a boss! But reshaping your career trajectory to showcase adaptability rocks.
-                    Boost your abilities, hit the books hard, and redefine how you shine as a contemporary pro in our
-                    fast-moving era!
-                </div>
+            <!-- Distance MBA Eligibility Unraveled listing -->
+            <div class="container mt-5">
+                <h2>Unlock Your Potential: Distance MBA Eligibility Unraveled
+                </h2>
+                <p>Why opt for a distance MBA? Choosing a distance MBA isn’t
+                    just picking another class—it’s smart planning for
+                    those juggling career advancement and education.
+                </p>
+                <ul
+                    class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li
+                        class="list-group-item bg-light border-info border-bottom
+            ">Time Mastery: Overcome the challenges of full-time MBA commitments
+                        with a program
+                        that bends to your schedule. Say goodbye to missed
+                        lectures and hello to a learning experience tailored
+                        to your availability.</li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Flexibility
+                        Redefined: Experience the hybrid
+                        charm of MBA degree distance learning
+                        in India, offering the flexibility to attend weekend
+                        sessions while enjoying the liberty to manage your
+                        study hours.
+                    </li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Strategic
+                        Time Management: Take charge of
+                        your education with the ability to
+                        reschedule classes and exams according to your
+                        preferences. It’s education on your terms.
+                    </li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Cost-Effective
+                        Brilliance: Bid farewell to
+                        steep tuition costs.
+                        Opt for an economical alternative that doesn’t
+                        compromise the quality of your education.
+                    </li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Curriculum
+                        Revitalized: Designed for working
+                        professionals,
+                        distance MBA programs integrate case studies and
+                        practical relevance, ensuring you’re always ahead in
+                        your career.
+                    </li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Career
+                        Enrichment: For those facing obstacles
+                        in pursuing a traditional MBA,
+                        distance MBA becomes the bridge to a fulfilling and
+                        lucrative professional journey.
+                    </li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Leadership
+                        Evolution: Enroll in an MBA
+                        distance program in India and
+                        acquire a diverse set of professional skills, including
+                        leadership and administration.
+                    </li>
+                </ul>
+
             </div>
-        </div>
-        <!-- Journey Through Distance MBA Subjects and Syllabus -->
-        <div class="container text-center mt-5">
-            <h2 class="fw-bold">Journey Through Distance MBA Subjects and Syllabus</h2>
-            <p class="text-justify">
-                Embark on a four-semester adventure, delving into the core studies
-                and specialized realms of the distance MBA program curriculum. The first two semesters lay the
-                foundation with essential MBA distance course fees, while the third and fourth empower you to
-                choose your path. Explore the diverse disciplines awaiting in the table below.
-            </p>
-        </div>
+            <!-- Distance MBA decoding the worth -->
+            <div class="container mt-5">
+                <h2>Decoding the Worth of Distance MBA: Is It Your Ultimate
+                    Investment?
 
+                </h2>
+                <p>In the swiftly evolving educational milieu, Distance MBA
+                    programs have ascended to prominence.
+                    With online programs, you can keep pushing forward in your
+                    career without hitting the pause button on your
+                    work.
+                </p>
+                <ul
+                    class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li
+                        class="list-group-item bg-light border-info border-bottom
+        ">Accreditation: The cachet and acquiescence of a distance MBA degree in
+                        the professional sphere pivot
+                        substantially on the accreditation of the bestowing
+                        institution.
+                        Pursuing an accredited distance MBA bolsters one’s
+                        prospects.</li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Curriculum
+                        Architecture and Pertinence: The
+                        appraisal of a
+                        Distance MBA’s worth is significantly contingent upon
+                        the comprehensiveness and pertinence of its
+                        curriculum.
+                    </li>
+                </ul>
+                <p class="pt-3">A stellar MBA program should dive headfirst into
+                    the mechanics of business management,
+                    interweaving hands-on scenarios and active learning
+                    experiences to arm students for the fierce
+                    competition they’re likely to face in today’s relentless
+                    corporate landscape.
+                </p>
+                <ul
+                    class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li
+                        class="list-group-item bg-light border-info border-bottom
+       ">Networking Prospects in the Virtual Domain: Networking constitutes a
+                        cornerstone of MBA programs, and skeptics
+                        may impugn whether
+                        an MBA degree correspondence can furnish analogous
+                        opportunities. </li>
+                </ul>
+                <p class="pt-3">But hey, with advancements in tech, we’re now
+                    able to network on a global scale through virtual
+                    events like webinars and online discussions
+                    – all perks of being a distance learner.
+                </p>
+                <ul
+                    class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li
+                        class="list-group-item bg-light border-info border-bottom
+   ">Cost-Efficacy of Distance MBA: Cost is an eminent consideration for many
+                        contemplatives of advanced education. MBA
+                        distance course fees oftentimes present a more
+                        cost-effective alternative,
+                        obviating expenses attendant to relocation, commuting,
+                        and on-campus accommodations.</li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Striking
+                        Equipoise Between Flexibility and
+                        Rigor: The primary allure of Distance learning MBA
+                        resides in their flexibility. Learners can engage in
+                        studies from any locale,
+                        and the schedule can be customized to concur with
+                        individual commitments.
+                    </li>
+                    <li
+                        class="list-group-item bg-light border-info border-bottom">Decision-Making
+                        Criteria for Aspirants:
+                        Students must consider a few important factors as part
+                        of their decision making when choosing a
+                        MBA degree correspondence. These factors include the
+                        accreditations of the program, the quality of the
+                        courses, future networking opportunities and its
+                        cost-effectiveness. Carefully choosing an MBA program
+                        that matches your goals is crucial to getting the most
+                        value from your investment.
+                    </li>
+                </ul>
+                <p class="h6 pt-3">If you’re looking for a way to delve into the
+                    business realm that’s both adaptable and easy
+                    on your pocket, then a MBA distance education might just be
+                    what you need. To score with this modern take on
+                    higher education, you gotta smartly pick accredited programs
+                    and jump into the online networking scene.</p>
+            </div>
+            <!-- Exploring the Rich Tapestry of Distance MBA Degree Benefits -->
+            <div class="container text-center mt-5">
+                <h2 class="fw-bold">Exploring the Rich Tapestry of Distance MBA
+                    Degree Benefits</h2>
+                <p class="text-justify">
+                    Embark on a journey to unveil the opulent array of
+                    advantages bestowed by the MBA degree correspondence
+                    realm. This educational odyssey not only bequeaths
+                    flexibility tailored for the diligent professional but
+                    also bestows a diverse plethora of academic offerings.
+                    Flexible yet rigorous academic programs help develop
+                    well-rounded leaders.
+                </p>
+            </div>
+            <!-- benefits accordion -->
+            <div class="accordion accordion-flush container"
+                id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            Flexibility Unleashed: Design Your MBA Odyssey,
+                            Break Free from the Ordinary!
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Ditch the old university
+                            routines and sculpt your MBA adventure with
+                            unrivaled flexibility. Flex your journey to match
+                            your flow. Say sayonara
+                            to rigid schedules and welcome a dynamic journey
+                            that adapts to your vibe.
+                            Are you hustling in the traditional office hours
+                            grind? A parent on a mission? No worries – your
+                            MBA, your rules!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            Affordability Redefined: Epic MBA Adventures Without
+                            the Financial Drama!
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Step into a world where
+                            world-class education doesn’t break the bank –
+                            it’s a steal! With this new MBA journey, money
+                            stress is off the table – you’re in for top-notch
+                            learning without a price tag that’ll give you
+                            nightmares.
+                            Dive into excellence without the debt drama and
+                            unlock doors to a wallet-friendly MBA escapade. Your
+                            journey to the top just got a whole lot thriftier!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Work-Education Symbiosis: Boss Moves – Juggle Work
+                            and Learn Like Never Before!
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Picture this: Earning your
+                            MBA while conquering the professional realm.
+                            Balancing work and education takes dedication, but
+                            with careful planning, it can be done.
+                            Bid farewell to the struggle of choosing between
+                            career and education – now you can do both,
+                            like a boss! But reshaping your career trajectory to
+                            showcase adaptability rocks.
+                            Boost your abilities, hit the books hard, and
+                            redefine how you shine as a contemporary pro in our
+                            fast-moving era!
+                        </div>
+                    </div>
+                </div>
+                <!-- Journey Through Distance MBA Subjects and Syllabus -->
+                <div class="container text-center mt-5">
+                    <h2 class="fw-bold">Journey Through Distance MBA Subjects
+                        and Syllabus</h2>
+                    <p class="text-justify">
+                        Embark on a four-semester adventure, delving into the
+                        core studies
+                        and specialized realms of the distance MBA program
+                        curriculum. The first two semesters lay the
+                        foundation with essential MBA distance course fees,
+                        while the third and fourth empower you to
+                        choose your path. Explore the diverse disciplines
+                        awaiting in the table below.
+                    </p>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="flush-headingjourney">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsejourney"
+                            aria-expanded="false"
+                            aria-controls="flush-collapsejourney">
+                            Exploring the Exciting World of Distance Learning
+                            MBA: Subjects and Adventure-packed Syllabus!
+                        </button>
+                    </h2>
+                    <div id="flush-collapsejourney"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingjourney"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Gear up for an exhilarating
+                            journey through the four semesters of distance
+                            learning MBA! You’ll find a blend of essential core
+                            courses and exciting areas of focus waiting in
+                            the wings for you.
+                        </div>
+                    </div>
+                </div>
+                <!-- semester tabs -->
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class=" mr-auto">
+                            <p class="category">Check out the roadmap below: 
+                            </p>
+                            <!-- Nav tabs -->
+                            <div class="card">
+                                <div class="card-header">
+                                    <ul
+                                        class="nav nav-tabs justify-content-center"
+                                        role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active"
+                                                data-toggle="tab" href="#sem1"
+                                                role="tab">
+                                                Sem 1
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link"
+                                                data-toggle="tab" href="#sem2"
+                                                role="tab">
+                                                Sem 2
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link"
+                                                data-toggle="tab" href="#sem3"
+                                                role="tab">
+                                                Sem 3
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link"
+                                                data-toggle="tab" href="#sem4"
+                                                role="tab">
+                                                Sem 4
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content text-center">
+                                        <div class="tab-pane active" id="sem1"
+                                            role="tabpanel">
+                                            <p class="pt-3 fw-bold">Semester I:
+                                                Core Kickoff
 
+                                            </p>
+                                            <ul
+                                                class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom
+                               ">Principles and Practice of Management
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Management
+                                                    Economics
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Organizational
+                                                    Behavior
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Business
+                                                    Law
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Management
+                                                    Accounting
 
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane" id="sem2"
+                                            role="tabpanel">
+                                            <p class="pt-3 fw-bold">Semester II:
+                                                Management Mania
 
+                                            </p>
+                                            <ul
+                                                class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom
+                               ">Production/Operation Management
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Financial
+                                                    Management
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Human
+                                                    Resource
+                                                    Management
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Marketing
+                                                    Management
 
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Management
+                                                    Information System
 
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab-pane" id="sem3"
+                                            role="tabpanel">
+                                            <p class="pt-3 fw-bold">Semester
+                                                III: Choose Your Adventure
 
-        <script>
-            $('.moreless-button').click(function () {
-                $('.moretext').slideToggle();
-                if ($('.moreless-button').text() == "Read more") {
-                    $(this).text("Read less")
-                } else {
-                    $(this).text("Read more")
-                }
-            });
-        </script>
-</body>
+                                            </p>
+                                            <ul
+                                                class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom
+                               ">Required Specialization 1
 
-</html>
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Required
+                                                    Specialization 2
+
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Required
+                                                    Specialization 3
+
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Elective
+                                                    1
+
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Elective
+                                                    2
+
+                                                </li>
+                                                <li
+                                                    class="list-group-item bg-light border-info border-bottom">Elective
+                                                    3
+
+                                                </li>
+                                            </ul>
+                                            </div>
+                                            <div class="tab-pane" id="sem4"
+                                                role="tabpanel">
+                                                <p
+                                                    class="pt-3 fw-bold">Management
+                                                    Mania
+                                                </p>
+                                                <ul
+                                                    class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                                    <li
+                                                        class="list-group-item bg-light border-info border-bottom
+                               ">Semester IV: Mastering the Game
+
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item bg-light border-info border-bottom">Required
+                                                        Specialization 4
+
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item bg-light border-info border-bottom">Required
+                                                        Specialization 5
+
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item bg-light border-info border-bottom">Project
+                                                        Elective 4
+
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item bg-light border-info border-bottom">Elective
+                                                        5
+
+                                                    </li>
+                                                    <li
+                                                        class="list-group-item bg-light border-info border-bottom">Elective
+                                                        6
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="category">It’s not just a syllabus; it’s your ticket to an exciting distance MBA adventure!
+
+                                </p>
+                            </div>
+
+                            <script>
+                        $('.moreless-button').click(function () {
+                            $('.moretext').slideToggle();
+                            if ($('.moreless-button').text() == "Read more") {
+                                $(this).text("Read less")
+                            } else {
+                                $(this).text("Read more")
+                            }
+                        });
+                        // sem tab js
+                        $("a.nav-link").on('click', function () {
+                            $(".tab-pane").hide();
+                            $($(this).attr("href")).show();
+                            if ($(this).hasClass('active')) {
+                                return;
+                            }
+
+                            $(".nav-link").removeClass('active');
+                            $(this).addClass('active');
+                        });
+                    </script>
+                        </body>
+
+                    </html>
