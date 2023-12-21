@@ -76,9 +76,8 @@ class Blogpost extends HTMLElement {
                     </div>
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
-
                             <img
-                              src="./assets/images/education-distance-learning-e-learning-online-learning-are-all-types-personal-development.webp"
+                              src="./assets/images/writing.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -89,6 +88,38 @@ class Blogpost extends HTMLElement {
                           Clеar Insights
                         </h6>
                         <a href="https://www.distanceeducationcourses.in/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online/" class="read-more-button">Read More >></a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
+                        <div class="card-img-actions">
+                            <img
+                              src="./assets/images/writing.webp"
+                              class="img-fluid img-preview rounded"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      <div class="d-flex flex-column justify-content-space-between mx-3">
+                        <h6>
+                        What is Online BBA? – Courses, Fees, Career in 2023
+                        </h6>
+                        <a href="https://www.distanceeducationcourses.in/blog/what-is-online-bba-courses-fees-career-in-2023/" class="read-more-button">Read More >></a>
+                      </div>
+                    </div>
+                    <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
+                        <div class="card-img-actions">
+                            <img
+                              src="./assets/images/mba-graduate-person.webp"
+                              class="img-fluid img-preview rounded"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      <div class="d-flex flex-column justify-content-space-between mx-3">
+                        <h6>
+                        MBA After BA: Eligibility, Salary, Scope, and Top Colleges
+                        </h6>
+                        <a href="https://www.distanceeducationcourses.in/blog/mba-after-ba-eligibility-salary-scope-and-top-colleges/" class="read-more-button">Read More >></a>
                       </div>
                     </div>
                   </div>

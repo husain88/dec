@@ -120,6 +120,11 @@ a {
   padding: 10px;
 }
 
+.benefit-card img {
+  height: 50px;
+  width: 50px;
+}
+
 .benefit-card-title {
   color: #273272;
 }
@@ -264,18 +269,20 @@ a {
   color: rgb(43, 34, 34);
   font-size: 16px;
   line-height: 20px;
+  text-align: left;
+  min-height: 40px;
 }
 
 @media only screen and (max-width: 768px) {
   h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
   }
   #flex-container {
     height: fit-content;
-    padding: 0px 10px 0px 10px;
+    padding: 8px 10px 8px 10px;
   }
   .approval-list {
     margin-top: -12px !important;
@@ -330,4 +337,16 @@ a {
   .university-name {
     font-weight: bold;
   }
+  .carousel-inner > .carousel-item > img,
+  .carousel-inner > .carousel-item > a > img {
+    min-height: 150px;
+  }
+}
+
+.morecontent span {
+	display: none;
+}
+
+.more {
+  text-align: left;
 }

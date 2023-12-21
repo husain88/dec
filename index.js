@@ -117,69 +117,37 @@ $('.popular-carousel').owlCarousel({
 })
 
 // benefit card
+var showChar = 120;
+	var ellipsestext = "...";
+	var moretext = "Read More";
+	var lesstext = "Read Less";
+	$('.more').each(function() {
+		var content = $(this).html();
 
-$('.moreless-button').click(function() {
-  $('.moretext').slideToggle();
-  if ($('.moreless-button').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
+		if(content.length > showChar) {
 
-$('.moreless-button2').click(function() {
-  $('.moretext2').slideToggle();
-  if ($('.moreless-button2').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
+			var c = content.substr(0, showChar);
+			var h = content.substr(showChar-1, content.length - showChar);
 
-$('.moreless-button3').click(function() {
-  $('.moretext3').slideToggle();
-  if ($('.moreless-button3').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
+			var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
 
-$('.moreless-button4').click(function() {
-  $('.moretext4').slideToggle();
-  if ($('.moreless-button4').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
+			$(this).html(html);
+		}
 
-$('.moreless-button5').click(function() {
-  $('.moretext5').slideToggle();
-  if ($('.moreless-button5').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
+	});
 
-$('.moreless-button6').click(function() {
-  $('.moretext6').slideToggle();
-  if ($('.moreless-button6').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
-
-$('.moreless-button7').click(function() {
-  $('.moretext7').slideToggle();
-  if ($('.moreless-button7').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
-});
+	$(".morelink").click(function(){
+		if($(this).hasClass("less")) {
+			$(this).removeClass("less");
+			$(this).html(moretext);
+		} else {
+			$(this).addClass("less");
+			$(this).html(lesstext);
+		}
+		$(this).parent().prev().toggle();
+		$(this).prev().toggle();
+		return false;
+	});
 
 $('.testimonial-carousel').owlCarousel({
   loop:true,
