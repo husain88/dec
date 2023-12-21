@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery.js"></script>
+    <script src="../assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="../assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../assets/modules/owl/owl.carousel.min.css" />
+    <script src="../components/snackbar.js" type="text/javascript" defer></script>
+    <script src="../components/navbar.js" type="text/javascript" defer></script>
+    <script src="../components/backToTopBtn.js" type="text/javascript" defer></script>
+
+<body>
+    <style>
+        .thumbnail {
+            position: relative;
+        }
+
+        .caption {
+            position: absolute;
+            top: 45%;
+            left: 30%;
+            /* width: 40%; */
+        }
+
+        .banner-form {
+            margin: 15px 15px 15px 15px;
+            padding: 30px 10px 10px 10px;
+            background-color: #fafafa;
+            border-radius: 6px 6px 6px 6px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            max-width: 60%;
+        }
+
+        .form-disclaimer {
+            font-size: 13px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .form-submit-btn {
+            width: 33%;
+            background-color: #0b7cac;
+            color: #fff;
+            border-radius: 25px;
+        }
+
+        .readmore-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 20px;
+        }
+
+        .readmore-title:after {
+            content: "";
+            position: absolute;
+            bottom: 10px;
+
+            display: inline-block;
+            width: 50%;
+            margin-left: -11px;
+            border-bottom: #273272 solid 1px;
+        }
+
+        .bg-light {
+            border-color: #273272 !important;
+        }
+
+        .banner-text {
+            @media (max-width: 842px) {
+                font-size: 20px;
+            }
+
+            @media (max-width: 470px) {
+                font-size: 10px;
+            }
+        }
+    </style>
+
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <!-- banner with form -->
+    <div class="" id="box-search">
+        <div class="thumbnail text-center">
+            <img src="../assets/images/distanceMbaBanner.png" alt="" class="img-responsive w-100">
+            <div class="caption align-baseline">
+                <h2 class="fw-bold text-dark w-75 banner-text lh-1">Beyond the Books: Exploring Practical Applications
+                    and Case
+                    Studies in Distance MBA Courses
+                </h2>
+                <!-- <form class="banner-form p-5" action="">
+                    <input type="text" class="p-2 m-2" placeholder="Name">
+                    <input type="email" name="" id="" class="p-2 m-2" placeholder="Email">
+                    <input type="number" placeholder="Mobile No." class="p-2 m-2">
+                    <label for="" class=" m-2 h3">Select University</label>
+                    <select class="form-select" class="p-2 m-2" aria-label="Default select example">
+                        <option selected>---Please choose an option---</option>
+                        <option value="1">Amity University</option>
+                        <option value="2">Online Manipal University</option>
+                        <option value="3">Sikkim Manipal University</option>
+                        <option value="4">GLA University</option>
+                        <option value="5">Lovely Professional University</option>
+                        <option value="6">Integral University</option>
+                        <option value="7">Uttaranchal University</option>
+                        <option value="8">IGNOU</option>
+                        <option value="9">Mizzoram University</option>
+                        <option value="10">OTHER</option>
+                    </select>
+                    <span class="form-disclaimer" class="p-2 m-2">We will never share your information to anyone. We are
+                        committed to protecting
+                        your privacy and will not share any of your personal information with any third parties.</span>
+                    <button type="submit" class="btn-primary form-submit-btn fw-bold">SUBMIT</button>
+                </form> -->
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">About Distance Education Program</h2>
+        <p class="text-justify">
+            The Distance MBA program, a two-year management study course or MBA degree correspondence course in India,
+            is perfect for those who can’t make it to regular classes – and that’s why students love it.
+            The study plan and length of a MBA distance course are pretty much like those of full-time MBAs,
+            but the way you learn and the campus perks aren’t quite the same.
+            In your distance MBA course, you’ll dive into big picture economics and the nitty-gritty of running a
+            business,
+            not to mention mastering corporate finance and other money matters.
+            The instructional delivery for these courses adopts a hybrid format, with the possibility of weekend visits
+            to the institute or designated centers.
+        </p>
+    </div>
+    <!-- Distance MBA Eligibility Unraveled listing -->
+    <div class="container mt-5">
+        <h2>Unlock Your Potential: Distance MBA Eligibility Unraveled
+        </h2>
+        <p>Why opt for a distance MBA? Choosing a distance MBA isn’t just picking another class—it’s smart planning for
+            those juggling career advancement and education.
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom
+            ">Time Mastery: Overcome the challenges of full-time MBA commitments with a program
+                that bends to your schedule. Say goodbye to missed lectures and hello to a learning experience tailored
+                to your availability.</li>
+            <li class="list-group-item bg-light border-info border-bottom">Flexibility Redefined: Experience the hybrid
+                charm of MBA degree distance learning
+                in India, offering the flexibility to attend weekend sessions while enjoying the liberty to manage your
+                study hours.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">Strategic Time Management: Take charge of
+                your education with the ability to
+                reschedule classes and exams according to your preferences. It’s education on your terms.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">Cost-Effective Brilliance: Bid farewell to
+                steep tuition costs.
+                Opt for an economical alternative that doesn’t compromise the quality of your education.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">Curriculum Revitalized: Designed for working
+                professionals,
+                distance MBA programs integrate case studies and practical relevance, ensuring you’re always ahead in
+                your career.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">Career Enrichment: For those facing obstacles
+                in pursuing a traditional MBA,
+                distance MBA becomes the bridge to a fulfilling and lucrative professional journey.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">Leadership Evolution: Enroll in an MBA
+                distance program in India and
+                acquire a diverse set of professional skills, including leadership and administration.
+            </li>
+        </ul>
+
+    </div>
+    <!-- Distance MBA decoding the worth -->
+    <div class="container mt-5">
+        <h2>Decoding the Worth of Distance MBA: Is It Your Ultimate Investment?
+
+        </h2>
+        <p>In the swiftly evolving educational milieu, Distance MBA programs have ascended to prominence.
+            With online programs, you can keep pushing forward in your career without hitting the pause button on your
+            work.
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom
+        ">Accreditation: The cachet and acquiescence of a distance MBA degree in the professional sphere pivot
+                substantially on the accreditation of the bestowing institution.
+                Pursuing an accredited distance MBA bolsters one’s prospects.</li>
+            <li class="list-group-item bg-light border-info border-bottom">Curriculum Architecture and Pertinence: The
+                appraisal of a
+                Distance MBA’s worth is significantly contingent upon the comprehensiveness and pertinence of its
+                curriculum.
+            </li>
+        </ul>
+        <p class="pt-3">A stellar MBA program should dive headfirst into the mechanics of business management,
+            interweaving hands-on scenarios and active learning experiences to arm students for the fierce
+            competition they’re likely to face in today’s relentless corporate landscape.
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom
+       ">Networking Prospects in the Virtual Domain: Networking constitutes a cornerstone of MBA programs, and skeptics
+                may impugn whether
+                an MBA degree correspondence can furnish analogous opportunities. </li>
+        </ul>
+        <p class="pt-3">But hey, with advancements in tech, we’re now able to network on a global scale through virtual
+            events like webinars and online discussions
+            – all perks of being a distance learner.
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom
+   ">Cost-Efficacy of Distance MBA: Cost is an eminent consideration for many contemplatives of advanced education. MBA
+                distance course fees oftentimes present a more cost-effective alternative,
+                obviating expenses attendant to relocation, commuting, and on-campus accommodations.</li>
+            <li class="list-group-item bg-light border-info border-bottom">Striking Equipoise Between Flexibility and
+                Rigor: The primary allure of Distance learning MBA resides in their flexibility. Learners can engage in
+                studies from any locale,
+                and the schedule can be customized to concur with individual commitments.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">Decision-Making Criteria for Aspirants:
+                Students must consider a few important factors as part of their decision making when choosing a
+                MBA degree correspondence. These factors include the accreditations of the program, the quality of the
+                courses, future networking opportunities and its cost-effectiveness. Carefully choosing an MBA program
+                that matches your goals is crucial to getting the most value from your investment.
+            </li>
+        </ul>
+        <p class="h6 pt-3">If you’re looking for a way to delve into the business realm that’s both adaptable and easy
+            on your pocket, then a MBA distance education might just be what you need. To score with this modern take on
+            higher education, you gotta smartly pick accredited programs and jump into the online networking scene.</p>
+    </div>
+    <!-- Exploring the Rich Tapestry of Distance MBA Degree Benefits -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">Exploring the Rich Tapestry of Distance MBA Degree Benefits</h2>
+        <p class="text-justify">
+            Embark on a journey to unveil the opulent array of advantages bestowed by the MBA degree correspondence
+            realm. This educational odyssey not only bequeaths flexibility tailored for the diligent professional but
+            also bestows a diverse plethora of academic offerings.
+            Flexible yet rigorous academic programs help develop well-rounded leaders.
+        </p>
+    </div>
+    <!-- benefits accordion -->
+    <div class="accordion accordion-flush container" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Flexibility Unleashed: Design Your MBA Odyssey, Break Free from the Ordinary!
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Ditch the old university routines and sculpt your MBA adventure with
+                    unrivaled flexibility. Flex your journey to match your flow. Say sayonara
+                    to rigid schedules and welcome a dynamic journey that adapts to your vibe.
+                    Are you hustling in the traditional office hours grind? A parent on a mission? No worries – your
+                    MBA, your rules!
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Affordability Redefined: Epic MBA Adventures Without the Financial Drama!
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Step into a world where world-class education doesn’t break the bank –
+                    it’s a steal! With this new MBA journey, money stress is off the table – you’re in for top-notch
+                    learning without a price tag that’ll give you nightmares.
+                    Dive into excellence without the debt drama and unlock doors to a wallet-friendly MBA escapade. Your
+                    journey to the top just got a whole lot thriftier!
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Work-Education Symbiosis: Boss Moves – Juggle Work and Learn Like Never Before!
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Picture this: Earning your MBA while conquering the professional realm.
+                    Balancing work and education takes dedication, but with careful planning, it can be done.
+                    Bid farewell to the struggle of choosing between career and education – now you can do both,
+                    like a boss! But reshaping your career trajectory to showcase adaptability rocks.
+                    Boost your abilities, hit the books hard, and redefine how you shine as a contemporary pro in our
+                    fast-moving era!
+                </div>
+            </div>
+        </div>
+        <!-- Journey Through Distance MBA Subjects and Syllabus -->
+        <div class="container text-center mt-5">
+            <h2 class="fw-bold">Journey Through Distance MBA Subjects and Syllabus</h2>
+            <p class="text-justify">
+                Embark on a four-semester adventure, delving into the core studies
+                and specialized realms of the distance MBA program curriculum. The first two semesters lay the
+                foundation with essential MBA distance course fees, while the third and fourth empower you to
+                choose your path. Explore the diverse disciplines awaiting in the table below.
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            $('.moreless-button').click(function () {
+                $('.moretext').slideToggle();
+                if ($('.moreless-button').text() == "Read more") {
+                    $(this).text("Read less")
+                } else {
+                    $(this).text("Read more")
+                }
+            });
+        </script>
+</body>
+
+</html>
