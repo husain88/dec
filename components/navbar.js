@@ -185,7 +185,7 @@ class Navbar extends HTMLElement {
                 >Distance Courses</a
               >
               <ul class="dropdown-menu fade-down">
-              <li><a class="dropdown-item" href="pages/distance-mba.html">Distance MBA Courses</a></li>
+              <li><a class="dropdown-item" href="distance-mba.html">Distance MBA Courses</a></li>
               <li><a class="dropdown-item" href="blog.html">Distance BBA Courses</a></li>
               <li><a class="dropdown-item" href="blog.html">Distance BCA Courses</a></li>
               </ul>
