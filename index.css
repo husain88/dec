@@ -89,7 +89,7 @@ a {
 }
 /* owl carousel */
 .uni-carousel .item {
-  max-width: 50%;
+  max-width: 120px;
 }
 
 .carousel-inner > .carousel-item > img,

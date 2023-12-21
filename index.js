@@ -69,21 +69,18 @@ $('.uni-carousel').owlCarousel({
   nav:false,
   dots:false,
   autoplay:true,
-  stagePadding:50,
+  // stagePadding:50,
   center: true,
   autoplayTimeout:2000,
   responsive:{
       0:{
-          items:2
-      },
-      300:{
-        items:3
+        items:2
       },
       600:{
-          items:3
+        items:3
       },
       1000:{
-          items:4
+        items:4
       }
   }
 });
@@ -95,7 +92,6 @@ $('.popular-carousel').owlCarousel({
   dots:true,
   autoplay:true,
   center: false,
-  // stagePadding:10,
   autoplayTimeout:3000,
   responsive:{
       0:{
