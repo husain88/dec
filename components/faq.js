@@ -55,7 +55,7 @@ class Faq extends HTMLElement {
         <div class="main-container">
         <div class="container faq-container">
           <h2 class="text-center text-decoration-underline text-white mb-5">
-            FAQs
+          Frequently Asked Questions
           </h2>
           <p class="text-justify text-white">Online courses basically mean that you are learning separate from others, success doesn’t 
           come to you , you go to it. Take the first step of asking your queries. And it’s important to 
