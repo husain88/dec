@@ -124,7 +124,7 @@ class Navbar extends HTMLElement {
       </style>
       <nav class="navbar navbar-expand-lg p-0">
       <div class="container-fluid center">
-        <a class="navbar-brand" href="#"><img class="main-logo" src="./assets/images/logo.webp" alt=""/></a>
+        <a class="navbar-brand" href="#"x><img class="main-logo" src="./assets/images/logo.webp" alt=""/></a>
         <button
           class="navbar-toggler collapsed"
           type="button"
@@ -185,9 +185,9 @@ class Navbar extends HTMLElement {
                 >Distance Courses</a
               >
               <ul class="dropdown-menu fade-down">
-              <li><a class="dropdown-item" href="blog.html">Online MBA Courses</a></li>
-              <li><a class="dropdown-item" href="blog.html">Online BBA Courses</a></li>
-              <li><a class="dropdown-item" href="blog.html">Online BCA Courses</a></li>
+              <li><a class="dropdown-item" href="pages/distance-mba.html">Distance MBA Courses</a></li>
+              <li><a class="dropdown-item" href="blog.html">Distance BBA Courses</a></li>
+              <li><a class="dropdown-item" href="blog.html">Distance BCA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item">
