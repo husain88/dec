@@ -17,7 +17,7 @@ class Snackbar extends HTMLElement {
         font-size: 13px;
         justify-content: space-between;
       }
-      .btn {
+      .head-wrapper .btn {
         font-size: 11px;
         background-color: #ff5700;
         font-weight: bold;
