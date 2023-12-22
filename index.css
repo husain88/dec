@@ -90,6 +90,7 @@ a {
 /* owl carousel */
 .uni-carousel .item {
   max-width: 120px;
+  margin: auto;
 }
 
 .carousel-inner > .carousel-item > img,
