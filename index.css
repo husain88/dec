@@ -90,6 +90,7 @@ a {
 /* owl carousel */
 .uni-carousel .item {
   max-width: 120px;
+  margin: auto;
 }
 
 .carousel-inner > .carousel-item > img,
@@ -343,7 +344,7 @@ a {
   }
 }
 .btn {
-  font-size: 11px;
+  font-size: 16px;
   background-color: #ff5700;
   font-weight: bold;
   margin-top: 5px;

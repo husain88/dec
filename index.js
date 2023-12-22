@@ -70,7 +70,7 @@ $('.uni-carousel').owlCarousel({
   dots:false,
   autoplay:true,
   // stagePadding:50,
-  center: true,
+  center: false,
   autoplayTimeout:2000,
   responsive:{
       0:{
