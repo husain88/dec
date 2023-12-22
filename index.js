@@ -169,3 +169,24 @@ $('.testimonial-carousel').owlCarousel({
       }
   }
 })
+
+// sem tab js
+$("a.nav-link").on('click', function () {
+  $(".tab-pane").hide();
+  $($(this).attr("href")).show();
+  if ($(this).hasClass('active')) {
+      return;
+  }
+
+  $(".nav-link").removeClass('active');
+  $(this).addClass('active');
+});
+
+$('.moreless-button').click(function () {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read more") {
+      $(this).text("Read less")
+  } else {
+      $(this).text("Read more")
+  }
+});

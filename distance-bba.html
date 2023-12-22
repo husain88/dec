@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+	<script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <style>
+        .thumbnail {
+            position: relative;
+        }
+
+        .caption {
+            position: absolute;
+            top: 45%;
+            left: 30%;
+            /* width: 40%; */
+        }
+
+        .banner-text {
+            @media (max-width: 842px) {
+                font-size: 20px;
+            }
+        }
+
+        .banner-text {
+            @media (max-width: 470px) {
+                font-size: 10px;
+            }
+        }
+
+        .bg-light {
+            border-color: #273272 !important;
+        }
+    </style>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <!-- banner -->
+    <div class id="box-search">
+        <div class="thumbnail text-center">
+            <img src="./assets/images/distanceMbaBanner.png" alt class="img-responsive w-100" />
+            <div class="caption align-baseline">
+                <h2 class="fw-bold text-dark w-75 banner-text lh-1">
+                    Bridging Distances: The Rise and Relevance of Distance BBA Courses
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- about bba -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">About Distance Education BBA Program</h2>
+        <p class="text-justify">
+            Embark on a journey of skill development and managerial prowess with a
+            distance learning BBA course. Pursuing distance, BBA opens doors. See
+            how a BBA degree distance learning can be your ticket to success,
+            especially if moving to university isn’t an option for you. Dig into the
+            details of India’s Distance BBA program, a flexible mirror image of the
+            traditional on-campus course. In three years, divided into six
+            semesters, communication or science students can learn flexibly. They
+            can even choose to study math if they prefer. Ideal for those seeking an
+            affordable alternative, the program accommodates professionals and
+            individuals unable to travel for studies.
+        </p>
+    </div>
+    <!-- Distance MBA Eligibility Unraveled listing -->
+    <div class="container mt-5">
+        <h2>Why Opt For Distance BBA Education?</h2>
+        <p>
+            Immerse yourself in the advantages of choosing BBA distance courses:
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom">
+                Flexible Learning: Learn at your own pace while juggling other
+                commitments.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">
+                Breaking Location Barriers: Attend classes anytime, anywhere, breaking
+                free from the constraints of a fixed location.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">
+                Device-agnostic learning: Seamlessly access course materials on any
+                device without the need for relocation.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">
+                Job Opportunities and Self-Development: Boosting your job
+                opportunities involves building self-confidence, mastering new skills,
+                and acquiring fresh knowledge—kind of like picturing a story from a
+                book before watching the movie adaptation.
+            </li>
+        </ul>
+        <p>
+            To get better jobs, build up your self-assurance, learn new abilities,
+            and gather more information, like picturing a book’s story before seeing
+            the movie.
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom">
+                Visualizing Business Concepts: Drawing parallels to effective
+                learning, just as listeners naturally craft mental images of a story,
+                BBA distance education enables you to visualize intricate business
+                concepts.
+            </li>
+        </ul>
+        <p>
+            Focusing on discipline and time management becomes key when you’re
+            trying to study effectively from a BBA course at a distance, much like
+            the critical focus required when creating mental images of a narrative.
+        </p>
+    </div>
+    <!-- Diverse Job Opportunities Awaiting BBA Graduates
+ -->
+
+    <div class="container mt-5">
+        <h2>Diverse Job Opportunities Awaiting BBA Graduates</h2>
+        <p>
+            Embarking on a career journey after completing a BBA correspondence
+            course opens the door to a myriad of job opportunities across various
+            industries. With their broad range of skills, BBA distance graduates are
+            hot prospects for all kinds of jobs; they’re just as good at crunching
+            numbers in business administration as they are at handling people in HR.
+            With businesses growing and stretching their wings in the global scene,
+            there’s a booming need for skilled business folks, turning the world
+            after a distance learning BBA into one ripe with possibilities.
+        </p>
+        <!-- job accordion -->
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <i class="fa fa-plus"></i>Business Administration Researcher
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        One promising career path for BBA graduates is that of a Business
+                        Administration Researcher. Businesses need imaginative yet
+                        realistic marketing plans to hit goals and manage margins.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item add-border my-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <i class="fa fa-plus"></i>Human Resource Manager
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Human Resource Management is another avenue that beckons BBA
+                        graduates. As organizations put more significance on their staff’s
+                        joy and contribution, they’re chasing after HR people who can
+                        assist with developing a positive work vibe.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item add-border my-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <i class="fa fa-plus"></i>Management Accountant
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        For those inclined towards the financial aspect of business,
+                        becoming a management accountant is a lucrative option. Businesses
+                        need imaginative yet realistic marketing plans to carefully manage
+                        their budgets and hit their goals. Small businesses need
+                        imaginative yet realistic marketing plans to hit their goals and
+                        manage their tight budgets.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item add-border my-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <i class="fa fa-plus"></i>Business Administration Professor
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The scholarly domain likewise makes its way for BBA graduates,
+                        with amazing chances to become Business Organization Teachers.
+                        Businesses need imaginative yet realistic marketing plans to hit
+                        goals and manage margins.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item add-border my-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <i class="fa fa-plus"></i>Finance Manager
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        Finance Manager is another sought-after position for BBA
+                        graduates, involving the strategic management of an organization’s
+                        financial resources.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="pt-5">
+            Small businesses need savvy financial managers to stretch every dollar
+            for maximum impact. Small businesses need imaginative yet realistic
+            marketing plans to optimize growth within tight budgets.
+        </p>
+        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+            <li class="list-group-item bg-light border-info border-bottom">
+                Production Manager: In the realm of operations, BBA graduates can
+                pursue a career as a production manager. In the role of a production
+                manager, you’re in charge of overseeing the whole manufacturing show,
+                ensuring everything is working like clockwork and that high-quality
+                products are shipped out promptly.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">
+                In the grand scheme of things, it’s folks like production managers who
+                grease the gears, making sure everything runs smoothly and
+                productivity is on point—they’re key players in driving a company’s
+                success.
+            </li>
+            <li class="list-group-item bg-light border-info border-bottom">
+                Marketing Manager: The field of marketing also beckons BBA graduates
+                with opportunities as marketing managers. In this gig, you’re cooking
+                up and launching marketing blueprints, staying hip to shifts in the
+                market scene, and pumping up how well-known your brand is.
+            </li>
+        </ul>
+        <p class="pt-5">
+            For those who get a kick out of solving problems and thinking
+            strategically, stepping into the shoes of a business consultant could be
+            right up your alley. Consultants in the business world are like
+            problem-solving experts and their major goal is to make sure that
+            everything runs smoothly. Small businesses need imaginative yet
+            realistic marketing plans to hit their big goals while carefully
+            spending each dollar.
+        </p>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        <i class="fa fa-plus"></i>Information Systems Manager
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        In the era of digital transformation, information systems managers
+                        are in high demand. Those earning their BBA with a spotlight on
+                        information systems are key players in handling and fine-tuning a
+                        company’s tech setup. Small businesses need imaginative yet
+                        realistic marketing plans to hit their goals and manage tight
+                        budgets.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>
+            Whether one’s interests lie in research, finance, human resources,
+            academia, or consulting, the skills acquired during a BBA program
+            provide a solid foundation for a successful and rewarding career
+            journey. With the ever-changing landscape of business, those with a BBA
+            degree distance learning are primed to handle the intricate ins and
+            outs, truly making a difference in their respective companies.
+        </p>
+    </div>
+    <!-- Empower Your Education with Distance BBA Program -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">Empower Your Education with Distance BBA Program</h2>
+        <p class="text-justify">
+            Embarking on a Bachelor of Business Administration (BBA) journey is like
+            stepping onto a rocket for career liftoff. But, hey, we get it—dreams
+            need funds! That’s where student loans swoop in like financial
+            superheroes, turning your BBA aspirations into reality.
+        </p>
+    </div>
+    <!-- Splash Cash, Dive into Distance BBA Fun!
+ -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">Splash Cash, Dive into Distance BBA Fun!</h2>
+        <p class="text-justify">
+            Imagine this: diving into the vibrant sea of distance learning BBA
+            programs without worrying about the financial tide. Student loans are
+            like your trusty surfboard, letting you cruise the high tide of
+            education without getting swamped by financial stress.
+        </p>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        <i class="fa fa-plus"></i>Distance BBA: Where Learning Meets
+                        Flexi-Fun!
+                    </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Who’s to say that education can’t blend enjoyment with
+                        adaptability? Distance BBA programs are like the cool kids in the
+                        education playground. They offer the same awesome curriculum as
+                        traditional BBA, but with a twist: you get to dance to the rhythm
+                        of your schedule.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Edu-Adventure With Quality Assurance!
+
+ -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">Edu-Adventure With Quality Assurance!</h2>
+        <p class="text-justify">
+            Picture this: Your education journey is not just a rollercoaster; it’s a
+            thrilling adventure! BBA correspondence course ensures you get a
+            top-notch education rollercoaster crafted by industry wizards. Your
+            ticket? Student loans are the golden keys to an exciting educational
+            quest.
+        </p>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingEight">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        <i class="fa fa-plus"></i>No Boundaries, No Barriers: Distance BBA
+                        Cheers for Diversity!
+                    </button>
+                </h2>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Break free from geographical chains! Distance BBA programs are the
+                        ultimate cheerleaders for diversity. Student loans make it happen,
+                        letting you join the academic party from anywhere on the map. It’s
+                        all about grabbing an education that shatters barriers, regardless
+                        of your location!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingNine">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                        <i class="fa fa-plus"></i>Customize Your Learning Playlist:
+                        Distance BBA Edition!
+                    </button>
+                </h2>
+                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Who said studying has to be like a boring playlist on repeat?
+                        Distance BBA lets you DJ your BBA course distance education
+                        experience. With student loans covering the beats, you can
+                        customize your study jam, hitting the right notes for work,
+                        family, and, of course, your academic superstar moment. So, strap
+                        on those student loan-powered wings and let your BBA journey soar
+                        to new heights! So, ready to take the plunge into this exciting
+                        distance BBA journey? Dive into the BBA Wave and ride it like the
+                        expert you are!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Costs Associated With the BBA Distance Program
+
+
+ -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">Costs Associated With the BBA Distance Program</h2>
+        <p class="text-justify">
+            Let’s tackle the financial side of your educational adventure,
+            demystifying the pricing setup for BBA distance courses.
+        </p>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingTen">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        <i class="fa fa-plus"></i>Fee: Unveiling the Range!
+                    </button>
+                </h2>
+                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Embark on the exciting journey of BBA distance courses, where the
+                        annual fee fiesta unfolds with flair, showcasing a lively range
+                        between INR 22,000 and INR 40,000. It’s not just numbers; it’s a
+                        carnival of possibilities. But hold on—each university has its
+                        flavor, so get ready for a rollercoaster of distance BBA course
+                        fees!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-heading11">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                        <i class="fa fa-plus"></i>Pay Today, Study Tomorrow: Annual
+                        Payment Magic!
+                    </button>
+                </h2>
+                <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Imagine it as an annual subscription to the BBA Extravaganza. The
+                        magic happens when you pay upfront, like securing a front-row seat
+                        for the entire academic year. But here’s the twist: the deadline
+                        is your magic wand. Use your deadline power wisely, and just like
+                        that, magic happens! You’re all set for the admission spectacle.
+                        Feeling like you’re in a maze with no way out? Cue the fee
+                        counselors—your guardians through the financial labyrinth. Have
+                        burning questions about distance BBA course fees, payment
+                        schedules, or anything finance-related? Give that bell a ring, and
+                        let the guidance session begin. Think of it as your private
+                        navigation system guiding you!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-heading12">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                        <i class="fa fa-plus"></i>Beyond Tuition: The Extras Show
+                    </button>
+                </h2>
+                <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        This isn’t just a regular study session; it’s a grand educational
+                        experience with unexpected elements popping up. Alongside tuition,
+                        there’s a supporting cast of study materials, online resources,
+                        and maybe even an unexpected exam fee appearance. Buckle up; it’s
+                        time to budget for the full experience.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Timely Payment Matters!
+ -->
+    <div class="container text-center mt-5">
+        <h2 class="fw-bold">Why Timely Payment Matters!</h2>
+        <p class="text-justify">
+            What’s the beat that keeps your university journey going strong? The
+            timely payment drum Hits the beats, and you secure your spot in the BBA
+            rhythm. It’s not just about paying; it’s about orchestrating your
+            admissions entry. Miss the drumbeat, and you might find yourself out of
+            sync.
+        </p>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-heading13">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                        <i class="fa fa-plus"></i>The Fee Structure Show: Strut Your
+                        Stuff!
+                    </button>
+                </h2>
+                <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Step into the Fee Structure Spotlight, where your savvy financial
+                        choices become the showstopper! Strut confidently through the
+                        offerings of different universities, flaunt your knowledge about
+                        their policies, and pick the trendiest fee structure that aligns
+                        with your financial style. It’s not just about fees; it’s about
+                        making an entrance on the education runway! As you dive into the
+                        vibrant universe of distance learning BBA fees, it’s key to keep
+                        an eye on those subtle nuances. While the overall range is
+                        exhilarating, individual universities may introduce twists and
+                        turns. Some might have additional charges, while others may
+                        include perks in the standard fee package. Additional fees or
+                        perks can alter the full cost, so reviewing the details helps you
+                        budget accurately.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-heading14">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                        <i class="fa fa-plus"></i>Financial Aid Quest: Beyond Scholarships
+                    </button>
+                </h2>
+                <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Scholarships are the shining stars, but the financial aid quest
+                        doesn’t end there. Some universities might offer flexible payment
+                        plans or financial assistance programs. To make ends meet as a
+                        student, you’ve got to get resourceful and find ways to supplement
+                        what you’ve budgeted. Think of budgeting as your backstage pass to
+                        a successful BBA experience. Beyond the visible distance BBA
+                        course fees, consider your expenses, living costs, and potential
+                        fluctuations. A well-balanced budget ensures that your academic
+                        show goes on without unexpected intermissions.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionFlushExample">
+            <div class="accordion-item add-border mb-2 rounded-3">
+                <h2 class="accordion-header" id="flush-heading15">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+                        <i class="fa fa-plus"></i>Conclusion: Embark on Your Distance BBA
+                        Adventure!
+                    </button>
+                </h2>
+                <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-start">
+                        Distance learning BBA programs aren’t just stacks of books and
+                        droning lectures; they’re your golden ticket to a flexible,
+                        reachable, and fulfilling educational journey. Engaging classes
+                        and a plethora of career paths lay before you, ready for your
+                        journey to unfold. So, kick-start this journey, link up with
+                        top-tier universities, and carve your business destiny right from
+                        the cozy corners of your home. Your BBA distance course journey is
+                        a canvas waiting for your unique strokes of success. Jump in with
+                        enthusiasm, a thirst for knowledge, and the hope of reaching new
+                        academic heights!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- blog and contact form -->
+     <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <blog-posts></blog-posts>
+            </div>
+            <div class="col-lg-6">
+                <contact-form></contact-form>
+            </div>
+        </div>
+    </div>
+    <!-- distance bba faq -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Queations
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What is the average duration of a Distance BBA course?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Typically, Distance BBA courses span three years, divided into
+                            six semesters.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Can distance BBA degree holders apply for student loans?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, distance BBA degree holders can explore student loans to
+                            ease the financial aspect of their education.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What is the fee range for Distance BBA courses?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The fee structure varies, generally ranging from INR 22,000 to
+                            INR 40,000 per year.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>How is Distance BBA assessment
+                            conducted?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Distance BBA assessments usually include online tests,
+                            assignments, and occasional in-person exams.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Are specializations available in the Distance BBA course?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Absolutely, a bunch of Distance BBA courses do give students the
+                            chance to dive deep into areas like Marketing, Finance, HR, or
+                            International Business for targeted skill growth.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

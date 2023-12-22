@@ -142,7 +142,7 @@ class Navbar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -186,7 +186,7 @@ class Navbar extends HTMLElement {
               >
               <ul class="dropdown-menu fade-down">
               <li><a class="dropdown-item" href="distance-mba.html">Distance MBA Courses</a></li>
-              <li><a class="dropdown-item" href="blog.html">Distance BBA Courses</a></li>
+              <li><a class="dropdown-item" href="distance-bba.html">Distance BBA Courses</a></li>
               <li><a class="dropdown-item" href="blog.html">Distance BCA Courses</a></li>
               </ul>
             </li>
