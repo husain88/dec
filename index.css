@@ -440,7 +440,7 @@ a {
 }
 .card-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+  grid-template-columns: repeat(auto-fit, minmax(295px, 305px));
   gap: 8px;
 }
 
@@ -448,6 +448,10 @@ a {
   height: 250px;
   width: 100%;
   object-fit: cover;
+}
+
+.card-layout .card {
+  height: fit-content;
 }
 
 @media only screen and (max-width: 768px) {
@@ -523,5 +527,6 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 8px;
+    grid-auto-rows: auto;
   }
 }
