@@ -280,76 +280,6 @@ a {
   text-align: left;
   min-height: 40px;
 }
-
-@media only screen and (max-width: 768px) {
-  h2 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 16px;
-  }
-  #flex-container {
-    height: fit-content;
-    padding: 8px 10px 8px 10px;
-  }
-  .approval-list {
-    margin-top: -12px !important;
-  }
-  .flex-item {
-    margin-top: unset;
-    margin-bottom: unset;
-    margin-right: 8px;
-    margin-left: 8px;
-    width: max-content !important;
-  }
-  .approval-img {
-    width: 2rem !important;
-    height: 2rem !important;
-  }
-  .approval-text {
-    font-size: 0.75rem !important;
-  }
-  .testimonial-card .user-icon {
-    font-size: 20px;
-    /* padding: 16px; */
-  }
-  .testimonial-card .user-name {
-    font-size: 20px;
-  }
-  
-  .testimonial-card .stars {
-    font-size: 18px;
-  }
-  
-  .testimonial-card .content {
-    margin-top: 8px;
-  }
-  .testimonial-card .fa-quote-left {
-    font-size: 20px;
-  }
-  .course-label {
-    background: rgb(185, 185, 227);
-    color: rgb(70, 70, 116);
-    text-align: center;
-    padding: 2px;
-    border-radius: 2px;
-    font-weight: 600;
-  }
-  
-  .course-full-form {
-    color: rgb(43, 34, 34);
-    font-size: 16px;
-    line-height: 20px;
-  }
-  
-  .university-name {
-    font-weight: bold;
-  }
-  .carousel-inner > .carousel-item > img,
-  .carousel-inner > .carousel-item > a > img {
-    min-height: 150px;
-  }
-}
 .btn {
   font-size: 16px;
   background-color: #ff5700;
@@ -505,6 +435,93 @@ a {
   }
 }
 
-.bg-light {
-  border-color: #273272 !important;
+.bg-primary {
+  background-color: #273272 !important;
+}
+.card-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+  gap: 8px;
+}
+
+.card-layout img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #flex-container {
+    height: fit-content;
+    padding: 8px 10px 8px 10px;
+  }
+  .approval-list {
+    margin-top: -12px !important;
+  }
+  .flex-item {
+    margin-top: unset;
+    margin-bottom: unset;
+    margin-right: 8px;
+    margin-left: 8px;
+    width: max-content !important;
+  }
+  .approval-img {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .approval-text {
+    font-size: 0.75rem !important;
+  }
+  .testimonial-card .user-icon {
+    font-size: 20px;
+    /* padding: 16px; */
+  }
+  .testimonial-card .user-name {
+    font-size: 20px;
+  }
+  
+  .testimonial-card .stars {
+    font-size: 18px;
+  }
+  
+  .testimonial-card .content {
+    margin-top: 8px;
+  }
+  .testimonial-card .fa-quote-left {
+    font-size: 20px;
+  }
+  .course-label {
+    background: rgb(185, 185, 227);
+    color: rgb(70, 70, 116);
+    text-align: center;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+  
+  .course-full-form {
+    color: rgb(43, 34, 34);
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .university-name {
+    font-weight: bold;
+  }
+  .carousel-inner > .carousel-item > img,
+  .carousel-inner > .carousel-item > a > img {
+    min-height: 150px;
+  }
+
+  .card-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 8px;
+  }
 }
