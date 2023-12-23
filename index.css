@@ -24,6 +24,13 @@ ul {
 li {
   list-style: none;
 }
+
+li.list-group-item:before {    
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  margin:0 5px 0 -15px;
+  color: #273272;
+}
 body {
   display: flex;
   flex-direction: column;
