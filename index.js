@@ -113,37 +113,57 @@ $('.popular-carousel').owlCarousel({
 })
 
 // benefit card
-var showChar = 120;
-	var ellipsestext = "...";
-	var moretext = "Read More";
-	var lesstext = "Read Less";
-	$('.more').each(function() {
-		var content = $(this).html();
+var showChar = 200;  // How many characters are shown by default
+var showCardChar = 300;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show More";
+    var lesstext = "Show Less";
+    
 
-		if(content.length > showChar) {
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) {
+ 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar);
+ 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+ 
+            $(this).html(html);
+        }
+ 
+    });
+    $('.more-card').each(function() {
+      var content = $(this).html();
 
-			var c = content.substr(0, showChar);
-			var h = content.substr(showChar-1, content.length - showChar);
+      if(content.length > showCardChar) {
 
-			var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+          var c = content.substr(0, showCardChar);
+          var h = content.substr(showCardChar, content.length - showCardChar);
 
-			$(this).html(html);
-		}
+          var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
 
-	});
+          $(this).html(html);
+      }
 
-	$(".morelink").click(function(){
-		if($(this).hasClass("less")) {
-			$(this).removeClass("less");
-			$(this).html(moretext);
-		} else {
-			$(this).addClass("less");
-			$(this).html(lesstext);
-		}
-		$(this).parent().prev().toggle();
-		$(this).prev().toggle();
-		return false;
-	});
+  });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+            $(this).prev().css( "display", "none" );
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+            $(this).prev().css( "display", "inline" );
+        }
+        $(this).parent().prev().toggle();
+        console.log($(this).prev())
+        return false;
+    });    
+
 
 $('.testimonial-carousel').owlCarousel({
   loop:true,

@@ -3,6 +3,9 @@ html * {
   font-family: "Roboto", sans-serif;
 }
 /* universal */
+.morelink {
+  color: #ff6f42;
+}
 h2 {
   font-size: 34px;
   color: #273272;
@@ -27,9 +30,10 @@ li {
 
 li.list-group-item:before {    
   font-family: 'FontAwesome';
-  content: '\f058';
+  content: '\f560';
   margin:0 5px 0 -15px;
-  color: #273272;
+  color: #ff6f42;
+  /* background: #ff6f42; */
 }
 body {
   display: flex;
@@ -144,6 +148,7 @@ a {
 
 .benefit-card i {
   font-size: 34px;
+  color: #ff5700;
 }
 
 .benefit-card-title {
@@ -325,6 +330,10 @@ a {
   text-align: left;
 }
 
+.morelink {
+  display: block;
+}
+
  /* faq */
  .accordion-button {
   padding: 0px;
@@ -443,18 +452,27 @@ a {
 
 .thumbnail {
   position: relative;
+  height: 300px;
 }
 
 .caption {
   position: absolute;
-  top: 2%;
-  left: 30%;
-  /* width: 40%; */
+  top: 5%;
+  width: 75%;
+  margin: 0 auto;
+  left: 0%;
+  right: 0;
 }
 
 .banner-text {
   @media (max-width: 842px) {
-      font-size: 20px;
+      font-size: 16px;
+  }
+}
+
+/* .banner-text {
+  @media (max-width: 640px) {
+      font-size: 16px;
   }
 }
 
@@ -462,14 +480,14 @@ a {
   @media (max-width: 470px) {
       font-size: 10px;
   }
-}
+} */
 
 .bg-primary {
   background-color: #273272 !important;
 }
 .card-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(295px, 305px));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 8px;
 }
 
@@ -484,17 +502,24 @@ a {
 }
 
 .form-wrapper {
-  max-width: 60%;
+  max-width: 75%;
   top: 58%;
-  left: 38%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   position: absolute;
-  background: #2f319252;
-  padding: 8px;
-  border-radius: 4px;
+  background: #2f3192;
+  padding: 20px;
+  border-radius: 16px;
 }
 
 .form-wrapper .btn {
-  background: #2f3192 !important;
+  background: #fff !important;
+  color: #212121;
+}
+.cta-btn button {
+  background-color:rgb(70, 70, 116);
+  color: white;
 }
 @media only screen and (max-width: 768px) {
   .title-card-wrapper {
@@ -502,8 +527,17 @@ a {
     grid-template-columns: 1fr;
   }
   .form-wrapper {
-    top: 58%;
-    left: 38%;
+    top: unset;
+    margin-top: 20px;
+    left: unset;
+    right: unset;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .thumbnail {
+    position: relative;
+    /* height: 400px; */
   }
   h2 {
     font-size: 24px;
