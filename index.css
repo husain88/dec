@@ -27,7 +27,7 @@ li {
 
 li.list-group-item:before {    
   font-family: 'FontAwesome';
-  content: '\f00c';
+  content: '\f058';
   margin:0 5px 0 -15px;
   color: #273272;
 }
@@ -91,6 +91,15 @@ a {
   max-width: 75%;
 } */
 
+.sem-tabs button {
+  font-size: 22px;
+}
+
+.sem-tabs button.active {
+  background-color: #ff6f42 !important;
+  color: #fff !important;
+}
+
 .section-content-image {
   max-width: 50%;
 }
@@ -133,6 +142,10 @@ a {
   width: 50px;
 }
 
+.benefit-card i {
+  font-size: 34px;
+}
+
 .benefit-card-title {
   color: #273272;
 }
@@ -160,6 +173,22 @@ a {
 
 .pc-image {
   position: relative;
+}
+
+.title-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 8px;
+}
+
+.title-card-wrapper div {
+  border: 1px solid #273272;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.title-card-wrapper h4 {
+  text-align: center;
 }
 
 .pc-image:after {
@@ -418,7 +447,7 @@ a {
 
 .caption {
   position: absolute;
-  top: 45%;
+  top: 2%;
   left: 30%;
   /* width: 40%; */
 }
@@ -454,7 +483,28 @@ a {
   height: fit-content;
 }
 
+.form-wrapper {
+  max-width: 60%;
+  top: 58%;
+  left: 38%;
+  position: absolute;
+  background: #2f319252;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.form-wrapper .btn {
+  background: #2f3192 !important;
+}
 @media only screen and (max-width: 768px) {
+  .title-card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form-wrapper {
+    top: 58%;
+    left: 38%;
+  }
   h2 {
     font-size: 24px;
   }
