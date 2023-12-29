@@ -542,13 +542,12 @@ a {
 }
 .tilesWrap {
 	padding: 0;
-	margin: 50px auto;
+	margin: 24px auto;
 	list-style: none;
 	text-align: center;
 }
 .tilesWrap li {
 	display: inline-block;
-	/* width: 20%; */
 	max-width: 340px;
 	padding: 80px 20px 40px;
 	position: relative;
@@ -668,6 +667,9 @@ background: linear-gradient(to right, #ff6f42, #273272);
 @media only screen and (max-width: 768px) {
   .tilesWrap li {
     max-width: 100%;
+  }
+  .tilesWrap {
+    margin: 16px auto;
   }
   .title-card-wrapper {
     display: grid;
