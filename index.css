@@ -470,18 +470,6 @@ a {
   }
 }
 
-/* .banner-text {
-  @media (max-width: 640px) {
-      font-size: 16px;
-  }
-}
-
-.banner-text {
-  @media (max-width: 470px) {
-      font-size: 10px;
-  }
-} */
-
 .bg-primary {
   background-color: #273272 !important;
 }
@@ -521,10 +509,50 @@ a {
   background-color:rgb(70, 70, 116);
   color: white;
 }
+.vertical-tabs-layout .nav-item button {
+  width: 100%;
+}
+.vertical-tabs-layout .nav-item {
+  width: 100%;
+}
+.vertical-tabs-layout .nav-item button.active {
+  background-color: #ff6f42;
+  color: #fff !important;
+  border-radius: 8px 0 0 8px;
+}
+.vertical-tabs-layout .nav-item button.active::after {
+  content: "";
+  height: 100%;
+  background: #eee;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  border-radius: 8px 0 0 8px;
+}
+.tab-content p {
+  font-size: 16px;
+}
+.vertical-tabs-wrapper {
+  display: flex;
+  align-items: start;
+}
+.vertical-tabs-layout {
+  margin-right: 16px;
+  border-right: 2px solid #eee;
+}
 @media only screen and (max-width: 768px) {
   .title-card-wrapper {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .vertical-tabs-layout {
+    width: 100%;
+    margin-right: 0;
+    border: none;
+    margin-bottom: 8px;
+  }
+  .vertical-tabs-wrapper {
+    flex-wrap: wrap;
   }
   .form-wrapper {
     top: unset;
@@ -612,5 +640,9 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 8px;
     grid-auto-rows: auto;
+  }
+  .sem-tabs button {
+    font-size: 15px;
+    padding: 2px 8px;
   }
 }

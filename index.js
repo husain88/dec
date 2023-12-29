@@ -115,6 +115,8 @@ $('.popular-carousel').owlCarousel({
 // benefit card
 var showChar = 200;  // How many characters are shown by default
 var showCardChar = 300;  // How many characters are shown by default
+var showSecChar = 600;  // How many characters are shown by default
+
     var ellipsestext = "...";
     var moretext = "Show More";
     var lesstext = "Show Less";
@@ -134,20 +136,46 @@ var showCardChar = 300;  // How many characters are shown by default
         }
  
     });
-    $('.more-card').each(function() {
+    $(".more-card").each(function () {
       var content = $(this).html();
 
-      if(content.length > showCardChar) {
+      if (content.length > showCardChar) {
+        var c = content.substr(0, showCardChar);
+        var h = content.substr(showCardChar, content.length - showCardChar);
 
-          var c = content.substr(0, showCardChar);
-          var h = content.substr(showCardChar, content.length - showCardChar);
+        var html =
+          c +
+          '<span class="moreellipses">' +
+          ellipsestext +
+          '&nbsp;</span><span class="morecontent"><span>' +
+          h +
+          '</span>&nbsp;&nbsp;<a href="" class="morelink">' +
+          moretext +
+          "</a></span>";
 
-          var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-
-          $(this).html(html);
+        $(this).html(html);
       }
+    });
+    $(".more-sec").each(function () {
+      var content = $(this).html();
 
-  });
+      if (content.length > showSecChar) {
+        var c = content.substr(0, showSecChar);
+        var h = content.substr(showSecChar, content.length - showSecChar);
+
+        var html =
+          c +
+          '<span class="moreellipses">' +
+          ellipsestext +
+          '&nbsp;</span><span class="morecontent"><span>' +
+          h +
+          '</span>&nbsp;&nbsp;<a href="" class="morelink">' +
+          moretext +
+          "</a></span>";
+
+        $(this).html(html);
+      }
+    });
  
     $(".morelink").click(function(){
         if($(this).hasClass("less")) {
