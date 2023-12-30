@@ -135,7 +135,7 @@ a {
 
 .benefit-card {
   border: 2px solid #273272;
-  text-align: justify;
+  text-align: left;
   border-radius: 5px 5px 5px 5px;
   min-height: 200px;
   padding: 10px;
@@ -331,7 +331,7 @@ a {
 }
 
 .morelink {
-  display: block;
+  display: inline;
 }
 
  /* faq */
@@ -511,14 +511,15 @@ a {
 }
 .vertical-tabs-layout .nav-item button {
   width: 100%;
+  border-radius: 0;
 }
 .vertical-tabs-layout .nav-item {
   width: 100%;
+  border: 1px solid #ff6f42
 }
 .vertical-tabs-layout .nav-item button.active {
   background-color: #ff6f42;
   color: #fff !important;
-  border-radius: 8px 0 0 8px;
 }
 .vertical-tabs-layout .nav-item button.active::after {
   content: "";
@@ -527,7 +528,50 @@ a {
   position: absolute;
   right: -1px;
   top: 0;
-  border-radius: 8px 0 0 8px;
+}
+.more {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+}
+.more-sec {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+}
+.more-card {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+}
+.expand {
+  display: -webkit-box !important;
+  -webkit-line-clamp: initial;
+  -webkit-box-orient: vertical;
+  overflow: unset;
+  text-overflow: unset;
+}
+.btn-link {
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  color: #ff6f42;
+}
+.btn-link:focus {
+  background: transparent;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  color: #ff6f42;
+  outline: none;
+  box-shadow: none;
 }
 .tab-content p {
   font-size: 16px;
@@ -535,10 +579,14 @@ a {
 .vertical-tabs-wrapper {
   display: flex;
   align-items: start;
+  border: 1px solid #ff6f42;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0px 6px #273272!important
 }
 .vertical-tabs-layout {
   margin-right: 16px;
-  border-right: 2px solid #eee;
+  border-right: 2px solid #ff6f42;
 }
 .tilesWrap {
 	padding: 0;

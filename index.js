@@ -67,7 +67,7 @@ $('.uni-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:false,
-  dots:false,
+  dots:true,
   autoplay:true,
   // stagePadding:50,
   center: false,
@@ -80,7 +80,7 @@ $('.uni-carousel').owlCarousel({
         items:3
       },
       1000:{
-        items:4
+        items:5
       }
   }
 });
@@ -111,86 +111,91 @@ $('.popular-carousel').owlCarousel({
       }
   }
 })
-
+$('.toggle-para').click(function () {
+  console.log($(this).prev())
+  if($(this).prev().hasClass("expand")) {
+    $(this).text('Read More');
+    $(this).prev().removeClass("expand");
+  } else {
+    $(this).prev().addClass("expand");
+    $(this).text('Read Less');
+  }
+})
 // benefit card
-var showChar = 200;  // How many characters are shown by default
+var showChar = 170;  // How many characters are shown by default
 var showCardChar = 300;  // How many characters are shown by default
 var showSecChar = 600;  // How many characters are shown by default
 
     var ellipsestext = "...";
-    var moretext = "Show More";
-    var lesstext = "Show Less";
+    var moretext = "Read More";
+    var lesstext = "Read Less";
     
 
-    $('.more').each(function() {
-        var content = $(this).html();
+    // $('.more').each(function() {
+    //     var content = $(this).html();
  
-        if(content.length > showChar) {
+    //     if(content.length > showChar) {
  
-            var c = content.substr(0, showChar);
-            var h = content.substr(showChar, content.length - showChar);
+    //         var c = content.substr(0, showChar);
+    //         var h = content.substr(showChar, content.length - showChar);
  
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+    //         var html = c + '<span class="morecontent"><span>' + h + '</span><a href="" class="morelink">' + moretext + '</a></span>';
  
-            $(this).html(html);
-        }
+    //         $(this).html(html);
+    //     }
  
-    });
-    $(".more-card").each(function () {
-      var content = $(this).html();
+    // });
+    // $(".more-card").each(function () {
+    //   var content = $(this).html();
 
-      if (content.length > showCardChar) {
-        var c = content.substr(0, showCardChar);
-        var h = content.substr(showCardChar, content.length - showCardChar);
+    //   if (content.length > showCardChar) {
+    //     var c = content.substr(0, showCardChar);
+    //     var h = content.substr(showCardChar, content.length - showCardChar);
 
-        var html =
-          c +
-          '<span class="moreellipses">' +
-          ellipsestext +
-          '&nbsp;</span><span class="morecontent"><span>' +
-          h +
-          '</span>&nbsp;&nbsp;<a href="" class="morelink">' +
-          moretext +
-          "</a></span>";
+    //     var html =
+    //       c +
+    //       '<span class="morecontent"><span>' +
+    //       h +
+    //       '</span>&nbsp;&nbsp;<a href="" class="morelink">' +
+    //       moretext +
+    //       "</a></span>";
 
-        $(this).html(html);
-      }
-    });
-    $(".more-sec").each(function () {
-      var content = $(this).html();
+    //     $(this).html(html);
+    //   }
+    // });
+    // $(".more-sec").each(function () {
+    //   var content = $(this).html();
 
-      if (content.length > showSecChar) {
-        var c = content.substr(0, showSecChar);
-        var h = content.substr(showSecChar, content.length - showSecChar);
+    //   if (content.length > showSecChar) {
+    //     var c = content.substr(0, showSecChar);
+    //     var h = content.substr(showSecChar, content.length - showSecChar);
 
-        var html =
-          c +
-          '<span class="moreellipses">' +
-          ellipsestext +
-          '&nbsp;</span><span class="morecontent"><span>' +
-          h +
-          '</span>&nbsp;&nbsp;<a href="" class="morelink">' +
-          moretext +
-          "</a></span>";
+    //     var html =
+    //       c +
+    //       '<span class="morecontent"><span>' +
+    //       h +
+    //       '</span>&nbsp;&nbsp;<a href="" class="morelink">' +
+    //       moretext +
+    //       "</a></span>";
 
-        $(this).html(html);
-      }
-    });
+    //     $(this).html(html);
+    //   }
+    // });
  
-    $(".morelink").click(function(){
-        if($(this).hasClass("less")) {
-            $(this).removeClass("less");
-            $(this).html(moretext);
-            $(this).prev().css( "display", "none" );
-        } else {
-            $(this).addClass("less");
-            $(this).html(lesstext);
-            $(this).prev().css( "display", "inline" );
-        }
-        $(this).parent().prev().toggle();
-        console.log($(this).prev())
-        return false;
-    });    
+    // $(".morelink").click(function(){
+    //     if($(this).hasClass("less")) {
+    //         $(this).removeClass("less");
+    //         $(this).html(moretext);
+    //         $(this).prev().css( "display", "none" );
+    //     } else {
+    //         $(this).addClass("less");
+    //         $(this).html(lesstext);
+    //         $(this).prev().css( "display", "inline" );
+    //     }
+    //     $(this).parent().prev().toggle();
+    //     console.log($(this).prev())
+    //     return false;
+    // });    
 
 
 $('.testimonial-carousel').owlCarousel({
