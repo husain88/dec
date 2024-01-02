@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <script src="./jquery.js"></script>
-        <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
-        <link rel="stylesheet"
-            href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
-        <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
-        <link rel="stylesheet"
-            href="./assets/modules/Bootstrap/bootstrap.min.css" />
-        <link rel="stylesheet" href="./index.css" />
-        <link rel="stylesheet"
-            href="./assets/modules/owl/owl.carousel.min.css" />
-        <script src="./components/snackbar.js" type="text/javascript"
-            defer></script>
-        <script src="./components/navbar.js" type="text/javascript"
-            defer></script>
-        <script src="./components/backtotop.js" type="text/javascript"
-            defer></script>
-        <script src="./components/contactform.js" type="text/javascript"
-            defer></script>
-        <script src="./components/blogpostlist.js" type="text/javascript"
-            defer></script>
-        <script src="https://www.google.com/recaptcha/api.js" async
-            defer></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
 
     <body>
         <snack-bar></snack-bar>
@@ -35,14 +33,95 @@
         <!-- banner -->
         <div class id="box-search">
             <div class="thumbnail text-center">
-                <img src="./assets/images/online-bcom-banner.webp" alt
-                    class="img-responsive w-100" />
+                <!-- <img src="./assets/images/distanceMbaBanner.png" alt class="img-responsive w-100"> -->
+                <div class="caption align-baseline text-center">
+                    <h2 class="fw-bold text-dark banner-text">
+                        B Com Online/Distance Education Course in India
+                        <div class="form-wrapper container d-block d-md-none">
+                            <p class="text-white">Enter Your Details to Enquire</p>
+                            <form action="">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-sm" placeholder="First Name" aria-label="First name">
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number" aria-label="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <select class="form-select  form-select-sm" name="university" required placeholder="Select University">
+                                            <option value="Amity University">Amity University</option>
+                                            <option value="Online Manipal University">Online Manipal University</option>
+                                            <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                            <option value="GLA University">GLA University</option>
+                                            <option value="Lovely Professional University">Lovely Professional University</option>
+                                            <option value="Integral University">Integral University</option>
+                                            <option value="Uttaranchal University">Uttaranchal University</option>
+                                            <option value="IGNOU">IGNOU</option>
+                                            <option value="Mizzoram University">Mizzoram University</option>
+                                            <option value="OTHER">OTHER</option>
+                                        </select>                        
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </h2>
+                </div>
+                
+                <div class="form-wrapper container d-none d-md-block">
+                    <form action="">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <input type="text" class="form-control form-control-sm" placeholder="First Name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number" aria-label="Mobile Number">
+                            </div>
+                            
+                            <div class="col">
+                                <select class="form-select  form-select-sm" name="university" required placeholder="Select University">
+                                    <option value="Amity University">Amity University</option>
+                                    <option value="Online Manipal University">Online Manipal University</option>
+                                    <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                    <option value="GLA University">GLA University</option>
+                                    <option value="Lovely Professional University">Lovely Professional University</option>
+                                    <option value="Integral University">Integral University</option>
+                                    <option value="Uttaranchal University">Uttaranchal University</option>
+                                    <option value="IGNOU">IGNOU</option>
+                                    <option value="Mizzoram University">Mizzoram University</option>
+                                    <option value="OTHER">OTHER</option>
+                                </select>                        
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                            </div>
+                        </div>
+                        <!-- <div class="row mb-2">
+                            <div class="col"></div>
+                            
+                            <div class="col"></div>
+                        </div> -->
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="container mt-5">
-            <h2>Online B.Com Degree: Significance, Admission, Top Colleges & Fee
-            </h2>
-            <p>A person can have a successful career path if makes an
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-content">
+                        <h2 class="section-content-heading fw-bold">
+                            Online B.Com Degree: Significance, Admission, Top Colleges & Fee
+                        </h2>
+                        <p class="more-sec">
+                            A person can have a successful career path if makes an
                 appropriate selection for the graduation degree. Students often
                 face indecision while making this selection due to the
                 availability of multiple options in different streams. However,
@@ -69,35 +148,52 @@
                 post-completion. Students may also embark on the path of higher
                 education and may choose to pursue an M.Com or MBA post
                 receiving their online B.Com degree.
-            </p>
+                        </p>
+                        <button class="toggle-para btn btn-link">Read More</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                    <img class="section-content-image" src="./assets/images/about.jpg" />
+                </div>
+            </div>
         </div>
         <!-- B.Com Online Admission Process
- -->
-        <div class="container text-center mt-5">
-            <h2 class="fw-bold">B.Com Online Admission Process
-            </h2>
-            <p class="text-justify">
-                We offer several prestigious universities for B.Com online
-                course. A student needs to submit the required documents such as
-                10+2 certificates, Adhaar Card copy, passport-size photographs,
-                etc. The requirement for these documents is imperative, and some
-                other universities may ask for more documents to have a robust
-                verification before B.Com online admission.
+ --> <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        B.Com Online Admission Process
+                    </h2>
+                    <p class="more-sec">
+                        We offer several prestigious universities for B.Com online
+                        course. A student needs to submit the required documents such as
+                        10+2 certificates, Adhaar Card copy, passport-size photographs,
+                        etc. The requirement for these documents is imperative, and some
+                        other universities may ask for more documents to have a robust
+                        verification before B.Com online admission.
 
-                <br><br>
-                We offer an easy-to-operate panel that guides students with the
-                required steps to complete their B.Com online course. Many of
-                the universities listed on our website offer scholarships to
-                students based on different parameters. With a diverse option
-                available for a B.com course online, you receive the aspired
-                flexibility. There are higher chances of receiving admission to
-                an aspired college by enabling us to provide you with the
-                required guidance. If you are seeking B.Com online course, you
-                can connect with us to have an unparalleled experience.
-            </p>
+                        <br><br>
+                        We offer an easy-to-operate panel that guides students with the
+                        required steps to complete their B.Com online course. Many of
+                        the universities listed on our website offer scholarships to
+                        students based on different parameters. With a diverse option
+                        available for a B.com course online, you receive the aspired
+                        flexibility. There are higher chances of receiving admission to
+                        an aspired college by enabling us to provide you with the
+                        required guidance. If you are seeking B.Com online course, you
+                        can connect with us to have an unparalleled experience.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
         </div>
+    </div>
         <!-- B.Com Online Course -->
-        <div class="container text-center mt-5">
+        <div class="container mt-5">
             <h2 class="fw-bold">B.Com Online Course
             </h2>
             <p class="text-justify">
@@ -118,22 +214,22 @@
             </p>
             <ul
                 class="list-group text-start effect-1 list-group-flush list-group-numbered">
-                <li class="list-group-item bg-light border-info border-bottom
+                <li class="list-group-item 
                 ">Students have the option of pursuing a job while continuing
                     online B.com.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item">
                     Fee structure of online B.Com degree is quite affordable as
                     compared to regular B.Com.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item">
                     Students who are into professional courses like CA, CWA,
                     CSS, can join online B.com degree courses side by side.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item">
                     Students are free to learn anytime and anywhere as online
                     courses contain pre-recorded lectures that aid the learner
                     to learn without worrying about restricted schedules.
@@ -143,7 +239,7 @@
             </ul>
         </div>
         <!-- What is an Online B.Com Program? -->
-        <div class="container text-center mt-5">
+        <div class="container mt-5">
             <h2 class="fw-bold">B.Com Online Course
             </h2>
             <p class="justify-content-start">
@@ -169,82 +265,53 @@
                 They may choose one or more than one trade to complete this
                 three-year degree program as per their inclination and aptitude
                 towards a trade. Some of the most common trades include:-
-                <ul
-                    class="list-group effect-1 list-group-flush text-start list-group-numbered">
-                    <li
-                        class="list-group-item bg-light border-info border-bottom
-                ">Auditing
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Stock Market Operations
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Laws
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Behavioral Finance
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Banking and Insurance
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Business Analytics
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Accounting and Finance
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        International Business
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        General Management
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Financial Management
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        E-Accounting
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        E-commerce
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        International Finance and Accounting (Accredited by
+                <div class="container my-5">
+                    <div class="owl-carousel uni-carousel inset p-2 owl-theme">
+                        <div class="item fw-bold text-center">
+                            Auditing
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Stock Market Operations
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Laws
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Behavioral Finance
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Banking and Insurance
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Business Analytics
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Accounting and Finance
+                        </div>
+                        <div class="item fw-bold text-center">
+                            International Business
+                        </div>
+                        <div class="item fw-bold text-center">
+                            General Management
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Financial Management
+                        </div>
+                        <div class="item fw-bold text-center">
+                            E-Accounting
+                        </div>
+                        <div class="item fw-bold text-center">
+                            E-commerce
+                        </div>
+                        <div class="item fw-bold text-center">
+                            International Finance and Accounting (Accredited by
                         ACCA, UK)
-
-                    </li>
-                    <li
-                        class="list-group-item bg-light border-info border-bottom">
-                        Banking & Finance
-
-                    </li>
-
-                </ul>
-
+                        </div>
+                        <div class="item fw-bold text-center">
+                            Banking & Finance
+                        </div>
+                    </div>
+                </div>
             </p>
             <p>Some of the universities offer the flexibility of specialization
                 post-third or fourth semester. Students can choose from either
@@ -264,7 +331,7 @@
         </div>
         <!-- How Pursuing B.Com Online a Better Alternative? accordion-->
 
-        <div class="container text-center mt-5">
+        <div class="container mt-5">
             <h2 class="fw-bold">How Pursuing B.Com Online a Better Alternative?
             </h2>
             <p class="text-justify">
@@ -464,7 +531,7 @@
         </div>
         <!-- What Are Career Prospects Post B.Com Online Course?
  -->
-        <div class="container text-center mt-5">
+        <div class="container mt-5">
             <h2 class="fw-bold">What Are Career Prospects Post B.Com Online
                 Course?
             </h2>
@@ -472,181 +539,77 @@
                 Following are the options after completing the B.Com online
                 course:-
             </p>
-            <div class="accordion" id="accordionFlushExample">
-                <div class="accordion-item add-border mb-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading13">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse13"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse13">
-                            <i class="fa fa-plus"></i>Auditor
-                        </button>
-                    </h2>
-                    <div id="flush-collapse13"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading13"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                The bearer of this post is responsible for
+            <ul class="tilesWrap">
+                <li>
+                    <h2>1</h2>
+                    <h3>Auditor</h3>
+                    <p>
+                        The bearer of this post is responsible for
                                 analysing the financial records and ensuring
                                 accuracy and viability.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item add-border my-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading14">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse14"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse14">
-                            <i class="fa fa-plus"></i>Financial Analyst
-
-                        </button>
-                    </h2>
-                    <div id="flush-collapse14"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading14"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">An individual in this
+                    </p>
+                </li>
+                <li>
+                    <h2>2</h2>
+                    <h3>Financial Analyst</h3>
+                    <p>
+                        An individual in this
                             position allows companies to make sensible financial
                             decisions by analysing required trends.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item add-border my-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading15">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse15"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse15">
-                            <i class="fa fa-plus"></i>Tax Accountant
-                        </button>
-                    </h2>
-                    <div id="flush-collapse15"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading15"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A person having this position enables businesses
+                    </p>
+                </li>
+                <li>
+                    <h2>3</h2>
+                    <h3>Tax Accountant</h3>
+                    <p>
+                        A person having this position enables businesses
                                 to manage tax-related aspects like filing,
                                 returns, and compliance with required
                                 litigation.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item add-border my-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading16">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse16"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse16">
-                            <i class="fa fa-plus"></i>Cost Accountant
-                        </button>
-                    </h2>
-                    <div id="flush-collapse16"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading16"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A cost account enables businesses to make
+                    </p>
+                </li>
+                <li>
+                    <h2>4</h2>
+                    <h3>Cost Accountant</h3>
+                    <p>
+                        A cost account enables businesses to make
                                 optimum use of the capital without hampering the
                                 quality of products or services.
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item add-border my-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading17">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse17"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse17">
-                            <i class="fa fa-plus"></i>Management Accountant
-
-                        </button>
-                    </h2>
-                    <div id="flush-collapse17"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading17"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                A management account assists the management in
+                    </p>
+                </li>
+                <li>
+                    <h2>5</h2>
+                    <h3>Management Accountant</h3>
+                    <p>
+                        A management account assists the management in
                                 making informed decisions by providing the
                                 required financial information.
-
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item add-border my-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading18">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse18"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse18">
-                            <i class="fa fa-plus"></i>HR Specialist
-                        </button>
-                    </h2>
-                    <div id="flush-collapse18"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading18"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                An HR specialist is obliged to provide the
+                    </p>
+                </li>
+                <li>
+                    <h2>6</h2>
+                    <h3>HR Specialist</h3>
+                    <p>
+                        An HR specialist is obliged to provide the
                                 required workforce or personnel needed to
                                 establish a seamless regulation of an
                                 enterprise.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item add-border my-2 rounded-3">
-                    <h2 class="accordion-header" id="flush-heading19">
-                        <button class="accordion-button rounded-3 collapsed"
-                            type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapse19"
-                            aria-expanded="false"
-                            aria-controls="flush-collapse19">
-                            <i class="fa fa-plus"></i>Marketing Specialist
-                        </button>
-                    </h2>
-                    <div id="flush-collapse19"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-heading19"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <p>
-                                It involves assisting a company to promote its
+                    </p>
+                </li>
+                <li>
+                    <h2>7</h2>
+                    <h3>Marketing Specialist</h3>
+                    <p>
+                        It involves assisting a company to promote its
                                 service or product and improve customer
                                 engagement.
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    </p>
+                </li>
+            </ul>
         </div>
         <!-- How C-DEC Helps You With Your Search for Online B.Com Course?
  -->
-        <div class="container text-center mt-5">
+        <div class="container mt-5">
             <h2 class="fw-bold">How C-DEC Helps You With Your Search for Online
                 B.Com Course?
 

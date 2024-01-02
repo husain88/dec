@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <script src="./jquery.js"></script>
-        <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
-        <link rel="stylesheet"
-            href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
-        <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
-        <link rel="stylesheet"
-            href="./assets/modules/Bootstrap/bootstrap.min.css" />
-        <link rel="stylesheet" href="./index.css" />
-        <link rel="stylesheet"
-            href="./assets/modules/owl/owl.carousel.min.css" />
-        <script src="./components/snackbar.js" type="text/javascript"
-            defer></script>
-        <script src="./components/navbar.js" type="text/javascript"
-            defer></script>
-        <script src="./components/backtotop.js" type="text/javascript"
-            defer></script>
-        <script src="./components/contactform.js" type="text/javascript"
-            defer></script>
-        <script src="./components/blogpostlist.js" type="text/javascript"
-            defer></script>
-        <script src="https://www.google.com/recaptcha/api.js" async
-            defer></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
 
     <body>
         <snack-bar></snack-bar>
@@ -35,52 +33,133 @@
         <!-- banner -->
         <div class id="box-search">
             <div class="thumbnail text-center">
-                <img src="./assets/images/distanceMbaBanner.png" alt
-                    class="img-responsive w-100" />
-                <div class="caption align-baseline">
-                    <h2 class="fw-bold text-dark w-75 banner-text lh-1">
-                        Embark On Your Journey With Distance BCA Courses, a
-                        Game-Changer in the Tech World!
-
+                <!-- <img src="./assets/images/distanceMbaBanner.png" alt class="img-responsive w-100"> -->
+                <div class="caption align-baseline text-center">
+                    <h2 class="fw-bold text-dark banner-text">
+                        Embark On Your Journey With Distance BCA Courses, a Game-Changer in the Tech World!
+                        <div class="form-wrapper container d-block d-md-none">
+                            <p class="text-white">Enter Your Details to Enquire</p>
+                            <form action="">
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-sm" placeholder="First Name" aria-label="First name">
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number" aria-label="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <select class="form-select  form-select-sm" name="university" required placeholder="Select University">
+                                            <option value="Amity University">Amity University</option>
+                                            <option value="Online Manipal University">Online Manipal University</option>
+                                            <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                            <option value="GLA University">GLA University</option>
+                                            <option value="Lovely Professional University">Lovely Professional University</option>
+                                            <option value="Integral University">Integral University</option>
+                                            <option value="Uttaranchal University">Uttaranchal University</option>
+                                            <option value="IGNOU">IGNOU</option>
+                                            <option value="Mizzoram University">Mizzoram University</option>
+                                            <option value="OTHER">OTHER</option>
+                                        </select>                        
+                                    </div>
+                                </div>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </h2>
+                </div>
+                
+                <div class="form-wrapper container d-none d-md-block">
+                    <form action="">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <input type="text" class="form-control form-control-sm" placeholder="First Name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number" aria-label="Mobile Number">
+                            </div>
+                            
+                            <div class="col">
+                                <select class="form-select  form-select-sm" name="university" required placeholder="Select University">
+                                    <option value="Amity University">Amity University</option>
+                                    <option value="Online Manipal University">Online Manipal University</option>
+                                    <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                    <option value="GLA University">GLA University</option>
+                                    <option value="Lovely Professional University">Lovely Professional University</option>
+                                    <option value="Integral University">Integral University</option>
+                                    <option value="Uttaranchal University">Uttaranchal University</option>
+                                    <option value="IGNOU">IGNOU</option>
+                                    <option value="Mizzoram University">Mizzoram University</option>
+                                    <option value="OTHER">OTHER</option>
+                                </select>                        
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                            </div>
+                        </div>
+                        <!-- <div class="row mb-2">
+                            <div class="col"></div>
+                            
+                            <div class="col"></div>
+                        </div> -->
+                    </form>
                 </div>
             </div>
         </div>
         <!-- about bca -->
-        <div class="container text-center mt-5">
-            <h2 class="fw-bold">About Distance Education BCA Program</h2>
-            <p class="text-justify">
-                In this whirlwind of a tech era, determined scholars are carving
-                their way to victory. For those who have
-                interests in technology, computing tools, and related
-                possibilities, the Distance education BCA (Bachelor of
-                Computer Applications) course emerges as a transformative
-                opportunity.
-                <br><br>
-                Once you’ve passed high school, racing for a top-notch
-                university or college becomes crucial to pursue a
-                high-quality distance course. It is paramount that life’s
-                complexities often lead some students to engage in
-                other activities, leaving them with limited time to attend
-                university physically.
-                <br><br>
-                This is precisely where the Distance education BCA, also known
-                as the BCA correspondence course, steps in.
-                It provides flexibility and convenience to students from the
-                constraints of regular classes and attendance.
-                The rising interest in BCA distance learning naturally sparks
-                curiosity about why they’re so popular, what
-                you need to get in, how much they cost, the admission steps, and
-                which top colleges offer them.
-                <br><br>
-                Distance BCA course have grown popular because they widen access
-                to technology degrees.
-            </p>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-content">
+                        <h2 class="section-content-heading fw-bold">
+                            About Distance Education BCA Program
+                        </h2>
+                        <p class="more-sec">
+                            In this whirlwind of a tech era, determined scholars are carving
+                            their way to victory. For those who have
+                            interests in technology, computing tools, and related
+                            possibilities, the Distance education BCA (Bachelor of
+                            Computer Applications) course emerges as a transformative
+                            opportunity.
+                            <br><br>
+                            Once you’ve passed high school, racing for a top-notch
+                            university or college becomes crucial to pursue a
+                            high-quality distance course. It is paramount that life’s
+                            complexities often lead some students to engage in
+                            other activities, leaving them with limited time to attend
+                            university physically.
+                            <br><br>
+                            This is precisely where the Distance education BCA, also known
+                            as the BCA correspondence course, steps in.
+                            It provides flexibility and convenience to students from the
+                            constraints of regular classes and attendance.
+                            The rising interest in BCA distance learning naturally sparks
+                            curiosity about why they’re so popular, what
+                            you need to get in, how much they cost, the admission steps, and
+                            which top colleges offer them.
+                            <br><br>
+                            Distance BCA course have grown popular because they widen access
+                            to technology degrees.
+                        </p>
+                        <button class="toggle-para btn btn-link">Read More</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                    <img class="section-content-image" src="./assets/images/about.jpg" />
+                </div>
+            </div>
         </div>
 
         <!-- Realm bca accordion -->
 
-        <div class="container text-center mt-5">
+        <div class="container mt-5">
             <h2 class="fw-bold">Exploring the Realm of BCA Distance
                 Learning</h2>
             <p class="text-justify">
@@ -115,65 +194,52 @@
                                 education accessible and adaptable:
 
                             </p>
-                            <ul
-                                class="list-group effect-1 list-group-flush  text-start list-group-numbered">
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Effortless Graduation: The best BCA
-                                    correspondence course empowers students to
-                                    complete
-                                    their graduation requirements without the
-                                    need to be physically present on the
-                                    university campus.
-
+                            <ul class="tilesWrap">
+                                <li>
+                                    <h2>1</h2>
+                                    <h3>Effortless Graduation</h3>
+                                    <p>
+                                        The best BCA correspondence course empowers students to complete their graduation requirements 
+                                        without the need to be physically present on the university campus.
+                                    </p>
                                 </li>
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Flexible Coursework: Students pursuing their
-                                    undergraduate degree through distance BCA
-                                    course enjoy the freedom to structure their
-                                    coursework according to their schedules,
-                                    eliminating interruptions and
-                                    inconveniences.
-
+                                <li>
+                                    <h2>2</h2>
+                                    <h3>Flexible Coursework</h3>
+                                    <p>
+                                        Students pursuing their undergraduate degree through distance BCA course enjoy the freedom to 
+                                        structure their coursework according to their schedules, eliminating interruptions and inconveniences.
+                                    </p>
                                 </li>
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Dual Enrollments: The flexibility of
-                                    distance education BCA allows students to
-                                    enroll in
-                                    other full-time courses or work full-time
-                                    jobs simultaneously, creating a harmonious
-                                    balance between education and other
-                                    pursuits.
-
+                                <li>
+                                    <h2>3</h2>
+                                    <h3>Dual Enrollments</h3>
+                                    <p>
+                                        The flexibility of distance education BCA allows students to enroll in other full-time courses 
+                                        
+                                        or work full-time jobs simultaneously, creating a harmonious balance between education and other pursuits.
+                                    </p>
                                 </li>
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Comprehensive Study Materials: Leading
-                                    institutions offering BCA correspondence
-                                    courses
-                                    provide students with all the necessary
-                                    study materials at the start of the session,
-                                    facilitating effective and efficient
-                                    completion of coursework.
-
+                                <li>
+                                    <h2>4</h2>
+                                    <h3>Comprehensive Study Materials</h3>
+                                    <p>
+                                        Leading institutions offering BCA correspondence courses provide students with all the necessary 
+                                        study materials at the start of the session, facilitating effective and efficient completion of 
+                                        coursework.
+                                    </p>
                                 </li>
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Two Courses at a Time: A distinctive
-                                    advantage of distance BCA courses in India
-                                    is the
-                                    ability for students to enroll in and manage
-                                    two courses simultaneously through distance
-                                    learning. Seeing a rising trend, more and
-                                    more students are juggling jobs while
-                                    hitting
-                                    the books – a clear sign of how BCA distance
-                                    learning and correspondence courses are
-                                    changing the game.
-
+                                <li>
+                                    <h2>5</h2>
+                                    <h3>Two Courses at a Time</h3>
+                                    <p>
+                                        A distinctive advantage of distance BCA courses in India is the ability for students to enroll in 
+                                        and manage two courses simultaneously through distance learning. Seeing a rising trend, more and 
+                                        more students are juggling jobs while hitting the books – a clear sign of how BCA distance learning 
+                                        and correspondence courses are changing the game.
+                                    </p>
                                 </li>
+                
                             </ul>
                         </div>
                     </div>
@@ -235,11 +301,12 @@
                                 benefits they bring to students:
 
                             </p>
-                            <ul
-                                class="list-group effect-1 list-group-flush  text-start list-group-numbered">
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Skills Enhancement: The field of computer
+                            <ul class="tilesWrap">
+                                <li>
+                                    <h2>1</h2>
+                                    <h3>Skills Enhancement</h3>
+                                    <p>
+                                        The field of computer
                                     science demands a diverse skill set, and
                                     distance BCA courses deliver. Studying
                                     remotely through a BCA course distance
@@ -249,34 +316,39 @@
                                     insight, enhances time management
                                     strategies, and improves overall computer
                                     literacy.
-
+                                    </p>
                                 </li>
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Flexibility Redefined: The BCA
+                                <li>
+                                    <h2>2</h2>
+                                    <h3>Flexibility Redefined</h3>
+                                    <p>
+                                        The BCA
                                     correspondence course empowers students to
                                     work on their
                                     syllabus according to their flexibility and
                                     study style. All study materials are
                                     provided at the beginning of the session,
                                     ensuring accessibility and ease.
-
+                                    </p>
                                 </li>
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Quality Education Assurance: To achieve
+                                <li>
+                                    <h2>3</h2>
+                                    <h3>Quality Education Assurance</h3>
+                                    <p>
+                                        To achieve
                                     top-tier education in computer science,
                                     distance
                                     BCA courses are the ideal choice. These
                                     distance learning courses are approved by
                                     UGC
                                     and ensure a robust educational foundation.
-
+                                    </p>
                                 </li>
-
-                                <li
-                                    class="list-group-item  border-info border-bottom">
-                                    Earning While Learning: Perhaps the most
+                                <li>
+                                    <h2>4</h2>
+                                    <h3>Earning While Learning</h3>
+                                    <p>
+                                        Perhaps the most
                                     significant advantage of attending a
                                     distance
                                     BCA course is the ability to earn pocket
@@ -284,9 +356,9 @@
                                     hustles like tutoring or freelancing let you
                                     earn extra cash while getting real-world
                                     experience.
-
+                                    </p>
                                 </li>
-                            </ul>
+                            </ul>                            
                         </div>
                     </div>
                 </div>
@@ -294,12 +366,16 @@
         </div>
         <!-- Set Out On An Excursion of Learning and Development
  -->
-        <div class="container text-center mt-5">
-            <h2 class="fw-bold">Set Out On An Excursion of Learning and
+ <div class="container my-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    Set Out On An Excursion of Learning and
                 Development
-            </h2>
-            <p class="text-justify">
-                With growing demand for distance, flexibility and more career
+                </h2>
+                <p class="more-sec">
+                    With growing demand for distance, flexibility and more career
                 opportunities to live your life a certain way.
                 BCA Distance education has become an evolving aspect of
                 education. The BCA Distance learning comes with an
@@ -326,9 +402,15 @@
                 Is it true that you are prepared to give your expert process an
                 extreme makeover? Gear up for the adventure
                 of a lifetime with BCA course distance education!
-
-            </p>
+                </p>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
         </div>
+        <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+    </div>
+</div>
         <!-- Unlocking Opportunities: BCA Course Distance Education Decoded
  -->
         <div class="container mt-5">
@@ -340,57 +422,64 @@
                 duration, and the seamless admission process.
 
             </p>
-            <ul
-                class="list-group effect-1 list-group-flush list-group-numbered">
-                <li class="list-group-item  border-info border-bottom
-            ">Eligibility Unleashed
-                    : Unleash your potential in BCA distance courses! Whether
-                    you’re a new secondary school graduate or a
-                    carefully prepared student, qualification is reachable. Dive
-                    into the diverse entry criteria, from
-                    12th-grade triumphs to optional diploma feats.
-
-                </li>
-                <li
-                    class="list-group-item  border-info border-bottom">Fees
-                    That Make Sense
-                    : Navigate the financial landscape of BCA distance learning
-                    with ease. Affordable and UGC-DEB-approved,
-                    these courses offer a gateway to a tech-savvy future. To
-                    keep costs down.
-
-                </li>
-                <li
-                    class="list-group-item  border-info border-bottom">Duration
-                    & Flexibility
-                    : Time is on your side in BCA course distance education. A
-                    3-year undergraduate journey awaits but with
-                    the flexibility to accelerate your pace. Explore the unique
-                    exam setup, where webcams become your ally
-                    and focus is your superpower.
-
-                </li>
-                <li
-                    class="list-group-item  border-info border-bottom">Admission
+            <div class="card-container text-center">
+                <div class="benefit-card">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <p class="fw-bold pt-4 benefit-card-title">Eligibility Unleashed</p>
+                    <span class="more">Unleash your potential in BCA distance courses! Whether
+                        you’re a new secondary school graduate or a
+                        carefully prepared student, qualification is reachable. Dive
+                        into the diverse entry criteria, from
+                        12th-grade triumphs to optional diploma feats.</span>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <p class="fw-bold pt-4 benefit-card-title">Fees
+                        That Make Sense</p>
+                    <span class="more">Navigate the financial landscape of BCA distance learning
+                        with ease. Affordable and UGC-DEB-approved,
+                        these courses offer a gateway to a tech-savvy future. To
+                        keep costs down.</span>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <p class="fw-bold pt-4 benefit-card-title">Duration
+                        & Flexibility</p>
+                    <span class="more">Time is on your side in BCA course distance education. A
+                        3-year undergraduate journey awaits but with
+                        the flexibility to accelerate your pace. Explore the unique
+                        exam setup, where webcams become your ally
+                        and focus is your superpower.</span>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <p class="fw-bold pt-4 benefit-card-title">
+                        Admission
                     Avenue Unveiled
-                    : Embark on your BCA adventure with a streamlined admission
-                    process. Make sure your BCA adventure starts
-                    right, with thorough counselor chats and careful paperwork.
-                    Get ready for the phone ring that might just
-                    set your academic future on its course.
-
-                </li>
-
-            </ul>
-
+                    </p>
+                    <span class="more">Embark on your BCA adventure with a streamlined admission
+                        process. Make sure your BCA adventure starts
+                        right, with thorough counselor chats and careful paperwork.
+                        Get ready for the phone ring that might just
+                        set your academic future on its course.</span>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
         </div>
         <!-- BCA Specializations: Navigating the Tech Terrain
  -->
-        <div class="container mt-5">
-            <h2>BCA Specializations: Navigating the Tech Terrain
-
-            </h2>
-            <p>Start a promising 3-year BCA journey tailored for tech
+ <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    BCA Specializations: Navigating the Tech Terrain
+                </h2>
+                <p>
+                    Start a promising 3-year BCA journey tailored for tech
                 enthusiasts, where the classroom is wherever you are.
                 This course, made for those who love learning from afar, will
                 pull you into the boundless universe of data.
@@ -405,16 +494,27 @@
                 outfitting you with every one of the secrets to ride the
                 steadily changing rushes of information from the
                 executives.
-
-            </p>
+                </p>
+            </div>
         </div>
-        <!-- BCA in Information and Technology
- -->
-        <div class="container text-center mt-5">
-            <h2 class="fw-bold">BCA in Information and Technology
-            </h2>
-            <p class="text-justify">
-                Picture this: a thrilling roller coaster ride through the world
+        <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    BCA in Information and Technology
+                </h2>
+                <p>
+                    Picture this: a thrilling roller coaster ride through the world
                 of technology. But first, you’ve got to
                 clear the 12th-grade challenge to secure your spot in this
                 heart-pounding journey. However, the playing
@@ -426,9 +526,13 @@
                 But transforming students into IT superheroes through cracking
                 complex codes and guarding against cyber
                 masters takes more than a single program.
-
-            </p>
+                </p>
+            </div>
         </div>
+    </div>
+</div>
+        <!-- BCA in Information and Technology
+ -->
         <!-- Beyond BCA: Scoping Your Future
  -->
         <div class="container mt-5">
@@ -531,36 +635,35 @@
             </div>
         </div>
         <!-- Continuing the Learning Odyssey: Advanced Studies and Lifelong Growth
- -->
-        <div class="container mt-5">
-            <h2>Continuing the Learning Odyssey: Advanced Studies and Lifelong
-                Growth
-
-            </h2>
-            <p>For some, the journey doesn’t end with a BCA degree; it’s a
-                stepping stone to further exploration. Seeking
-                additional examinations allows you to plunge recklessly into the
-                subjects that genuinely get your fire
-                going. Chasing a master’s in computer sci, data crunching, or
-                cyber safety, the journey of learning never
-                stops. Lifelong growth becomes a mantra as technology evolves,
-                and staying at the forefront of innovations
-                becomes not just a choice but a necessity.
-
-                In essence, BCA specializations are not just educational paths;
-                they are gateways to a tech wonderland.
-                Stepping beyond classroom boundaries, a BCA degree opens the
-                door to a future overflowing with tech career
-                opportunities. BCA grads aren’t just diploma holders; they morph
-                into tech gurus, prepped and primed to rule
-                the corporate world. The BCA experience isn’t just a grind with
-                textbooks; it’s like directing your own
-                high-stakes movie, morphing from newbie to pro, and laying the
-                groundwork for an electrifying career in the
-                dynamic universe of tech.
-
-            </p>
+ -->     <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    Continuing the Learning Odyssey: Advanced Studies and Lifelong
+                    Growth                </h2>
+                <p>
+                    Picture this: a thrilling roller coaster ride through the world
+                    of technology. But first, you’ve got to
+                    clear the 12th-grade challenge to secure your spot in this
+                    heart-pounding journey. However, the playing
+                    field is leveled, allowing talent to rise to the top. Yet, at
+                    its heart, it’s about welcoming all who get a
+                    kick out of the tech world’s magic.
+    
+                    <br><br>
+                    But transforming students into IT superheroes through cracking
+                    complex codes and guarding against cyber
+                    masters takes more than a single program.
+                </p>
+            </div>
         </div>
+        <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+    </div>
+</div>
+        
         <!-- Top-Tier Universities: Your Academic Oasis
  -->
         <div class="container mt-5">
@@ -753,29 +856,38 @@
             </div>
         </div>
         <!-- From BCA Wonderland to the Tech Frontier: The Next Chapter Awaits
- -->
-        <div class="container mt-5">
-            <h2>From BCA Wonderland to the Tech Frontier: The Next Chapter
+ --><div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        From BCA Wonderland to the Tech Frontier: The Next Chapter
                 Awaits
-            </h2>
-            <p>As we wrap up this thrill-packed journey through BCA Wonderland,
-                one thing’s clear – it’s not your average university ride; it’s
-                an adrenaline-fueled tech adventure! BCA specializations aren’t
-                just flashy labels, they’re the golden tickets that open up a
-                universe teeming with opportunities. Imagine standing at the
-                crossroads of countless tech careers, equipped with the know-how
-                that makes you a digital age master. The professional playground
-                awaits – startups, giants, or maybe a master’s quest? Your BCA
-                passport gives you the power to choose.
-                <br>
-                In a world where tech evolves faster than a TikTok trend, BCA
-                isn’t just a degree; it’s your backstage pass to the
-                ever-changing show of innovation. So, buckle up, BCA grad! Your
-                journey’s just kicking off – a thrilling ride filled with
-                learning, fun and the promise of you becoming a tech sensation!
-
-            </p>
+                    </h2>
+                    <p>
+                        As we wrap up this thrill-packed journey through BCA Wonderland,
+                        one thing’s clear – it’s not your average university ride; it’s
+                        an adrenaline-fueled tech adventure! BCA specializations aren’t
+                        just flashy labels, they’re the golden tickets that open up a
+                        universe teeming with opportunities. Imagine standing at the
+                        crossroads of countless tech careers, equipped with the know-how
+                        that makes you a digital age master. The professional playground
+                        awaits – startups, giants, or maybe a master’s quest? Your BCA
+                        passport gives you the power to choose.
+                        <br>
+                        In a world where tech evolves faster than a TikTok trend, BCA
+                        isn’t just a degree; it’s your backstage pass to the
+                        ever-changing show of innovation. So, buckle up, BCA grad! Your
+                        journey’s just kicking off – a thrilling ride filled with
+                        learning, fun and the promise of you becoming a tech sensation!
+                    </p>
+                </div>
+            </div>
         </div>
+    </div>
          <!-- blog and contact form -->
      <div class="container my-5">
         <div class="row">
@@ -784,6 +896,140 @@
             </div>
             <div class="col-lg-6">
                 <contact-form></contact-form>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Is a
+                            Distance MBA affordable?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Absolutely! Distance MBA is
+                            a
+                            cost-effective alternative
+                            compared to traditional
+                            programs, making education
+                            accessible.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What's the key eligibility
+                            for a
+                            Distance MBA?
+
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Graduation from an
+                            accredited
+                            university is the primary
+                            requirement for admission to
+                            Distance MBA in 2023.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            How
+                            does hybrid learning in
+                            Distance
+                            MBA work?
+
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            In a hybrid learning setup
+                            for
+                            Distance MBA, you get the
+                            best
+                            of both worlds with online
+                            classes and occasional
+                            on-site
+                            sessions over weekends to
+                            ensure
+                            your education doesn't miss
+                            out
+                            on any crucial aspects.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>Can
+                            I
+                            work while pursuing a
+                            Distance
+                            MBA?
+
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes! The flexibility of a
+                            Distance MBA allows you to
+                            continue working while
+                            earning
+                            your postgraduate management
+                            degree.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What's the significance of
+                            OPENMAT in Distance MBA?
+
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            OPENMAT is like the
+                            gatekeeper
+                            for Distance MBA, shaping
+                            how
+                            this style of learning grows
+                            by
+                            setting tough admission
+                            criteria.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

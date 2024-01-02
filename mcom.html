@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./jquery.js"></script>
     <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
@@ -12,12 +12,19 @@
     <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
     <script src="./components/snackbar.js" type="text/javascript" defer></script>
     <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
     <script src="./components/backtotop.js" type="text/javascript" defer></script>
     <script src="./components/contactform.js" type="text/javascript" defer></script>
     <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
 </head>
 
 <body>
@@ -26,16 +33,96 @@
     <!-- banner -->
     <div class id="box-search">
         <div class="thumbnail text-center">
-            <img src="./assets/images/pgp-mcom-banner.webp" alt class="img-responsive w-100" />
+            <!-- <img src="./assets/images/distanceMbaBanner.png" alt class="img-responsive w-100"> -->
+            <div class="caption align-baseline text-center">
+                <h2 class="fw-bold text-dark banner-text">
+                    M.Com  (Masters in Commerce)
+                    <div class="form-wrapper container d-block d-md-none">
+                        <p class="text-white">Enter Your Details to Enquire</p>
+                        <form action="">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" aria-label="First name">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number" aria-label="Mobile Number">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <select class="form-select  form-select-sm" name="university" required placeholder="Select University">
+                                        <option value="Amity University">Amity University</option>
+                                        <option value="Online Manipal University">Online Manipal University</option>
+                                        <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                        <option value="GLA University">GLA University</option>
+                                        <option value="Lovely Professional University">Lovely Professional University</option>
+                                        <option value="Integral University">Integral University</option>
+                                        <option value="Uttaranchal University">Uttaranchal University</option>
+                                        <option value="IGNOU">IGNOU</option>
+                                        <option value="Mizzoram University">Mizzoram University</option>
+                                        <option value="OTHER">OTHER</option>
+                                    </select>                        
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </h2>
+            </div>
+            
+            <div class="form-wrapper container d-none d-md-block">
+                <form action="">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number" aria-label="Mobile Number">
+                        </div>
+                        
+                        <div class="col">
+                            <select class="form-select  form-select-sm" name="university" required placeholder="Select University">
+                                <option value="Amity University">Amity University</option>
+                                <option value="Online Manipal University">Online Manipal University</option>
+                                <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                <option value="GLA University">GLA University</option>
+                                <option value="Lovely Professional University">Lovely Professional University</option>
+                                <option value="Integral University">Integral University</option>
+                                <option value="Uttaranchal University">Uttaranchal University</option>
+                                <option value="IGNOU">IGNOU</option>
+                                <option value="Mizzoram University">Mizzoram University</option>
+                                <option value="OTHER">OTHER</option>
+                            </select>                        
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                        </div>
+                    </div>
+                    <!-- <div class="row mb-2">
+                        <div class="col"></div>
+                        
+                        <div class="col"></div>
+                    </div> -->
+                </form>
+            </div>
         </div>
     </div>
-    <!-- about mcom-->
-    <div class="container text-center mt-5">
-        <h2 class="fw-bold">M.Com Online Courses: Admission,
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        M.Com Online Courses: Admission,
             Specialisations, Syllabus, Duration and More
-        </h2>
-        <p class="text-justify">
-            The online­ M.Com courses in India offer a comprehensive
+                    </h2>
+                    <p class="more-sec">
+                        The online­ M.Com courses in India offer a comprehensive
             curriculum that e­ncompasses various disciplines,
             such as banking, taxation, accounts, E-commerce­, and finance,
             among others. To be e­ligible for admission,
@@ -66,15 +153,30 @@
             see­king an affordable way to obtain their master’s
             de­gree. The cost of online M.Com courses in India varies by
             university.
-        </p>
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
     </div>
+    <!-- about mcom-->
     <!-- How is Online Mode Different from Regular Mode?
 -->
-    <div class="container text-center mt-5">
-        <h2 class="fw-bold">How is Online Mode Different from Regular Mode?
-        </h2>
-        <p class="text-justify">
-            In India, students now have­ the option to earn an M.Com degre­e
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    How is Online Mode Different from Regular Mode?
+                </h2>
+                <p class="more-sec">
+                    In India, students now have­ the option to earn an M.Com degre­e
             either in-pe­rson or online, thanks to
             recent advance­ments in education. The online­ M.Com course is
             designed to provide­ students with the same
@@ -100,57 +202,79 @@
             equivalent to a traditional degree. So, after
             earning a PG in commerce, there won’t be any limitations on your
             options for professional employment.
-        </p>
+                </p>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
     </div>
+</div>
+ 
     <!-- Key Highlights of Online M.Com Degree
  -->
     <div class="container mt-5">
         <h2>Key Highlights of Online M.Com Degree
         </h2>
-        <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
-            ">A master’s degree in commerce is known as an online M.Com or
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <p>
+                    A master’s degree in commerce is known as an online M.Com or
                 virtual M.Com. You can further your study
                 through the offline method of the Master’s degree without
                 physically attending classes.
+                </p>
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">Students
+            <li>
+                <h2>2</h2>
+                <p>
+                    Students
                 in this course have temporal
                 flexibility because they can attend lectures at their
                 convenience.
-
+                </p>
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                The online M.Com. degree program spans two years and
+            <li>
+                <h2>3</h2>
+                <p>
+                    The online M.Com. degree program spans two years and
                 consists of four semesters.
-
+                </p>
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                The typical cost of the M.Com course online ranges from Rs.
+            <li>
+                <h2>4</h2>
+               <p>The typical cost of the M.Com course online ranges from Rs.
                 30,000 to Rs. 1,000,000, depending on
                 whether you enroll through a government or commercial
                 organization.
-
+                </p>
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">Curriculum
-                Revitalized: Designed for working
-                professionals,
-                distance MBA programs integrate case studies and
-                practical relevance, ensuring you’re always ahead in
-                your career.
+            <li>
+                <h2>5</h2>
+                <h3>Curriculum
+                    Revitalized: </h3>
+                <p>
+                    Designed for working
+                    professionals,
+                    distance MBA programs integrate case studies and
+                    practical relevance, ensuring you’re always ahead in
+                    your career.
+                </p>
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                A graduate with a background in commerce is required for
+            <li>
+                <h2>6</h2>
+                <p>
+                    A graduate with a background in commerce is required for
                 applicants to Masters in Commerce programs.
-
+                </p>
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                Your knowledge will increase as well as your qualifications
+            <li>
+                <h2>7</h2>
+                <p>
+                    Your knowledge will increase as well as your qualifications
                 and career.
-
+                </p>
             </li>
         </ul>
-
     </div>
 
     <div class="container mt-5">
@@ -158,55 +282,40 @@
         </h2>
         <p>M.Com courses online have a number of advantages. Students may
             have a look at the advantages: </p>
-        <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
-            ">You can enhance student profiles and resumes while working if you
-                have a master’s degree.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">An
-                MCom online course costs less than the
-                equivalent regular course.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                You can pursue additional exams like the CA, CWA, or CSS
-                with an online M.Com degree.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                One might detach themselves from open learning while taking
-                other courses.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                You can study whenever and wherever it’s convenient for you.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                Students can complete the MCom Online course program without
-                going to regular classes.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                Students have­ the opportunity to pursue a master’s de­gree
-                and expand the­ir knowledge without having
-                to leave­ their jobs or other commitments. This allows the­m
-                to further their caree­rs while maintaining
-                their current activitie­s.
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                Having an online M.Com degree will help you be paid
-                competitively.
-
-            </li>
-            <li class="list-group-item bg-light border-info border-bottom">
-                One can get many job opportunities after completing the
-                M.Com online course.
-
-            </li>
-        </ul>
-
+            <div class="card-container text-center">
+                <div class="benefit-card mh-100 p-2">
+                    <span class="">You can enhance student profiles and resumes while working if you 
+                        have a master’s degree.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="">An MCom online course costs less than the equivalent regular course.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="">
+                        You can pursue additional exams like the CA, CWA, or CSS with an online M.Com degree.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="">One might detach themselves from open learning while taking other courses.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="">You can study whenever and wherever it’s convenient for you.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="more"> Students can complete the MCom Online course program without going to regular classes.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="more">Students have­ the opportunity to pursue a master’s de­gree and expand the­ir 
+                        knowledge without having to leave­ their jobs or other commitments. This allows the­m to further their 
+                        caree­rs while maintaining their current activitie­s.</span>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="">Having an online M.Com degree will help you be paid competitively.</span>
+                </div>
+                <div class="benefit-card mh-100">
+                    <span class="">One can get many job opportunities after completing the M.Com online course.</span>
+                </div>
+            </div>
     </div>
     <!-- semester tabs -->
     <div class="container mt-5">
@@ -229,30 +338,30 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
                         <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
-                            <li class="list-group-item bg-light border-info border-bottom
+                            <li class="list-group-item border-bottom-0
                    ">Managerial Economics
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Quantitative
+                            <li class="list-group-item border-bottom-0">Quantitative
                                 Techniques
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Professional
+                            <li class="list-group-item border-bottom-0">Professional
                                 Business Communication
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Research
+                            <li class="list-group-item border-bottom-0">Research
                                 Methodology
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Business
+                            <li class="list-group-item border-bottom-0">Business
                                 Environment and Regulatory Framework
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Marketing
+                            <li class="list-group-item border-bottom-0">Marketing
                                 Management
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Financial
+                            <li class="list-group-item border-bottom-0">Financial
                                 Reporting and
                                 Analysis
 
@@ -261,27 +370,27 @@
                     </div>
                     <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
                         <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
-                            <li class="list-group-item bg-light border-info border-bottom
+                            <li class="list-group-item border-bottom-0
                        ">Advanced Financial Management
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Research
+                            <li class="list-group-item border-bottom-0">Research
                                 Methods and
                                 Statistics
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Advance
+                            <li class="list-group-item border-bottom-0">Advance
                                 Corporate Accounting
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Microfinance
+                            <li class="list-group-item border-bottom-0">Microfinance
                                 Management
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Marketing
+                            <li class="list-group-item border-bottom-0">Marketing
                                 Management
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">International
+                            <li class="list-group-item border-bottom-0">International
                                 Financial
                                 Reporting Standards
 
@@ -290,24 +399,24 @@
                     </div>
                     <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
                         <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
-                            <li class="list-group-item bg-light border-info border-bottom
+                            <li class="list-group-item border-bottom-0
                        ">Entrepreneurship
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Supply
+                            <li class="list-group-item border-bottom-0">Supply
                                 Chain and Logistics
                                 Management
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Family
+                            <li class="list-group-item border-bottom-0">Family
                                 Business Management
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Research
+                            <li class="list-group-item border-bottom-0">Research
                                 Project Report
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Security
+                            <li class="list-group-item border-bottom-0">Security
                                 Analysis and
                                 Portfolio Management
 
@@ -317,24 +426,24 @@
                     <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
                         <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
 
-                            <li class="list-group-item bg-light border-info border-bottom">Capital
+                            <li class="list-group-item border-bottom-0">Capital
                                 Market and Financial
                                 Services
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Tax
+                            <li class="list-group-item border-bottom-0">Tax
                                 Planning and Procedure
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Business
+                            <li class="list-group-item border-bottom-0">Business
                                 Finance
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Digital
+                            <li class="list-group-item border-bottom-0">Digital
                                 Marketing
 
                             </li>
-                            <li class="list-group-item bg-light border-info border-bottom">Corporate
+                            <li class="list-group-item border-bottom-0">Corporate
                                 Social
                                 Responsibility
 
@@ -566,16 +675,16 @@
 
         </p>
         <ul class="list-group effect-1 list-group-flush list-group-numbered">
-            <li class="list-group-item bg-light border-info border-bottom
+            <li class="list-group-item border-bottom-0
         ">The applicants must have a bachelor’s degree from a recognised
                 institution.
 
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">The
+            <li class="list-group-item border-bottom-0">The
                 candidate must have an overall GPA of between 45% and 50%.
 
             </li>
-            <li class="list-group-item bg-light border-info border-bottom">
+            <li class="list-group-item border-bottom-0">
                 Candidates must possess the necessary skills to enroll in an
                 M.Com course online (a background in math or business is
                 advantageous).
@@ -586,18 +695,28 @@
     </div>
     <!-- Online M.Com Course Duration 
  -->
-    <div class="container mt-5">
-        <h2>Online M.Com Course Duration
 
-        </h2>
-        <p>The M.Com online course has a two-year duration with a curriculum
+ <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    Online M.Com Course Duration
+                </h2>
+                <p>
+                    The M.Com online course has a two-year duration with a curriculum
             that is separated into four semesters. The online­ program
             offers a flexible time­frame, with a maximum duration of 4
             years. This makes it suitable­ for working professionals who
             need to balance­ their studies with other commitme­nts.
-
-        </p>
+                </p>
+            </div>
+        </div>
     </div>
+</div>
         <!-- Online M.Com Admission Procedure 
  -->
         <div class="container mt-5">
@@ -605,32 +724,32 @@
 
             </h2>
             <ul class="list-group effect-1 list-group-flush list-group-numbered">
-                <li class="list-group-item bg-light border-info border-bottom
+                <li class="list-group-item border-bottom-0
         ">To begin the registration procedure and submit an application for the
                     course, go to the enquiry form at CDEC official website.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item border-bottom-0">
                     Use your email address and phone number to create a new
                     user account.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item border-bottom-0">
                     Give your information on the application form.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item border-bottom-0">
                     Digital copies of the required documents must be
                     submitted via the website for university verification.
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item border-bottom-0">
                     The academic fee must then be paid via one of the online
                     payment methods (Net Banking, UPI Payment, Demand Draft,
                     etc.).
 
                 </li>
-                <li class="list-group-item bg-light border-info border-bottom">
+                <li class="list-group-item border-bottom-0">
                     After your application has been examined and accepted,
                     you will receive a confirmation email from the
                     institution.
@@ -652,83 +771,87 @@
                 an online M.Com degree:
 
             </p>
-            <ul class="list-group effect-1 list-group-flush list-group-numbered">
-                <li class="list-group-item bg-light border-info border-bottom
-">Assistant Accountant
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Business Consultant
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Finance Analyst
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Accountant
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Executive Assistant
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Corporate Analyst
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Stock Broker
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Finance Manager
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Operation Manager
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Corporate Banker
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Investment Banker
-
-                </li>
-                <li class="list-group-item bg-light border-info border-bottom">
-                    Business Analyst
-
-                </li>
-            </ul>
-
+            <div class="container my-5">
+                <div class="owl-carousel uni-carousel inset p-2 owl-theme">
+                    <div class="item fw-bold text-center">
+                        Assistant Accountant
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Business Consultant
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Finance Analyst
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Accountant
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Executive Assistant
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Corporate Analyst
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Stock Broker
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Finance Manager
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Operation Manager
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Corporate Banker
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Investment Banker
+                    </div>
+                    <div class="item fw-bold text-center">
+                        Business Analyst
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Why Should You Opt for an Education Loan?
  -->
-        <div class="container mt-5">
-            <h2>Why Should You Opt for an Education Loan?
-
-            </h2>
-            <p>You should take out an education loan because there are so
-                many incentives offered to students. When one
-                applies for an education loan, they are eligible for a
-                number of tax benefits. Along with the course,
-                the education loan can be conveniently repaid through
-                monthly EMI installments. Therefore, choosing
-                anything that offers a person such benefits is not a smart
-                idea. So stop deliberating about it and get
-                to work raising money for your schooling.
-
-            </p>
+ <div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    Why Should You Opt for an Education Loan?
+                </h2>
+                <p>
+                    You should take out an education loan because there are so
+                    many incentives offered to students. When one
+                    applies for an education loan, they are eligible for a
+                    number of tax benefits. Along with the course,
+                    the education loan can be conveniently repaid through
+                    monthly EMI installments. Therefore, choosing
+                    anything that offers a person such benefits is not a smart
+                    idea. So stop deliberating about it and get
+                    to work raising money for your schooling.
+                </p>
+            </div>
         </div>
-        <!-- Enroll in an Online M.Com Degree program in India Now!
- -->
-        <div class="container mt-5">
-            <h2>Enroll in an Online M.Com Degree program in India Now!
+        <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+    </div>
+</div>
 
-            </h2>
-            <p>Many professional opportunities in the financial sectors are
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+            <img class="section-content-image" src="./assets/images/about.jpg" />
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold">
+                    Enroll in an Online M.Com Degree program in India Now!
+                </h2>
+                <p>
+                    Many professional opportunities in the financial sectors are
                 made possible by an online M.Com degree in
                 India. In top firms, MNCs, banks, and finance hubs, the
                 degree holder can apply for positions such as
@@ -741,9 +864,11 @@
                 online M.Com degree in India can expect to receive a
                 competitive pay package of between 4 and 6 LPA,
                 which only increases with years of experience.
-
-            </p>
+                </p>
+            </div>
         </div>
+    </div>
+</div>
         <!-- blog and contact form -->
         <div class="container my-5">
             <div class="row">
