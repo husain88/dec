@@ -134,10 +134,9 @@ a {
 }
 
 .inset .item {
-  -webkit-box-shadow: inset -1px 0px 29px -7px rgba(199,150,26,0.86);
--moz-box-shadow: inset -1px 0px 29px -7px rgba(199,150,26,0.86);
-box-shadow: inset -1px 0px 29px -7px rgba(199,150,26,0.86);
-
+  text-shadow: -1px 1px 0 #273272, 1px 1px 0 #273272, 1px -1px 0 #273272, -1px -1px 0 #273272;
+  color: azure;
+  letter-spacing: 2px;
 }
 
 .benefit-card {
