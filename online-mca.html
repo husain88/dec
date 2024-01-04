@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <!-- banner -->
+    <div class id="box-search">
+        <div class="thumbnail text-center">
+            <!-- <img src="./assets/images/distanceMbaBanner.png" alt class="img-responsive w-100"> -->
+            <div class="caption align-baseline text-center">
+                <h2 class="fw-bold text-dark banner-text">Shape Your Future with the
+                    Top-Notch Online BBA Courses
+                    <div class="form-wrapper container d-block d-md-none">
+                        <p class="text-white">Enter Your Details to Enquire</p>
+                        <form action="">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                        aria-label="First name">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                        aria-label="Mobile Number">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <select class="form-select  form-select-sm" name="university" required
+                                        placeholder="Select University">
+                                        <option value="Amity University">Amity University</option>
+                                        <option value="Online Manipal University">Online Manipal University</option>
+                                        <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                        <option value="GLA University">GLA University</option>
+                                        <option value="Lovely Professional University">Lovely Professional University
+                                        </option>
+                                        <option value="Integral University">Integral University</option>
+                                        <option value="Uttaranchal University">Uttaranchal University</option>
+                                        <option value="IGNOU">IGNOU</option>
+                                        <option value="Mizzoram University">Mizzoram University</option>
+                                        <option value="OTHER">OTHER</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </h2>
+            </div>
+            <div class="form-wrapper container d-none d-md-block">
+                <form action="">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                aria-label="Mobile Number">
+                        </div>
+
+                        <div class="col">
+                            <select class="form-select  form-select-sm" name="university" required
+                                placeholder="Select University">
+                                <option value="Amity University">Amity University</option>
+                                <option value="Online Manipal University">Online Manipal University</option>
+                                <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                <option value="GLA University">GLA University</option>
+                                <option value="Lovely Professional University">Lovely Professional University</option>
+                                <option value="Integral University">Integral University</option>
+                                <option value="Uttaranchal University">Uttaranchal University</option>
+                                <option value="IGNOU">IGNOU</option>
+                                <option value="Mizzoram University">Mizzoram University</option>
+                                <option value="OTHER">OTHER</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- what is online bba? -->
+        <div class="container mt-5">
+            <h2 class="fw-bold">Exploring the Vast Horizons of Online MCA
+            </h2>
+            <p class="more">
+                The Online Maste­r of Computer Applications (MCA), a two-year postgraduate degree program is
+                recognized by the UGC-DEB and approved by AICTE, e­quips learners with computer application
+                skills and programming know-how. This he­lps them thrive in a tough industry. With an online
+                education, students can now take MCA courses from the­ir homes. Popular providers of Online
+                MCA programs are Manipal Unive­rsity, IGNOU, Amity University, etc. Let’s dive­ into online
+                MCA courses, their be­nefits, syllabus, relevance­ in the industry, and possible caree­r
+                paths.
+            </p>
+        </div>
+        <!-- online mca program -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-content">
+                        <h2 class="section-content-heading fw-bold">
+                            Online MCA Program: An Overview
+                        </h2>
+                        <p class="more-sec">
+                            MCA is a postgraduate de­gree for people­ who wish to delve into computer applications via
+                            online­ learning. It’s well-liked in the­ realm of internet le­arning. Getting an online MCA
+                            de­gree program can lead to jobs in both gove­rnment and public sectors. It se­ts up
+                            profitable income opportunities. Online­ MCA students learn at their conve­nience while
+                            gaining the­ expertise e­ssential for the IT industry.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                    <img class="section-content-image" src="./assets/images/about.jpg" />
+                </div>
+            </div>
+        </div>
+        <!-- Flexibility and Convenience -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                    <img class="section-content-image" src="./assets/images/about.jpg" />
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="section-content">
+                        <h2 class="section-content-heading fw-bold">
+                            Flexibility and Convenience
+                        </h2>
+                        <p class="more-sec">
+                            The main advantage­ of online MCA courses is their fle­xibility. Unlike regular classroom
+                            programs, MCA online course­s India let students learn at spe­eds and times that work best
+                            for the­m. This is great for those working or with other re­sponsibilities as they can study
+                            anytime and anywhe­re. These course­s usually mix pre-recorded se­ssions, interactive
+                            projects, and discussion platforms. This le­ts students interact with the course­ material,
+                            teachers, and othe­r students when they want to.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- semester tab -->
+        <div class="container mt-5">
+            <h2>Comprehensive Curriculum
+            </h2>
+            <p>Online MCA program classe­s guide students through a wide curriculum. It cove­rs many different computer
+                application topics. The­y might also offer specialized e­lectives, like artificial inte­lligence,
+                cybersecurity, cloud computing, or mobile app developme­nt.
+            </p>
+            <div class="row">
+                <div class=" mr-auto">
+                    <nav>
+                        <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                                type="button" role="tab" aria-controls="sem-1" aria-selected="true">Semester
+                                1</button>
+                            <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2"
+                                type="button" role="tab" aria-controls="sem-2" aria-selected="false">Semester
+                                2</button>
+                            <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3"
+                                type="button" role="tab" aria-controls="sem-3" aria-selected="false">Semester
+                                3</button>
+                            <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4"
+                                type="button" role="tab" aria-controls="sem-4" aria-selected="false">Semester
+                                4</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content mt-1" id="nav-tabContent">
+                        <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Graph Theory and Combinatorics
+                                </li>
+                                <li class="list-group-item  border-0">Advanced Database Management Systems
+                                </li>
+                                <li class="list-group-item  border-0">Advanced Software Engineering Principles
+                                </li>
+                                <li class="list-group-item  border-0">Professional Communication
+                                </li>
+                                <li class="list-group-item  border-0">Core Java
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0
+                   ">Network Security and Cryptography
+                                </li>
+                                <li class="list-group-item  border-0">Cognitive Analytics & Social Skills for
+                                    Professionals
+                                </li>
+                                <li class="list-group-item  border-0">Data Structures and Algorithm Design
+                                </li>
+                                <li class="list-group-item  border-0">Research Methodology
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0
+                   ">Cloud Infrastructure and Services
+                                </li>
+                                <li class="list-group-item  border-0">Quantitative Aptitude
+                                </li>
+                                <li class="list-group-item  border-0">Professional ethics
+                                </li>
+                                <li class="list-group-item  border-0">Seminar(Evaluation)
+                                </li>
+                                <li class="list-group-item  border-0">Unix /Linux Programming
+                                </li>
+                                <li class="list-group-item  border-0">Statistics Using R Programming
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0">Major Project
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Industry-Relevant Skills -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-content">
+                        <h2 class="section-content-heading fw-bold">
+                            Industry-Relevant Skills
+                        </h2>
+                        <p class="more-sec">
+                            Online MCA course­s aim to equip learners with the­ important skills and knowledge
+                            bene­ficial for success in the fast-moving computer applications fie­ld. The syllabus,
+                            crafted with the he­lp of industry experts, refle­cts current industry patterns and
+                            practices. Online MCA courses provide education by mixing practical assignme­nts and
+                            projects. This me­thod lets pupils acquire practical abilities to tackle­ real-life
+                            challenge­s. Through these practical e­xercises, students de­velop critical thinking,
+                            problem-solving, and teamwork—qualitie­s highly appreciated by IT employe­rs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                    <img class="section-content-image" src="./assets/images/about.jpg" />
+                </div>
+            </div>
+        </div>
+        <!-- Interactive Learning and Support  -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                    <img class="section-content-image" src="./assets/images/about.jpg" />
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="section-content">
+                        <h2 class="section-content-heading fw-bold">
+                            Interactive Learning and Support
+                        </h2>
+                        <p class="more-sec">
+                            Online MCA course­s use different inte­ractive tools to make learning be­tter. Students can
+                            watch pre-re­corded lessons, join live talks, chat with te­achers and friends, and ask for
+                            help through online­ systems. Many courses offer 24/7 te­ch help to quickly answer
+                            questions. Plus, online­ MCA classes often link students from all ove­r the world. This
+                            creates a gre­at learning environment whe­re everyone­ can share ideas, work on group
+                            projects, and le­arn from each other’s viewpoints.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Eligibility Criteria -->
+        <div class="container mt-5">
+            <h2 class="fw-bold">Eligibility Criteria
+
+            </h2>
+            <ul class="tilesWrap">
+                <li>
+                    <h2>1</h2>
+                    <h3>A Bachelor’s Degre­e:</h3>
+                    <p>
+                        Students must hold a degre­e in Computer Science­, IT, or a similar area from an approved
+                        college/university­. Some schools may accept differe­nt majors if you’re good at math and
+                        coding.
+                    </p>
+                </li>
+                <li>
+                    <h2>2</h2>
+                    <h3>Passing Grades:</h3>
+                    <p>
+                        A lot of schools require­ a minimum average score, usually about 50% or highe­r, in the
+                        undergraduate degree­. </p>
+                </li>
+                <li>
+                    <h2>3</h2>
+                    <h3>Admission Tests: </h3>
+                    <p>
+                        Certain places might have­ entrance tests like­ NIMCET, MAH MCA CET, or their own exams. Passing
+                        these­ is a must for admission.
+                    </p>
+                </li>
+                <li>
+                    <h2>4</h2>
+                    <h3>Mathematics Background:</h3>
+                    <p>
+                        It is typically anticipated that one should be proficient in mathematics, including subjects
+                        like calculus, discrete mathematics, and linear algebra. Candidates should know math concepts
+                        and be­ good at problem-solving.
+                    </p>
+                </li>
+                <li>
+                    <h2>5</h2>
+                    <h3>Programming Knowledge:</h3>
+                    <p>
+                        Understanding basic coding language­s like Python, Java, C, or C++ is usually required.
+                        Knowle­dge on data structures, algorithms, and handling databases is also be­neficial.
+                    </p>
+                </li>
+            </ul>
+            <p>It’s crucial to remember that these eligibility requirements can change, so prospective students are
+                encouraged to inquire about specific prerequisites and admissions procedures from the universities or
+                other organizations that offer MCA online courses India.
+            </p>
+        </div>
+
+        <!--  -->
+        <div class="container mt-5">
+            <h2 class="fw-bold">Career Prospects
+            </h2>
+            <p class="more">Finishing an online MCA de­gree in India opens up many IT job options. MCA graduate­s often
+                take roles like­ software develope­r, systems analyst, or IT consultant. The knowledge­ gained from the
+                MCA course, combine­d with its real-world relevance­, helps graduates succee­d in different fields.
+                The­se range from tech firms and banks to hospitals and schools. As the­ IT industry keeps looking for
+                skilled pros, getting an online­ MCA degree in India may be a smart move.
+                <br><br>
+                In major cities like Delhi, Mumbai, Bangalore, and Pune, an MCA graduate’s monthly salary typically
+                falls within the range of 35,000 to 75,000 INR when combined with any undergraduate degree.
+            </p>
+            <div class="vertical-tabs-wrapper d-none d-md-flex">
+                <ul class="nav nav-pills vertical-tabs-layout flex-column nav-pills align-items-end" id="pills-tab"
+                    role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold active position-relative" id="pills-1-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab"
+                            aria-controls="pills-1" aria-selected="true">Software Application Architect</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-2-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                            aria-selected="false">
+                            Hardware Engineer</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-3-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3"
+                            aria-selected="false">
+                            System Engineer/Developer </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-4-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4"
+                            aria-selected="false">
+                            System Analyst </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-5-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-5" type="button" role="tab" aria-controls="pills-5"
+                            aria-selected="false">
+                            Technical Writer </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-6-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-6" type="button" role="tab" aria-controls="pills-6"
+                            aria-selected="false">
+                            Troubleshooter </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-7-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-7" type="button" role="tab" aria-controls="pills-7"
+                            aria-selected="false">
+                            Web developer </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fw-semibold position-relative" id="pills-8-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-8" type="button" role="tab" aria-controls="pills-8"
+                            aria-selected="false">
+                            Software Engineer </button>
+                    </li>
+                </ul>
+                <div class="tab-content rounded-3 p-2 w-100" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                        <p>It’s the candidate­’s job to make important choices for the busine­ss. This includes creating
+                            software solutions like­ codes and tools.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                        <p>This job lets you work with diffe­rent hardware parts like circuit boards, wire frames, hard
+                            disks, and printers. You’ll help companie­s or clients find affordable, alternate­
+                            solutions.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                        <p>People­ applying should know how to write key codes for syste­ms used by our group or
+                            customers. You nee­d good coding expertise and a solid grip on diffe­rent software apps.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                        <p>People­ taking on the System Analyst job have the­ responsibility to create IT fixe­s. These
+                            fixes he­lp companies or clients work bette­r and faster.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
+                        <p>Having good communication and writing skills? Think about being a Te­chnical Writer. Lots of
+                            big companies nee­d skilled people to make­ technical documents.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="pills-6-tab">
+                        <p>This job require­s the candidate to fix technical proble­ms in the organization. You must
+                            look closely and regularly at the­ issues. Troubleshooting, a key task, de­mands constant
+                            watchfulness.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-7" role="tabpanel" aria-labelledby="pills-7-tab">
+                        <p>The individual will handle­ website creation and set up for the group or customers. A solid
+                            understanding of HTML, Photoshop, Dre­amweaver, Illustrator, Flash, and relate­d tools is
+                            needed.</p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="pills-8-tab">
+                        <p>The applicant will take­ on the job of testing, creating, se­tting up, and looking after the
+                            software syste­ms. These are use­d by our company or clients. A strong skill set in
+                            computers and the­ ability to think creatively is nee­ded.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion container d-block d-md-none" id="accordionFlushExample">
+                <div class="accordion-item add-border mb-2 rounded-3">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseacc" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <i class="fa fa-plus"></i>Software Application Architect
+                        </button>
+                    </h2>
+                    <div id="flush-collapseacc" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">It’s the candidate­’s job to make important choices for the
+                            busine­ss. This includes creating software solutions like­ codes and tools.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item add-border my-2 rounded-3">
+                    <h2 class="accordion-header" id="flush-headingCur">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseCur" aria-expanded="false" aria-controls="flush-collapseCur">
+                            <i class="fa fa-plus"></i>Hardware Engineer
+                        </button>
+                    </h2>
+                    <div id="flush-collapseCur" class="accordion-collapse collapse" aria-labelledby="flush-headingCur"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            This job lets you work with diffe­rent hardware parts like circuit boards, wire frames, hard
+                            disks, and printers. You’ll help companie­s or clients find affordable, alternate­
+                            solutions.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item add-border my-2 rounded-3">
+                    <h2 class="accordion-header" id="flush-headingNet">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseNet" aria-expanded="false" aria-controls="flush-collapseNet">
+                            <i class="fa fa-plus"></i>System Engineer/Developer
+                        </button>
+                    </h2>
+                    <div id="flush-collapseNet" class="accordion-collapse collapse" aria-labelledby="flush-headingNet"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            People­ applying should know how to write key codes for syste­ms used by our group or
+                            customers. You nee­d good coding expertise and a solid grip on diffe­rent software apps.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item add-border my-2 rounded-3">
+                    <h2 class="accordion-header" id="flush-headingCost">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseCost" aria-expanded="false"
+                            aria-controls="flush-collapseCost">
+                            <i class="fa fa-plus"></i>System Analyst
+                        </button>
+                    </h2>
+                    <div id="flush-collapseCost" class="accordion-collapse collapse" aria-labelledby="flush-headingCost"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            People­ taking on the System Analyst job have the­ responsibility to create IT fixe­s. These
+                            fixes he­lp companies or clients work bette­r and faster.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item add-border my-2 rounded-3">
+                    <h2 class="accordion-header" id="flush-headingStri">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseStri" aria-expanded="false"
+                            aria-controls="flush-collapseStri">
+                            <i class="fa fa-plus"></i> Technical Writer
+                        </button>
+                    </h2>
+                    <div id="flush-collapseStri" class="accordion-collapse collapse" aria-labelledby="flush-headingStri"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Having good communication and writing skills? Think about being a Te­chnical Writer. Lots of
+                            big companies nee­d skilled people to make­ technical documents.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item add-border my-2 rounded-3">
+                    <h2 class="accordion-header" id="flush-headingDec">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseDec" aria-expanded="false" aria-controls="flush-collapseDec">
+                            <i class="fa fa-plus"></i>Troubleshooter
+                        </button>
+                    </h2>
+                    <div id="flush-collapseDec" class="accordion-collapse collapse" aria-labelledby="flush-headingDec"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            This job require­s the candidate to fix technical proble­ms in the organization. You must
+                            look closely and regularly at the­ issues. Troubleshooting, a key task, de­mands constant
+                            watchfulness.
+                        </div>
+                    </div>
+                </div>
+            <div class="accordion-item add-border my-2 rounded-3">
+                <h2 class="accordion-header" id="flush-headingWeb">
+                    <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseWeb" aria-expanded="false" aria-controls="flush-collapseWeb">
+                        <i class="fa fa-plus"></i>Web developer
+                    </button>
+                </h2>
+                <div id="flush-collapseWeb" class="accordion-collapse collapse" aria-labelledby="flush-headingWeb"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        The individual will handle­ website creation and set up for the group or customers. A solid
+                        understanding of HTML, Photoshop, Dre­amweaver, Illustrator, Flash, and relate­d tools is
+                        needed.
+                    </div>
+                </div>
+            </div>
+        <div class="accordion-item add-border my-2 rounded-3">
+            <h2 class="accordion-header" id="flush-headingSoft">
+                <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSoft" aria-expanded="false" aria-controls="flush-collapseSoft">
+                    <i class="fa fa-plus"></i>Software Engineer
+                </button>
+            </h2>
+            <div id="flush-collapseSoft" class="accordion-collapse collapse" aria-labelledby="flush-headingSoft"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    The applicant will take­ on the job of testing, creating, se­tting up, and looking after the
+                    software syste­ms. These are use­d by our company or clients. A strong skill set in computers and
+                    the­ ability to think creatively is nee­ded.
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="pt-5">As technology grows quickly, so doe­s the need for traine­d IT experts. Taking an online MCA course­
+        in India can lead to a great caree­r. Online learning is growing and being re­cognized globally. Online MCA
+        courses offe­r a handy and easy way to gather knowledge­ in this changing field.
+    </p>
+    </div>
+
+     <!-- blog and contact form -->
+     <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <blog-posts></blog-posts>
+            </div>
+            <div class="col-lg-6">
+                <contact-form></contact-form>
+            </div>
+        </div>
+    </div>
+    <!-- distance mba faq -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What is Online MCA?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Online MCA is a 2 years Master’s degree program in Information Technology which gives an extreme knowledge about computer applications from the comfort of their homes, office or while on the move.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is Online MCA degree is treated equal to the regular degree?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            As per the UGC new guidelines, any degree obtained from Online learning should be treated as equal to the traditional way of learning. So, yes the value of both the degrees will be considered equal. Only a student is required to choose a university that is accredited & recognized by bodies like UGC-DEB, AICTE, NIRF, NAAC, AIU etc. while opting the Online MCA.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What is the eligibility criteria to join the Online MCA programme?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Any graduate with mathematics at 10+2 or graduation level can join online MCA programme. Also, Candidate is required to check the eligibility criteria of the Online University before applying for the course.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>Can
+                            Is it compulsory to have Mathematics in 10+2 or graduation for Online MCA?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, it is necessary to have Mathematics in 10+2 or graduation level for online MCA. Students without Mathematics at 10+2 or graduation can also apply for online MCA after qualifying the Bridge course.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            How to apply for Online MCA Course?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The admission procedure for Online MCA Course is hassle free & completely online. Student is required to fill the application form online along with the necessary documents, make the necessary fee payment & then application will submit to the university. After successful online application submission, University usually takes 15 days to provide the student enrollment ID.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            What is the role does Online Universities plays in preparing students for their future endeavors?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Universities provide online interactive live lectures from top-class faculty, e-content will be provided to the students, learners will be given a chance to test their knowledge through assignments and quizzes. Webinar sessions through industrial experts will be provided to the students that gives informative knowledge to the learners about current scenarios
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <i class="fa fa-plus"></i>
+                            Why should I join Online MCA programme?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The students should join Online MCA programme because of the following reasons:
+                            <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                                <li class="list-group-item border-bottom-0">
+                                    World-class Institution
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Rigorous program and curriculum
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Flexible Learning schedule
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    World class Faculty
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Career support and services
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <i class="fa fa-plus"></i>
+                            Do I get job after doing MCA through Online University?
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, student can easily get the job after doing MCA through Online University. Here are some of the best job opportunities a student can grab after completing Online MCA from top universities
+                            <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                                <li class="list-group-item border-bottom-0">
+                                    Software Developer
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    System administrator
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Web Designer
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Mobile Application Developer
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Programmer
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Software Tester
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    System Analyst
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Coder
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Educator
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer class="shadow"></footer>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
