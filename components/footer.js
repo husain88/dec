@@ -256,14 +256,8 @@ class Footer extends HTMLElement {
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                  <div class="col-md-6 col-sm-6 text-sm-left text-center">
+                  <div class="col-md-12 col-sm-12 text-center">
                     <span class="copy-right-text">© 2024 <a href="">CDEC</a> All Rights Reserved.</span>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <ul class="terms-privacy d-flex justify-content-sm-end justify-content-center">
-                      <li><a href="t&c.html">Terms & Conditions</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                    </ul>
                   </div>
               </div>
             </div>
