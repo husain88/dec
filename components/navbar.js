@@ -169,7 +169,7 @@ class Navbar extends HTMLElement {
                 >Under Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
-                <li><a class="dropdown-item" href="blog.html">Online BCA Courses</a></li>
+                <li><a class="dropdown-item" href="online-bca.html">Online BCA Courses</a></li>
                 <li><a class="dropdown-item" href="online-bba.html">Online BBA Courses</a></li>
                 <li><a class="dropdown-item" href="blog.html">Online BSC Courses</a></li>
                 <li><a class="dropdown-item" href="bcom.html">Online BCOM Courses</a></li>

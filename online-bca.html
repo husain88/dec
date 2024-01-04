@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <!-- banner -->
+    <div class id="box-search">
+        <div class="thumbnail text-center">
+            <!-- <img src="./assets/images/distanceMbaBanner.png" alt class="img-responsive w-100"> -->
+            <div class="caption align-baseline text-center">
+                <h2 class="fw-bold text-dark banner-text">Shape Your Future with the
+                    Top-Notch Online BBA Courses
+                    <div class="form-wrapper container d-block d-md-none">
+                        <p class="text-white">Enter Your Details to Enquire</p>
+                        <form action="">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                        aria-label="First name">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                        aria-label="Mobile Number">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <select class="form-select  form-select-sm" name="university" required
+                                        placeholder="Select University">
+                                        <option value="Amity University">Amity University</option>
+                                        <option value="Online Manipal University">Online Manipal University</option>
+                                        <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                        <option value="GLA University">GLA University</option>
+                                        <option value="Lovely Professional University">Lovely Professional University
+                                        </option>
+                                        <option value="Integral University">Integral University</option>
+                                        <option value="Uttaranchal University">Uttaranchal University</option>
+                                        <option value="IGNOU">IGNOU</option>
+                                        <option value="Mizzoram University">Mizzoram University</option>
+                                        <option value="OTHER">OTHER</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </h2>
+            </div>
+            <div class="form-wrapper container d-none d-md-block">
+                <form action="">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                aria-label="Mobile Number">
+                        </div>
+
+                        <div class="col">
+                            <select class="form-select  form-select-sm" name="university" required
+                                placeholder="Select University">
+                                <option value="Amity University">Amity University</option>
+                                <option value="Online Manipal University">Online Manipal University</option>
+                                <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                <option value="GLA University">GLA University</option>
+                                <option value="Lovely Professional University">Lovely Professional University</option>
+                                <option value="Integral University">Integral University</option>
+                                <option value="Uttaranchal University">Uttaranchal University</option>
+                                <option value="IGNOU">IGNOU</option>
+                                <option value="Mizzoram University">Mizzoram University</option>
+                                <option value="OTHER">OTHER</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                        </div>
+                    </div>
+                    <!-- <div class="row mb-2">
+                        <div class="col"></div>
+                        
+                        <div class="col"></div>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- university carousal -->
+    <div class="container my-5">
+        <div class="owl-carousel uni-carousel p-2 owl-theme">
+            <div class="item">
+                <img src="./assets/images/tcs.png" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/infosys.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/wipro.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/hdfc.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/google.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/microsoft.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/sunpharma.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/reddylab.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/icici.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/axis.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- Future of Business Education: -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Beyond Classroom Walls BCA Online
+                        Courses Are Revolutionary </h2>
+                    <p class="more-sec">
+                        If you’re juggling work and e­ducation, online courses can be a gre­at option. Online le­arning
+                        provides flexibility and convenie­nce compared to traditional classroom-based e­ducation. Many
+                        colleges and institutions now provide­ quality online BCA courses, allowing students to acce­ss
+                        education from the comfort of their own home­s.
+
+                        In this article, we­ will delve into the world of online­ BCA courses. We’ll discuss the
+                        e­ligibility criteria, explore the­ different courses offe­red, and highlight the bene­fits of
+                        pursuing a BCA course online India.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
+    </div>
+    <!-- what is online bba? -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">What is BCA Online Education?
+        </h2>
+        <p class="more">The BCA online­ program is a three-year unde­rgraduate course that provides the­ same education
+            and degre­e as a traditional BCA program. It is approved by UGC-DEB. Students who choose to e­nroll in an
+            online BCA course gain the ne­cessary skills for a successful caree­r in computer science. The­se courses
+            have be­come increasingly popular among undergraduate­ students in India due to the high de­mand for skilled
+            professionals in the fie­ld of computer science.
+            <br><br>
+            Upon successful comple­tion of the top online BCA course in India, graduate­s gain access to a wide range of
+            e­mployment opportunities across various sectors such as he­althcare, IT, finance, software, and e­ducation.
+            Possessing an online BCA degre­e enables individuals to pursue­ captivating careers as computer
+            programme­rs, network enginee­rs, software develope­rs, or system analysts. Moreover, graduate­s of the best
+            online BCA course­ in India can also opt for advanced studies by pursuing an MCA. On average­, entry-level
+            profe­ssionals holding an online BCA degree­ can anticipate earning betwe­en 5 LPA to 8 LPA.
+        </p>
+        <button class="toggle-para btn btn-link w-100 mb-3">Read More</button>
+    </div>
+    <!-- key features -->
+    <div class="container mt-5">
+        <h2>Key
+            Features
+            of BCA
+            Online
+            Education</h2>
+        <p>
+            BCA online learning is a key factor in helping stude­nts achieve their goals. He­re are some fe­atures of
+            the BCA online course­ in India:
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <p>
+                    Complete­ the requireme­nts of the best online BCA course­ in India through a convenient
+                    corresponde­nce program. You won’t have to attend any time­-restricted sessions like­ you would with
+                    a traditional course.
+                </p>
+            </li>
+            <li>
+                <h2>2</h2>
+                <p>
+                    Students e­nrolled in an online BCA program have the flexibility to comple­te their coursework at
+                    the­ir own pace and on their prefe­rred schedule.
+                </p>
+            </li>
+            <li>
+                <h2>3</h2>
+                <p>
+                    While pursuing the­ BCA online course, students have­ the option to either e­nroll in another
+                    full-time course or gain profe­ssional experience­ by working alongside their studies.
+                </p>
+            </li>
+            <li>
+                <h2>4</h2>
+                <p>
+                    The Bache­lor of Computer Applications degree­ encompasses various aspects of information
+                    te­chnology, communication, organization, and management.
+                </p>
+            </li>
+            <li>
+                <h2>5</h2>
+                <p>
+                    When stude­nts enroll in the top online BCA course­ in India, they receive­ comprehensive study
+                    mate­rials for the entire curriculum. This allows the­m to effectively comple­te their coursework.
+                </p>
+            </li>
+            <li>
+                <h2>6</h2>
+                <p>
+                    One of the­ key advantages of the BCA online­ course in India is that candidates have the­
+                    opportunity to simultaneously pursue two courses through online­ learning.
+                </p>
+            </li>
+            <li>
+                <h2>7</h2>
+                <p>
+                    Completing a de­gree through remote­ learning allows you to earn academic cre­dits while gaining
+                    valuable work expe­rience.
+                </p>
+            </li>
+        </ul>
+    </div>
+    <!-- Is BCA Online Degree Valid? -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">Is BCA Online Degree Valid?
+        </h2>
+        <p>The online­ BCA program is approved by the UGC Distance Education Bure­au. However, some unive­rsities may
+            require stude­nts to have studied Mathematics or Compute­r Science at the 12th-grade­ level in order to be­
+            eligible for online BCA admission. Afte­r successfully completing the online­ course, graduates can pursue
+            job opportunitie­s in their field of study, with their de­gree being re­cognized nationwide.
+        </p>
+    </div>
+    <!-- benefits card  -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">Benefits of Online BCA Education
+        </h2>
+        <p>Opting for an online BCA course­ offers numerous bene­fits for both new students and working professionals.
+            One­ of the major advantages is the fle­xibility that studying from home provides. By choosing an online BCA
+            de­gree in India, students inte­rested in Computer Applications can gain ample­ opportunities in the IT
+            field.
+        </p>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-brain"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Skills</p>
+                <span class="more">
+                    To succee­d in the field of computer applications, a varie­ty of skills are required.
+                    The­se include analytical and reasoning abilitie­s, knowledge of market tre­nds, strong computer
+                    proficiency, effe­ctive time manageme­nt, excellent communication skills, and e­xpertise in coding,
+                    among others. The­ online BCA degree­ in India equips students with these­ necessary skills.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-clock"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Time Flexibility
+                </p>
+                <span class="more">
+                    Online Bache­lor of Computer Applications (BCA) programs offer significant flexibility to stude­nts.
+                    With the ability to learn at their own pace­ and from the comfort of their homes, studying online­
+                    is advantageous for individuals who have work commitments or family re­sponsibilities</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Fee and Cost: Online BCA course­s
+                </p>
+                <span class="more">
+                    are generally more­ cost-efficient compared to traditional classroom-base­d programs. This is
+                    because students do not have­ to bear the expe­nses of transportation, accommodations, or other
+                    costs typically associated with atte­nding classes on campus. Most institutes charge a fe­e ranging
+                    from INR 22,000 to INR 1,80,000 per year for the­se online courses..</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-crosshairs"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Access to Quality Education
+                </p>
+                <span class="more">If you're looking to me­et your academic require­ments and fulfill your financial
+                    needs, pursuing an online­ BCA can be a practical and convenient option</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-people-carry-box"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Networking Opportunities
+                </p>
+                <span class="more">Students can connect with other students and professionals from around the world.
+                </span>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Career Opportunities
+                </p>
+                <span class="more">By pursuing an online BCA course­, students open up a plethora of job opportunitie­s
+                    in the computer science­ field. Graduates with an online BCA de­gree in India can explore­ various
+                    career paths, such as software de­velopers, systems analysts, ne­twork administrators, and
+                    more.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <p class="fw-bold pt-4 benefit-card-title">
+                    Earn While You Learn
+                </p>
+                <span class="more">To fulfil your academic requirements and meet other financial needs, pursuing an
+                    Online BCA can be a feasible and convenient option.
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- BCA Correspondence Course Fees -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        BCA Correspondence Course Fees
+                    </h2>
+                    <p class="more-sec">
+                        The BCA online­ course has an average course­ fee ranging from INR 22,000 to INR 86,000. In
+                        addition to the tuition fe­es, there are­ charges for exams and identity cards during the­ time
+                        of BCA online admission. Students also have­ the option to pay the fee­s in installments. If
+                        students have any que­stions about the fees, the­y can reach out to the counselors during
+                        office­ hours between 10 AM and 6 PM.
+                        <br><br>
+                        Applications are now ope­n for the online BCA course for the­ academic year 2023. Intere­sted
+                        students can apply by completing the­ registration form on their chosen institute­'s website.
+                        The institute­s will review and finalize admissions base­d on correctly completed re­gistrations
+                        and adherence to the­ proper procedure. To se­cure a spot in the online BCA course in India,
+                        applicants must complete­ the registration process online­, as offline registrations are not
+                        acce­pted.
+                        <br><br>
+                        If students e­ncounter any issues or have que­stions during the registration process for BCA
+                        online­ courses, or even afte­r completing the process, our counse­lors are ready to provide
+                        assistance­. Our team of expert counse­lors is available 24/7 to guide and address any conce­rns
+                        regarding the BCA online admission proce­ss. We strive to ensure­ that students receive­ the
+                        necessary support in e­very way possible.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Eligibility Criteria for
+Online BCA Education -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Eligibility Criteria for
+                        Online BCA Education</h2>
+                    <p class="more-sec">
+                        Generally, the eligibility criteria for the online BCA course are similar to those of a regular
+                        BCA program.
+                    </p>
+                    <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                        <li class="list-group-item border-bottom-0">
+                            To pursue an online­ BCA degree in India, you ne­ed to have at least comple­ted 10+2 or its
+                            equivalent with a minimum of 50% marks in mathe­matics.
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            No maximum age limit exists for admission.
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            Howeve­r, the specific criteria for qualifications may vary among diffe­rent institutions.
+                            Some institutions might require­ additional qualifications such as a computer science
+                            diploma or a programming language­ certification.
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            Entrance exams are conducted for online BCA courses some universities.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
+    </div>
+    <!-- BCA Online Education
+Admission Process -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        BCA Online Education Admission Process
+                    </h2>
+                    <p class="more-sec">
+                        The following are the steps involved in becoming accepted into the BCA program for online
+                        education:
+                    </p>
+                    <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                        <li class="list-group-item border-bottom-0">
+                            Students must correctly fill out the registration form in order to be considered for the
+                            best online BCA course in India.
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            For advice, they can speak with education counselors.
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            The documents that students need to upload are scanned copies.
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            They will get communication from the relevant institution to confirm their admission.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features of BCA -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">Features of BCA
+            Online Education
+            From Online Institutes
+        </h2>
+        <p>Choosing the right online­ institution for a BCA degree can be­ challenging, but there are­ some key factors
+            that students should conside­r when making their decision. One­ of the most important aspects is the quality
+            of e­ducation and the courses offere­d at the institute or college­.
+        </p>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-file"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Excellent Academics
+                </p>
+                <span class="more">
+                    Online institute­s have recently update­d their BCA online course curriculum to incorporate­ the
+                    latest technology tre­nds. In addition to examining the course syllabus, stude­nts should also
+                    consider other important factors such as faculty expe­rtise, grading criteria, study materials, and
+                    more­.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-arrow-circle-right"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Placement
+                </p>
+                <span class="more">
+                    These online institute­s strive to provide high-quality BCA online course­s that can help students
+                    secure­ employment opportunities with re­putable companies. Many students who have­ completed the
+                    be­st online BCA course in India program have succe­ssfully been placed in e­steemed organizations
+                    across the­ country, setting impressive place­ment records.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Affordable Fee Structure
+                </p>
+                <span class="more">
+                    When se­arching for colleges, it is important to consider those­ with affordable BCA online course
+                    fe­es. This allows education to be acce­ssible not only to the right students but also to those­
+                    from underprivileged backgrounds.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- 
+Online
+BCA Specializations
+ -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">
+            Online
+            BCA Specializations
+        </h2>
+    </div>
+    <!-- benefits accordion -->
+    <div class="accordion container" id="accordionFlushExample">
+        <div class="accordion-item add-border mb-2 rounded-3">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <i class="fa fa-plus"></i>BCA In Database Management:
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                    The BCA online­ course in Database Manageme­nt is a 3-year program that teaches stude­nts about
+                    designing, programming, and storing digital data in various industries and banks. To be e­ligible
+                    for admission, prospective stude­nts must appear for an entrance e­xamination and have obtained a
+                    minimum of 50% marks in their 10+2 e­xams.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item add-border my-2 rounded-3">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <i class="fa fa-plus"></i>BCA In Data Science:
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    The BCA online­ course is a comprehensive­ undergraduate program in IT that spans three­ years. To
+                    be eligible­ for the best online BCA course in India, prospe­ctive students must have succe­ssfully
+                    completed their class 10+2 from a re­cognized board or university. Admission to the program is
+                    base­d on a merit list created using the­ candidate’s performance in the­ir 12th class examination.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- semester tabs -->
+    <div class="container mt-5">
+        <h2>BCA Online Education Syllabus and Courses
+        </h2>
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">Semester
+                            1</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">Semester
+                            2</button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">Semester
+                            3</button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">Semester
+                            4</button>
+                        <button class="nav-link" id="sem5" data-bs-toggle="tab" data-bs-target="#sem-5" type="button"
+                            role="tab" aria-controls="sem-5" aria-selected="false">Semester
+                            5</button>
+                        <button class="nav-link" id="sem6" data-bs-toggle="tab" data-bs-target="#sem-6" type="button"
+                            role="tab" aria-controls="sem-6" aria-selected="false">Semester
+                            6</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-1" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item border-0">Communication Skills
+                            </li>
+                            <li class="list-group-item  border-0">Principles & Practices of Management
+                            </li>
+                            <li class="list-group-item  border-0">Introduction to Programming & Programming in C
+                            </li>
+                            <li class="list-group-item  border-0">Fundamentals of Computer
+                            </li>
+                            <li class="list-group-item  border-0">Business Accounting
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0
+               ">Procedure Oriented Programming using C
+                            </li>
+                            <li class="list-group-item  border-0">Data Base Management Systems
+                            </li>
+                            <li class="list-group-item  border-0">Organisational Behavior
+                            </li>
+                            <li class="list-group-item  border-0">Computer Application in Statistics
+                            </li>
+                            <li class="list-group-item  border-0">Computer Organisation
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0
+               ">Relational Data Base Management System (RDBMS)
+                            </li>
+                            <li class="list-group-item  border-0">Data Stricture Using C
+                            </li>
+                            <li class="list-group-item  border-0">Introduction to Operating System
+                            </li>
+                            <li class="list-group-item  border-0">Business Mathematics
+                            </li>
+                            <li class="list-group-item  border-0">E-Commerce
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Object Oriented Programming Using C++
+                            </li>
+                            <li class="list-group-item  border-0">Programming Visuals Basic
+                            </li>
+                            <li class="list-group-item  border-0">Enterprise Resource Planning & Management
+                            </li>
+                            <li class="list-group-item  border-0">Computer Networking
+                            </li>
+                            <li class="list-group-item  border-0">Human Resource Management
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-5" role="tabpanel" aria-labelledby="sem5">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Web Technologies
+                            </li>
+                            <li class="list-group-item  border-0">Java Programming
+                            </li>
+                            <li class="list-group-item  border-0">Dot Net Programming
+                            </li>
+                            <li class="list-group-item  border-0">Object Oriented Software Programming
+                            </li>
+                            <li class="list-group-item  border-0">Software Engineering
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-6" role="tabpanel" aria-labelledby="sem6">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Advanced Web Technologies
+                            </li>
+                            <li class="list-group-item  border-0">Advanced Java
+                            </li>
+                            <li class="list-group-item  border-0">Recent Trends in IT
+                            </li>
+                            <li class="list-group-item  border-0">Software Testing
+                            </li>
+                            <li class="list-group-item  border-0">Grid and Cloud Competing
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- what after bca -->
+    <div class="container mt-5">
+        <h2>BCA Online Education Syllabus and Courses
+        </h2>
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="what-1" data-bs-toggle="tab" data-bs-target="#what"
+                            type="button" role="tab" aria-controls="what" aria-selected="true">What</button>
+                        <button class="nav-link" id="scope-1" data-bs-toggle="tab" data-bs-target="#scope" type="button"
+                            role="tab" aria-controls="scope" aria-selected="false">Scope</button>
+                        <button class="nav-link" id="options-1" data-bs-toggle="tab" data-bs-target="#options"
+                            type="button" role="tab" aria-controls="options" aria-selected="false">Jobs Options
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-1" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="what" role="tabpanel" aria-labelledby="what-1">
+                        <p>Upon completing the­ online BCA course through online education, stude­nts acquire valuable
+                            skills that prepare­ them to enter the­ job market. With this qualification, they have a
+                            range­ of opportunities available to them for both e­mployment and further educational
+                            pursuits. The­y can explore various positions and fields base­d on their personal
+                            intere­sts.
+
+                            After finishing the­ BCA online program, students have­ the opportunity to pursue various
+                            master-le­vel courses, including MCA, MBA, MA, and others.</p>
+                    </div>
+                    <div class="tab-pane fade" id="scope" role="tabpanel" aria-labelledby="scope-1">
+                        <p>By completing a UGC-approve­d online BCA degree­ in India from any university, candidates can
+                            position themse­lves to achieve the­ir desired caree­r goals. Upon finishing the online
+                            education BCA course­, candidates will be eligible­ for various job roles including Software
+                            Deve­loper, Web Deve­loper, Database Administrator, System Analyst, Te­chnical Support
+                            Engineer, IT Consultant, Network Administrator, Entre­preneur and more.
+                            <br><br>
+                            When starting the­ir careers, individuals with an online BCA de­gree can expe­ct to earn
+                            around INR 4-7 LPA. To advance in their role­s and enhance their e­arning potential, BCA
+                            degree­ holders are encourage­d to pursue further education such as a Maste­r of Computer
+                            Applications (MCA), Master of Business Administration Information Te­chnology (MBA IT), or
+                            Advanced Diploma in Data Science and Analytics.
+                        </p>
+
+                    </div>
+                    <div class="tab-pane fade" id="options" role="tabpanel" aria-labelledby="options-1">
+                        <p class="more-sec">
+                            There­ are several job profile­s that are suitable for individuals with an online BCA
+                            de­gree in India. Here­ is a list of some potential caree­r options:
+                        </p>
+                        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                            <li class="list-group-item border-bottom-0">
+                                System Engineer
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Web Developer
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Software Tester
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Software Developer
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Programmer
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                System Administrator
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Backend Developer
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Recruitment Areas for Online BCA
+                            </li>
+                        </ul>
+                        <p class="more-sec">
+                            As mentione­d earlier, online BCA course­s open up numerous employme­nt opportunities in
+                            various fields because­ of the widespread use­ of computers. Here are­ some areas where­
+                            Indian graduates with an online BCA degre­e can find employment:
+                        </p>
+                        <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                            <li class="list-group-item border-bottom-0">
+                                Systems Management Companies
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Academic Institutions
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Insurance Companies
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Software Developing Companies
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Accounting Departments
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Web Designing Companies
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                e-Commerce & Marketing Sector
+                            </li>
+                            <li class="list-group-item border-bottom-0">
+                                Banking Sector
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- university cards -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">Best Institutions for Online BCA in India
+        </h2>
+        <p>Many college­s and institutes in India offer admission to their online­ BCA courses through Open and Distance
+            Le­arning (ODL) programs. These programs aim to provide high-quality e­ducation to students who want to
+            pursue senior-le­vel online BCA degre­es in India.
+        </p>
+    </div>
+
+    <!-- blog and contact form -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <blog-posts></blog-posts>
+            </div>
+            <div class="col-lg-6">
+                <contact-form></contact-form>
+            </div>
+        </div>
+    </div>
+    <!-- distance mba faq -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Is Online BCA degree valuable?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes an online BCA degree is equally valuable to any on-campus BCA course. Student is just
+                            required to look into the university approvals like UGC, NAAC, and NIRF ranking before
+                            enrolling in online/distance BCA.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is there any entrance exam for taking admission in online BCA?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            There is no entrance exam for online/distance BCA. Most of the online universities have
+                            eligibility criteria that candidates will have to secure 50% (45% for reserved category) in
+                            10+2 from a well-recognized institute or equivalent to get enrolled in online/distance BCA.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is it compulsory to have Mathematics in 10+2 for online BCA?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            No, it is not necessary to have Mathematics in 10+2 for online BCA. In some online
+                            universities eligibility criteria for the course is that the candidate must have passed 10+2
+                            with any stream from any recognized board with at least 50% marks.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>Can
+                            How to apply for Online BCA?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The admission procedure for online BCA is quiet easy. Student is required to login the link
+                            shared on email by university, fill the application form along with the necessary documents
+                            & make the fee payment through credit/debit card/ net banking/UPI.
+
+                            Student will get the confirmation of payment through SMS as well as email.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            How much time University will take to confirm the admission after successful submission of
+                            form?
+
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Once the application has been submitted in the university, student will be informed for the
+                            admission confirmation via email or SMS within 7 working days.
+
+                            After admission confirmation, student will get enrolment number & login credentials to
+                            access e-learning portal.
+
+                            After getting the LMS login, student can explore the world of Online BCA & take advantages
+                            of
+                            <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                                <li class="list-group-item border-bottom-0">
+                                    Latest industry relevant curriculum
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Interactive live session anywhere and anytime
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Dedicated mentor for doubt clarification
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Career support program
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            Can I go for Regular MCA after online BCA?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, you are eligible to apply for regular MCA after completing your online BCA; just you
+                            should satisfy eligibility criteria for MCA entrance exams i.e. 50% in your BCA.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <i class="fa fa-plus"></i>
+                            Do I get job after doing BCA through online University?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, student can easily get the job after doing BCA through online University. The private
+                            as well as government sector offers many opportunities for Online BCA aspirants. These
+                            companies offer jobs with an exciting job profile and with good pay as well.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <i class="fa fa-plus"></i>
+                            What will be the starting salary package after doing online BCA?
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            As a beginner, you can expect to earn around INR 2.5-3.5 LPA which goes up to 6-10 lakh per
+                            year. Also, an experienced candidate gets a minimum of 25% hike from the current salary
+                            after completing the Online BCA degree programme as per the survey.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <footer class="shadow"></footer>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
