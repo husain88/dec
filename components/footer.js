@@ -8,12 +8,6 @@ class Footer extends HTMLElement {
         h4,
         h5,
         h6 {}
-        
-        section {
-            padding: 60px 0;
-            min-height: 100vh;
-        }
-        
         a,
         a:hover,
         a:focus,
@@ -250,8 +244,8 @@ class Footer extends HTMLElement {
                 <div class="widget course-links-widget">
                 <h5 class="widget-title">Quick Links</h5>
                 <ul class="courses-link-list">
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
+                  <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
+                  <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
                   <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
                 </ul>
               </div>
@@ -267,7 +261,7 @@ class Footer extends HTMLElement {
                   </div>
                   <div class="col-md-6 col-sm-6">
                     <ul class="terms-privacy d-flex justify-content-sm-end justify-content-center">
-                      <li><a href="#">Terms & Conditions</a></li>
+                      <li><a href="t&c.html">Terms & Conditions</a></li>
                       <li><a href="#">Privacy Policy</a></li>
                     </ul>
                   </div>
