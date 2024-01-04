@@ -170,7 +170,7 @@ class Navbar extends HTMLElement {
               >
               <ul class="dropdown-menu fade-down">
                 <li><a class="dropdown-item" href="blog.html">Online BCA Courses</a></li>
-                <li><a class="dropdown-item" href="blog.html">Online BBA Courses</a></li>
+                <li><a class="dropdown-item" href="online-bba.html">Online BBA Courses</a></li>
                 <li><a class="dropdown-item" href="blog.html">Online BSC Courses</a></li>
                 <li><a class="dropdown-item" href="bcom.html">Online BCOM Courses</a></li>
                 <li><a class="dropdown-item" href="blog.html">Online BA Courses</a></li>
