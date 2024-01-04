@@ -111,7 +111,7 @@ class Footer extends HTMLElement {
 }
 .footer-top .widget-title {
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 .courses-link-list li+li {
   margin-top: 10px;
@@ -200,7 +200,7 @@ class Footer extends HTMLElement {
           <div class="footer-top">
             <div class="container">
               <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                   <div class="widget company-intro-widget">
                     <div class="widget course-links-widget">
                     <h5 class="widget-title">Distance Courses</h5>
@@ -213,7 +213,7 @@ class Footer extends HTMLElement {
                   </div>
                   </div>
                 </div><!-- widget end -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                   <div class="widget course-links-widget">
                     <h5 class="widget-title">UG Courses</h5>
                     <ul class="courses-link-list">
@@ -225,7 +225,7 @@ class Footer extends HTMLElement {
                     </ul>
                   </div>
                 </div><!-- widget end -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                 <div class="widget course-links-widget">
                 <h5 class="widget-title">PG Courses</h5>
                 <ul class="courses-link-list">
@@ -237,7 +237,7 @@ class Footer extends HTMLElement {
                 </ul>
               </div>
                 </div><!-- widget end -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                 <div class="widget course-links-widget">
                 <h5 class="widget-title">Quick Links</h5>
                 <ul class="courses-link-list">
