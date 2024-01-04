@@ -78,8 +78,7 @@ class Footer extends HTMLElement {
   z-index: -10;
 }
 .footer-top {
-  padding-top: 96px;
-  padding-bottom: 50px;
+  padding: 24px 0;
 }
 .footer-top p,
 .company-footer-contact-list li {
@@ -120,7 +119,6 @@ class Footer extends HTMLElement {
 .courses-link-list li a {
   color: #ffffff;
   text-transform: capitalize;
-  font-family: var(--para-font);
   font-weight: 400;
 }
 .courses-link-list li a:hover {
@@ -130,7 +128,6 @@ class Footer extends HTMLElement {
   margin-right: 5px;
 }
 .footer-top .small-post-title a {
-  font-family: var(--para-font);
   color: #ffffff;
   font-weight: 400;
 }
@@ -199,7 +196,7 @@ class Footer extends HTMLElement {
 }
         </style>
         
-          <footer class="footer-section">
+          <footer class="footer-section shadow">
           <div class="footer-top">
             <div class="container">
               <div class="row">
