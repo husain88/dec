@@ -8,12 +8,6 @@ class Footer extends HTMLElement {
         h4,
         h5,
         h6 {}
-        
-        section {
-            padding: 60px 0;
-            min-height: 100vh;
-        }
-        
         a,
         a:hover,
         a:focus,
@@ -84,8 +78,7 @@ class Footer extends HTMLElement {
   z-index: -10;
 }
 .footer-top {
-  padding-top: 96px;
-  padding-bottom: 50px;
+  padding: 24px 0;
 }
 .footer-top p,
 .company-footer-contact-list li {
@@ -118,7 +111,7 @@ class Footer extends HTMLElement {
 }
 .footer-top .widget-title {
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 .courses-link-list li+li {
   margin-top: 10px;
@@ -126,7 +119,6 @@ class Footer extends HTMLElement {
 .courses-link-list li a {
   color: #ffffff;
   text-transform: capitalize;
-  font-family: var(--para-font);
   font-weight: 400;
 }
 .courses-link-list li a:hover {
@@ -136,7 +128,6 @@ class Footer extends HTMLElement {
   margin-right: 5px;
 }
 .footer-top .small-post-title a {
-  font-family: var(--para-font);
   color: #ffffff;
   font-weight: 400;
 }
@@ -205,11 +196,11 @@ class Footer extends HTMLElement {
 }
         </style>
         
-          <footer class="footer-section">
+          <footer class="footer-section shadow">
           <div class="footer-top">
             <div class="container">
               <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                   <div class="widget company-intro-widget">
                     <div class="widget course-links-widget">
                     <h5 class="widget-title">Distance Courses</h5>
@@ -222,7 +213,7 @@ class Footer extends HTMLElement {
                   </div>
                   </div>
                 </div><!-- widget end -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                   <div class="widget course-links-widget">
                     <h5 class="widget-title">UG Courses</h5>
                     <ul class="courses-link-list">
@@ -234,7 +225,7 @@ class Footer extends HTMLElement {
                     </ul>
                   </div>
                 </div><!-- widget end -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                 <div class="widget course-links-widget">
                 <h5 class="widget-title">PG Courses</h5>
                 <ul class="courses-link-list">
@@ -246,12 +237,12 @@ class Footer extends HTMLElement {
                 </ul>
               </div>
                 </div><!-- widget end -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-6 col-md-3 mb-3">
                 <div class="widget course-links-widget">
                 <h5 class="widget-title">Quick Links</h5>
                 <ul class="courses-link-list">
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
+                  <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
+                  <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
                   <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
                 </ul>
               </div>
@@ -262,14 +253,8 @@ class Footer extends HTMLElement {
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                  <div class="col-md-6 col-sm-6 text-sm-left text-center">
+                  <div class="col-md-12 col-sm-12 text-center">
                     <span class="copy-right-text">© 2024 <a href="">CDEC</a> All Rights Reserved.</span>
-                  </div>
-                  <div class="col-md-6 col-sm-6">
-                    <ul class="terms-privacy d-flex justify-content-sm-end justify-content-center">
-                      <li><a href="#">Terms & Conditions</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                    </ul>
                   </div>
               </div>
             </div>
