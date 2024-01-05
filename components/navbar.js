@@ -188,7 +188,7 @@ class Navbar extends HTMLElement {
               <li><a class="dropdown-item" href="distance-mba.html">Distance MBA Courses</a></li>
               <li><a class="dropdown-item" href="distance-bba.html">Distance BBA Courses</a></li>
               <li><a class="dropdown-item" href="distance-bca.html">Distance BCA Courses</a></li>
-              <li><a class="dropdown-item" href="blog.html">Distance MCA Courses</a></li>
+              <li><a class="dropdown-item" href="distance-mca.html">Distance MCA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item">

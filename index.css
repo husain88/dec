@@ -35,6 +35,13 @@ li.list-group-item:before {
   color: #ff6f42;
   /* background: #ff6f42; */
 }
+.list-check:before {    
+  font-family: 'FontAwesome';
+  content: '\f560';
+  margin:0 5px 0 -15px;
+  color: #ff6f42;
+  /* background: #ff6f42; */
+}
 body {
   display: flex;
   flex-direction: column;
