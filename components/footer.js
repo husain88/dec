@@ -101,13 +101,26 @@ class Footer extends HTMLElement {
   display: inline-block;
 }
 
-.footer-top .site-logo {
-    margin-bottom: 25px;
-    display: block;
+.footer-top .footer-logo {
     max-width: 170px;
 }
+
+@media screen and (max-width: 991px) {
+  .footer-logo-wrapper {
+    text-align:center;
+  }
+  .course-links-widget {
+
+  }
+}
+
+.course-links-widget ul li {
+  font-size: 16px;
+}
+
 .widget-title {
   text-transform: capitalize;
+  font-size: 20px;
 }
 .footer-top .widget-title {
   color: #ffffff;
@@ -196,70 +209,92 @@ class Footer extends HTMLElement {
 }
         </style>
         
-          <footer class="footer-section shadow">
-          <div class="footer-top">
-            <div class="container">
-              <div class="row">
-                <div class="col-6 col-md-3 mb-3">
-                  <div class="widget company-intro-widget">
+        <footer class="footer-section shadow">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col-12 col-lg-3 footer-logo-wrapper">
+                <div class="">
+                  <div class="mb-2">
+                      <img src="./assets/images/brand-logo-white.png"  alt="" class="footer-logo" />
+                  </div>
+                  <address class="text-white d-none d-lg-block">
+                    38 E,<br> Near Spark Mall,<br> Kamla Nagar,<br> New Delhi 110007.
+                  </address>
+                  <address class="text-white d-block d-lg-none">
+                    38 E, Near Spark Mall, Kamla Nagar, New Delhi 110007.
+                  </address>
+                </div>
+              </div>
+              <hr class="d-block d-lg-none">
+              <div class="col-12 col-lg-9">
+                <div class="row">
+                  <div class="col-6 col-lg-3 mb-3">
+                    <div class="widget company-intro-widget">
+                      <div class="widget course-links-widget">
+                        <h5 class="widget-title">Distance Courses</h5>
+                        <ul class="courses-link-list">
+                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance MBA</a></li>
+                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance BBA</a></li>
+                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance BCA</a></li>
+                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance MCA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-3 mb-3">
                     <div class="widget course-links-widget">
-                    <h5 class="widget-title">Distance Courses</h5>
-                    <ul class="courses-link-list">
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance MBA</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance BBA</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance BCA</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance MCA</a></li>
-                    </ul>
+                      <h5 class="widget-title">UG Courses</h5>
+                      <ul class="courses-link-list">
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BCA</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BBA</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BSC</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BCOM</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BA</a></li>
+                      </ul>
+                    </div>
                   </div>
+                  <div class="col-6 col-lg-3 mb-3">
+                    <div class="widget course-links-widget">
+                      <h5 class="widget-title">PG Courses</h5>
+                      <ul class="courses-link-list">
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
+                      </ul>
+                    </div>
                   </div>
-                </div><!-- widget end -->
-                <div class="col-6 col-md-3 mb-3">
-                  <div class="widget course-links-widget">
-                    <h5 class="widget-title">UG Courses</h5>
-                    <ul class="courses-link-list">
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BCA</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BBA</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BSC</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BCOM</a></li>
-                      <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BA</a></li>
-                    </ul>
+                  <div class="col-6 col-lg-3 mb-3">
+                    <div class="widget course-links-widget">
+                      <h5 class="widget-title">Quick Links</h5>
+                      <ul class="courses-link-list">
+                        <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
+                        <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
+                      </ul>
+                    </div>
                   </div>
-                </div><!-- widget end -->
-                <div class="col-6 col-md-3 mb-3">
-                <div class="widget course-links-widget">
-                <h5 class="widget-title">PG Courses</h5>
-                <ul class="courses-link-list">
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
-                </ul>
+                </div>
               </div>
-                </div><!-- widget end -->
-                <div class="col-6 col-md-3 mb-3">
-                <div class="widget course-links-widget">
-                <h5 class="widget-title">Quick Links</h5>
-                <ul class="courses-link-list">
-                  <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
-                  <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
-                  <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
-                </ul>
-              </div>
-                </div><!-- widget end -->
-              </div>
-            </div> 
+              <!-- widget end -->
+              <!-- widget end -->
+              <!-- widget end -->
+              <!-- widget end -->
+            </div>
           </div>
-          <div class="footer-bottom">
-            <div class="container">
-              <div class="row">
-                  <div class="col-md-12 col-sm-12 text-center">
-                    <span class="copy-right-text">© 2024 <a href="">CDEC</a> All Rights Reserved.</span>
-                  </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 text-center">
+                <span class="copy-right-text">© 2024 <a href="">CDEC</a> All Rights Reserved.</span>
               </div>
             </div>
-          </div><!-- footer-bottom end -->
-        </footer>
+          </div>
+        </div><!-- footer-bottom end -->
+      </footer>
               `;
   }
 }
