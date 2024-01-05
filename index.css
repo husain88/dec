@@ -111,6 +111,18 @@ a {
   color: #fff !important;
 }
 
+.sem-tabs.variant-2 button.active {
+  background-color: #273272 !important;
+  color: #fff !important;
+}
+.sem-tabs.variant-2 button.active p {
+  color: #ff6f42 !important;
+}
+
+.variant-2 .bordered-number {
+  font-size: 40px;
+}
+
 .section-content-image {
   max-width: 50%;
 }
@@ -466,7 +478,7 @@ a {
 [data-background-color]:not([data-background-color="gray"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
   color: #FFFFFF;
 } */
-.inset {
+.inset-shadow {
   box-shadow: 0 8px 6px -6px black;
   border-radius: 50%;
   text-align:center;
@@ -474,6 +486,14 @@ a {
 .inset i {
   color: #ff6f42;
   font-size: 30px;
+}
+.orange-border {
+  border: 1px solid #ff6f42;
+}
+.bordered-number {
+  color: #fff;
+  text-shadow: -1px 1px 0 #273272, 1px 1px 0 #273272, 1px -1px 0 #273272, -1px -1px 0 #273272;
+  font-size: 100px;
 }
 .thumbnail {
   position: relative;
