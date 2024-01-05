@@ -466,7 +466,15 @@ a {
 [data-background-color]:not([data-background-color="gray"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
   color: #FFFFFF;
 } */
-
+.inset {
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 50%;
+  text-align:center;
+}
+.inset i {
+  color: #ff6f42;
+  font-size: 30px;
+}
 .thumbnail {
   position: relative;
   height: 300px;
