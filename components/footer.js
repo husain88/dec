@@ -2,20 +2,6 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <style>
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {}
-        a,
-        a:hover,
-        a:focus,
-        a:active {
-            text-decoration: none;
-            outline: none;
-        }
-        
         a,
         a:active,
         a:focus {
@@ -46,6 +32,14 @@ class Footer extends HTMLElement {
   position: relative;
   overflow: hidden;
   z-index: 9;
+}
+
+.footer-header {
+  font-size: 16px;
+  text-align: center
+}
+.footer-para {
+  font-size: 14px;
 }
 .footer-section:before {
   content: '';
@@ -115,12 +109,12 @@ class Footer extends HTMLElement {
 }
 
 .course-links-widget ul li {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .widget-title {
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 16px;
 }
 .footer-top .widget-title {
   color: #ffffff;
@@ -182,12 +176,14 @@ class Footer extends HTMLElement {
 .footer-bottom {
   padding: 13px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.149);
+  background-color: #eee;
+  color: #212121;
 }
 .copy-right-text {
-  color: #ffffff;
 }
 .copy-right-text a {
-  color: #ffb606;
+  color: #;
+  font-weight: bold;
 }
 .terms-privacy li+li {
   margin-left: 30px;
@@ -224,6 +220,10 @@ class Footer extends HTMLElement {
                   <address class="text-white d-block d-lg-none">
                     38 E, Near Spark Mall, Kamla Nagar, New Delhi 110007.
                   </address>
+                  <div class="text-white">
+                    <address>onlinedistancecolleges@gmail.com</address>
+                    <address>+91-888-2837-500</address>
+                  </div>
                 </div>
               </div>
               <hr class="d-block d-lg-none">
@@ -283,13 +283,31 @@ class Footer extends HTMLElement {
               <!-- widget end -->
               <!-- widget end -->
             </div>
+            <div>
+          <p class="footer-header">Terms and Conditions / Privacy Policy</p>
+          <p class="footer-para text-center">
+          The goal of C-DEC (Center for Distance Education Courses) is to give applicants unbiased, detailed information and 
+          comparative advice about universities and their programmes of study. The items on the C-DEC (Center for Distance Education 
+            Courses) Site, including the texts, graphics, images, blogs, videos, university logos, and other content (collectively, 
+              “Content”), are only provided for informational purposes. The content is not meant to take the place of its Academia Partner’s 
+              offerings in any way. It is not intended or intentional to infringe on intellectual property rights or related rights. Only 
+              general informational purposes are served by the information provided by C-DEC (Center for Distance Education Courses) on 
+              https://www.distanceeducationcourses.in/ or any of its mobile or other applications. <br>
+          However, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, 
+          reliability, or completeness of any information on the Site or our mobile application. All information on the site and our 
+          mobile application is provided in good faith and to the best of our knowledge. C-DEC (Center for Distance Education Courses) 
+          and its affiliates are not responsible for any mistakes or omissions; losses or damages that may arise from the use of the 
+          material they provide.
+          </p>
+        </div>
           </div>
         </div>
+        
         <div class="footer-bottom">
           <div class="container">
             <div class="row">
               <div class="col-md-12 col-sm-12 text-center">
-                <span class="copy-right-text">© 2024 <a href="">CDEC</a> All Rights Reserved.</span>
+                <span class="copy-right-text">© 2024 <a href="">C-DEC (Center for Distance Education Courses)</a> All Rights Reserved.</span>
               </div>
             </div>
           </div>
