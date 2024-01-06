@@ -38,8 +38,11 @@ class Footer extends HTMLElement {
   font-size: 16px;
   text-align: center
 }
-.footer-para {
+.footer-top address {
   font-size: 14px;
+}
+.footer-para {
+  font-size: 12px;
 }
 .footer-section:before {
   content: '';
@@ -179,6 +182,12 @@ class Footer extends HTMLElement {
   background-color: #eee;
   color: #212121;
 }
+.footer-top a:hover {
+  color: #ffb606;
+}
+.footer-top a {
+  color: #fff;
+}
 .copy-right-text {
 }
 .copy-right-text a {
@@ -211,18 +220,21 @@ class Footer extends HTMLElement {
             <div class="row align-items-start">
               <div class="col-12 col-lg-3 footer-logo-wrapper">
                 <div class="">
-                  <div class="mb-2">
+                  <div class="mb-3">
                       <img src="./assets/images/brand-logo-white.png"  alt="" class="footer-logo" />
                   </div>
                   <address class="text-white d-none d-lg-block">
-                    38 E,<br> Near Spark Mall,<br> Kamla Nagar,<br> New Delhi 110007.
+                    38 E, Near Spark Mall, Kamla Nagar,<br> New Delhi 110007
                   </address>
                   <address class="text-white d-block d-lg-none">
-                    38 E, Near Spark Mall, Kamla Nagar, New Delhi 110007.
+                    38 E, Near Spark Mall, Kamla Nagar, New Delhi 110007
                   </address>
                   <div class="text-white">
-                    <address>onlinedistancecolleges@gmail.com</address>
-                    <address>+91-888-2837-500</address>
+                    <address>
+                      <a href = "mailto:onlinedistancecolleges@gmail.com" target="_blank">
+                      <i class="fa-solid fa-envelope me-2 text-white"></i> onlinedistancecolleges@gmail.com </a> <br>
+                      <i class="fa-solid fa-phone me-2"></i> <a href="tel:+91-888-2837-500">+91-888-2837-500</a>
+                    </address>
                   </div>
                 </div>
               </div>
@@ -284,7 +296,6 @@ class Footer extends HTMLElement {
               <!-- widget end -->
             </div>
             <div>
-          <p class="footer-header">Terms and Conditions / Privacy Policy</p>
           <p class="footer-para text-center">
           The goal of C-DEC (Center for Distance Education Courses) is to give applicants unbiased, detailed information and 
           comparative advice about universities and their programmes of study. The items on the C-DEC (Center for Distance Education 
