@@ -544,6 +544,21 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
   height: fit-content;
 }
 
+.uni-logo-wrapper .item {
+  border: 2px solid #ff6f42;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.uni-logo-wrapper .item img {
+  height: 100%;
+  object-fit: contain;
+}
 
 
 .shine {
