@@ -28,6 +28,13 @@
 </head>
 
 <body>
+    <script>
+        // Check if the URL ends with .html and redirect if needed
+        if (window.location.pathname.endsWith('.html')) {
+            var newUrl = window.location.pathname.slice(0, -5);
+            window.history.replaceState({}, document.title, newUrl);
+        }
+    </script>
     <snack-bar></snack-bar>
     <nav-bar class="sticky-top shadow"></nav-bar>
     <!-- banner -->
