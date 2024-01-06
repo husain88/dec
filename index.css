@@ -560,6 +560,15 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
   background: #fff !important;
   color: #212121;
 }
+.uni-form-wrapper {
+  background: #273272;
+  padding: 20px;
+  border-radius: 12px;
+}
+.uni-form-wrapper .btn {
+  background: #fff !important;
+  color: #212121;
+}
 .cta-btn button {
   background-color:rgb(70, 70, 116);
   color: white;

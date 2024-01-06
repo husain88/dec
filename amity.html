@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-5">
+        <div class="uni-form-wrapper">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="university" required
+                            placeholder="Select University">
+                            <option value="Amity University">Amity University</option>
+                            <option value="Online Manipal University">Online Manipal University</option>
+                            <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                            <option value="GLA University">GLA University</option>
+                            <option value="Lovely Professional University">Lovely Professional University</option>
+                            <option value="Integral University">Integral University</option>
+                            <option value="Uttaranchal University">Uttaranchal University</option>
+                            <option value="IGNOU">IGNOU</option>
+                            <option value="Mizzoram University">Mizzoram University</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2 class="fw-bold text-center mb-4">University accreditations & recognitions</h2>
+        <div class="owl-carousel uni-carousel p-2 owl-theme">
+            <div class="item">
+                <img src="./assets/images/naac.png" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/iaou.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/nirf.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/wes.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/qs.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/bsi.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/gvv.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <h2 class="fw-bold text-center mb-3">Under Graduate Programmes offered by the University
+        </h2>
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">Online BBA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2"
+                            type="button" role="tab" aria-controls="sem-2" aria-selected="false">BCOM</button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3"
+                            type="button" role="tab" aria-controls="sem-3" aria-selected="false">BCA</button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4"
+                            type="button" role="tab" aria-controls="sem-4" aria-selected="false">BA</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Bachelor of Business Administration (BBA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online BBA program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">10+2 pass out students or aspirants seeking a career in Business Management.
+                                </li>
+                                <li class="list-group-item  border-0">Entrepreneurs looking to enhance their skills in Business Management.
+                                </li>
+                                <li class="list-group-item  border-0">Learners who wish to pursue MBA in future can also opt for the BBA first.
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants who want to understand topics of wide relevance including Human 
+                                    Resource, Banking, Law and Accounting from Business Management perspective.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10th Class Certificate (Completing 10 years of Formal Schooling)
+                                </li>
+                                <li class="list-group-item  border-0">12th Class Certificate (Completing 12 years of Formal Schooling)
+                                </li>
+                            </ul>
+                            <p class="mb-1">For students with foreign education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Level Certificate (completing 10 years of formal schooling, Diploma will not be acceptable)
+                                </li>
+                                <li class="list-group-item  border-0">A Level Certificate (completing 12 years of formal schooling. Diploma will 
+                                    not be acceptable)
+                                </li>
+                                <li class="list-group-item  border-0">Certificate of equivalence from association of Indian Universities required 
+                                    from students with foreign education to apply in any university in INDIA.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,50,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>25,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Bachelor of Commerce (B.COM)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online B.COM program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">10+2 pass out students or aspirants seeking a career in Business Management.
+                                </li>
+                                <li class="list-group-item  border-0">Learners who wish to pursue MBA in future can also opt for the B.Com first.
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants who want to learn topics of wide relevance including managerial skills and understanding in streams like finance, accounting, taxation and management
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants who want to understand topics of wide relevance including Human 
+                                    Resource, Banking, Law and Accounting from Business Management perspective.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10th Class Certificate (completing 10 years of formal schooling)
+                                </li>
+                                <li class="list-group-item  border-0">12th Class Certificate (completing 12 years of formal schooling)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>85,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>14,200/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">Bachelor of Computer Applications (BCA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online BCA program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Fresh 10+2 pass out students or aspirants seeking a career in Computer Applications.
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants who want to explore career opportunities in private/public 
+                                    sector organizations in industries including IT & ITES, Financial Services, and more, as Computer 
+                                    Programmer, Information Security Analyst, Network and Test Engineer, Database Administrator, Quality 
+                                    Assurance Engineer, Customer/Helpdesk/Technical Support Engineer, among others.
+                                </li>
+                                <li class="list-group-item  border-0">Learners who want to build the academic foundation to pursue higher 
+                                    education in the subject or professional courses to excel in the Technology domain.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Secondary School (10th) Certificate.
+                                </li>
+                                <li class="list-group-item  border-0">Senior Secondary School (12th) Certificate.
+                                </li>
+                            </ul>
+                            <p class="mb-1">For students with foreign education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Secondary School Certificate (Completing 10 years of formal schooling. 
+                                    Diploma will not be acceptable).
+                                </li>
+                                <li class="list-group-item  border-0">Senior Secondary School Certificate (Completing 12 years of formal schooling. 
+                                    Diploma will not be acceptable).
+                                </li>
+                                <li class="list-group-item  border-0">Certificate of Equivalence from Association of Indian Universities 
+                                    required by any student with foreign education to apply in any University in INDIA.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization offered in BCA</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Cloud & Security
+                                </li>
+                                <li class="list-group-item border-0">Data Analytics
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,35,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>22,500/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                        <h5 class="mb-3">Bachelor of Arts (BA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online BA program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Fresh 10+2 pass out students or aspirants seeking a career in the field 
+                                    of Economics/Sociology/English language/Political science.
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants who want to start up a career in teaching within primary or 
+                                    secondary level education.
+                                </li>
+                                <li class="list-group-item  border-0">The program also opens up opportunities in Public Services, Language 
+                                    Translation, Economics, Political Science, Sociology etc. including higher education at Master’s level.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10th Class Certificate (Completing 10 years of Formal Schooling)
+                                </li>
+                                <li class="list-group-item  border-0">12th Class Certificate (Completing 12 years of Formal Schooling)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization offered in BA</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Political Science
+                                </li>
+                                <li class="list-group-item border-0">Economics
+                                </li>
+                                <li class="list-group-item border-0">English
+                                </li>
+                                <li class="list-group-item border-0">Sociology
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>85,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>14,200/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold text-center mb-3">Post Graduate Programmes offered by the University
+        </h2>
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">MCA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2"
+                            type="button" role="tab" aria-controls="sem-2" aria-selected="false">MBA</button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#p-3"
+                            type="button" role="tab" aria-controls="sem-3" aria-selected="false">MCOM</button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#p-4"
+                            type="button" role="tab" aria-controls="sem-4" aria-selected="false">MJ</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Master of Computer Applications (MCA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online MCA program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Fresh graduates or Final year Students seeking a 
+                                    career in Computer and Software industry.
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants looking for a career opportunities in private/public sector 
+                                    organizations including IT & ITES, Financial Services, and more, as Computer programmer, Information 
+                                    Security Analyst, Network and test Engineer, Database Administrator, Quality Assurance Engineer, Full 
+                                    Stack Developer, among others.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">1BCA / Bachelor in Engineering or computer science / 
+                                    Bachelor’s Degree in Science / Commerce / Arts with Mathematics at 10+2 level
+                                </li>
+                                <li class="list-group-item  border-0">Students without Mathematics at 10+2 or graduation can also 
+                                    apply after qualifying the Bridge course.
+                                </li>
+                            </ul>
+                            <p class="mb-1">For students with foreign education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Bachelor’s Degree – any of the degrees mentioned for the Indian students. (BCA is preferable)
+                                </li>
+                                <li class="list-group-item  border-0">Well versed in spoken as well as written English
+                                </li>
+                                <li class="list-group-item  border-0">Certificate of Equivalence from Association of Indian Universities
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization offered in MCA</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Block chain</li>
+                                <li class="list-group-item border-0">Machine Learning & AI</li>
+                                <li class="list-group-item border-0">AR & VR</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,60,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>40,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="p2">
+                        <h5 class="mb-3">Master of Business Administration (MBA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online MBA program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">For Graduates or Final Year Students wants to build their management, 
+                                    administration, financial, and marketing skills.
+                                </li>
+                                <li class="list-group-item  border-0">Entrepreneurs looking to develop skills to manage critical business projects.
+                                </li>
+                                <li class="list-group-item  border-0">Aspirants or Working Professionals seeking global career in the field of 
+                                    Management, Finance, Marketing, Sales, Operations, Logistics among many more.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Candidates must have completed Graduation Degree.
+                                </li>
+                                <li class="list-group-item  border-0">Applicant must possess sufficient knowledge and understanding of English Language.
+                                </li>
+                            </ul>
+                            <p class="mb-1">For students with foreign education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Candidates must have completed Graduation Degree.
+                                </li>
+                                <li class="list-group-item  border-0">Certificate of equivalence from association of Indian Universities required 
+                                    from students with foreign education to apply in any university in INDIA.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization offered in MBA</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Entrepreneurship & Leadership</li>
+                                <li class="list-group-item border-0">Finance & Accounting</li>
+                                <li class="list-group-item border-0">Global Finance Market</li>
+                                <li class="list-group-item border-0">Hospitality Management</li>
+                                <li class="list-group-item border-0">Human Resource Management</li>
+                                <li class="list-group-item border-0">Information Technology</li>
+                                <li class="list-group-item border-0">Insurance Management</li>
+                                <li class="list-group-item border-0">Marketing & Sales</li>
+                                <li class="list-group-item border-0">Operations Management</li>
+                                <li class="list-group-item border-0">Digital Marketing</li>
+                                <li class="list-group-item border-0">Data Science</li>
+                                <li class="list-group-item border-0">International Business</li>
+                                <li class="list-group-item border-0">Petroleum & Natural Gas</li>
+                                <li class="list-group-item border-0">Retail Management</li>
+                                <li class="list-group-item border-0">Business Analytics</li>
+                                <li class="list-group-item border-0">HR Analytics</li>
+
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,75,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>45,000/-   1st, 2nd semesters | 42,500/- 3rd, 4th semesters</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">Master of Commerce (Financial Management)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this M.com program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">For graduates or Final year Students seeking a career in Finance domain.
+                                </li>
+                                <li class="list-group-item  border-0">Entrepreneurs who want to improve their financial management skills 
+                                    and update their knowledge on statistics, law and other financial aspects.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">10th Class Certificate (completing 10 years of formal schooling).
+                                </li>
+                                <li class="list-group-item  border-0">12th Class Certificate (completion 12 years of formal schooling).
+                                </li>
+                                <li class="list-group-item  border-0">Graduation Degree (3 years or 4 years degree program. Diploma will 
+                                    not be acceptable) as per mentioned conditions: BBA/ BBS or Post Graduate Diploma in Management.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization offered in BCA</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Fintech
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,10,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>27,500/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-4" role="tabpanel" aria-labelledby="sem4">
+                        <h5 class="mb-3">Master of Arts (Journalism and mass communications)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                For whom this Online MJ program is designed?
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">For graduates or Final year Students wants to persue post-graduation 
+                                    in Journalism and Mass Communication domain.
+                                </li>
+                                <li class="list-group-item  border-0">Professionals who are associated in the fields of Film and Television, 
+                                    Publishing, Public Relations, Editing, Broadcasting, Production, and Advertising.
+                                </li>
+                                <li class="list-group-item  border-0">Professionals who wish to work in the mass media and journalism 
+                                    industry and want to enhance their practical knowledge of the fundamental principles of Mass 
+                                    Communication and Journalism.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <p class="mb-1">For students with indian education</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10th Class Certificate (Completing 10 years of Formal Schooling)
+                                </li>
+                                <li class="list-group-item  border-0">12th Class Certificate (Completing 12 years of Formal Schooling)
+                                </li>
+                                <li class="list-group-item  border-0">Graduation completing Degree (3 Years or 4 Years Degree Program. 
+                                    Diploma will not be acceptable)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,60,000/-</b>
+                                </li>
+                                <li class="list-group-item border-0">Semester Fee: INR <b>40,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        The Amity Advantage
+                    </h2>
+                    <p>
+                        With Amity online programs, student get the best of both worlds- the comfort & flexibility of online education, 
+                        with the equivalence that is acquired through an on-campus, conventional Degree.
+                    </p>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">Daily Live Lectures by Faculty
+                        </li>
+                        <li class="list-group-item border-0">Hands-on & Immersive Learning through world-Class LMS
+                        </li>
+                        <li class="list-group-item border-0">Personalized Mentorship by Top Industry Leaders
+                        </li>
+                        <li class="list-group-item border-0">Portfolio Building with Real-world Industry Projects
+                        </li>
+                        <li class="list-group-item border-0">Career Assistance & Exclusive Virtual Job Fairs
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold text-center mb-4">Top Hiring Partners Of Amity</h2>
+        <div class="owl-carousel uni-carousel p-2 owl-theme">
+            <div class="item">
+                <img src="./assets/images/cognizant.png" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/accenture.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/tcs.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/oup.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/genpact.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/hcl.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/techmahindra.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/adecco.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/cremica.png" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/philips.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/blackrock.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/hul.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/deloite.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/yes.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What are the approvals and accreditation does Amity Online?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>Amity Online is recognized by the UGC (University Grant Commission), AICTE, WES, ICAS, AIU and 
+                                accredited A+ by NAAC (National Assessment and Accreditation Council).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What is the mode of course delivery offered by Amity?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The mode of course delivery is fully online. Student can take classes & appear for the examination 
+                            with the help of a laptop irrespective of his or her location. 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What is the Application process for Amity Online? Does Student need to visit the campus?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The minimum course duration to complete the distance MCA is 2 years. However, students may complete the program within the maximum period of 4 years.
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Step 1: Fill the Basic details first on the link provided
+                                </li>
+                                <li class="list-group-item border-0">Step 2: Fill all the education details
+                                </li>
+                                <li class="list-group-item border-0">Step 3: Make the fees payment
+                                </li>
+                                <li class="list-group-item border-0">Step 4: Upload the Documents
+                                </li>
+                                <li class="list-group-item border-0">Step 5: The University will then send you a confirmation mail along with the enrollment ID.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>Can
+                            Is Amity Online Degree worth?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            As per UGC guideline, any degree obtained from an online learning should be treated as equivalent 
+                            to the traditional way of learning. Also, Amity Online conducts virtual job fairs after every six months 
+                            so that the student can easily get placed while persuing the course.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
