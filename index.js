@@ -243,3 +243,22 @@ $('.moreless-button').click(function () {
       $(this).text("Read more")
   }
 });
+
+var speed = 40;
+
+function incEltNbr(id) {
+  elt = document.getElementsByClassName(id);
+  endNbr = Number(document.getElementsByClassName(id).innerHTML);
+  incNbrRec(0, endNbr, elt);
+}
+/*A recursive function to increase the number.*/
+function incNbrRec(i, endNbr, elt) {
+  if (i <= endNbr) {
+    elt.innerHTML = i;
+    setTimeout(function() {//Delay a bit before calling the function again.
+      incNbrRec(i + 1, endNbr, elt);
+    }, speed);
+  }
+}
+
+incEltNbr("nbr");
