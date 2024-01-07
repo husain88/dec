@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/ugc.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ugc-deb.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aiu.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Uttaranchal University
+                    </h2>
+                    <p class="more-sec">
+                        The Uttaranchal University has been recognized by UGC under section 2(f) and 12 (B) of the UGC Act, 1956 and other statutory bodies of the State and the Nation. The University has been accredited with the prestigious “A+ Grade” by the National Assessment and Accreditation Council (NAAC). Uttaranchal University has become the first University in the State of Uttarakhand to receive “NAAC A+” Grade in the first cycle of Accreditation and this firmly positions us among the top 5% HEIs of the nation.
+                    </p>
+                    <!-- <button class="toggle-para btn btn-link">Read More</button> -->
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="w-75" src="./assets/images/uttaranchal-card-img.webp" />
+            </div>
+        </div>
+    </div>
+
+     <!-- Why to choose Uttaranchal University: -->
+    <div class="container mt-5">
+        <h2>Why to choose Uttaranchal University:
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Experience a vibrant student lifestyle
+                </h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Gain a global perspective
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Explore a range of flexible academic opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>4</h2>
+                <h3>Catalyze your career opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>5</h2>
+                <h3>Stay blessed with a world-class student support for life time
+                </h3>
+            </li>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Under Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">BBA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">BCA</button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">BA</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Bachelors of Business Administration (BBA)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidates must have passed Class 10+2 in any stream or its equivalent from a recognized Board / University / Council.                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"> 3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">12,000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">Total: 72,000/-
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Bachelors of Computer Application (BCA)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidates must have passed Class 10+2 in any stream or its equivalent from a recognized Board / University / Council.  </li>                      </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"> 3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">12,000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">Total: 72,000/-
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">Bachelor of Arts (B.A)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidates who have passed Class 10+2 in any stream or its equivalent from a recognized Board / University / Council is eligible to take admission.  </li>                     
+                                 </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"> 3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">8000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">Total: 48,000/-
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Post Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">MBA</button>
+                            <button class="nav-link " id="sem2" data-bs-toggle="tab" data-bs-target="#p-2"
+                            type="button" role="tab" aria-controls="sem-2" aria-selected="true">MCA</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Master in Business Administration (MBA) 
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidates must have passed Bachelor’s Degree in any stream or its equivalent with a minimum of 50% from a recognized Board / University / Council. Students belonging to reserved category are reduced to 45% aggregate.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Specialization
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Finance
+                                </li>
+                                <li class="list-group-item border-0">Marketing
+                                </li>
+                                <li class="list-group-item border-0">Human Resource Management
+                                </li>
+                                <li class="list-group-item border-0">Business Analytics
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"> 2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                        
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">17000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">Total: 68,000/-
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane  fade " id="p-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Master of Computer Application (MCA) 
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidate must have completed BCA/Bachelor’s in Computer Science Engineering or B.A/ B.Sc. / B.Com with a minimum of 50% from a recognized Board / University / Council. Students belonging to reserved category are reduced to 45% aggregate.                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"> 2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                        
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">17000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">Total: 68,000/-
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container  my-4">
+        <h2 class="fw-bold text-center">Top Hiring Partners Of Uttaranchal University</h2>
+        <hr class="shine">
+        <div class="owl-carousel  uni-logo-wrapper uni-carousel p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/google.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/asianpaints.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/airtel.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/wipro.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/itc.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/mahindra.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/tech-mahindra.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/royal-enfield.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/epam.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/virtusa.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/hashedin.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/byjus.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/nutanix.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <!-- admission prosses -->
+    <!-- <div class="container mt-5">
+        <h2>Admission Procedure at CU-Online University
+        </h2>
+        <p>The admission procedure at Chandigarh University Online is hassle-free, and easy to complete. It is
+            completely conducted online and doesn’t require any campus visits or paperwork. It involves three simple
+            steps to complete the process of admission to the university.
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Find your course</h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Talk to expert guides
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Apply online</h3>
+            </li>
+    </div> -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Is Uttaranchal university online degree valid?                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>As per the UGC guidelines, Online/distance learning degrees should be treated on par with those offered through conventional mode. Therefore the degree awarded by the university is valid and accepted by all major corporates in India as well as in foreign countries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What are the approvals & accreditations does Uttaranchal University have for online courses?                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Uttaranchal University online is recognized by UGC-DEB, AICTE & accredited A+ by NAAC.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is there any entrance exam for taking admission in Uttaranchal University online?                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            There is no entrance exam for online/distance courses. Most of the online/Distance universities have eligibility criteria that candidates will have to secure 50% (45% for reserved category) in 10+2 or graduation from a well-recognized institute or equivalent to get enrolled in online courses.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>How the classes are conducted in Online/Distance mode?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Classes are conducted online & student can attend these interactive live lectures through laptop or mobile. Also, online courses contain pre-recorded lectures that aid the student to learn anytime & anywhere without worrying about restricted schedules.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What are the benefits of joining online program from Uttaranchal University?                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Recorded video content by top faculty
+                                </li>
+                                <li class="list-group-item border-0">Interactive live lectures and discussion through Chat & Discussion Forum
+                                </li>
+                                <li class="list-group-item border-0">Placement assistance including CV workshops & mock interviews
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
