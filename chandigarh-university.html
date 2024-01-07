@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/ugc.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/wes.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/icas.jpeg" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Chandigarh University Online Programs
+                    </h2>
+                    <p class="more-sec">
+                        <b>Learn from the Best
+                        </b>
+                        Join Online MBA, M.COM, M.SC(DS), MAJM, BBA, BCA, BAJM from UGC approved Chandigarh University
+
+                        Chandigarh University is one of the best universities in Punjab which was established in 2012.
+                        CU is UGC-DEB approved and it has accredited by NAAC with A+ Grade.
+
+                        The university has been awarded as Asia’s fastest-growing private institution and recorded in
+                        Limca book of records for inviting most numbers of companies in a single year for placement.
+                    </p>
+                    <!-- <button class="toggle-para btn btn-link">Read More</button> -->
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="w-75" src="./assets/images/Chandigarh-card-img.webp" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Under Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">BAJM</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">BBA</button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">BCA</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Bachelor of Arts-Journalism & Mass Communication (BAJM)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10+2 with at least 50% marks in aggregate or its
+                                    equivalent examination in any stream conducted by a recognized Board / University /
+                                    Council in the aggregate OR 45% marks in 10+2 in any stream with at least 55% in
+                                    English as the subject.
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">3 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>22500/-</b> per sem (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Bachelor of Business Administration (BBA)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10+2 with 50% marks in aggregate or its equivalent
+                                    examination in any stream conducted by a recognized Board / University / Council.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">3 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>26000/-</b> per sem (6 semesters)
+                                </li>
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,56,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">HR
+                                </li>
+                                <li class="list-group-item border-0">Marketing
+                                </li>
+                                <li class="list-group-item border-0">International Business
+                                </li>
+                                <li class="list-group-item border-0">Entrepreneurship
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">Bachelor of Computer Applications (BCA)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">10+2 or its equivalent examination in any stream
+                                    with at least 50% marks conducted by a recognized Board / University / Council.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">3 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>27500/-</b> per sem (6 semesters)
+                                </li>
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,65,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Post Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">MCOM</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">MSC-DS </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#p-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">MBA</button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#p-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">MAJM</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Master of Commerce (M.COM)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Bachelor degree in Commerce or its’ equivalent with
+                                    at least 50% marks from recognized University/ Institution.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>32500/-</b> per sem (4 semesters)
+                                </li>
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,30,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="p2">
+                        <h5 class="mb-3">Master of Science (Data Science) (MSC-DS)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Candidate must have completed bachelor’s degree in
+                                    B.A./BCA/B.Sc. (Statistics or Mathematics or Computer Science) /B.E/B.Tech
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>30000/-</b> per sem (4 semesters)
+                                </li>
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,20,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">Master of Business Administration (MBA)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Bachelor degree in any discipline with at least 50%
+                                    marks from recognized University/ Institution.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>50000/-</b> per sem (4 semesters)
+                                </li>
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>2,00,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-4" role="tabpanel" aria-labelledby="sem4">
+                        <h5 class="mb-3">Master of Arts – Journalism & Mass
+                            Communication (MAJM)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">Bachelor’s Degree with at least 50% marks in
+                                    aggregate or its equivalent from a recognized Board / University.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0"><b>25000/-</b> per sem (4 semesters)
+                                </li>
+                                <li class="list-group-item border-0">Total Course Fee: INR <b>1,00,000/-</b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        THE CU-ONLINE ADVANTAGE
+                    </h2>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">Best in class learning
+                        </li>
+                        <li class="list-group-item border-0">Learn latest industry relevant curriculum from the best
+                            university professors.
+                        </li>
+                        <li class="list-group-item border-0">Learn Anywhere & Anytime
+                        </li>
+                        <li class="list-group-item border-0">Student is free to learn anytime and anywhere as online
+                            courses contain pre-recorded lectures & online live lectures that aid the learner to learn
+                            without worrying about restricted schedules.
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">Dedicated support
+                        </li>
+                        <li class="list-group-item border-0">University will provide a dedicated mentor to student or
+                            their doubt clarification.
+                        </li>
+                        <li class="list-group-item border-0">Career Assistance
+                        </li>
+                        <li class="list-group-item border-0">University is also providing career support program to
+                            their learners in the form of:
+                        </li>
+                    </ul>
+                    <hr>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">Resume Support
+                        </li>
+                        <li class="list-group-item border-0">Interview preparation
+                        </li>
+                        <li class="list-group-item border-0">Personality Development sessions
+                        </li>
+                        <li class="list-group-item border-0">Portfolio Building with Real-world Industry Projects
+                        </li>
+                        <li class="list-group-item border-0">Communication/ English spoken classes
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container my-4">
+        <h2 class="fw-bold text-center">Top Hiring Partners Of Amity University</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel p-2 owl-theme">
+            <div class="item">
+                <img src="./assets/images/cognizant.png" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/accenture.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/tcs.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/oup.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/genpact.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/hcl.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/techmahindra.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/adecco.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/cremica.png" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/philips.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/blackrock.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/hul.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/deloite.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/yes.png" alt="" />
+            </div>
+        </div>
+    </div> -->
+    <!-- admission prosses -->
+    <div class="container mt-5">
+        <h2>Admission Procedure at CU-Online University
+        </h2>
+        <p>The admission procedure at Chandigarh University Online is hassle-free, and easy to complete. It is
+            completely conducted online and doesn’t require any campus visits or paperwork. It involves three simple
+            steps to complete the process of admission to the university.
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Find your course</h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Talk to expert guides
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Apply online</h3>
+            </li>
+    </div>
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Where is Chandigarh University situated?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>Chandigarh University is one of the best private universities situated in Punjab, Mohali
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is Chandigarh University UGC approved?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, Chandigarh University is UGC-DEB approved and also an A+ NAAC accredited and a member
+                            of AIU.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is Chandigarh University good?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, CU is a good University providing one of the best management programs and placements
+                            and great infrastructure.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            How to apply for Chandigarh University- Online?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The admission procedure at Chandigarh University Online is hassle-free & is completely
+                            online. The student is required to register himself and fulfill the needs and norms of
+                            admission procedure.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+
+                            How much Time University will take to confirm the admission after online application?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            After successful online application submission, University usually takes 15 days to provide the student enrollment ID.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            When can I access my Online Learning Portal (just after my fee payment)?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            No, Once the student gets its enrollment No. & LMS Login Id & Password, he/she can access their online learning portal & explore all the e-content, important notifications, recorded videos and so on.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
