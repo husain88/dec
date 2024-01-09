@@ -44,6 +44,10 @@ class Footer extends HTMLElement {
 .footer-para {
   font-size: 12px;
 }
+.footer-heading {
+  font-size: 12px;
+  font-weight: bold;
+}
 .footer-section:before {
   content: '';
   position: absolute;
@@ -223,12 +227,6 @@ class Footer extends HTMLElement {
                   <div class="mb-3">
                       <img src="./assets/images/brand-logo-white.png"  alt="" class="footer-logo" />
                   </div>
-                  <address class="text-white d-none d-lg-block">
-                    38 E, Near Spark Mall, Kamla Nagar,<br> New Delhi 110007
-                  </address>
-                  <address class="text-white d-block d-lg-none">
-                    38 E, Near Spark Mall, Kamla Nagar, New Delhi 110007
-                  </address>
                   <div class="text-white">
                     <address>
                       <a href = "mailto:onlinedistancecolleges@gmail.com" target="_blank">
@@ -282,6 +280,8 @@ class Footer extends HTMLElement {
                     <div class="widget course-links-widget">
                       <h5 class="widget-title">Quick Links</h5>
                       <ul class="courses-link-list">
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Contact Us</a></li>
+                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Blogs</a></li>
                         <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
                         <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
                         <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
@@ -296,6 +296,7 @@ class Footer extends HTMLElement {
               <!-- widget end -->
             </div>
             <div>
+            <p class="footer-heading text-center mt-5 mb-2">Terms and conditions/Privacy Policy</p>
           <p class="footer-para text-center">
           The goal of C-DEC (Center for Distance Education Courses) is to give applicants unbiased, detailed information and 
           comparative advice about universities and their programmes of study. The items on the C-DEC (Center for Distance Education 
