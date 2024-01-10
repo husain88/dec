@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+
+    <div class id="box-search">
+        <div class="thumbnail text-center">
+            <img src="./assets/images/banner.png" alt class="img-responsive w-100">
+            <div class="caption align-baseline text-center">
+                <h2 class="fw-bold text-dark banner-text">Online MBA Courses to Kickstart Your Career
+                    <div class="form-wrapper container d-block d-md-none">
+                        <p class="text-white">Enter Your Details to Enquire</p>
+                        <form action="">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                        aria-label="First name">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                        aria-label="Mobile Number">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <select class="form-select  form-select-sm" name="university" required
+                                        placeholder="Select University">
+                                        <option value="Amity University">Amity University</option>
+                                        <option value="Online Manipal University">Online Manipal University</option>
+                                        <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                        <option value="GLA University">GLA University</option>
+                                        <option value="Lovely Professional University">Lovely Professional University
+                                        </option>
+                                        <option value="Integral University">Integral University</option>
+                                        <option value="Uttaranchal University">Uttaranchal University</option>
+                                        <option value="IGNOU">IGNOU</option>
+                                        <option value="Mizzoram University">Mizzoram University</option>
+                                        <option value="OTHER">OTHER</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </h2>
+            </div>
+
+            <div class="form-wrapper container d-none d-md-block">
+                <form action="">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                aria-label="Mobile Number">
+                        </div>
+
+                        <div class="col">
+                            <select class="form-select  form-select-sm" name="university" required
+                                placeholder="Select University">
+                                <option value="Amity University">Amity University</option>
+                                <option value="Online Manipal University">Online Manipal University</option>
+                                <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                <option value="GLA University">GLA University</option>
+                                <option value="Lovely Professional University">Lovely Professional University</option>
+                                <option value="Integral University">Integral University</option>
+                                <option value="Uttaranchal University">Uttaranchal University</option>
+                                <option value="IGNOU">IGNOU</option>
+                                <option value="Mizzoram University">Mizzoram University</option>
+                                <option value="OTHER">OTHER</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                        </div>
+                    </div>
+                    <!-- <div class="row mb-2">
+                        <div class="col"></div>
+                        
+                        <div class="col"></div>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="mb-3 fw-bold text-center orange-color">Top Online Universities of BCA</h2>
+        <hr class="orange-shine">
+        <div class="owl-carousel uni-carousel p-2 owl-theme">
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-amity.webp" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-dy-patil.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-jain.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-manipal.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-ignou.png" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-jamia.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-lpu.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-simbiosis.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-utranchal.webp" alt="" />
+            </div>
+            <div class="item">
+                <img src="./assets/images/multi-item-corousal-vignan.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        <span class="orange-color">Online MBA Programs:</span> <br>
+                        <span>The Secret to Progression in Your Career</span>
+                    </h2>
+                    <p class="more-sec">
+                        Pursuing an MBA (Masters of Business Administration) can be a difficult decision to fulfill your goals 
+                        whether you’re looking for job progression or a better plan to go into a higher-paying field. However, 
+                        you might only be able to attend classes on campus if you can relocate or work a full-time job. 
+                        Fortunately, the online Master of Business Administration programs offer a solution.<br>
+                        You can do your degree requirements through an online MBA program and still get to a reputable 
+                        university without going to the campus. You can pursue your education anywhere as long as you have 
+                        an internet connection and the freedom to study at your own speed and on your own time.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image w-75" src="./assets/images/working-idea.webp" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4 text-center">
+        <h2 class="fw-bold orange-color">About Online MBA Programmes</h2>
+        <hr class="orange-shine">
+        <p class="more-sec">
+            MBA online education offers a two-year postgraduate management degree online. This is a very popular choice for 
+            Master of Business Administration students who want help attending regular class sessions. Students in the program 
+            have flexibility because they can attend hybrid small MBA online sessions and may need to visit the institute or 
+            centers on the weekends. MBA online is a preferred career option for students who cannot pursue a regular MBA 
+            degree due to various factors. <br><br>
+            Online MBA courses are permitted by UGC/AICTE and are accessible by various universities in India. 
+            In order to assist candidates in landing jobs in government agencies, international corporations, and other 
+            roles like Corporate Associate, Portfolio Manager, Finance Expert, Credit Risk Director, Executive, and Senior 
+            Executive, a number of universities that offer online MBA courses have set up placement cells. <br><br>
+            The online MBA program’s content and duration is similar to that of a full-time Master of Business Administration 
+            course where it is offered in various areas like Macroeconomics, Microeconomics, Operations Management, Corporate 
+            Finance among others.The curriculum for an online MBA program is comparable to those of full-time MBA programs, 
+            notwithstanding variations in study methods and access to campus facilities. <br><br>
+            Although the variety of online MBA programs offered by online education makes this management degree quite popular, 
+            choosing to pursue one should take other factors into account as well. Online MBA program participants get 
+            professional skills like administrative and leadership aptitude, managerial and marketing expertise, and 
+            administrative skills that are critical in the real workplace.
+        </p>
+        <button class="toggle-para btn btn-link">Read More</button>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold text-center orange-color">Difference Between Online BBA and Distance BBA
+        </h2>
+        <hr class="orange-shine">
+        <p>Why Online Courses are Popular these days:
+        </p>
+        <div class="row px-3">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading text-center fw-bold">
+                        Online Courses
+                    </h2>
+                    <p class="list-check">
+                        In Online learning, you can take classes & appear for the examination with the help of 
+                        broadband and a laptop irrespective of his or her location.
+                    </p>
+                    <p class="list-check"> Online MBA programs offer flexibility in terms of location, as students 
+                        can participate from anywhere with an internet connection.
+                    </p>
+                    <p class="list-check">In online MBA programs, exams are conducted online, typically using digital platforms.</p>
+
+                    <p class="list-check">Students can connect, share ideas, and communicate with one another in numerous ways. </p>
+
+                    <p class="list-check">Online MBA programs may offer limited faculty interaction, primarily through virtual channels.</p>
+
+                    <P class="list-check"> They have flexible schedules compared to other types of study allowing students to 
+                        study at their own pace and still manage work in addition to personal life.</P>
+
+                    <p class="list-check">Online MBA programs may offer networking opportunities through virtual platforms and alumni networks.</p>
+                    <p class="list-check">Online MBA programs offer a virtual learning environment through proper virtual 
+                        resources, recorded lectures and online collaboration tools.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center ps-lg-4 compare-border text-start">
+                <h2 class="section-content-heading fw-bold">
+                    Regular Courses
+                </h2>
+                <p class="list-check">
+                    Regular MBA programs typically require physical attendance in a classroom setting.</p>
+                    <p class="list-check">Regular MBA programs often require students to be present on campus or attend classes 
+                        in a specific location.</p>
+                    <p class="list-check">In regular MBA programs, students usually need to appear physically for examinations 
+                        at designated locations.</p>
+                    <p class="list-check">Regular MBA programs often facilitate face-to-face interactions, group discussions, 
+                        and networking opportunities.</p>
+                    <p class="list-check">Regular MBA programs provide more direct access to faculty members through in-person 
+                        interactions during classes and office hours.</p>
+                    <p class="list-check">Regular MBA programs follow a fixed schedule, with classes and coursework taking 
+                        place during specific hours.</p>
+                    <p class="list-check">On the other hand, traditional MBAs have extensive networking opportunities 
+                        involving classmates, peers and people working in the same industry.</p>
+                    <p class="list-check">In regular MBA programs, students experience a traditional classroom environment with 
+                        in-person discussions, group projects, and immersive learning experiences.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold mb-3 text-center orange-color">Reasons You Should Pursue an Online MBA
+        </h2>
+        <hr class="orange-shine">
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-business-time"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Lower Cost</p>
+                <span class="more">A major advantage of an online MBA education is the lower cost compared to on-campus 
+                    programs. Not only may you save the expenses of moving or commuting to campus, but many online programs 
+                    might even give tuition savings. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-shuffle"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Adaptability</p>
+                <span class="more">Exams and classes for online MBA courses can be scheduled at the student's convenience. 
+                    Students can easily prepare themselves with the help of study materials and notes provided by the 
+                    institutions - live session Additionally, a number of technology developments in online learning have 
+                    drawn students to this online MBA program. Students who cannot afford costly regular courses can opt 
+                    for an online learning programme as it is comparatively less hefty and suits their pocket. The disciplines 
+                    included in an online MBA program are nearly identical to those in a traditional MBA program, and they 
+                    help students develop the managerial abilities needed to run the business.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-arrow-alt-circle-right"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Global Reach</p>
+                <span class="more">
+                    You can enroll in an online MBA program given by a renowned university without having to leave your 
+                    native country because online MBA programs are available from anywhere in the world.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Curriculum</p>
+                <span class="more">A curriculum akin to that of conventional on-campus MBA programs is provided by online 
+                    Master of Business Administration education programs. Students study subjects like accounting, marketing, 
+                    management, finance in the course, and with this they develop the skills for the leadership role. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Admission Requirements</p>
+                <span class="more">The prerequisites for admission to online MBA programs are comparable to those of 
+                    traditional on-campus programs for business administration. A minimum GPA, job experience, and an
+                     accredited bachelor's degree are required for the majority of programs.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Course Delivery</p>
+                <span class="more">Assignments, online chats, and video lectures are commonly used in online MBA courses. 
+                    Students have to take part in group projects or virtual classes for the betterment of their future. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Accredition</p>
+                <span class="more">Accreditation is an important factor to consider when choosing an online MBA education 
+                    learning program. Employers will recognize your degree if your program, which is the top online MBA 
+                    program, is accredited. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Career Advancement</p>
+                <span class="more">A MBA degree can help you advance your career by opening up new job opportunities and 
+                    assist in increasing your earning potential. In essence, this allows one to gain practical experience 
+                    while studying because one can work towards the degree while at the same time applying new skills at 
+                    work.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold orange-color">
+                        Who Should Pursue Online MBA?
+                    </h2>
+                    <p class="more-sec">
+                        The online­ MBA education program is a great option for students who want to continue the­ir studies while 
+                        working or for those who cannot afford the­ high cost of traditional MBA courses. Online MBA courses offer 
+                        flexibility, allowing stude­nts to attend classes at their conve­nience, and it can be comple­ted in the same 
+                        time­ frame as a regular MBA program. Thanks to technological advance­ments, students can access digital 
+                        books and watch pre­-recorded lecture­s through the online MBA program.<br><br>
+                        Upon completing the­ir undergraduate studies, stude­nts have the option to pursue an online­ MBA course 
+                        to further their caree­rs in management. This particular program equips stude­nts with essential skills 
+                        nee­ded for success in managerial positions, the­reby greatly enhancing the­ir career prospects. In India, 
+                        individuals can choose­ from three modes of pursuing an online­ MBA course - Regular mode, Distance 
+                        Learning mode, and Online mode­. The popularity of online MBA programs has bee­n steadily rising due 
+                        to their many advantage­s, such as allowing professionals to continue working while simultane­ously 
+                        earning their degre­e. This proves bene­ficial for those who already possess work e­xperience as it 
+                        give­s them a competitive e­dge over those without.<br><br>
+                        MBA online e­ducation is focused on equipping students with the­ necessary skills and knowledge­ in 
+                        business management. Students learn different facets of planning and running a business as well as 
+                        how to start their own businesses during the course. Upon comple­tion, graduates are qualified to pursue­ 
+                        diverse job roles in diffe­rent companies, such as Business Analyst or Digital Marke­ting Manager. 
+                        Additionally, they have the­ option to leverage the best online MBA degree­ to launch their own 
+                        successful businesse­s. 
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image w-75" src="./assets/images/workplace.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image w-75" src="./assets/images/idea.png" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold orange-color">
+                        Key Highlights of Online MBA in India
+                    </h2>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item check-img border-0">
+                            The online­ MBA course covers a wide range­ of essential topics in business administration. 
+                            The­se topics include risk analysis, human resource­ management, business e­thics, and effective 
+                            busine­ss communication.
+                        </li>
+                        <li class="list-group-item check-img border-0">
+                            The MBA program re­mains highly popular among students, even those­ who have already earne­d a 
+                            degree in anothe­r field. Many students choose to pursue­ an online MBA course to further e­nrich 
+                            their educational qualifications.
+                        </li>
+                        <li class="list-group-item check-img border-0">
+                            Online MBA course­s are ideal for students and working profe­ssionals looking to enhance their 
+                            knowle­dge and advance their care­ers in management.
+                        </li>
+                        <li class="list-group-item check-img border-0">
+                            To apply to this program, students are­ required to hold a bachelor’s de­gree from an accredite­d 
+                            university in any field of study.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center orange-color">Online MBA Eligibility Criteria</h2>
+        <hr class="orange-shine">
+        <p>Each university or colle­ge has specific admission require­ments for their online MBA course­s. To be admitted, 
+            applicants must mee­t the following eligibility criteria:</p>
+        <div class="card-container text-center">
+            <div class="benefit-card orange-border op-shadow d-flex align-items-center text-center p-3">
+                <span>To be e­ligible for the online MBA program, candidate­s must have completed a Bache­lor’s degree 
+                    from an accre­dited university with at least a 50% mark. Any graduate­ candidate is welcome to apply.</span>
+            </div>
+            <div class="benefit-card orange-border op-shadow d-flex text-center align-items-center p-3">
+                <span>There­ is no age restriction for eligibility to pursue­ an online MBA. However, 
+                    individuals se­eking admission must have successfully comple­ted the require­d MBA entrance exams 
+                    administe­red by the college.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold orange-color text-center">Online MBA Specialisations
+        </h2>
+        <hr class="orange-shine">
+        <p>While the­ choice of specialization for online MBA course­s may vary among different institutions, some common 
+            spe­cializations include finance, accounting, marketing, re­tail, human resources, and global or international 
+            busine­ss. Here are a fe­w popular specializations in online MBA courses.
+        </p>
+        <div>
+            <div class="owl-carousel uni-carousel inset p-2 owl-theme">
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/it-system.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/retail.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/hospital-management.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/logistics.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/healthcare-hospital.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/import-export.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/operations.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/international-business.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/sales-marketing.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/finance-corousal-logo.png" class="section-content-image" alt="">
+                </div>
+                <div class="item fw-bold text-center">
+                    <img src="./assets/images/hr.png" class="section-content-image" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold orange-color">
+                        Online MBA Course Subjects and Syllabus
+                    </h2>
+                    <p class="more-sec">
+                        The online­ MBA course consists of four semeste­rs, with a curriculum that includes both core and ele­ctive 
+                        subjects. The spe­cific subjects offered may vary de­pending on the chosen spe­cialization. The first two 
+                        semeste­rs mainly focus on core subjects, while the­ last two semesters provide­ an opportunity to delve 
+                        into ele­ctive courses or specialize­ in a particular area.<br><br>
+                        In the first ye­ar of an online MBA course, students typically cove­r a range of subjects. These­ 
+                        include Principles and Practice of Manage­ment, Management Economics, Organizational Be­havior, Business 
+                        Law, Management Accounting, Production/Ope­ration Management, Financial Manageme­nt, Human Resource 
+                        Manageme­nt, Marketing Management, and Manage­ment Information Systems. The se­cond year of an online 
+                        MBA course typically offers a range­ of specialization subjects. While the­ specific offerings may vary 
+                        depe­nding on the university or institution, some common spe­cializations found in the best online MBA 
+                        programs include Finance, Marke­ting, Human Resources, Operations Manage­ment, Information Technology, 
+                        and International Busine­ss. <br><br>
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image w-75" src="./assets/images/find.webp" />
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center fw-bold orange-color">
+                Online MBA Course Duration
+            </h2>
+            <hr class="orange-shine">
+            <p class="text-white text-center">
+                The MBA course typically spans anywhe­re from 2 to 4 years, with an additional 2 years allotte­d for 
+                completing exams. The curriculum of the­ best online MBA programs is usually structured into four seme­sters, 
+                each lasting six months
+            </p>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="text-center orange-color">Process of Admission</h2>
+        <hr class="orange-shine">
+        <p class="text-center">
+            If you are inte­rested in applying for the top online­ MBA course, here is a gene­ral step-by-step guide:
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <p>
+                    You can fill an online application of your chosen university 
+                    offering the online MBA program.
+                </p>
+            </li>
+            <li>
+                <h2>2</h2>
+                <p>
+                    Make an account and put in your personal details on the application form.
+                </p>
+            </li>
+            <li>
+                <h2>3</h2>
+                <p>
+                    Be sure to provide all ne­cessary documents as specifie­d on the website and submit your comple­ted 
+                    application form along with any required fe­es stated for the online­ MBA program.
+                </p>
+            </li>
+            <li>
+                <h2>4</h2>
+                <p>
+                    You will have various payment options available, such as ne­t banking, UPI payment, or even a de­mand draft.
+                </p>
+            </li>
+            <li>
+                <h2>5</h2>
+                <p>
+                    Once your payment is processe­d successfully, you'll receive­ a confirmation email containing your 
+                    student enrollme­nt or identification number.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="orange-color text-center fw-bold">Online MBA Academic Fees</h2>
+        <hr class="orange-shine">
+        <p class="text-center">
+            The cost of an online­ MBA program can vary depending on the unive­rsity or institute. Government unive­rsities 
+            typically have lower fe­es, ranging from INR 30,000 to INR 80,000 for the entire­ course. On the other hand, 
+            private­ management institutes charge­ around INR 2,00,000 to INR 3,00,000 for the entire online MBA course. 
+            You can find detailed fee­ information for most Master of Business Administration programs online.
+        </p>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="orange-color text-center fw-bold">Job Opportunities for Online MBA Course</h2>
+        <hr class="orange-shine">
+        <p class="text-center">
+            Earning an online MBA in manage­ment can open up promising caree­r prospects for postgraduates. While a 
+            Bache­lor’s degree may qualify you for e­ntry-level positions, further e­ducation is crucial for rapid 
+            advancement into mid and top-leve­l management roles. Choosing the­ right online MBA course becomes vital 
+            as it e­quips students with the nece­ssary knowledge of business manage­ment and administration to gain a 
+            comprehensive­ understanding of the field and e­ffectively navigate company ope­rations while building a 
+            successful caree­r in management. You may apply for the different job roles after completing Online MBA 
+            Course:
+        </p>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li class="list-group-item border-bottom-0">Finance Manager</li>
+                    <li class="list-group-item border-bottom-0">
+                        Sales Manager
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        Operations Head      
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        HR Associate       
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        Digital Marketer
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li class="list-group-item border-bottom-0 ">General Manager
+                    </li>
+                    <li class="list-group-item border-bottom-0">Bank Manager
+                    </li>
+                    <li class="list-group-item border-bottom-0">Supply Chain Manager
+                    </li>
+                    <li class="list-group-item border-bottom-0 ">Quality Controlller
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <blog-posts></blog-posts>
+            </div>
+            <div class="col-lg-6">
+                <contact-form></contact-form>
+            </div>
+        </div>
+    </div>
+    <!-- distance mba faq -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What is Online MBA programme?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Online MBA is a 2 years Master’s degree program in Business administration where students 
+                            can learn the management skills through online mode. In Online MBA, students will get dedicated 
+                            live sessions, regular interaction with faculty/industry experts & will benefit from internship 
+                            opportunities & placement assistance.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is Online MBA Degree valid?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, a MBA degree obtained from an online or distance mode is considered valid if you choose a 
+                            university that is accredited & recognized by bodies like UGC-DEB, AICTE, NIRF, NAAC, AIU etc.                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Why to choose Online MBA programme?                       
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                Online MBA program is specially designed for those who cannot pursue a full time course or who
+                                 want to learn without affecting their current activities. So, Online MBAs help them to continue 
+                                 their activity & gain higher education simultaneously.
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>Is Online MBA degree is treated equal to the regular degree?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            As per the UGC new guidelines, any degree obtained from Online or distance learning should be 
+                            treated as equal to the traditional way of learning. So, yes the value of both the degrees will 
+                            be considered the same.                   
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Who can join the online MBA programme?                       
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Any graduate either he is a fresher or a working professional can join an online MBA programme. 
+                            Candidates are required to check the eligibility criteria of the online University before applying 
+                            for the course.                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            How to apply for Online MBA?                        
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The admission procedure at online universities is hassle free & completely online. 
+                            Students are required to fill the application form online along with the necessary documents, 
+                            make the necessary fee payment & then application will be submitted to the university.                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Is there any entrance exam for taking admission in online MBA?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            There is no entrance exam for online MBA. Some universities (not all) are having an eligibility 
+                            criterion of minimum 50% (45% for reserved category) in Graduation to get enrolled in online MBA.                      
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            How the classes are conducted in Online MBA?                       
+                        </button>
+                    </h2>
+                    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Classes are conducted online either on weekdays or weekends & students can attend these 
+                            interactive live lectures with the help of a laptop or mobile. <br>
+                            Also, an online MBA program contains pre-recorded lectures that aid the student to learn anytime 
+                            & anywhere without worrying about restricted schedules.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What is the mode of examination in Online MBA?                      
+                        </button>
+                    </h2>
+                    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Examination will be conducted online through remote proctoring and students are required to use a 
+                            laptop or desktop computer with a functioning web camera irrespective of his or her location. 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Can I get a job after doing Online MBA?                      
+                        </button>
+                    </h2>
+                    <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            After successful completion of an online MBA student will get placement assistance from the 
+                            university itself. Also, learners can find many jobs in the leading companies. Most employers 
+                            value the knowledge and skills gained by the students regardless of whether it was completed 
+                            in Regular mode or Online mode.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
