@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+
+    <div class id="box-search">
+        <div class="thumbnail text-center">
+            <img src="./assets/images/banner.png" alt class="img-responsive w-100">
+            <div class="caption align-baseline text-center">
+                <h2 class="fw-bold text-dark banner-text">Online Education MA Program
+                    <div class="form-wrapper container d-block d-md-none">
+                        <p class="text-white">Enter Your Details to Enquire</p>
+                        <form action="">
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                        aria-label="First name">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                        aria-label="Mobile Number">
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <select class="form-select  form-select-sm" name="university" required
+                                        placeholder="Select University">
+                                        <option value="Amity University">Amity University</option>
+                                        <option value="Online Manipal University">Online Manipal University</option>
+                                        <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                        <option value="GLA University">GLA University</option>
+                                        <option value="Lovely Professional University">Lovely Professional University
+                                        </option>
+                                        <option value="Integral University">Integral University</option>
+                                        <option value="Uttaranchal University">Uttaranchal University</option>
+                                        <option value="IGNOU">IGNOU</option>
+                                        <option value="Mizzoram University">Mizzoram University</option>
+                                        <option value="OTHER">OTHER</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col">
+                                    <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </h2>
+            </div>
+
+            <div class="form-wrapper container d-none d-md-block">
+                <form action="">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                                aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                                aria-label="Mobile Number">
+                        </div>
+
+                        <div class="col">
+                            <select class="form-select  form-select-sm" name="university" required
+                                placeholder="Select University">
+                                <option value="Amity University">Amity University</option>
+                                <option value="Online Manipal University">Online Manipal University</option>
+                                <option value="Sikkim Manipal University">Sikkim Manipal University</option>
+                                <option value="GLA University">GLA University</option>
+                                <option value="Lovely Professional University">Lovely Professional University</option>
+                                <option value="Integral University">Integral University</option>
+                                <option value="Uttaranchal University">Uttaranchal University</option>
+                                <option value="IGNOU">IGNOU</option>
+                                <option value="Mizzoram University">Mizzoram University</option>
+                                <option value="OTHER">OTHER</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                        </div>
+                    </div>
+                    <!-- <div class="row mb-2">
+                        <div class="col"></div>
+                        
+                        <div class="col"></div>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Online MA Programs: Admission, Courses, Fees & Opportunities 2023
+                    </h2>
+                    <p>
+                        The online MA course is a postgraduate degree course after the bachelor’s degree specially designed for those 
+                        students who do not have time to take regular classes because they are enrolling in a job or any other activity 
+                        related to their career.<br>
+                        The curriculum of an MA degree online varies on the area of student interest in various major subjects such as 
+                        English, Journalism, Economics, etc. The online MA program is budget- friendly, gives you time flexibility & 
+                        degree along with experience. So, why put your education & career goals on hold, just pick up the best online 
+                        MA University among the universities listed below.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/guy-explaining-art.webp" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        What is the Online MA Course?
+                    </h2>
+                    <p class="more-sec">
+                        A Master of Arts degree program that may be completed primarily or totally online is known as an online MA course. 
+                        Masters degree in arts emphasizes on various fields like humanities social science etc. Various UG, PG, and diploma 
+                        programmes are offered by numerous reputable top-online universities. Check out all of the universities that the UGC 
+                        has authorized.   <br><br>
+                        People can study and earn a master’s degree without physically attending classrooms by taking an online MA degree. 
+                        Online lecture platform provided by the university/institution enables students to access a wide range of courses, 
+                        video lectures, group discussions and much more. <br><br>
+                        It’s common for coursework, assignments, and exams to be required in order to finish an online MA. A thesis or capstone 
+                        project could also be a part of some curriculum. Although the program’s length varies, it typically lasts one to two 
+                        years to finish. <br> <br>
+                        The flexibility of online MA courses allows students to learn at their own pace and from any location with an Internet 
+                        connection. They are­ suitable for individuals who want to further their e­ducation while managing their responsibilitie­s 
+                        to their families, jobs, and other commitme­nts. <br><br>
+                        An online MA degree’s worth is based on the institution’s standing and accreditation. it has a direct bearing on someone’s 
+                        career perspectives that are within his or her master’s degree. Without taking an entrance exam, any graduate from an accredited 
+                        institution may apply for admission to the online MA courses in India in political science, mass communication, and other 
+                        types of speciality.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold mb-3">Key Highlights of Online MA
+        </h2>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2 text-center d-flex align-items-center shadow">
+                <span>The online MA course is divided into 2 years which includes 4 semesters. </span>
+            </div>
+            <div class="benefit-card text-center d-flex align-items-center shadow">
+                <span>The candidates who have passed graduation can pursue the program in online modes. 
+                </span>
+            </div>
+            <div class="benefit-card text-center d-flex align-items-center shadow">
+                <span>
+                    The student has numerous specializations to choose such as English, Human Rights, Journalism, and Economics etc.</span>
+            </div>
+            <div class="benefit-card text-center d-flex align-items-center shadow">
+                <span>The course curriculums designed in online MA is a job-oriented course.</span>
+            </div>
+            <div class="benefit-card p-4 text-center d-flex align-items-center shadow">
+                <span>The online MA is suitable for all those candidates, who can’t afford regular college fees, who are preparing for 
+                    competitive government job exams, those who have less percentage in 10+2 etc. but want to enhance their knowledge and 
+                    lift up their career.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        What is the Eligibility Criteria for Online MA Admission?</h2>
+                    <p>
+                        Depending on the university and particular program, the requirements for entrance, the length of the MA online 
+                        course, and the costs can change. The following information is necessary for online MA degree admission: 
+                    </p>
+                    <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                        <li class="list-group-item border-bottom-0">
+                            Those who have spent at least three or four years finishing a master’s degree in the arts.                         
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            The degree requires UGC (University Grants Commission) approval.                                
+                        </li>
+                        <li class="list-group-item border-bottom-0">
+                            A minimum aggregate of 45–50% is needed at the graduate level. The minimal requirements, however, may change depending on 
+                            the university. 
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/girl-saying-hi-art.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/guy-explaining-art.webp" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Is Choosing an Online MA after Graduation Worth?
+                    </h2>
+                    <p>
+                        If you want to develop your profession and gain advanced knowledge in your industry after graduation, enrolling in 
+                        an MA degree online program may be worthwhile. Because of the flexibility of online programs, students can mix their 
+                        academic goals with other responsibilities like employment and family.  <br><br>
+                        They give people access to reputed schools and high-quality education that is comparable to on-campus courses. Online 
+                        MA degree programs can help working professionals to enhance their profession with additional degrees and gaining 
+                        working experience at the same time. For the program to be valuable and relevant in the job market, one has to 
+                        consider various factors when choosing their MA online course such as accreditation, reputation, and compatibility 
+                        of the professional aspirations.Prior to making any choice for an online MA degree, consider factors such as 
+                        university rating, cost, programs, placement, etc. Compare your university with the many universities that offer 
+                        online courses.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        What is the Online MA Course Fee?</h2>
+                    <p>
+                        An online MA costs between 5,000 and 20,000 Indian Rupees each year. The price varies according to the area, 
+                        type of university, ranking, etc. For instance, tuition is lower in state and federally-funded colleges than 
+                        at public and private universities. 
+                        Depending on their eligibility, students can select from a wide range of online MA courses in India at private 
+                        universities with flexible timetables and speedy services. Admission to an online MA program costs less than a 
+                        full-time MA program at the same college or university.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/girl-saying-hi-art.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 text-center order-2 order-lg-1 d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/guy-explaining-art.webp" />
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        What is the Online MA Degree Duration?
+                    </h2>
+                    <p>
+                        Two years are required to complete the MA online course. There are 4 semesters in the course, with 2 semesters in 
+                        each year.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold">
+            Application for Online MA Admission and Process
+        </h2>
+        <p>
+            Registration: Create a user account and fill it up with some basic information about yourself to register a profile to 
+            enroll in online MA courses in India.
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <p>
+                    To apply for the MA online course, fill out the relevant fields.
+                </p>
+            </li>
+            <li>
+                <h2>2</h2>
+                <p>
+                    Upload each document needed for enrolling in the chosen course. Send in the necessary registration 
+                    or  online MA entrance fees.               
+                </p>
+            </li>
+            <li>
+                <h2>3</h2>
+                <p>
+                    The relevant University will review the documents before continuing.
+                </p>
+            </li>
+            <li>
+                <h2>4</h2>
+                <p>
+                    The university will provide the applicant with an enrollment number and an admissions 
+                    confirmation for the MA online course.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        How Can I Enroll in an Online MA Degree After the Deadline?</h2>
+                    <p>
+                        Applications for admission to online MA courses in India are frequently accepted twice a year by online colleges. 
+                        If you missed the first cycle, you must apply for the second one. You must, however, abide by the rules that the 
+                        institutions have established for the admissions process. <br><br>
+                        Many institutions charge more for late or after-deadline admission. 
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/girl-saying-hi-art.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold mb-3">Demanding Online MA Course Specializations for 2023
+        </h2>
+        <p>Depending on the field of study, different online MA subjects have different structures and specialized material. Typical 
+            illustrations of MA education online programs include:</p>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2 text-center inset-shadow">
+                <p class="text-center fw-bold">Online MA in English Literature</p>
+                <span>In this MA degree online, you will study literary works, theory, and critical thinking abilities.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Psychology</p>
+                <span>The purpose of trying to understand the functioning of the mind is very significant. Among the many jobs you can get with an MA in 
+                    psychology are study assistant, clinical psychologist, counselor, and therapist. </span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in History</p>
+                <span>Students enrolled in the online MA in History degree will learn about historical events, research techniques, and historiography.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in International Relations</p>
+                <span>This MA education online course examines international relations, global politics, diplomacy, and law.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Fine Arts</p>
+                <span>Fine arts can include such artistic disciplines as graphic design, photography, sculpting or painting. During this course students learn 
+                    different types of artistic skills from color combination to delivering their imagination into an art; encouraging students to be patient 
+                    and creative to the best of their ability.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Political Science</p>
+                <span>In this online MA program, stude­nts will explore political systems, ide­ologies, and governance structure­s. Students opting for political 
+                    science gain a deep understanding of the dynamics field of politics both domestically and globally.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Networking Opportunities</p>
+                <span>Make connections with colleagues, professionals, and specialists from various fields and professions.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Economics</p>
+                <span>Students pursuing the MA degree in economics can complete their course within two years through Open & Distance Learning (ODL); a program 
+                    consisting of quantitative analysis, economic theories, etc., enabling them to analyze and address complex economical challenges in different 
+                    sectors. </span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Sociologyt</p>
+                <span>The online­ MA in Sociology focuses on the study of society, culture and human be­havior at large. In this program students concentrate 
+                    on different social issues; and analyze critical situations that contribute significantly to making effective social changes in communities.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Hindi</p>
+                <span>This program is designe­d for students who are intere­sted in studying the Hindi language, lite­rature, and culture. 
+                    It aims to deve­lop students’ linguistic and cultural proficiency specifically in re­lation to Hindi-speaking regions.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Urdu</p>
+                <span>Students in this online MA program will immerse themselves in the rich world of Urdu language, literature, and culture, 
+                    gaining a deep appreciation for this significant South Asian language.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Journalism and Mass Communication</p>
+                <span>By enrolling in this innovative­ online Master’s program, students will gain valuable­ skills and knowledge esse­ntial for a 
+                    thriving career in journalism, media, and communication. The­ curriculum encompasses various areas including compre­hensive 
+                    reporting te­chniques, multimedia production strategie­s, and the principles of media e­thics.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Human Rights</p>
+                <span>In this online program, stude­nts will explore the principle­s and practices of human rights. The aim is to empowe­r them to 
+                    become advocate­s and experts in protecting the­ fundamental rights and dignity of individuals and communities worldwide.</span>
+            </div>
+            <div class="benefit-card inset-shadow">
+                <p class="text-center fw-bold">Online MA in Islamic Studies</p>
+                <span>Through the online­ MA program, students will have the opportunity to de­lve into the various dimensions of Islamic civilization. </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold mb-3">Why Is It Best to Compare MA Universities Before Applying?
+        </h2>
+        <p>Before enrolling, it’s crucial to compare MA online universities. You can use various factors to make informed decisions in finding the best institution 
+            that not only provides a quality education but also aligns with your career prospects. The following justifies the significance of comparing MA education 
+            online institutions:</p>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-business-time"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Ranking and Accreditation</p>
+                <span class="more">Universities’ reputations and accreditation status can be evaluated via comparison. 
+                    Quality education, recognition, and the legitimacy of the degree are all guaranteed by a university
+                     with good standing and appropriate accreditation.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-shuffle"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Program Offerings</p>
+                <span class="more"> There are likely to be changes in the curriculum, specialities, and elective courses 
+                    offered by different universities’ online MA degree programs. Students can select programs that match 
+                    their unique interests and professional goals by comparing institutions.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-arrow-alt-circle-right"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Faculty</p>
+                <span class="more">
+                    Finding academic direction and research opportunities benefits from evaluating the competence, 
+                    research interests, and publications of faculty. Universities with experienced faculty and instructors can 
+                    offer comprehensive learning benefits to the students in gaining deep understanding about their field.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Compare University</p>
+                <span class="more">Comparing different universities will help you understand different aspect and vision of the 
+                    university and their achievements. You can also compare other thing facilitated by the institution for better 
+                    learning such as libraries, research facilities, labs, etc., where students can gain comprehensive learning. 
+                    Online learning process can be improved when students have access to extensive study and research materials 
+                    based on their syllabus.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Alumni and Career Support</p>
+                <span class="more">Students might benefit in a variety of ways from an evaluation of alumni networks and career 
+                    support at colleges. Also known as the training and placement department, as they ensure that students gain 
+                    extensive field experience by enrolling them in internships to enhance their profile for securing a job in 
+                    various fields. Students who receive this help both during and after their online MA course will benefit. Both 
+                    during and after their MA online course, this can be useful.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Cost and Financial Aid</p>
+                <span class="more">Students can choose solutions that meet their budget by paying tuition fees, receiving scholarships, and using financial aid sources.
+                    Prospective­ students are provided with the­ chance to explore various crite­ria that are essential for a fulfilling e­ducational experience­ at MA universities. 
+                    This enable­s them to make the be­st decision for their academic, profe­ssional, and personal goals.
+                    </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="fw-bold">How to Select the Best MA Course for Online Learning After Graduation?
+        </h2>
+        <p>Before enrolling in an online MA course, keep the following in mind:
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li class="list-group-item border-bottom-0
+            ">Determine your objectives and passions.
+        
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        Investigate recognized courses in your field.
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        Evaluate their Course curriculum, their specialities and available courses.       
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        Take into account faculty knowledge and assistance for online learners.        
+                    </li>
+                    <li class="list-group-item border-bottom-0">
+                        Examine the online learning environment and program flexibility.
+                    </li>
+                    <li class="list-group-item border-bottom-0 ">Check for placement opportunities provided by the institution and other alumni 
+                        networks for better career prospects.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                    <li class="list-group-item border-bottom-0 ">Compare the cost of tuition and available financial help.
+                    </li>
+                    <li class="list-group-item border-bottom-0">When evaluating, make sure the course and the curriculum 
+                        of the institution aligns with your future aspirations.
+                    </li>
+                    <li class="list-group-item border-bottom-0">Trust your gut and select the curriculum that seems to meet your 
+                        academic and career objectives the best.
+                    </li>
+                    <li class="list-group-item border-bottom-0 ">Business Process Outsourcing Units
+                    </li>
+                    <li class="list-group-item border-bottom-0 ">Ask a professional and receive a free consultation!
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        What is Online Learning MA?</h2>
+                    <p>
+                        The term ” online MA” refers to a Master of Arts degree program that is taught remotely, enabling students to continue their 
+                        education without having to physically visit a campus. Online MA program provided by the institution allows students to have 
+                        access to various online and recorded lectures along with extensive study materials and communication tools.  <br><br>
+                        Online MA programs offer an easy and flexible curriculum allowing students to manage their studies and work at the same time. 
+                        These programs offered by the institution ensure that students receive a high-quality education which can be accessed remotely 
+                        by the student from the comfort of the home. These programs have similar curriculum and standards compared to on-campus courses.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/girl-saying-hi-art.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold mb-3">Is It Worth to Take an Online Learning or Online MA Course? 
+        </h2>
+        <p>Yes, many people may find it worthwhile to enroll in an online MA or distance learning MA program. Here are some of the causes:</p>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-business-time"></i>
+                <p class="fw-bold pt-4 benefit-card-title">
+                    Flexibility</p>
+                <span class="more">Online learning is appropriate for people who have work or family commitments since 
+                    it allows you to study at your own pace and on your own schedule.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-shuffle"></i>
+                <p class="fw-bold pt-4 benefit-card-title">
+                    Accessibility</p>
+                <span class="more">You can obtain education from renowned institutions or programs that might be far away, 
+                    giving you a greater selection of options.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-arrow-alt-circle-right"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Cost-effectiveness</p>
+                <span class="more">
+                    Online courses frequently have reduced tuition costs and don’t require moving or other relocation costs, making them more affordable.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Career advancement</p>
+                <span class="more">As long as the university and program are credible and approved, employers often regard an MA degree earned through online learning.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Personal growth</p>
+                <span class="more">These programs offer working professionals to pursue their masters degree without having to leave their job. The flexibility of these courses provided by various universities enable you to enhance your working experience and your educational qualification that can contribute to your professional growth such as promotion, other promising opportunities, etc.
+                    But it’s crucial to pick recognized schools, think about the program’s reputation, and make sure it fits with your job objectives. Additionally, it’s crucial to take into account the particular needs of your preferred job as some may demand practical or hands-on experience.
+                    </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-pen"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Full-fledged Online MSc Degree from NAAC accredited University</p>
+                <span class="more">Get NAAC entitled degree from India's top ranked university, which has received the highest NAAC A+ 
+                    or A++ grade.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Significance of Online MA in Jobs 
+                    </h2>
+                    <p class="more-sec">
+                        For instance, online MA programs impact employment opportunities immensely, and these are built for working professionals plus 
+                        gaining experience while at it for furthering their careers. Online colleges treat a degree earned online as equally valuable 
+                        to one earned through traditional means because of the quality and the convenience it offers. <br>
+                        In fact, online programs can be considered as career boosters since they help in upgrading the current 
+                        profession leading to higher income levels and competitive advantage in labor market being used by them.<br>
+                        Regarding career chances, an  online MA degree matters because it signifies commitment, dedication and advanced 
+                        knowledge. The adaptability and self-control that it takes to earn a master’s degree are highly prized by employers 
+                        seeing as such a student is likely to have developed qualities like time management skills among others. An Online 
+                        MA Holder possesses specific knowledge about specialized subjects as well as labor market related competencies.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/about.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 text-center">
+        <h2 class="fw-bold">What Job Opportunities Exist for Online MA Students?</h2>
+        <p>Individuals pursuing their masters through online programs have various opportunities such as career advancement, new opportunities, etc., 
+            in various areas. The precise employment options vary according to the area of study and specialty. For online MA degree students, the 
+            following are some examples of prospective career paths:</p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Education
+                        </button>
+                    </h2>
+                    <div id="collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Online MA candidates can work as instructional coordinators, curriculum creators, or education administrators in 
+                            addition to pursuing teaching positions at schools, colleges, or universities.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Non-profit Organisations
+                        </button>
+                    </h2>
+                    <div id="collapseTwo1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Opportunities may exist in non-profit organizations with a focus on advocacy, social services, or education 
+                            in positions like program coordinators, grant writers, research analysts, or project managers.                      
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Government Agencies                       
+                        </button>
+                    </h2>
+                    <div id="collapseThree1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                Within municipal, state, or federal government agencies, careers in research, policy analysis, program 
+                                management, or communications are possible.
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour1" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>Corporate Sector
+                        </button>
+                    </h2>
+                    <div id="collapseFour1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Depending on their area of specialty, MA education online students could find employment in a variety 
+                            of areas like human resources, marketing, digital marketing, communications, research, or data analysis.                      
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix1" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Healthcare                      
+                        </button>
+                    </h2>
+                    <div id="collapseSix1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Healthcare management, healthcare policy analysis, health education, content writing, 
+                            and medical writing are all possible career paths. <br>
+                            According to the sector and the specialized field of the MA degree online, several top recruiting companies are available. 
+                            Among the potential employers are large enterprises, academic institutions, governmental organizations, research groups, 
+                            consulting firms, and non-profit organizations. The best-employing companies will be determined by elements including the 
+                            student’s location, area of specialization, and the unique job market characteristics in their industry.
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="fw-bold text-center">Top Hiring Firms For MA</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-logo-wrapper uni-carousel p-2 align-middle owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/axis.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/rli.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/genpact.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/maruti.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/infosys.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/accenture.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 text-center">
+        <h2 class="fw-bold">What is the Trend in the Average Salary for a Person with an Online MA?</h2>
+        <p>Depending on their level of expertise in the subject, online MA degree graduates can expect to earn anywhere between INR 2.5 and 5.5 LPA.</p>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <blog-posts></blog-posts>
+            </div>
+            <div class="col-lg-6">
+                <contact-form></contact-form>
+            </div>
+        </div>
+    </div>
+    <!-- distance mba faq -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What is Online MA?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The Online MA course is a 2 year post graduate degree course after the bachelor’s degree where 
+                            the mode of course delivery is online especially designed for candidates who are unable to attend 
+                            the regular college or enrolling in a job or any other activity.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What are the specializations offered in Online MA?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Online M.A. is a specialized course that offers in-depth knowledge of the chosen discipline. The disciplines offered in M.A. are:  
+                            <br>  
+                            ENGLISH, ECONOMICS, HINDI, HISTORY, POL SCI, JOURNALISM & MASS COMM            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What is the duration in MA Online programs?                        
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                The minimum duration to complete the MA online program is 2 years & maximum duration is 4 years.
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>What is the average fee structure for Online MA?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        The average fee for Online M.A. varies from 20,000 to 50,000 depending upon the university you may 
+                        take up the course from.  The fees for M.A journalism costs INR 1,00,000 to 1, 50,000.
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What is the mode of examinations in MA online program?                       
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Now a days, most of the universities offer online examinations while in case of online universities some still have offline examinations.                    
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What are the key benefits of joining Online MA?                        
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                                <li class="list-group-item border-bottom-0">
+                                    The distance M.A program is budget friendly.                              
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    The course curriculums designed in online MA is a job-oriented course.                               
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    The online MA is suitable for all those candidates who are preparing for competitive government job exams.                             
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Students are free to learn anytime and anywhere as per their convenience.                   
+                                </li>
+                            </ul>                         
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Is Online MA degree valid for government and private jobs?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, Online M.A opens a plenty of career options for students in government as well as in private sector 
+                            if the degree is obtained from a recognized online university that is UGC, NAAC Approved & average salary 
+                            one can get after completing online/distance M.A course is INR 2,00,000 – 5,00,000 per annum.                      
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What are the job options after Online MA?                        
+                        </button>
+                    </h2>
+                    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Here are some of the best job opportunities a student can grab after completing Online MA:
+                            <ul class="list-group effect-1 list-group-flush list-group-numbered">
+                                <li class="list-group-item border-bottom-0">
+                                    Content Writer                              
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Operation Manager                               
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Writer                             
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Journalist                   
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Teacher                               
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Social service                               
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Politician                              
+                                </li>
+                                <li class="list-group-item border-bottom-0">
+                                    Professor                              
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
