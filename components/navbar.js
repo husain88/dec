@@ -153,11 +153,11 @@ class Navbar extends HTMLElement {
                 >Post Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
-                <li><a class="dropdown-item" href="blog.html">Online MBA Courses</a></li>
+                <li><a class="dropdown-item" href="online-mba.html">Online MBA Courses</a></li>
                 <li><a class="dropdown-item" href="online-mca.html">Online MCA Courses</a></li>
-                <li><a class="dropdown-item" href="blog.html">Online MSC Courses</a></li>
+                <li><a class="dropdown-item" href="online-msc.html">Online MSC Courses</a></li>
                 <li><a class="dropdown-item" href="mcom.html">Online MCOM Courses</a></li>
-                <li><a class="dropdown-item" href="#">Online MA Courses</a></li>
+                <li><a class="dropdown-item" href="online-ma.html">Online MA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -171,9 +171,9 @@ class Navbar extends HTMLElement {
               <ul class="dropdown-menu fade-down">
                 <li><a class="dropdown-item" href="online-bca.html">Online BCA Courses</a></li>
                 <li><a class="dropdown-item" href="online-bba.html">Online BBA Courses</a></li>
-                <li><a class="dropdown-item" href="blog.html">Online BSC Courses</a></li>
+                <li><a class="dropdown-item" href="online-bsc.html">Online BSC Courses</a></li>
                 <li><a class="dropdown-item" href="bcom.html">Online BCOM Courses</a></li>
-                <li><a class="dropdown-item" href="blog.html">Online BA Courses</a></li>
+                <li><a class="dropdown-item" href="online-ba.html">Online BA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
