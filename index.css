@@ -964,3 +964,12 @@ background: linear-gradient(to right, #ff6f42, #273272);
     padding-top: 10px;
   }
 }
+
+.details-card {
+  padding: 15px 15px 15px 15px;
+    border-style: dashed;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ff0202;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
+}
