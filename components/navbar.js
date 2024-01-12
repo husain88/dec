@@ -192,7 +192,7 @@ class Navbar extends HTMLElement {
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Top Universities</a>
+              <a class="nav-link" href="top-universities.html">Top Universities</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
