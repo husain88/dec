@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/wes.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/iqas.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ices.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/icas.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aocu.jpeg" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold text-center">
+                    Broaden Your Horizon and Utilize Your Precious Time with the Prestigious Manipal University Online
+                    BBA Program
+                </h2>
+                <p class="more">
+                    The Manipal University online BBA program offers wholesome knowledge on subjects like Management
+                    Strategies, Business Principles, and Entrepreneurial skills. Students can pursue BBA in various
+                    disciplines to make their career in their interested discipline.
+                    Experience the convenience of earning your degree from the comfort of your home with Manipal’s
+                    cutting-edge online courses. BBA online programs offer a convenient schedule so that students can
+                    pursue the course while continuing their profession simultaneously. With the Manipal University
+                    Online BBA program, students cannot only elevate their professional skills but also work towards
+                    their personal growth.
+                    Gain a solid foundation in business administration with our comprehensive online BBA program. With
+                    Manipal’s online BBA program, the possibilities are limitless. Start your online BBA journey today
+                    and unlock a new potential for yourself. Your future is waiting. </p>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- Exploring the Advantages of Opting for an Online BBA Program at Online Manipal -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">Exploring the Advantages of Opting for an Online BBA Program at Online Manipal
+        </h2>
+        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+            <li class="list-group-item  border-0
+   ">Unearth the myriad advantages inherent in selecting our Online Manipal BBA Course and unlock an expanse of
+                prospects for your forthcoming journey.Educators from renowned institutions: Our Online Manipal BBA
+                Course is designed in collaboration with leading educational experts. You shall find yourself in the
+                company of seasoned mentors, passionately committed to dispensing premium education in the realm of
+                business administration.
+            </li>
+            <li class="list-group-item  border-0">Balance personal and academic life: Transform your life and career
+                with the flexibility of our Online BBA Program. Students can choose from its hybrid learning model
+                consisting of in-person instruction, eLearning modules, and online discussion groups.
+            </li>
+            <li class="list-group-item  border-0">Practical experience: Our Online BBA Program emphasizes applying
+                business theories and concepts practically. You shall immerse yourself in authentic case analyses,
+                projects, and interactive learning activities that mirror the trials encountered in the corporate realm.
+            </li>
+            <li class="list-group-item  border-0">Diverse online learning environment: Our BBA courses online provide a
+                dynamic and diverse learning environment. This space is primed for interaction with peers hailing from
+                divergent origins and cultures, nurturing a panoramic outlook and amplifying your flair for
+                cross-cultural articulation.
+            </li>
+            <li class="list-group-item  border-0">Don’t miss out on the chance to gain a solid foundation in business
+                administration with our Manipal University Jaipur Online BBA. This program enables students to improve
+                their skills and knowledge to make a promising career.
+            </li>
+        </ul>
+        </p>
+    </div>
+    <div class="container mt-5">
+        <h2 class="fw-bold">Eligibility
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <p>
+                    10+2 from a recognized state or national board
+                </p>
+            </li>
+            <li>
+                <h2>2</h2>
+                <p>
+                    10+3 year diploma from a recognized state or national institute
+                </p>
+            </li>
+            <li>
+                <h2>3</h2>
+                <p>
+                    Students must have at least 50% marks in their 10+2 / diploma (45% is for reserved categories)
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">68+ years</p>
+                <p class="text-center">Educational</p>
+                <p class="text-center">excellence</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">3,000+</p>
+                <p class="text-center">Particular Expert</p>
+                <p class="text-center">faculty</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">100+</p>
+                <p class="text-center">Student</p>
+                <p class="text-center">nationalities</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">1,000+</p>
+                <p class="text-center">Applicant footprint</p>
+                <p class="text-center">in India</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">100+</p>
+                <p class="text-center">Recruiters from</p>
+                <p class="text-center">500 companies</p>
+            </div>
+        </div>
+    </div>
+    <!-- semester tabs -->
+    <div class="container my-5">
+        <h2 class="fw-bold mb-4">Course Structure
+        </h2>
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs variant-2" id="nav-tab" role="tablist">
+                        <button class="nav-link active text-center" id="sem1" data-bs-toggle="tab"
+                            data-bs-target="#sem-1" type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            <h1 class="bordered-number">01</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">
+                            <h1 class="bordered-number">02</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">
+                            <h1 class="bordered-number">03</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">
+                            <h1 class="bordered-number">04</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem5" data-bs-toggle="tab" data-bs-target="#sem-5" type="button"
+                            role="tab" aria-controls="sem-5" aria-selected="false">
+                            <h1 class="bordered-number">05</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem6" data-bs-toggle="tab" data-bs-target="#sem-6" type="button"
+                            role="tab" aria-controls="sem-6" aria-selected="false">
+                            <h1 class="bordered-number">06</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-1 border p-3" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item border-0">Communication & personality Development
+                            </li>
+                            <li class="list-group-item  border-0">Organisational Behaviour
+                            </li>
+                            <li class="list-group-item  border-0">Business Environment
+                            </li>
+                            <li class="list-group-item  border-0">Marketing Management
+                            </li>
+                            <li class="list-group-item  border-0">Computer Fundamentals
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0
+               ">Business Communication
+                            </li>
+                            <li class="list-group-item  border-0">Financial Accounting
+                            </li>
+                            <li class="list-group-item  border-0">Human resource Management
+                            </li>
+                            <li class="list-group-item  border-0">Quality Management
+                            </li>
+                            <li class="list-group-item  border-0">Retail Management
+                            </li>
+                            <li class="list-group-item  border-0">Term paper: Term paper helps learners to collate
+                                thoughts and best practices followed in any chosen area of business. Data collation, new
+                                ideas and presentation techniques are key metrics for evaluation.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0
+               ">Legal & Regulatory framework
+                            </li>
+                            <li class="list-group-item  border-0">Quantitative Techniques for Management
+                            </li>
+                            <li class="list-group-item  border-0">Research Methodology
+                            </li>
+                            <li class="list-group-item  border-0">Financial Management
+                            </li>
+                            <li class="list-group-item  border-0">Advertising & Sales Management
+                            </li>
+                            <li class="list-group-item  border-0">Project work
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Business Strategy
+                            </li>
+                            <li class="list-group-item  border-0">MIS
+                            </li>
+                            <li class="list-group-item  border-0">Management Accounting
+                            </li>
+                            <li class="list-group-item  border-0">Environmental Science
+                            </li>
+                            <li class="list-group-item  border-0">International Marketing
+                            </li>
+                            <li class="list-group-item  border-0">Rural Marketing
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-5" role="tabpanel" aria-labelledby="sem5">
+                        <p>Elective Group-I General Management</p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Operation & Production Management
+                            </li>
+                            <li class="list-group-item  border-0">Economic Planning
+                            </li>
+                            <li class="list-group-item  border-0">E-commerce
+                            </li>
+                            <li class="list-group-item  border-0">Entrepreneurship
+                            </li>
+                            <li class="list-group-item  border-0">Small Business Management
+                            </li>
+                        </ul>
+                        <p class="pt-3">Elective Group-II Retail Management</p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Store Operations & Job Knowledge
+                            </li>
+                            <li class="list-group-item  border-0">Logistics Management
+                            </li>
+                            <li class="list-group-item  border-0">Buying
+                            </li>
+                            <li class="list-group-item  border-0">Visual Merchandising
+                            </li>
+                            <li class="list-group-item  border-0">Warehouse Management
+                            </li>
+                        </ul>
+                        <p class="pt-3">Consumer Behavior</p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Business Analytics
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-6" role="tabpanel" aria-labelledby="sem6">
+                        <p>Elective Group-III General Management
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Technology Management
+                            </li>
+                            <li class="list-group-item  border-0">LManagement Development & Skills
+                            </li>
+                            <li class="list-group-item  border-0">Role of International Financial Management
+                            </li>
+                        </ul>
+                        <p class="pt-3">Elective Group-IV Retail Management
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Modern Retail Management Process & Retail Services
+                            </li>
+                            <li class="list-group-item  border-0">Retail Project Property Management & Case Studies in
+                                Retail
+                            </li>
+                            <li class="list-group-item  border-0">Merchandising & Supply Chain Management
+                            </li>
+                        </ul>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Customer Relationship Management
+                            </li>
+                            <li class="list-group-item  border-0">Digital Marketing
+                            </li>
+                            <li class="list-group-item  border-0">Project
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What are the approvals and accreditation earned by Manipal University Jaipur?</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                                Manipal University Jaipur is recognized by the UGC (University Grant Commission), AICTE,
+                                WES, ICAS and accredited A+ by NAAC (National Assessment and Accreditation Council).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What is the mode of course delivery?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The mode of course delivery is fully online. Student can take classes & appear for
+                            examination with the help of a laptop irrespective of his or her location.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What is the Application process for Online Course? Does Student need to visit the
+                            campus?</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>It is completely conducted online and doesn’t require campus visits or any paperwork. It
+                                involves few simple steps to complete the process of admission to the university.
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0">Step 1: Fill the Basic details first & pay an
+                                    application fee of Rs 500/-
+                                </li>
+                                <li class="list-group-item  border-0">Step 2: Fill all the education details
+                                </li>
+                                <li class="list-group-item  border-0">Step 3: payment of course fee
+                                </li>
+                                <li class="list-group-item  border-0">Step 4: Upload the Documents
+                                </li>
+                                <li class="list-group-item  border-0">Step 5: The University will then send you a
+                                    confirmation mail along with the enrollment ID.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            Is the MUJ’s Online Degree Valuable?</button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            As per UGC guideline, any degree obtained from an Online or distance learning institution
+                            should be treated as equivalent to the traditional university/institutions in the country.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+
+                            Do I get Placement after doing the online programme from MUJ?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>Manipal University Jaipur has tie-up with top companies that offer great job
+                                opportunities to the candidates. Here are some of the top hiring companies of Manipal
+                                University.
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0">Amazon
+                                </li>
+                                <li class="list-group-item  border-0">Accenture
+                                </li>
+                                <li class="list-group-item  border-0">Wipro
+                                </li>
+                                <li class="list-group-item  border-0">Dell
+                                </li>
+                                <li class="list-group-item  border-0">Microsoft
+                                </li>
+                                <li class="list-group-item  border-0">American Expess
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
