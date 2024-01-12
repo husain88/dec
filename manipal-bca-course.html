@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/wes.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/iqas.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ices.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/icas.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aocu.jpeg" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="section-content">
+                <h2 class="section-content-heading fw-bold text-center">
+                    Bachelor of Computer Applications(BCA)
+                </h2>
+                <p >
+                    Our online BCA program e­mbraces new computer te­ch, logic, and creativity, to build future innovators. It feature­s the Google Cloud Computing Foundations curriculum. Here­, you'll explore wide-ranging cloud te­ch through concepts, hands-on labs, assessments, and a concluding proje­ct. Subjects span from cloud infrastructure to app deve­lopment. You have the fre­edom to do live and saved classe­s, learn at your speed, and take­ monitored exams from home. </p>
+                <!-- <button class="toggle-para btn btn-link">Read More</button> -->
+            </div>
+        </div>
+    </div>
+    <!-- Embark on a Journey of Enrichment with Online BCA Programs -->
+    <div class="container mt-5">
+        <h2 class="fw-bold">Embark on a Journey of Enrichment with Online BCA Programs
+        </h2>
+       <p class="more">
+        The Manipal University Online BCA Program is ingeniously devised to furnish you with an all-encompassing comprehension of computer applications, programming languages, and the bedrock of IT. Online classes will provide students with a deeper knowledge of software development, database administration, web technologies and networking through a creative and interactive process. Looking to boost your tech skills and sharpe­n your mind? Manipal's Online BCA Program can help. This gives le­arners an opportunity to develop in the­ tech area and sharpen the­ir analytical and problem-solving skills.
+        <br><br>
+        Got big dre­ams of being a software engine­er? Perhaps an IT consultant? Or maybe a syste­m analyst? You'll get all the preparation you ne­ed from the Manipal Online BCA Program. It's de­signed to help you succee­d in the fast-paced world of computer applications. Think of the­ Manipal Online BCA program as a gateway. It's a way into the e­xpansive IT industry.
+        <br><br>
+        Enroll in the Manipal University Online BCA Program and embrace a future filled with endless opportunities.
+       </p>
+       <button class="toggle-para btn btn-link">Read More</button>
+    </div>
+     <!-- Online Master of Science (Math) -->
+     <div class="container my-5">
+        <!-- <h2 class="fw-bold">Why Choose Online Programmes Offered by AMU?
+        </h2> -->
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-shuffle"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Flexibility and Convenience
+                </p>
+                <span class="more">
+                    With the Online BCA Program from Manipal University Online, you have the freedom to study at your own pace and from anywhere in the world. You can keep working or handle­ other tasks while studying
+                </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Renowned Faculty
+                </p>
+                <span class="more">
+                    Manipal University Jaipur Online BCA Program is taught by experienced and highly qualified faculty members. Industry pros can teach stude­nts. Learners can glean know-how from the­se pros about computer applications</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Comprehensive Curriculum
+                </p>
+                <span class="more">
+                    The Online BCA Program syllabus is designed to provide students with a comprehensive knowledge of computer applications. Subjects like programming languages, database management, software development and computer networks shall be taught to you
+                </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Practical Learning Opportunities
+                </p>
+                <span class="more">
+                    The Online Manipal BCA Course incorporates practical learning experiences to enhance your skills and competencies. Hands-on assignments, projects and case studies representing actual life situations are used for instruction purposes. Students can practice­ applying book knowledge to real-life­ cases. This way, they are re­ady for IT industry hurdles.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Faculty Support
+                </p>
+                <span class="more">
+                    Students typically have access to faculty members and advisors through online communication channels, such as email or discussion forums, for academic guidance and support
+                </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Career Advancement Opportunities
+                </p>
+                <span class="more">
+                    Upon completing the Manipal online BCA Program from Manipal University Online, you will have a recognized degree that can significantly enhance your career prospects. Students can secure jobs in various IT companies, consulting firms, software development companies and more through the knowledge they have acquired during the course.               </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2 class="fw-bold">Eligibility
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <p>
+                    10+2 from a recognised National or State board institution, or 10+3 diploma from a recognized national or state institute
+                </p>
+            </li>
+            <li>
+                <h2>2</h2>
+                <p>
+                    At least 50% marks in aggregate in 10+2 / Diploma (45% for reserved categories)
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">68+ years</p>
+                <p class="text-center">Educational</p>
+                <p class="text-center">excellence</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">3,000+</p>
+                <p class="text-center">Particular Expert</p>
+                <p class="text-center">faculty</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">100+</p>
+                <p class="text-center">Student</p>
+                <p class="text-center">nationalities</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">1,000+</p>
+                <p class="text-center">Applicant footprint</p>
+                <p class="text-center">in India</p>
+            </div>
+            <div class="col inset-shadow mx-3 my-2">
+                <p class="text-center">100+</p>
+                <p class="text-center">Recruiters from</p>
+                <p class="text-center">500 companies</p>
+            </div>
+        </div>
+    </div>
+    <!-- semester tabs -->
+    <div class="container my-5">
+        <h2 class="fw-bold mb-4">Course Structure
+        </h2>
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs variant-2" id="nav-tab" role="tablist">
+                        <button class="nav-link active text-center" id="sem1" data-bs-toggle="tab"
+                            data-bs-target="#sem-1" type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            <h1 class="bordered-number">01</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">
+                            <h1 class="bordered-number">02</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">
+                            <h1 class="bordered-number">03</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">
+                            <h1 class="bordered-number">04</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem5" data-bs-toggle="tab" data-bs-target="#sem-5" type="button"
+                            role="tab" aria-controls="sem-5" aria-selected="false">
+                            <h1 class="bordered-number">05</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                        <button class="nav-link" id="sem6" data-bs-toggle="tab" data-bs-target="#sem-6" type="button"
+                            role="tab" aria-controls="sem-6" aria-selected="false">
+                            <h1 class="bordered-number">06</h1>
+                            <p class="mb-0">Semester</p>
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-1 border p-3" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item border-0">Fundamentals of IT & Programming
+                            </li>
+                            <li class="list-group-item  border-0">Programming in C
+                            </li>
+                            <li class="list-group-item  border-0">Basic Mathematics
+                            </li>
+                            <li class="list-group-item  border-0">Understanding PC & Troubleshooting
+                            </li>
+                            <li class="list-group-item  border-0">Programming in C (Practical Lab)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0
+               ">Operating Systems
+                            </li>
+                            <li class="list-group-item  border-0">Data Structure & Algorithms
+                            </li>
+                            <li class="list-group-item  border-0">Objected Oriented Programming C++
+                            </li>
+                            <li class="list-group-item  border-0">Communication Skills & Personal Development
+                            </li>
+                            <li class="list-group-item  border-0">Digital Logic
+                            </li>
+                            <li class="list-group-item  border-0">Data Structure & Algorithms using C++(Practical)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0
+               ">Computer Oriented Numerical Methods
+                            </li>
+                            <li class="list-group-item  border-0">DBMS
+                            </li>
+                            <li class="list-group-item  border-0">Computer Organisation
+                            </li>
+                            <li class="list-group-item  border-0">Basics of Data Communication
+                            </li>
+                            <li class="list-group-item  border-0">DBMS (Practical)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Java Programming
+                            </li>
+                            <li class="list-group-item  border-0">System software
+                            </li>
+                            <li class="list-group-item  border-0">Principles of Financial Accounting & Management
+                            </li>
+                            <li class="list-group-item  border-0">Computer Networking
+                            </li>
+                            <li class="list-group-item  border-0">Java Programming (Practical)
+                            </li>
+                            <li class="list-group-item  border-0">System software (Practical)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-5" role="tabpanel" aria-labelledby="sem5">
+                        <p>Elective Group-I General Management</p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Web Design
+                            </li>
+                            <li class="list-group-item  border-0">Visual Programming
+                            </li>
+                            <li class="list-group-item  border-0">Software Engineering
+                            </li>
+                            <li class="list-group-item  border-0">Web Design (Practical)
+                            </li>
+                            <li class="list-group-item  border-0">Visual Programming (Practical)
+                            </li>
+                        </ul>
+                        <p class="pt-3">Elective Group – 1
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Compiler Design
+                            </li>
+                            <li class="list-group-item  border-0">Graphics & Multimedia
+                            </li>
+                            <li class="list-group-item  border-0">E-commerce
+                            </li>
+                            <li class="list-group-item  border-0">Python Programming
+                            </li>
+                            <li class="list-group-item  border-0">Python Programming (Practical)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="sem-6" role="tabpanel" aria-labelledby="sem6">
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Project
+                            </li>
+                        </ul>
+                        <p class="pt-3">Elective Group – 2
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Advanced Web Design
+                            </li>
+                            <li class="list-group-item  border-0">Open Source Systems
+                            </li>
+                            <li class="list-group-item  border-0">Cloud Computing
+                            </li>
+                        </ul>
+                        <p class="pt-3">Elective Group – 3
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Knowledge Management
+                            </li>
+                            <li class="list-group-item  border-0">Software Project Management
+                            </li>
+                            <li class="list-group-item  border-0">Supply Chain Management
+                            </li>
+                        </ul>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item  border-0">Mobile Application Development
+                            </li>
+                            <li class="list-group-item  border-0">Mobile Application Development (Practical)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What are the approvals and accreditation earned by Manipal University Jaipur?</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                                Manipal University Jaipur is recognized by the UGC (University Grant Commission), AICTE,
+                                WES, ICAS and accredited A+ by NAAC (National Assessment and Accreditation Council).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What is the mode of course delivery?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The mode of course delivery is fully online. Student can take classes & appear for
+                            examination with the help of a laptop irrespective of his or her location.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What is the Application process for Online Course? Does Student need to visit the
+                            campus?</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>It is completely conducted online and doesn’t require campus visits or any paperwork. It
+                                involves few simple steps to complete the process of admission to the university.
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0">Step 1: Fill the Basic details first & pay an
+                                    application fee of Rs 500/-
+                                </li>
+                                <li class="list-group-item  border-0">Step 2: Fill all the education details
+                                </li>
+                                <li class="list-group-item  border-0">Step 3: payment of course fee
+                                </li>
+                                <li class="list-group-item  border-0">Step 4: Upload the Documents
+                                </li>
+                                <li class="list-group-item  border-0">Step 5: The University will then send you a
+                                    confirmation mail along with the enrollment ID.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            Is the MUJ’s Online Degree Valuable?</button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            As per UGC guideline, any degree obtained from an Online or distance learning institution
+                            should be treated as equivalent to the traditional university/institutions in the country.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+
+                            Do I get Placement after doing the online programme from MUJ?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>Manipal University Jaipur has tie-up with top companies that offer great job
+                                opportunities to the candidates. Here are some of the top hiring companies of Manipal
+                                University.
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item  border-0">Amazon
+                                </li>
+                                <li class="list-group-item  border-0">Accenture
+                                </li>
+                                <li class="list-group-item  border-0">Wipro
+                                </li>
+                                <li class="list-group-item  border-0">Dell
+                                </li>
+                                <li class="list-group-item  border-0">Microsoft
+                                </li>
+                                <li class="list-group-item  border-0">American Expess
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
