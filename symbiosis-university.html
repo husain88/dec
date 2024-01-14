@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Online Programmes from Symbiosis 
+                    </h2>
+                    <p class="more-sec">
+                        Symbiosis is a private institution located in the city of Pune, India. The university is awarded the Category-I status by UGC and an ‘A’ grade by NAAC with a score 3.58. The university is also ranked at 32nd position in the Universities Category of NIRF 2022.
+                        With the changing needs of society Symbiosis has launched online courses in management domain /Information Technology/ Science especially to address the needs of the 21st century. In order to ensure quality, Symbiosis Online gets the best academic resources for teaching, e-Learning, evaluation and self-learning material preparation from its sister Management Institutes as well as from the industry.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/symbiosis.webp" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>
+            Symbiosis International University has one of the largest autonomous distance learning know as SCDL. Symbiosis University, in Pune has a mission to offer high quality education across multidisciplinary fields recognized globally for their research and practical relevance.
+        </p>
+        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+            <li class="list-group-item border-0">
+                SCDL has been certified with ISO 9001:2015 certification.                                
+            </li>
+            <li class="list-group-item border-0">
+                Offers Postgraduate diploma, diploma, and 25+ courses.                                
+            </li>
+            <li class="list-group-item border-0">
+                Accredited by AICTE.                                
+            </li>
+            <li class="list-group-item border-0">
+                21 years of legacy in offering online education.                                
+            </li>
+        </ul>
+    </div>
+
+      <!-- Why to Choose Distance Programmes Offered by INTEGRAL UNIVERSITY? -->
+      <div class="container mt-5">
+        <h2>Symbiosis Online Features:
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Study at your own speed.
+                </h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Sessions with Industry Experts
+                </h3>
+            </li>
+            <li>
+                <h2>3</h2>
+                <h3>Combined teaching and learning methods
+                </h3>
+            </li>
+            <li>
+                <h2>4</h2>
+                <h3>in-person meetings
+                </h3>
+            </li>
+            <li>
+                <h2>5</h2>
+                <h3>current materials for self-learning
+                </h3>
+            </li>
+            <li>
+                <h2>6</h2>
+                <h3>Affordable, short-term courses to further your profession
+                </h3>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Under Graduate Programmes offered by the University
+        </h2>
+        <p>
+            Symbiosis International University offers various undergraduate programs that provide students with a wide range of academic options. Symbiosis University online courses include engineering, humanities, social sciences, natural sciences, management, etc. Students have the option to select from different Symbiosis University online courses that aligns with their career aspirations; exploring their passions for professional growth. The undergraduate programs, at Symbiosis University strive to equip students, with the skills and knowledge needed for careers and personal development. 
+        </p>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">BBA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">BCA</button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">B.Sc (Hons)</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">
+                            Online BBA (Bachelor of Business Administration)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2 or equivalent examination from any recognized Board with a minimum of 50% marks or equivalent grade (45% Marks or equivalent grade for SC/ST & OBC.
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Medium of Instruction
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">
+                            Online BCA (Bachelor of Computer Applications)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2 or equivalent government-approved Diploma in Engineering/ Technology from any recognized Board with a minimum of 50% marks or equivalent grade (45% Marks or equivalent grade for SC/ST & OBC)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Medium of Instruction
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    English                                
+                                </li>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">
+                            B.Sc (Hons) Economics
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2 or equivalent from any recognized Board with a minimum of 50% marks or equivalent grade (45% Marks or equivalent grade for SC/ST & OBC)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Medium of Instruction
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <h2 class="fw-bold text-center">Post Graduate Programmes offered by the University
+            </h2>
+            <p>
+                Symbiosis International University Online, Pune aims to provide young professionals with the knowledge and skills they need to succeed in a rapidly changing world. Symbiosis online degree is known for providing young professionals with research based education with practical applications in technology, global business and strategic planning within their field. They are exposed to industrial based learning giving them knowledge and skills that helps them in succeeding in the competitive job market. 
+            </p>
+            <hr class="shine">
+            <div class="row">
+                <div class=" mr-auto">
+                    <nav>
+                        <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                                type="button" role="tab" aria-controls="sem-1" aria-selected="true">MBA</button>
+                            <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                                role="tab" aria-controls="sem-2" aria-selected="false">M.Sc.</button>
+                            <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#p-3" type="button"
+                                role="tab" aria-controls="sem-3" aria-selected="false">MA</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content mt-4" id="nav-tabContent">
+                        <div class="tab-pane  fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                            <h5 class="mb-3">Master in Business Administration (MBA)
+                            </h5>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Eligibility Criteria
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0">
+                                        Graduate from any recognized University/ Institution with a minimum of 50% marks or equivalent grade (45% marks or equivalent grade for SC/ST & OBC)
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Duration
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0"> 2 years (4 semesters)
+                                    </li>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Medium of Instruction:
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        English
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Fees Structure</p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        Fees: 35000/- per semester
+                                        </li>
+                                    <li class="list-group-item border-0">
+                                        Total: 1, 40, 000/-
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="p2">
+                            <h5 class="mb-3">Master of Computer Application (MCA)
+                            </h5>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Eligibility Criteria
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0">
+                                        Graduate in Engineering, IT, Science, Computer Science, and Computer Application from any recognized University/ Institution with a minimum of 50% marks or equivalent grade (45% marks or equivalent grade SC/ST & OBC).
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Duration
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0"> 2 years (4 semesters)
+                                    </li>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Specialization:
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        Economics
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Data Science
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Computer Application
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Medium of Instruction</p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        English
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="p-3" role="tabpanel" aria-labelledby="sem3">
+                            <h5 class="mb-3">Master of Arts (M.A.)
+                            </h5>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Eligibility Criteria
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0">
+                                        Graduate from any recognized University/ Institution with a minimum of 50% marks or equivalent grade (45% marks or equivalent grade for SC/ST & OBC)
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Duration
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0"> 2 years (4 semesters)
+                                    </li>
+                            </div>
+                            <hr>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Medium of Instruction
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0"> English
+                                    </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <img src="./assets/images/symbiosis-admission.png" alt="">
+    </div>
+    <div class="container text-center">
+        <img src="./assets/images/symbiosis-advantage.webp" alt="">
+    </div>
+
+   
+
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Where is Symbiosis University situated?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>
+                                Symbiosis is located in the city of Pune, India. The university has more than 30 academic institutions spread over various location in Pune, Bangalore, Hyderabad, Indore, Nagpur, Nashik, Noida.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is Symbiosis a government or private?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Symbiosis is a private deemed University accredited by AICTE and NAAC with an A Grade
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is Symbiosis is a good university?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Symbiosis is one of the premium institutions in India for management & IT courses. Every year almost 90% student got placed who have completed their studies from symbiosis.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>What courses does Symbiosis offer in online mode?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The courses offered by symbiosis in online mode are categorized as:
+                            UG courses
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> BBA/BCA/B.SC. Economics
+                                </li>
+                            </ul>
+                            PG courses
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> MBA/M.SC./MA- Mass communication
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Is Symbiosis degree recognized internationally?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Symbiosis is a well-known institution approved by UGC and NAAC with an A Grade. So, the degree awarded by the university is recognized both nationally and internationally.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            What is the admission & learning process in symbiosis- School for online & E-learning?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The admission & learning process is 100% online- no campus visit required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
