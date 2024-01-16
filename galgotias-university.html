@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/amity-university-banner.png" alt class="d-block img-responsive" />
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name" />
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number" />
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name" />
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number" />
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            University Accreditations & Recognitions
+        </h2>
+        <hr class="shine" />
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/ugc.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Galgotias University
+                    </h2>
+                    <p class="more-sec">
+                        Galgotias University is a private university located in Uttar Pradesh, India established by the state of Uttar Pradesh under section 2(f) of the UGC Act, 1956; the university commenced its operations in 2011-12.
+                        <br />
+                        Through its online platform, Galgotias University Online offers a diverse selection of programs across various disciplines, including business administration, commerce, information technology and more. These programs are designed to equip students with the knowledge, skills, and practical experience required to succeed in their chosen fields.
+                        <br />
+                        The university’s online programs also provide flexibility in terms of scheduling, allowing students to balance their education with other commitments. This flexibility makes Galgotias University Online an ideal choice for working professionals, individuals seeking career advancement, and those who prefer the convenience of online learning.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="w-75" src="./assets/images/galgotias-university.webp" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
+        <div class="vertical-tabs-wrapper d-none d-md-flex">
+            <ul class="nav nav-pills vertical-tabs-layout flex-column nav-pills align-items-end" id="pills-tab"
+                role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-semibold active position-relative" id="pills-1-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">
+                        Why NMIMS Global?
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content p-2 w-100" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">
+                            NMIMS online education empowers you by offering the same
+                            educational tradition, ethic & pedagogy to the online medium of
+                            learning.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS online Post Graduate Programmes curriculum emphasizes
+                            real-world applications, critical thinking, and problem-solving
+                            abilities, preparing students for successful careers in their
+                            chosen fields.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS online degrees are highly regarded & recognized by top
+                            enterprises and start-ups across India due to the academic
+                            rigour, industry-focused syllabus, and rich academy curriculum.
+                        </li>
+                        <li class="list-group-item border-0">
+                            The curriculum of NMIMS online Post Graduate/Undergraduate
+                            Programmes is carefully crafted to meet industry demands and
+                            ensure practical learning experiences.
+                        </li>
+                        <li class="list-group-item border-0">
+                            Graduates from NMIMS Global are recruited by some of the top
+                            8000+ corporates, SMBs & start-ups across India & even overseas.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS University with its wide range of programmes also provides
+                            training and placement programs; offering opportunities for its
+                            students to explore the job market and push their potential in
+                            renowned MNC’s, corporations, and start-ups worldwide.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Why to choose Uttaranchal University:
+    <div class="container mt-5">
+        <h2>Why to choose Uttaranchal University:
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Experience a vibrant student lifestyle
+                </h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Gain a global perspective
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Explore a range of flexible academic opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>4</h2>
+                <h3>Catalyze your career opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>5</h2>
+                <h3>Stay blessed with a world-class student support for life time
+                </h3>
+            </li>
+    </div> -->
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Under Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine" />
+        <div class="row">
+            <div class="mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            BBA                        
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">
+                            BCA
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Bachelor of Business Administration
+                        </h5>
+                        <p>
+                            The online BBA program is a three-year program provides a strong foundation in core business concepts, such as accounting, marketing, operations management, and business communication.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2 or any equivalent from a recognized board.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fee Structure (BBA with Internship)
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Total: 85,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Semester Fee: 11,500/-
+                                </li>
+                                <li class="list-group-item border-0">Total: 70,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Bachelor of Computer Application
+                        </h5>
+                        <p>
+                            The online BCA program is an undergraduate course designed to provide students with a strong foundation in computer science and its practical applications.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2 or any equivalent from a recognized board.                                
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fee Structure (BCA with Internship)
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Total: 88,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester fee: 12,000/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 73,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Post Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine" />
+        <div class="row">
+            <div class="mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            MBA
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="true">
+                            M.COM
+                        </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#p-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="true">
+                            MCA
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Master of Business Administration (MBA)
+                        </h5>
+                        <p>
+                            The online MBA is a 2 year postgraduate program designed for aspiring business leaders who want to excel in their careers while balancing their personal and professional commitments. The program is tailored for the graduates to be equipped with the skills and knowledge they need to succeed in the fast-paced and ever-changing business world.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2+3 or any equivalent from a recognized board.                                
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fee Structure (MBA with Internship)
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Total: 85,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester fee: 18,500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 75,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Master of Commerce (M.COM)
+                        </h5>
+                        <p>
+                            The online M.Com program is designed for aspiring commerce professionals seeking to enhance their knowledge and skills in the fields of finance and accounting. The curriculum is comprehensive, covering areas such as financial accounting, taxation, auditing, and corporate finance.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2+3 or any equivalent with Commerce Subjects from a recognized board.                                
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fee Structure (M.COM with Internship)
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Total: 57,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester fee: 11,500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 47,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">Master of Computer Application
+                        </h5>
+                        <p>
+                            The online MCA is a 2 year degree program designed to equip students with the knowledge and skills required for a successful career in the field of computer applications. The program offers comprehensive learning opportunities in various areas, including software development, database management, networking, and web technologies.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed 10+2+3 or any equivalent with 45% from a recognized board with Maths or Comp. Science or IT or equivalent subject must at 10+2 / 10+2+3 level, 5% relaxation for SC/ST/ OBC or working professionals.                               
+                                 </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fee Structure (MCA with Internship)                                
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Total: 85,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 18,500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 75,000/- (includes 1000/- Registration Fees)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Top Hiring Partners Of Uttaranchal University
+        </h2>
+        <hr class="shine" />
+        <div class="owl-carousel uni-logo-wrapper uni-carousel p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/wipro.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/paytm.jpeg" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/accenture.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/lic.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/videocon.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/vistara.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/tata-strive.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/cognizant.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/byjus.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/hdfc.png" alt="" />
+            </div>
+        </div>
+    </div> -->
+    <!-- admission prosses -->
+    <!-- <div class="container mt-5">
+        <h2>Admission Procedure at CU-Online University
+        </h2>
+        <p>The admission procedure at Chandigarh University Online is hassle-free, and easy to complete. It is
+            completely conducted online and doesn’t require any campus visits or paperwork. It involves three simple
+            steps to complete the process of admission to the university.
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Find your course</h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Talk to expert guides
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Apply online</h3>
+            </li>
+    </div> -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What is Galgotia University Online?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>
+                                Galgotia University Online is a renowned online educational institution that provides a wide range of academic programs across various disciplines, allowing students to pursue their education remotely through an online platform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is Galgotia University Online accredited?                       
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, Galgotia University Online is a fully accredited institution. It is recognized by the University Grants Commission (UGC) in India and has received accreditation from reputable organizations.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            What programs are offered by Galgotia University Online?                       
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Galgotia University Online offers a diverse selection of programs, including undergraduate and postgraduate degrees, in fields such as business administration, commerce, information technology and more.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            How are the online classes conducted?                       
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Online classes at Galgotia University Online are conducted through virtual learning platform that allows students to access lectures, participate in discussions, submit assignments, and interact with faculty and fellow students. The classes are delivered through a combination of live sessions, pre-recorded lectures, interactive multimedia content, and online collaboration tools.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Can I interact with faculty and fellow students?                         
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, Galgotia University Online encourages interactive learning and provides opportunities for students to engage with faculty and fellow students.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            How are examinations conducted?                      
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Examinations at Galgotia University Online are conducted online, usually through a secure and proctored system. Students are provided with guidelines and instructions to ensure a fair and transparent examination process.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
