@@ -968,6 +968,10 @@ background: linear-gradient(to right, #ff6f42, #273272);
     flex-direction: column;
     width: fit-content;
   }
+
+  .top-card-img {
+    width: 100% !important;
+  }
 }
 
 .details-card {
@@ -996,4 +1000,11 @@ background: linear-gradient(to right, #ff6f42, #273272);
 .university-card-footer {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 993px) {
+  .top-card-img {
+    height: 100% !important;
+    
+  }
 }
