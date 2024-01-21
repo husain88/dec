@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/Integral University.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/ugc-deb.webp" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Integral University Online Programs
+                    </h2>
+                    <p class="more-sec">
+                        Integral University is a premier educational institution located in Lucknow. Integral University was established in 2004. The University is approved by the University Grants Commission under Sections 2(f) and 12B of the UGC Act, 1956, MCI, PCI, BCI, INC, CoA, NCTE, UPSMF, IAP & DEB. Member of AIU & is accredited by the NAAC to offer Open & Distance Learning to students.
+                        Integral University has a unique culture of inclusiveness, diversity, personal and intellectual integrity and value-based education.
+                    </p>
+                    <!-- <button class="toggle-para btn btn-link">Read More</button> -->
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="w-75" src="./assets/images/integral-img-card.webp" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Why to Choose Online Integral University India? -->
+    <div class="container my-5">
+        <h2 class="fw-bold">Why to Choose Online Integral University India?
+        </h2>
+        <div class="card-container text-center">
+            <div class="benefit-card p-2">
+                <i class="fa-solid fa-shuffle"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Affordable fees structure </p>
+                <span class="more">
+                    Integral University Online has designed the affordable and pocket-friendly fee structure for their learners so that every student can pursue studies which they are unable to do due to high fee structures and lack of facilities.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <p class="fw-bold pt-4 benefit-card-title">No restricted schedules of learning
+                </p>
+                <span class="more">
+                    The online programs of Integral University gives an opportunity to students across the nation to pursue their course as there is no restricted schedule of learning or joining physical classes. The student can take classes, complete assignments, attempt quizzes as per their convenience.</span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Easy paper pattern
+                </p>
+                <span class="more">
+                    The examination pattern of Integral University Online is the easiest opted pattern which includes internal and term end examinations. The internal assessment has a weightage of 20-30% and they are completed by students before examination whereas term end examinations have a weightage of 70-80% which comprises MCQ and subjective questions. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Recognized Degree
+                </p>
+                <span class="more">
+                    An online degree awarded by Integral University holds similar recognition as that of a regular degree. Thus this online degree is accepted by the top recruiters globally. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+            <div class="benefit-card">
+                <i class="fa-solid fa-building-columns"></i>
+                <p class="fw-bold pt-4 benefit-card-title">Career Assistance
+                </p>
+                <span class="more">
+                    Integral University Online offers career assistance to its learners for better future prospects. Various internship programs, webinars, and training are organized from time to time by the University to boost the morale and personality of the students. </span>
+                <button class="toggle-para btn btn-link">Read More</button>
+            </div>
+        </div>
+    </div>
+
+     <!-- Integral University online admission process -->
+     <div class="container mt-5">
+        <h2>Why to choose Hindustan Online University
+        </h2>
+        <p>
+            Students willing to get enrolled in the online programs of Integral University they must go to the eligibility criteria of the program and then proceed with the below mentioned steps:
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Choose the Integral University online course you want to pursue & register by filling your basic and educational details online
+                </h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Upload the supporting documents
+                </h3>
+            </li>
+            <li>
+                <h2>3</h2>
+                <h3>Pay the semester/ Annual fee through UPI, debit, credit card
+                </h3>
+            </li>
+            <li>
+                <h2>4</h2>
+                <h3>Submit your application to complete the process
+                </h3>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Under Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">BBA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">BCA</button>
+                            <!-- <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">BSC-CS</button> -->
+                            <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">B.Com</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">
+                            BBA (Bachelor of Business Administration)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    10+2 or its equivalent examination in any stream conducted by a recognized Board / University / Council.
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years                                
+                                </li>
+                        </div>   
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Specialization
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    General                                
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 11300/- per sem (6 semesters)
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 67,800/-
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">
+                            BCA (Bachelor of Computer Applications)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    10+2 or its equivalent examination in any stream conducted by a recognized Board / University / Council.                                
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years                                
+                                </li>
+                        </div>   
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 12300/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total Fee: 75300/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                <!-- <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                    <h5 class="mb-3">
+                        BSC-CS (Bachelor of Science – Computer Science)
+                    </h5>
+                    <div class="mb-4">
+                        <p class="fw-bold mb-1">
+                            Eligibility Criteria
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                            <li class="list-group-item border-0">
+                                10+2 or its equivalent examination in any stream conducted by a recognized Board / University / Council.                            
+                            </li>
+                    </div>
+                    <hr>
+                    <div class="mb-4">
+                        <p class="fw-bold mb-1">
+                            Duration
+                        </p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                            <li class="list-group-item border-0">
+                                3 years                                
+                            </li>
+                    </div>   
+                    <hr>
+                    <div>
+                        <p class="fw-bold mb-1">Fees Structure</p>
+                        <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                            <li class="list-group-item border-0">
+                                Fees: 12300/- per sem (6 semesters)
+                            </li>
+                            <li class="list-group-item border-0">
+                                Total: 73,800/-
+                            </li>
+                        </ul>
+                    </div>
+            </div> -->
+            <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                <h5 class="mb-3">
+                    B.COM (Bachelor of Commerce)
+                </h5>
+                <div class="mb-4">
+                    <p class="fw-bold mb-1">
+                        Eligibility Criteria
+                    </p>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                        <li class="list-group-item border-0">
+                            10+2 or its equivalent examination in any stream conducted by a recognized Board / University / Council.                        
+                        </li>
+                </div>
+                <hr>
+                <div class="mb-4">
+                    <p class="fw-bold mb-1">
+                        Duration
+                    </p>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                        <li class="list-group-item border-0">
+                            3 years                                
+                        </li>
+                </div>   
+                <hr>
+                <div>
+                    <p class="fw-bold mb-1">Fees Structure</p>
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">
+                            Semester Fee: 6000/-
+                        </li>
+                        <li class="list-group-item border-0">
+                            Total Fee: 37500/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                        </li>
+                    </ul>
+                </div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Post Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">MBA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">MCA </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#p-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">MSC-CS</button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#p-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">M.COM</button>
+                        <button class="nav-link" id="sem5" data-bs-toggle="tab" data-bs-target="#p-5" type="button"
+                            role="tab" aria-controls="sem-5" aria-selected="false">Master of Science (Math)</button>
+                        <button class="nav-link" id="sem6" data-bs-toggle="tab" data-bs-target="#p-6" type="button"
+                            role="tab" aria-controls="sem-6" aria-selected="false">Master of Social Work</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Master in Business Administration (MBA)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Bachelor degree in any discipline from recognized University/ Institution.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> 2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Specialization:
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Financial management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Marketing
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Human Resource
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Information system                                
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Retail management 
+                                </li>
+                                <li class="list-group-item border-0">
+                                    International Business                                
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Investment Management
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 16500/- per sem (4 semesters)
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 67500/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="p2">
+                        <h5 class="mb-3">MCA (Masters of Computer Applications)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Bachelor degree in any discipline from recognized University/ Institution.                                
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> 2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 16500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total Fee: 67500/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="tab-pane fade" id="p-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">MSC-CS (Master of Science – Computer Science)
+                        </h5>
+                        <p>
+                            The Master of Science in Mathematics program is designed to aid students in acquiring a brief knowledge of mathematical concepts and its applications.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed B.SC PCM or B.Tech/BE from Recognized University                               
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> 2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 9500/-                               
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total Fee: 39500/- (includes one-time 500/- registration fee & 1000/- degree fee)                               
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="tab-pane fade" id="p-4" role="tabpanel" aria-labelledby="sem4">
+                        <h5 class="mb-3">M.COM (Master of Commerce)
+                        </h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Bachelor degree in any discipline from recognized University/ Institution.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> 2 years
+                                </li>
+                        </div>
+                        <hr>
+                       
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 8500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total Fee : 35500/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-5" role="tabpanel" aria-labelledby="sem5">
+                        <h5 class="mb-3">Master of Science in Mathematics
+                        </h5>
+                        <p>
+                            The Master of Science in Mathematics program is designed to aid students in acquiring a brief knowledge of mathematical concepts and its applications.                       
+                         </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Passed B.SC PCM or B.Tech/BE from Recognized University                              
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> 2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 9500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total Fee: 39500/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-6" role="tabpanel" aria-labelledby="sem6">
+                        <h5 class="mb-3">Master of Social Works
+                        </h5>
+                        <p>
+                            Master of Social Works degree that focuses on various aspects of Social upliftment and promote macro, mezzo and micro aspects of professional social work practice.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Graduation from Recognized University or Equivalent
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0"> 2 years
+                                </li>
+                        </div>
+                        <hr>
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Semester Fee: 8500/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total Fee : 35500/- (includes one-time 500/- registration fee & 1000/- degree fee)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- course card -->
+     <div class="container my-5">
+        <div class="row">
+        <div class="col">
+            <div class="card border shadow">
+                <div class="card-header bg-primary">
+                    <h6 class="mb-0 text-white">
+                        Master of Science in Mathematics
+                    </h6>
+                </div>
+                <div class="card-body text-center">
+                    <img src="assets/images/integral-img-card.webp" class="card-img-top mb-2 img-fluid">
+                    <span class="more-card">
+                        <strong>Online </strong>
+                        Master of Science in Mathematics
+                    </span>
+                    <a href="./integral-online-master-of-science.html"><button class="btn btn-danger">Read More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="col">
+                <div class="card border shadow">
+                    <div class="card-header bg-primary">
+                        <h6 class="mb-0 text-white">
+                            Master of Social Work
+                        </h6>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="assets/images/integral-img-card.webp" class="card-img-top mb-2 img-fluid">
+                        <span class="more-card">
+                            <strong>Online </strong>
+                            Master of Social Work
+                        </span>
+                        <a href="./integral-online-master-of-social-work.html"><button class="btn btn-danger">Read More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+   
+    <!-- top hiring partner -->
+    <div class="container  my-4">
+        <h2 class="fw-bold text-center">Top Hiring Partners Of Uttaranchal University</h2>
+        <hr class="shine">
+        <div class="owl-carousel  uni-logo-wrapper uni-carousel p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/csc.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/jio.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/infosys.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aon.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/daffodil.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/sopra.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ericsson.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/deloite.png" />
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Is Integral university is a government University or Private?</button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                                Integral University is a private university & is among one of the top universities in Lucknow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is Integral University distance degree valid? </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, a distance degree obtained from Integral university is valid as university is recognized by the (UGC) – Distance Education Bureau (DEB).
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Can I get direct admission in Integral University Distance Courses?</button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, student gets direct admission in distance courses in Integral University. For bachelor courses, student must be a 12th passed & for PG courses graduation is a must.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            How do I get study material & other stuff after admission? </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            After successful admission process, student will get hard books at the mentioned address & access to the online learning portal for assignment submission, e-books & other university information.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            What is the mode of examination in distance education of Integral University? </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The examination will be conducted offline; Student has to appear at the assigned exam center for the examination.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            How do I get mark sheets & degree?</button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Student will get semester wise mark sheets & Degree upon course completion at the address provided by the student in the admission form.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>

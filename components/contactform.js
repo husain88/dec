@@ -54,11 +54,6 @@ class Contact extends HTMLElement {
               </select>
           </div>
           <div class="col-12">
-          <div class="g-recaptcha mb-2" data-sitekey="6LchUDYpAAAAACv2AIb22hxk2Dn7JSZc7_Ky3fg_"></div>
-            <span>
-            <input class="form-check-input" type="checkbox" value="" checked disabled> We will never share your information to anyone. We are committed to protecting your privacy and will not share any of your personal information with any third parties.
-            </span>
-          </div>
           <div class="col-12">
             <div class="d-grid">
               <button class="btn btn-primary btn-lg" name="submit" type="submit">Submit</button>

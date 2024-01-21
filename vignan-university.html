@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/Vignan University.png" alt class="d-block img-responsive">
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number">
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select  form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA
+                            </option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">Submit</button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">University Accreditations & Recognitions</h2>
+        <hr class="shine">
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ugc-deb.webp" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Vignan University Online Programs
+                    </h2>
+                    <p class="more-sec">
+                        Vignan University is a private deemed to be university established in 1977 with an aim to provide high quality academic programs, facilitate training & research activities, increase industry – institute interactions & promote employability amongst students.
+                        After learning for 45 years, University is now taking beyond the hallways of the University and offering to students anywhere & everywhere With Vignan’s online courses. At Vignan University the faculty aims to provide flexible education options allowing students and working professionals to access quality education from the comfort of their home. With Vignan University online courses, students can pursue their academic and career interests while benefiting from the university's strong engineering program.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="section-content-image" src="./assets/images/vignan-card-img.webp" />
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">Under Graduate Programmes offered by the University
+        </h2>
+        <p>
+            The Vignan university online course is a 3-year program with various elective programmes, preparing future managers with skills and qualification equivalent to traditional 3-year programme. The online Vignan university degree program equips you with the required knowledge, helping in quick learning at your own pace.
+            If you are interested in Vignan university admission online UG programme, here we have highlight various criteria that you are required to fulfil:
+        </p>
+        <hr class="shine">
+        <div class="row">
+            <div class=" mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">BBA</button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">BCA</button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane  fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">
+                            Bachelors of Business Administration (BBA)
+                        </h5>
+                       <p> An online BBA degree program aims to up skill knowledge in the field of business management. Vignan University online education is known for its convenience, cost-effective fees and flexible learning choices for aspiring individuals for career growth in the job market. As one of the most preferred courses, BBA online can be a great option for those who want to expand their career opportunity.</p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidates who have passed Class 10+2 in any stream or its equivalent from a recognized Board / University / Council are eligible to apply.                                
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Specialization
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Human Resource 
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Finance
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Marketing
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Fee Structure
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Fees: 20,000/- per semester                                
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Registration fee: 2,500/- one time                                
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Exam fee: 4,000/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 1, 34,500/- for 3 years
+                                </li>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">
+                            Bachelors of Computer Application (BCA)
+                        </h5>
+                        <p>                        In today’s technologically driven world computer applications play a vital role in revolutionizing various industries. It is enhancing various aspects of business management; automating different levels of operations. In the era of technology and innovations pursuing a BCA course will not only allow you to become a part of this fast-growing industry, but also an opportunity to build a promising career in a high-demanding profession. Some of the top universities offer BCA programs, however, taking Vignan University admission online for BCA programs will give you the flexibility to resume your education without having to quit your job. 
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Eligibility Criteria
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidates who have passed Class 10+2 in any stream or its equivalent from a recognized Board / University / Council are eligible to apply.                                
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Duration
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Specialization
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Computer Science & IT                                
+                                </li>
+                        </div>
+                        <hr>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">
+                                Fee Structure
+                            </p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Fees: 20,000/- per semester                                
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Registration fee: 2,500/- one time                                
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Exam fee: 4,000/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 1, 34,500/- for 3 years
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <h2 class="fw-bold text-center">Post Graduate Programmes offered by the University
+            </h2>
+            <p>
+                The Online Degree is a 2-year programme with in-demand electives offered by online Vignan university degree programs, preparing future talents with a knowledge equivalent to a traditional 2-year program. With Vignan university online course PG Degree programme, you can learn independently.
+                Here we have highlighted detailed information about various programs offered by the university that are essential for Vignan university online education:
+            </p>
+            <hr class="shine">
+            <div class="row">
+                <div class=" mr-auto">
+                    <nav>
+                        <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                                type="button" role="tab" aria-controls="sem-1" aria-selected="true">MBA</button>
+                            <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                                role="tab" aria-controls="sem-2" aria-selected="false">MCA</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content mt-4" id="nav-tabContent">
+                        <div class="tab-pane  fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                            <h5 class="mb-3">Master in Business Administration (MBA)
+                            </h5>
+                           <p> Earning an advanced business degree can be a great way to advance your professional career. Many companies globally look for top-tier talents; having necessary skills and expertise to perform their role effectively and efficiently with the ability to make informed business decisions.
+                            If you’re interested in pursuing your master’s degree in business administration, here we have highlighted the various specifications and eligibility criteria:</p>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Eligibility Criteria
+                                </p>
+
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0">
+                                        Candidates must have passed Bachelor’s Degree in any stream or its equivalent with a minimum of 50% from a recognized Board / University / Council. Students belonging to reserved category are reduced to 45% aggregate.                                    
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Duration
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0"> 2 years (4 semesters)
+                                    </li>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Specialization
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        Finance
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Marketing
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Human Resource Management
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Healthcare & Hospital Management 
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Business Analytics
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Information Technology
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        EnglishFinance and Human Resource
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Operations Management
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Logistics & Supply chain Management
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Fees Structure</p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        Fees: 25,000/- per semester
+                                        </li>
+                                    <li class="list-group-item border-0">
+                                        Registration fee: 2,500/- one time
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Exam fee: 4,000/- per year
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Total: 1, 10,500/- for 2 years
+                                    </li>
+                                </ul>
+                                Fee may Differ for specialization opt
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="p2">
+                            <h5 class="mb-3">Master of Computer Application (MCA)
+                            </h5>
+                           <p> MCA is a 2-year PG programme in computer application, designed to meet the demand for qualified and skilled professionals in the IT sector. This programme focuses on application development and programming language.
+                            Here we have highlighted various specification and eligibility criteria for Vignan university MCA program:</p>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Eligibility Criteria
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0">
+                                        For online Vignan university degree programs candidate must have completed BCA/Bachelor’s in Computer Science Engineering or B.A/ B.Sc. / B.Com (with mathematics at HSC or graduation level) with a minimum of 50% from a recognized Board / University / Council. Students belonging to reserved category are reduced to 45% aggregate.                                    
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="mb-4">
+                                <p class="fw-bold mb-1">
+                                    Duration
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                    <li class="list-group-item border-0"> 2 years (4 semesters)
+                                    </li>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Specialization:
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        Data Science
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Computer Science and IT
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div>
+                                <p class="fw-bold mb-1">Fee Structure:
+                                </p>
+                                <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                    <li class="list-group-item border-0">
+                                        Fees: 27,500/- per semester
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Registration fee: 2,500/- one time
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Exam fee: 4,000/- per year
+                                    </li>
+                                    <li class="list-group-item border-0">
+                                        Total: 1, 20,500/- for 2 years
+                                    </li>
+                                </ul>
+                                Fee may Differ for the specialization opt
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container text-center">
+        <img src="./assets/images/VIGNANS-ONLINE-ADVANTAGE-678x.webp" alt="">
+    </div>
+
+    <div class="container  my-4">
+        <h2 class="fw-bold text-center">Top Hiring Partners Of Uttaranchal University</h2>
+        <hr class="shine">
+        <div class="owl-carousel  uni-logo-wrapper uni-carousel p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/honeywell.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ey.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/google.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/facebook.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/hdfc.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/icici.png" alt="" />
+            </div>
+        </div>
+    </div> 
+
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            Is Vignan’s online degree valid?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>
+                                Yes, the University is entitled by UGC to offer Online Degree Programs. All Online Programs are approved by All India Council for Technical Education (AICTE) and UGC-DEB. Therefore the degree awarded by the university is valid and accepted by all major corporates in India as well as in foreign countries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            What are the approvals & accreditations does vignan have for online courses?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Vignan online is recognized by UGC-DEB, AICTE & accredited A+ by NAAC.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is Vignan a private or Government University?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Vignan is a private university (Deemed-to-be University) owned by the Vignan’s Foundation for Science, Technology, and Research.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>What is the mode of learning? Is it offline or online?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The mode of learning is completely online. There are online live sessions on weekends, online learner faculty engagement activities & support, online remote proctored exam.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            Is attendance is mandatory in online program?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            No, attendance is not mandatory but student is required to have some participation in the activities.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            Will I able to interact with faculty in online mode?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, student can interact with the faculty during live sessions & through discussion forum (available on the LMS).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>

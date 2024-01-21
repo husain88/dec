@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/IGNOU.png" alt class="d-block img-responsive" />
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name" />
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number" />
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name" />
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number" />
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            University Accreditations & Recognitions
+        </h2>
+        <hr class="shine" />
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/ugc-deb.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ugc.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ncte.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Indira Gandhi National Open University
+                    </h2>
+                    <p class="more-sec">
+                        The Indira Gandhi National Open University (IGNOU), established by an Act of Parliament in 1985. It is the largest Open University in the world & it has its main center in New Delhi.
+                        <br />
+                        Initially the university is offering courses in open/distance mode; it has now upgraded to provide online courses to their learners. This online University in India is accredited and has been recognized by UGC, UGC-DEB, NCTE, AICTE, INC, NAAC (A++) etc.
+                        <br />
+                        IGNOU offers many UG, PG, Diploma & Certificate courses like BA, BSW, BCA, MCA, M. COM, M.Sc., MBA Event Management, Environmental Studies, Information Security, Performing Arts, Tourism Studies, etc. IGNOU aims to reach students in all corners of the globe through its web-based study material, video lectures and live counseling.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="w-75" src="./assets/images/ignou-card-img.webp" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="container">
+        <div class="vertical-tabs-wrapper d-none d-md-flex">
+            <ul class="nav nav-pills vertical-tabs-layout flex-column nav-pills align-items-end" id="pills-tab"
+                role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-semibold active position-relative" id="pills-1-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">
+                        Why NMIMS Global?
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content p-2 w-100" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">
+                            NMIMS online education empowers you by offering the same
+                            educational tradition, ethic & pedagogy to the online medium of
+                            learning.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS online Post Graduate Programmes curriculum emphasizes
+                            real-world applications, critical thinking, and problem-solving
+                            abilities, preparing students for successful careers in their
+                            chosen fields.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS online degrees are highly regarded & recognized by top
+                            enterprises and start-ups across India due to the academic
+                            rigour, industry-focused syllabus, and rich academy curriculum.
+                        </li>
+                        <li class="list-group-item border-0">
+                            The curriculum of NMIMS online Post Graduate/Undergraduate
+                            Programmes is carefully crafted to meet industry demands and
+                            ensure practical learning experiences.
+                        </li>
+                        <li class="list-group-item border-0">
+                            Graduates from NMIMS Global are recruited by some of the top
+                            8000+ corporates, SMBs & start-ups across India & even overseas.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS University with its wide range of programmes also provides
+                            training and placement programs; offering opportunities for its
+                            students to explore the job market and push their potential in
+                            renowned MNC’s, corporations, and start-ups worldwide.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Why to choose Uttaranchal University:
+    <div class="container mt-5">
+        <h2>Why to choose Uttaranchal University:
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Experience a vibrant student lifestyle
+                </h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Gain a global perspective
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Explore a range of flexible academic opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>4</h2>
+                <h3>Catalyze your career opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>5</h2>
+                <h3>Stay blessed with a world-class student support for life time
+                </h3>
+            </li>
+    </div> -->
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Under Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine" />
+        <div class="row">
+            <div class="mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            BSWOL                        
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">
+                            BCAOL
+                        </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#sem-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="false">
+                            BCOMOL
+                        </button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#sem-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="false">
+                            BTSOL
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">The Bachelor in Social Work (BSWOL)
+                        </h5>
+                        <p>The Bachelor in Social Work (BSWOL) is a 3 year Degree Programme. The course is designed for people who may like to work in social welfare sectors like NGO’s.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    10+2 from a recognized state or national board 
+                                </li>
+                                <li class="list-group-item border-0">
+                                    10+3 year diploma from a recognized state or national institute
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Hindi
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Fees: 5,900/- per year</li>
+                                <li class="list-group-item border-0">Total: 17,700/- for 3 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be as decided by the University at the time of examination
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">BACHELOR OF COMPUTER APPLICATIONS (BCAOL)
+                        </h5>
+                        <p>
+                            The BACHELOR OF COMPUTER APPLICATIONS (BCAOL) is an undergraduate degree programme. The objective of this course is to provide computer/IT knowledge to students so that a learner should be able to get entry level job in the field of Information Technology.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    10+2 from a recognized state or national board 
+                                </li>
+                                <li class="list-group-item border-0">
+                                    10+3 year diploma from a recognized state or national institute
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 6,000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 36,000/- for 3 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination.
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">BACHELOR OF COMMERCE (BCOMOL)
+                        </h5>
+                        <p>
+                            The Bachelor of commerce is an undergraduate skill based course that is designed to provide the learners with the information related to commerce & finance.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    10+2 from a recognized state or national board 
+                                </li>
+                                <li class="list-group-item border-0">
+                                    10+3 year diploma from a recognized state or national institute
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Hindi
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 4,000/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 12,000/- for 3 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination.
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-4" role="tabpanel" aria-labelledby="sem4">
+                        <h5 class="mb-3">BACHELOR OF TOURISM (BTSOL)
+                        </h5>
+                        <p>
+                            The Bachelor of Tourism is a 3 year undergraduate degree programme designed especially for those learners who want to persue their career in travel & tourism sector. This programme covers all the important aspects of Tourism, awareness about tourism, training in organizing tourism services, career prospects in tourism & much more.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    10+2 from a recognized state or national board 
+                                </li>
+                                <li class="list-group-item border-0">
+                                    10+3 year diploma from a recognized state or national institute
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 3,400/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 10,200/- for 3 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Post Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine" />
+        <div class="row">
+            <div class="mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            MCOMOL
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="true">
+                            MBAOL
+                        </button>
+                        <button class="nav-link" id="sem3" data-bs-toggle="tab" data-bs-target="#p-3" type="button"
+                            role="tab" aria-controls="sem-3" aria-selected="true">
+                            MCAOL
+                        </button>
+                        <button class="nav-link" id="sem4" data-bs-toggle="tab" data-bs-target="#p-4" type="button"
+                            role="tab" aria-controls="sem-4" aria-selected="true">
+                            MAOL
+                        </button>
+                        <button class="nav-link" id="sem5" data-bs-toggle="tab" data-bs-target="#p-5" type="button"
+                            role="tab" aria-controls="sem-5" aria-selected="true">
+                            MAJMCOL
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">MASTER OF COMMERCE (MCOMOL)
+                        </h5>
+                        <p>
+                            Master of commerce programme is one of the most demanding post graduate courses of IGNOU because of its flexibility, updated content & quality of study material. This programme covers all the major fields of commerce that will help a learner to maintain pace with the changing scenario.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Students must have passed 10+2+3 year bachelor’s degree from a recognized university/ institution.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 9,000/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 18,000/- for 2 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">MASTER OF BUSINESS ADMINISTRATION (MBAOL)
+                        </h5>
+                        <p>
+                            This MBA programme is a Post Graduate Degree programme designed for both freshers & working professionals to develop their skills required for careers in business and management.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Student must have passed a Bachelor’s degree from a recognized university in any discipline.
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Minimum 50% aggregate marks or 45% in case of candidates belonging to reserved categories
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Specializations offered</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Marketing Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Financial  Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Human Resource Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Operations Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Services Management
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 14,000/- for 1st, 2nd & 4th semester & 16,000/- for 3rd semester
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 58,000/- for 2 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-3" role="tabpanel" aria-labelledby="sem3">
+                        <h5 class="mb-3">MASTER OF COMPUTER APPLICATIONS (MCAOL)
+                        </h5>
+                        <p>
+                            This Master’s Degree Programme has been designed with an aim to provide theoretical knowledge and practical skills development in core computers science subjects in first year.
+                            <br>
+                            The second year is more focused on advanced courses providing conceptual framework and the project work.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Students must have passed BCA/B.Sc. or Equivalent Degree with at least 50% marks from a recognized university/ institution.
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Students who have passed any other Bachelor’s degree from a recognized University with at least 50% marks (45% marks in case of candidates belonging to reserved category) and Mathematics as one of the subjects at 10+2 level or graduation level are required to register and successfully complete two bridge courses.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 12,000/- per semester
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 48000/- for 2 years (exclusive of exam fee)
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Bridge course fee: 2000/- per course
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-4" role="tabpanel" aria-labelledby="sem4">
+                        <h5 class="mb-3">MASTER OF ARTS (MAOL)
+                        </h5>
+                        <p>
+                            Master of Arts is a post graduate degree programme can be completed in a minimum period of two years. This is a specialized course that offers in-depth knowledge of the chosen discipline.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Student must have passed a Bachelor’s degree from a recognized university in any discipline.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Hindi
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 6,000/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 12,000/- for 2 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="p-5" role="tabpanel" aria-labelledby="sem5">
+                        <h5 class="mb-3">MA JOURNALISM AND MASS COMMUNICATION (MAJMCOL)
+                        </h5>
+                        <p>
+                            The Master of Journalism is a 2 year postgraduate degree programme designed especially for those learners who want to persue their career in Journalism and Mass Communication. This programme aims at providing specific knowledge and skills to the learner that enables them to work in electronic and digital media sectors efficiently.
+                        </p>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Student must have passed a Bachelor’s degree from a recognized university in any discipline.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Medium of study</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    English
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Hindi
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    Fees: 12,500/- per year
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total: 25,000/- for 2 years (exclusive of exam fee)
+                                </li>
+                            </ul>
+                            Exam Fees is not included in Fee Structure it will be informed by the University before examination
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Top Hiring Partners Of Uttaranchal University
+        </h2>
+        <hr class="shine" />
+        <div class="owl-carousel uni-logo-wrapper uni-carousel p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/wipro.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/amazon.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/paytm.jpeg" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/accenture.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/lic.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/videocon.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/vistara.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/tata-strive.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/cognizant.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/byjus.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/hdfc.png" alt="" />
+            </div>
+        </div>
+    </div> -->
+    <!-- admission prosses -->
+    <!-- <div class="container mt-5">
+        <h2>Admission Procedure at CU-Online University
+        </h2>
+        <p>The admission procedure at Chandigarh University Online is hassle-free, and easy to complete. It is
+            completely conducted online and doesn’t require any campus visits or paperwork. It involves three simple
+            steps to complete the process of admission to the university.
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Find your course</h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Talk to expert guides
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Apply online</h3>
+            </li>
+    </div> -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            What are the approvals and accreditation does IGNOU Online has?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>
+                                IGNOU is the largest Open University in the world & is recognized by UGC, UGC-DEB, NCTE, AICTE, INC, NAAC (A++)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Is IGNOU is a government University?                        
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, IGNOU is a government university established by an Act of Parliament in 1985
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is Online degree of IGNOU is valid for jobs?                        
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Yes, Students after successfully completing Online Courses from IGNOU are eligible for Government as well as Private Jobs in the Entire World with ease.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            Is IGNOU degree regular or part time?                        
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            IGNOU is offering courses in distance/online mode that is considered as a part time course but the degree is accepted similar as the regular degree anywhere.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            How to apply for IGNOU Online Courses?                       
+                         </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            The admission procedure at IGNOU online is quiet easy. Student is required to fill the application form online along with the necessary documents & make the necessary fee payment through credit/debit card/ net banking.
+                            <br><br>
+                            Student will get the confirmation of payment through SMS as well as email.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <i class="fa fa-plus"></i>
+                            How much time University will take to confirm the admission after successful submission of form?                       
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            After successful application submission, University scrutinized the form & usually takes 15-30 days to provide the confirmation of your admission, allotment of study centre and other details for induction etc.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <i class="fa fa-plus"></i>
+                            How can I get access to the library & other stuff?                       
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Student can use multimedia facility (recorded lectures, e-books etc.) & in case student is staying in the city where the Regional Centre is located, then he/she can make use of the library at the Regional Centre during the working hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>

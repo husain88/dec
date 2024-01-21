@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./jquery.js"></script>
+    <script src="./assets/modules/Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/modules/Fontawesome/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./assets/modules/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/modules/owl/owl.carousel.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        rel="stylesheet" />
+    <script src="./components/snackbar.js" type="text/javascript" defer></script>
+    <script src="./components/navbar.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+    <script src="./components/backtotop.js" type="text/javascript" defer></script>
+    <script src="./components/contactform.js" type="text/javascript" defer></script>
+    <script src="./components/blogpostlist.js" type="text/javascript" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./assets/modules/owl/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <snack-bar></snack-bar>
+    <nav-bar class="sticky-top shadow"></nav-bar>
+    <div class id="banner">
+        <img src="./assets/images/Narsee Monjee (NMIMS).png" alt class="d-block img-responsive" />
+    </div>
+    <div class="container my-4">
+        <div class="uni-form-wrapper d-block d-md-none">
+            <p class="text-white">Enter Your Details to Enquire</p>
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name" />
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number" />
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <select class="form-select form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="uni-form-wrapper container d-none d-md-block">
+            <form action="">
+                <div class="row mb-2">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-sm" placeholder="First Name"
+                            aria-label="First name" />
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control form-control-sm" placeholder="Mobile Number"
+                            aria-label="Mobile Number" />
+                    </div>
+
+                    <div class="col">
+                        <select class="form-select form-select-sm" name="course" required placeholder="Select Course">
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="BCOM">B.com</option>
+                            <option value="BA">BA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="MA">MA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="MCOM">M.com</option>
+                            <option value="OTHER">OTHER</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-sm btn-block m-0 w-100">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="row mb-2">
+                    <div class="col"></div>
+                    
+                    <div class="col"></div>
+                </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            University Accreditations & Recognitions
+        </h2>
+        <hr class="shine" />
+        <div class="owl-carousel uni-carousel uni-logo-wrapper p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/A-naac.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/ugc-deb.webp" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/aicte.webp" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-content">
+                    <h2 class="section-content-heading fw-bold">
+                        Narsee Monjee Institute of Management
+                    </h2>
+                    <p class="more-sec">
+                        (NMIMS) is a private university established in 1981 in Mumbai. It
+                        has been ranked among the top B-Schools for offering online &
+                        distance learning programmes.
+                        <br />
+                        NMIMS is one of the few Universities that has been granted the
+                        status of Autonomy by UGC & accredited grade A+ NAAC rating.
+                        <br />
+                        The vision of NMIMS is to develop & provide quality programs,
+                        curriculum & services to their learners so that they become a
+                        highly employable profession & live up to  21st century demands.
+                        <br /><br />
+                        NMIMS GLOBAL Access School for Continuing Education:
+                        <br />
+                        NMIMS University online programs offer learning and career growth
+                        opportunities for working professionals. As a home to over
+                        1,25,000+ students, and 22,000 alumni, NMIMS online education
+                        empowers India with top UGC-entitled online digital learning (ODL)
+                        programs. Their programs exude the highest quality and academic
+                        leadership recognized by the UGC-DEB of India.
+                    </p>
+                    <button class="toggle-para btn btn-link">Read More</button>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center d-flex justify-content-center align-items-center">
+                <img class="w-75" src="./assets/images/nmims.webp" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="vertical-tabs-wrapper d-none d-md-flex">
+            <ul class="nav nav-pills vertical-tabs-layout flex-column nav-pills align-items-end" id="pills-tab"
+                role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fw-semibold active position-relative" id="pills-1-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true">
+                        Why NMIMS Global?
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content p-2 w-100" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                    <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                        <li class="list-group-item border-0">
+                            NMIMS online education empowers you by offering the same
+                            educational tradition, ethic & pedagogy to the online medium of
+                            learning.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS online Post Graduate Programmes curriculum emphasizes
+                            real-world applications, critical thinking, and problem-solving
+                            abilities, preparing students for successful careers in their
+                            chosen fields.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS online degrees are highly regarded & recognized by top
+                            enterprises and start-ups across India due to the academic
+                            rigour, industry-focused syllabus, and rich academy curriculum.
+                        </li>
+                        <li class="list-group-item border-0">
+                            The curriculum of NMIMS online Post Graduate/Undergraduate
+                            Programmes is carefully crafted to meet industry demands and
+                            ensure practical learning experiences.
+                        </li>
+                        <li class="list-group-item border-0">
+                            Graduates from NMIMS Global are recruited by some of the top
+                            8000+ corporates, SMBs & start-ups across India & even overseas.
+                        </li>
+                        <li class="list-group-item border-0">
+                            NMIMS University with its wide range of programmes also provides
+                            training and placement programs; offering opportunities for its
+                            students to explore the job market and push their potential in
+                            renowned MNC’s, corporations, and start-ups worldwide.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why to choose Uttaranchal University:
+    <div class="container mt-5">
+        <h2>Why to choose Uttaranchal University:
+        </h2>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Experience a vibrant student lifestyle
+                </h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Gain a global perspective
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Explore a range of flexible academic opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>4</h2>
+                <h3>Catalyze your career opportunities
+                </h3>
+            </li>
+            <li>
+                <h2>5</h2>
+                <h3>Stay blessed with a world-class student support for life time
+                </h3>
+            </li>
+    </div> -->
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Under Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine" />
+        <div class="row">
+            <div class="mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#sem-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            B.COM
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#sem-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="false">
+                            BBA
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="sem-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Bachelor of commerce (B.com)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    HSC (10+2) in any discipline from a recognized board with
+                                    minimum 50%
+                                </li>
+                                <li class="list-group-item border-0">
+                                    HSC (10+2) in any discipline from a recognized board with
+                                    45% and minimum 2 years work experience
+                                </li>
+                                <li class="list-group-item border-0">
+                                    SSC (10) + 3 years Diploma recognized by AICTE with 55%
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">18000/- per semester</li>
+                                <li class="list-group-item border-0">Total: 1,08,000/-</li>
+                                <li class="list-group-item border-0">
+                                    In addition, Students need to pay an examination fee of Rs
+                                    600/- per subject.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sem-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Bachelor in Business Administration (BBA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    HSC (10+2) in any discipline from a recognized board with
+                                    minimum 50%
+                                </li>
+                                <li class="list-group-item border-0">
+                                    HSC (10+2) in any discipline from a recognized board with
+                                    45% and minimum 2 years work experience
+                                </li>
+                                <li class="list-group-item border-0">
+                                    SSC (10) + 3 years Diploma recognized by AICTE with 55%
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    3 years (6 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Specialization</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">General</li>
+                                <li class="list-group-item border-0">Business Analytics</li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    25000/- per semester (in case of General)
+                                </li>
+                                <li class="list-group-item border-0">
+                                    25000/- per semester (in case of Business Analytics) for
+                                    1st, 2nd & 30000/- per semester for 3rd onwards
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Total fee: 1,70,000/-
+                                </li>
+                                <li class="list-group-item border-0">
+                                    In addition, Students need to pay an examination fee of Rs
+                                    600/- per subject.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Post Graduate Programmes offered by the University
+        </h2>
+        <hr class="shine" />
+        <div class="row">
+            <div class="mr-auto">
+                <nav>
+                    <div class="nav nav-tabs sem-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="sem1" data-bs-toggle="tab" data-bs-target="#p-1"
+                            type="button" role="tab" aria-controls="sem-1" aria-selected="true">
+                            MBA
+                        </button>
+                        <button class="nav-link" id="sem2" data-bs-toggle="tab" data-bs-target="#p-2" type="button"
+                            role="tab" aria-controls="sem-2" aria-selected="true">
+                            Executive MBA
+                        </button>
+                    </div>
+                </nav>
+                <div class="tab-content mt-4" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="p-1" role="tabpanel" aria-labelledby="sem1">
+                        <h5 class="mb-3">Master of Business Administration (MBA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidate must have completed Bachelor degree in any
+                                    discipline from recognized University/ Institution with
+                                    minimum 50% marks at Graduation Level.
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Specialization</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Information Technology & System Management
+                                </li>
+                                <li class="list-group-item border-0">Retail Management</li>
+                                <li class="list-group-item border-0">
+                                    Supply chain Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    International Trade Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Banking & Finance Management
+                                </li>
+                                <li class="list-group-item border-0">Financial Management</li>
+                                <li class="list-group-item border-0">
+                                    Human Resource Management
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Operations Management
+                                </li>
+                                <li class="list-group-item border-0">Business Management</li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    48000/- per semester (For Pro mode)
+                                </li>
+                                <li class="list-group-item border-0">
+                                    42000/- per semester (For Prime mode)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Total Fees</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    1,92,000/- (For Pro mode)
+                                </li>
+                                <li class="list-group-item border-0">
+                                    1,68,000/- (For Prime mode)
+                                </li>
+                            </ul>
+                        </div>
+                        In addition, Students need to pay an examination fee of Rs 600/- per subject.
+                    </div>
+                    <div class="tab-pane fade" id="p-2" role="tabpanel" aria-labelledby="sem2">
+                        <h5 class="mb-3">Master of Business Administration (Executive MBA)</h5>
+                        <div class="mb-4">
+                            <p class="fw-bold mb-1">Eligibility Criteria</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered mb-3">
+                                <li class="list-group-item border-0">
+                                    Candidate must have completed Bachelor degree in any discipline from recognized University/ Institution with minimum 55% and 3+ years of work experience.
+                                </li>
+                                <li class="list-group-item border-0">
+                                    Candidates must have completed a Bachelor degree in any discipline from recognized University/ Institution with minimum 55% and Postgraduate/Professional Degree from recognized Universities with a minimum of 55% and 2+ years of work experience.                               
+                                 </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Duration</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">
+                                    2 years (4 semesters)
+                                </li>
+                            </ul>
+                        </div>
+                        <hr />
+                        <div>
+                            <p class="fw-bold mb-1">Fees Structure</p>
+                            <ul class="list-group effect-1 text-start list-group-flush list-group-numbered">
+                                <li class="list-group-item border-0">Total: 4,75,000/-</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2 class="fw-bold text-center">
+            Top Hiring Partners Of Uttaranchal University
+        </h2>
+        <hr class="shine" />
+        <div class="owl-carousel uni-logo-wrapper uni-carousel p-2 owl-theme">
+            <div class="item shadow">
+                <img src="./assets/images/aviva.png" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/rbs.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/conneqt.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/indiamart.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/vivo.avif" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/bajaj_electricals_logo.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/michelin.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/tata.png" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/mindteck.php" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/essel.jpeg" alt="" />
+            </div>
+            <div class="item shadow">
+                <img src="./assets/images/dachser.png" alt="" />
+        </div>
+    </div>
+    </div>
+    <!-- admission prosses -->
+    <!-- <div class="container mt-5">
+        <h2>Admission Procedure at CU-Online University
+        </h2>
+        <p>The admission procedure at Chandigarh University Online is hassle-free, and easy to complete. It is
+            completely conducted online and doesn’t require any campus visits or paperwork. It involves three simple
+            steps to complete the process of admission to the university.
+        </p>
+        <ul class="tilesWrap">
+            <li>
+                <h2>1</h2>
+                <h3>Find your course</h3>
+            </li>
+            <li>
+                <h2>2</h2>
+                <h3>Talk to expert guides
+                </h3>
+            </li>
+        </ul>
+        <ul class="tilesWrap">
+            <li>
+                <h2>3</h2>
+                <h3>Apply online</h3>
+            </li>
+    </div> -->
+    <div class="main-container">
+        <div class="container faq-container">
+            <h2 class="text-center text-decoration-underline text-white mb-5">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-plus"></i>
+                            NMIMS is a private or government university?                       
+                         </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            <p>
+                                The NMIMS is a private university established in 1981. It has been ranked among the top B-Schools for offering online & distance learning programmes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-plus"></i>
+                            Where is the NMIMS University situated?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            NMIMS has its headquarters in Mumbai and campuses spread over cities like Mumbai, Delhi, Kolkata, Hyderabad, Ahmedabad, Pune, and Indore. 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-plus"></i>
+                            Is NMIMS is a UGC approved University?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            NMIMS is AICTE and UGC-DEB approved University & accredited grade A+ NAAC rating.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="fa fa-plus"></i>
+                            Is NMIMS is a good university?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            NMIMS is one of the best universities for offering management courses that believes in providing quality programs, curriculum & services to their learners.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4 rounded-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button rounded-3 collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="fa fa-plus"></i>
+                            How to apply for NMIMS courses?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <hr class="my-0 mx-3" />
+                        <div class="accordion-body">
+                            Student can either apply online on website or offline at the university campus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer-comp class="shadow"></footer-comp>
+    <back-to-top></back-to-top>
+    <script src="./index.js"></script>
+</body>
+
+</html>
