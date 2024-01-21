@@ -244,10 +244,10 @@ class Footer extends HTMLElement {
                       <div class="widget course-links-widget">
                         <h5 class="widget-title">Distance Courses</h5>
                         <ul class="courses-link-list">
-                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance MBA</a></li>
-                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance BBA</a></li>
-                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance BCA</a></li>
-                          <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Distance MCA</a></li>
+                          <li><a href="distance-mba.html"><i class="fas fa-long-arrow-alt-right"></i>Distance MBA</a></li>
+                          <li><a href="distance-bba.html"><i class="fas fa-long-arrow-alt-right"></i>Distance BBA</a></li>
+                          <li><a href="distance-bca.html"><i class="fas fa-long-arrow-alt-right"></i>Distance BCA</a></li>
+                          <li><a href="distance-mca.html"><i class="fas fa-long-arrow-alt-right"></i>Distance MCA</a></li>
                         </ul>
                       </div>
                     </div>
@@ -256,11 +256,11 @@ class Footer extends HTMLElement {
                     <div class="widget course-links-widget">
                       <h5 class="widget-title">UG Courses</h5>
                       <ul class="courses-link-list">
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BCA</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BBA</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BSC</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BCOM</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online BA</a></li>
+                        <li><a href="online-bca.html"><i class="fas fa-long-arrow-alt-right"></i>Online BCA</a></li>
+                        <li><a href="online-bba.html"><i class="fas fa-long-arrow-alt-right"></i>Online BBA</a></li>
+                        <li><a href="online-bsc.html"><i class="fas fa-long-arrow-alt-right"></i>Online BSC</a></li>
+                        <li><a href="bcom.html"><i class="fas fa-long-arrow-alt-right"></i>Online BCOM</a></li>
+                        <li><a href="online-ba.html"><i class="fas fa-long-arrow-alt-right"></i>Online BA</a></li>
                       </ul>
                     </div>
                   </div>
@@ -268,11 +268,11 @@ class Footer extends HTMLElement {
                     <div class="widget course-links-widget">
                       <h5 class="widget-title">PG Courses</h5>
                       <ul class="courses-link-list">
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
+                        <li><a href="online-mba.html"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
+                        <li><a href="online-mca.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
+                        <li><a href="online-msc.html"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
+                        <li><a href="mcom.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
+                        <li><a href="online-ma.html"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
                       </ul>
                     </div>
                   </div>
@@ -280,11 +280,10 @@ class Footer extends HTMLElement {
                     <div class="widget course-links-widget">
                       <h5 class="widget-title">Quick Links</h5>
                       <ul class="courses-link-list">
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Contact Us</a></li>
+                        <li><a href="contact-us.html"><i class="fas fa-long-arrow-alt-right"></i>Contact Us</a></li>
                         <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Blogs</a></li>
                         <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
                         <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Privacy Policy</a></li>
                       </ul>
                     </div>
                   </div>
