@@ -40,7 +40,7 @@ class Contact extends HTMLElement {
           <div class="col-12">
             <label for="message" class="form-label">Select University <span class="text-danger">*</span></label>
               <select class="form-select" name="university" required>
-                <option value="">—Please choose an option—</option>
+                <option value="" disabled selected>Select University</option>                            
                 <option value="Amity University">Amity University</option>
                 <option value="Online Manipal University">Online Manipal University</option>
                 <option value="Sikkim Manipal University">Sikkim Manipal University</option>
