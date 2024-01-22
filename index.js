@@ -64,23 +64,45 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // owl carousel 
 $('.uni-carousel').owlCarousel({
-  loop:false,
+  loop: true,
+  // rewind: true,
   margin:10,
   nav:false,
   dots:true,
   autoplay:true,
+  responsiveClass:true,
   // stagePadding:50,
-  center: false,
+  center: true,
+  singleItem: true,
   autoplayTimeout:2000,
+  scrollPerPage: true,
   responsive:{
       0:{
-        items:2
+        items:2,
+        loop: function () {
+          if ($(this).find('.owl-item').length > 3) {
+              return true;
+          }
+          return false;
+        }
       },
       600:{
-        items:3
+        items:3,
+        loop: function () {
+          if ($(this).find('.owl-item').length > 4) {
+              return true;
+          }
+          return false;
+        }
       },
       1000:{
-        items:5
+        items:5,
+        loop: function () {
+          if ($(this).find('.owl-item').length > 6) {
+              return true;
+          }
+          return false;
+        }
       }
   }
 });

@@ -14,7 +14,7 @@ h3 {
   color: #273272;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   text-align: justify;
   color: #231d1d;
@@ -94,14 +94,29 @@ a {
   width: 200px;
 }
 
+
+.uni-card-img-wrap {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 8px;
+}
+@media screen and (max-width: 768px) {
+  .resp {
+    flex-direction: column;
+  }
+  .uni-card-img-wrap {
+    width: 100%;
+  }
+}
 .approval-list {
   position: relative;
   margin-top: -25px;
 }
 
 .approval-img {
-  width: 4rem;
-  height: 4rem;
+  width: 100px;
 }
 .approval-text {
   font-size: 1.25rem;
@@ -569,7 +584,7 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
   align-items: center;
   justify-content: center;
   height: 100px;
-  /* width: 100px; */
+  width: 100px;
 }
 
 .uni-logo-wrapper .item img {
@@ -994,7 +1009,6 @@ background: linear-gradient(to right, #ff6f42, #273272);
   text-align: center;
   background-color: #273272;
   position: relative;
-    top: -20px;
 }
 
 .university-card-footer {
