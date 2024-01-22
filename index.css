@@ -108,6 +108,7 @@ a {
   }
   .uni-card-img-wrap {
     width: 100%;
+    margin-bottom: 8px;
   }
 }
 .approval-list {
@@ -115,8 +116,13 @@ a {
   margin-top: -25px;
 }
 
+.t-uni-card p {
+  font-size: 16px;
+}
+
 .approval-img {
-  width: 100px;
+  width: 75px;
+  height: 100%;
 }
 .approval-text {
   font-size: 1.25rem;
@@ -911,7 +917,8 @@ background: linear-gradient(to right, #ff6f42, #273272);
   }
   .approval-img {
     /* width: 3rem !important; */
-    height: 3rem !important;
+    width: 75;
+    height: 100%;
   }
   .approval-text {
     font-size: 0.75rem !important;
