@@ -697,6 +697,7 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: hidden;
+  margin-bottom: 0;
 }
 .more-card {
   display: -webkit-box;
