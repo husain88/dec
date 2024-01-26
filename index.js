@@ -74,7 +74,7 @@ $('.uni-carousel').owlCarousel({
   // stagePadding:50,
   center: true,
   singleItem: true,
-  autoplayTimeout:2000,
+  autoplayTimeout:3000,
   scrollPerPage: true,
   responsive:{
       0:{
