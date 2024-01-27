@@ -268,8 +268,8 @@ class Footer extends HTMLElement {
                     <div class="widget course-links-widget">
                       <h5 class="widget-title">PG Courses</h5>
                       <ul class="courses-link-list">
-                        <li><a href="online-mba.html"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
-                        <li><a href="online-mca.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
+                        <li><a href="online-mba-courses.html"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
+                        <li><a href="online-mca-courses.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
                         <li><a href="online-msc.html"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
                         <li><a href="mcom.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
                         <li><a href="online-ma.html"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
