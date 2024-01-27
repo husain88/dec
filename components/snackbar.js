@@ -27,6 +27,12 @@ class Snackbar extends HTMLElement {
       .top-social-icons {
         font-size: large;
       }
+      .social-links {
+        color: #fff;
+      }
+      .social-links:hover {
+        color: #ff5700;
+      }
       </style>
       <header>
       <div class="d-flex flex-wrap-wrap align-items-center head-wrapper">
@@ -43,11 +49,11 @@ class Snackbar extends HTMLElement {
           Request A Call Back
         </button>
         <ul class="d-flex justify-content-space-between top-social-icons p-0">
-          <li><i class="fa-brands fa-facebook p-2"></i></li>
-          <li><i class="fa-brands fa-twitter p-2"></i></li>
-          <li><i class="fa-brands fa-linkedin p-2"></i></li>
-          <li><i class="fa-brands fa-pinterest p-2"></i></li>
-          <li><i class="fa-brands fa-instagram p-2"></i></li>
+          <li><a class="social-links" target="_blank" href="https://www.facebook.com/distanceeducationcourses.in"><i class="fa-brands fa-facebook p-2"></i></a></li>
+          <li><a class="social-links" target="_blank" href="https://twitter.com/i/flow/login?redirect_after_login=%2Fdistancemba12"><i class="fa-brands fa-twitter p-2"></i></a></li>
+          <li><a class="social-links" target="_blank" href="https://www.linkedin.com/in/distanceeducationcoursesin/"><i class="fa-brands fa-linkedin p-2"></i></a></li>
+          <li><a class="social-links" target="_blank" href="https://in.pinterest.com/distanceeducation602/"><i class="fa-brands fa-pinterest p-2"></i></a></li>
+          <li><a class="social-links" target="_blank" href="https://www.instagram.com/distanceeducationcourses/"><i class="fa-brands fa-instagram p-2"></i></a></li>
         </ul>
       </div>
     </header>
