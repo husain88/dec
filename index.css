@@ -1034,3 +1034,13 @@ background: linear-gradient(to right, #ff6f42, #273272);
 @media only screen and (max-width: 575px) {
  
 }
+
+/* blog page  */
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+.content {
+  display: none;
+}
