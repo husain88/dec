@@ -119,6 +119,9 @@ a {
 .t-uni-card p {
   font-size: 16px;
 }
+.t-uni-card {
+  width: 100%;
+}
 
 .approval-img {
   width: 75px;
