@@ -1044,3 +1044,11 @@ background: linear-gradient(to right, #ff6f42, #273272);
 .content {
   display: none;
 }
+
+@media only screen and (min-width: 993px) {
+  .blog-contact-form {
+    position: sticky;
+    top: 65px;
+    z-index: 1;
+  }
+}
