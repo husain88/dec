@@ -1068,4 +1068,8 @@ background: linear-gradient(to right, #ff6f42, #273272);
   .d-stats-wrapper {
     flex-direction: column;
   }
+  .uni-logo-wrapper .item{
+    width: unset !important;
+    height: unset !important;
+  }
 }
