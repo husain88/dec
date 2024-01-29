@@ -1048,7 +1048,31 @@ background: linear-gradient(to right, #ff6f42, #273272);
 @media only screen and (min-width: 993px) {
   .blog-contact-form {
     position: sticky;
-    top: 65px;
+    top: 75px;
     z-index: 1;
   }
+  .blog-scroll {
+    position: sticky;
+    top: 510px;
+    z-index: 0;
+  }
+  .blog-scroll-body {
+    height: 18vh;
+    overflow: scroll;
+  }
+/* width */
+.blog-scroll-body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Handle */
+.blog-scroll-body::-webkit-scrollbar-thumb {
+  background: #ff6f42; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.blog-scroll-body::-webkit-scrollbar-thumb:hover {
+  background: #000000; 
+}
 }
