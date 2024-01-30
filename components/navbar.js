@@ -153,8 +153,8 @@ class Navbar extends HTMLElement {
                 >Post Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
-                <li><a class="dropdown-item" href="online-mba-courses.html">Online MBA Courses</a></li>
-                <li><a class="dropdown-item" href="online-mca-courses.html">Online MCA Courses</a></li>
+                <li><a class="dropdown-item" href="online-mba.html">Online MBA Courses</a></li>
+                <li><a class="dropdown-item" href="online-mca.html">Online MCA Courses</a></li>
                 <li><a class="dropdown-item" href="online-msc.html">Online MSC Courses</a></li>
                 <li><a class="dropdown-item" href="mcom.html">Online MCOM Courses</a></li>
                 <li><a class="dropdown-item" href="online-ma.html">Online MA Courses</a></li>

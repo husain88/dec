@@ -1138,7 +1138,7 @@ background: linear-gradient(to right, #ff6f42, #273272);
     z-index: 0;
   }
   .blog-scroll-body {
-    height: 18vh;
+    height: 24vh;
     overflow: scroll;
   }
 /* width */
