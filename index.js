@@ -224,7 +224,7 @@ $('.uni-carousel').owlCarousel({
       }
   }
 });
-$('.uni-2-carousel').owlCarousel({
+$('.uni-carousel').owlCarousel({
   loop:true,
   // margin:10,
   nav:false,
