@@ -65,32 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // owl carousel 
 
 
-$('.popular-carousel').owlCarousel({
-  loop:true,
-  margin:20,
-  nav:false,
-  dots:true,
-  autoplay:true,
-  center: false,
-  autoplayTimeout:3000,
-  responsive:{
-      0:{
-          items:1
-      },
-      300:{
-        items:1
-      },
-      600:{
-          items:2
-      },
-      1000:{
-          items:3
-      },
-      1200: {
-        items: 4
-      }
-  }
-})
+
 $('.toggle-para').click(function () {
   console.log($(this).prev())
   if($(this).prev().hasClass("expand")) {
@@ -178,73 +153,32 @@ var showSecChar = 600;  // How many characters are shown by default
     // });    
 
 
-$('.testimonial-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:false,
-  dots:true,
-  autoplay:true,
-  center: true,
-  // stagePadding:10,
-  autoplayTimeout:5000,
-  responsive:{
-      0:{
-          items:1
-      },
-      300:{
-        items:1
-      },
-      600:{
-          items:1
-      },
-      1000:{
-          items:1
-      }
-  }
-})
+// $('.testimonial-carousel').owlCarousel({
+//   loop:true,
+//   margin:10,
+//   nav:false,
+//   dots:true,
+//   autoplay:true,
+//   center: true,
+//   // stagePadding:10,
+//   autoplayTimeout:5000,
+//   responsive:{
+//       0:{
+//           items:1
+//       },
+//       300:{
+//         items:1
+//       },
+//       600:{
+//           items:1
+//       },
+//       1000:{
+//           items:1
+//       }
+//   }
+// })
 
-$('.uni-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:false,
-  dots:true,
-  autoplay:true,
-  center: true,
-  // stagePadding:10,
-  autoplayTimeout:5000,
-  responsive:{
-      0:{
-        items:2,
-      },
-      600:{
-        items:3,
-      },
-      1000:{
-        items:5,
-      }
-  }
-});
-$('.uni-carousel').owlCarousel({
-  loop:true,
-  // margin:10,
-  nav:false,
-  dots:true,
-  autoplay:true,
-  center: true,
-  // stagePadding:10,
-  autoplayTimeout:5000,
-  responsive:{
-      0:{
-        items:2,
-      },
-      600:{
-        items:3,
-      },
-      1000:{
-        items:5,
-      }
-  }
-});
+
 
 // sem tab js
 $("a.nav-link").on('click', function () {
@@ -296,5 +230,94 @@ $(document).ready(function(){
       $("#loadMore").text("No More Blogs").addClass("noContent");
     }
   });
-  
+  $('.uni-carousel').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+  $('.popular-carousel').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+  $('.testimonial-carousel').slick({
+  loop:true,
+  margin:10,
+  nav:false,
+  dots:true,
+  autoplay:true,
+  center: true,
+  // stagePadding:10,
+  autoplayTimeout:5000,
+  responsive:{
+      0:{
+          items:1
+      },
+      300:{
+        items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
 })
+});
