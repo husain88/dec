@@ -165,10 +165,22 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
   max-width: 50%;
 }
 /* owl carousel */
-.uni-carousel .item {
+.uni-carousel img {
   max-width: 160px;
   margin: auto;
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+/* .popular-carousel .item {
+  max-width: 240px;
+  margin: 0 8px;
+} */
 
 .carousel-inner > .carousel-item > img,
 .carousel-inner > .carousel-item > a > img {
