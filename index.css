@@ -13,6 +13,9 @@ h2 {
 h3 {
   color: #273272;
 }
+h1 {
+  color: #273272;
+}
 p {
   font-size: 18px;
   font-weight: 400;
@@ -1137,8 +1140,11 @@ background: linear-gradient(to right, #ff6f42, #273272);
 @media only screen and (min-width: 993px) {
   .blog-contact-form {
     position: sticky;
-    top: 75px;
+    top: 125px;
     z-index: 1;
+  }
+  .blog-scroll .card-body{
+    padding-bottom: 0px;
   }
   .uni-logo-wrapper .item{
     width: unset !important;
@@ -1146,11 +1152,11 @@ background: linear-gradient(to right, #ff6f42, #273272);
   }
   .blog-scroll {
     position: sticky;
-    top: 510px;
+    top: 470px;
     z-index: 0;
   }
   .blog-scroll-body {
-    height: 24vh;
+    height: 28vh;
     overflow: scroll;
   }
 /* width */
@@ -1168,4 +1174,15 @@ background: linear-gradient(to right, #ff6f42, #273272);
 .blog-scroll-body::-webkit-scrollbar-thumb:hover {
   background: #000000; 
 }
+}
+
+.blog-wrapper p {
+  font-size: 16px;
+}
+.blog-wrapper h3 {
+  font-size: 21px;
+}
+.blog-wrapper img {
+  width: 100%;
+  /* height: 400px; */
 }
