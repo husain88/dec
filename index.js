@@ -234,15 +234,18 @@ $(document).ready(function(){
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 5,
+    slidesToScroll: 1,
     autoplay: true,
+    center: true,
+    loop: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -251,7 +254,7 @@ $(document).ready(function(){
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 1
         }
       },
       {
@@ -297,27 +300,27 @@ $(document).ready(function(){
     ]
   });
   $('.testimonial-carousel').slick({
-  loop:true,
-  margin:10,
-  nav:false,
-  dots:true,
-  autoplay:true,
-  center: true,
-  // stagePadding:10,
-  autoplayTimeout:5000,
-  responsive:{
-      0:{
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:true,
+    autoplay:true,
+    center: true,
+    // stagePadding:10,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        },
+        300:{
           items:1
-      },
-      300:{
-        items:1
-      },
-      600:{
-          items:1
-      },
-      1000:{
-          items:1
-      }
-  }
-})
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+  })
 });

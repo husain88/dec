@@ -167,12 +167,30 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
 .section-content-image {
   max-width: 50%;
 }
-/* owl carousel */
-.uni-carousel img {
-  max-width: 160px;
-  margin: auto;
+
+.gs-pagination .active {
+  color: #273272 !important;
 }
 
+.anchor {
+  display: block;
+  height: 92px;
+  margin-top: -92px;
+  visibility: hidden;
+}
+
+/* .gs-pagination .btn-primary {
+  color: #273272 !important;
+  background-color: #273272 !important;
+} */
+/* owl carousel */
+.uni-carousel img {
+  max-width: 140px;
+  margin: auto;
+}
+.slick-track {
+  display: flex !important;
+}
 .slick-slide > div {
   margin: 0 10px;
 }
@@ -476,6 +494,42 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
   border: 2px solid #273272;
 }
 
+.index-section {
+  display: flex;
+  align-items: start;
+}
+
+.index {
+  position: sticky;
+  top: 75px;
+  align-self: flex-start;
+  /* overflow-y: auto; */
+  width: 300px;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.index .list-group {
+  width: 100%;
+  font-size: 14px;
+}
+.index-content {
+  font-size: 14px;
+}
+.index-content p {
+  font-size: 14px !important;
+}
+/* the slides */
+.slick-slide {
+  margin: 0 27px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -27px;
+}
 /* .card {
   border: 0;
   border-radius: 0.1875rem;
@@ -618,7 +672,8 @@ box-shadow: 10px 10px 5px 0px rgba(255,111,66,0.33);
 }
 
 .uni-logo-wrapper .item img {
-  height: 100px;
+  height: 100%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -893,7 +948,7 @@ background: linear-gradient(to right, #ff6f42, #273272);
   border-left: 2px solid #273272;
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 991px) {
   .compare-border {
     border-top: 2px solid #273272;
     border-left: none;
@@ -907,6 +962,15 @@ background: linear-gradient(to right, #ff6f42, #273272);
 
   .top-card-img {
     width: 100% !important;
+  }
+  .index-section {
+    flex-direction: column;
+  }
+
+  .index {
+    position: relative;
+    top: unset;
+    width: 100%;
   }
 }
 
