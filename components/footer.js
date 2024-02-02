@@ -240,16 +240,15 @@ class Footer extends HTMLElement {
               <div class="col-12 col-lg-9">
                 <div class="row">
                   <div class="col-6 col-lg-3 mb-3">
-                    <div class="widget company-intro-widget">
-                      <div class="widget course-links-widget">
-                        <h5 class="widget-title">Distance Courses</h5>
-                        <ul class="courses-link-list">
-                          <li><a href="distance-mba.html"><i class="fas fa-long-arrow-alt-right"></i>Distance MBA</a></li>
-                          <li><a href="distance-bba.html"><i class="fas fa-long-arrow-alt-right"></i>Distance BBA</a></li>
-                          <li><a href="distance-bca.html"><i class="fas fa-long-arrow-alt-right"></i>Distance BCA</a></li>
-                          <li><a href="distance-mca.html"><i class="fas fa-long-arrow-alt-right"></i>Distance MCA</a></li>
-                        </ul>
-                      </div>
+                    <div class="widget course-links-widget">
+                      <h5 class="widget-title">PG Courses</h5>
+                      <ul class="courses-link-list">
+                        <li><a href="online-mba-courses.html"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
+                        <li><a href="online-mca-courses.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
+                        <li><a href="online-msc.html"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
+                        <li><a href="mcom.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
+                        <li><a href="online-ma.html"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
+                      </ul>
                     </div>
                   </div>
                   <div class="col-6 col-lg-3 mb-3">
@@ -265,15 +264,16 @@ class Footer extends HTMLElement {
                     </div>
                   </div>
                   <div class="col-6 col-lg-3 mb-3">
-                    <div class="widget course-links-widget">
-                      <h5 class="widget-title">PG Courses</h5>
-                      <ul class="courses-link-list">
-                        <li><a href="online-mba-courses.html"><i class="fas fa-long-arrow-alt-right"></i>Online MBA</a></li>
-                        <li><a href="online-mca-courses.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCA</a></li>
-                        <li><a href="online-msc.html"><i class="fas fa-long-arrow-alt-right"></i>Online MSC</a></li>
-                        <li><a href="mcom.html"><i class="fas fa-long-arrow-alt-right"></i>Online MCOM</a></li>
-                        <li><a href="online-ma.html"><i class="fas fa-long-arrow-alt-right"></i>Online MA</a></li>
-                      </ul>
+                    <div class="widget company-intro-widget">
+                      <div class="widget course-links-widget">
+                        <h5 class="widget-title">Distance Courses</h5>
+                        <ul class="courses-link-list">
+                          <li><a href="distance-mba.html"><i class="fas fa-long-arrow-alt-right"></i>Distance MBA</a></li>
+                          <li><a href="distance-bba.html"><i class="fas fa-long-arrow-alt-right"></i>Distance BBA</a></li>
+                          <li><a href="distance-bca.html"><i class="fas fa-long-arrow-alt-right"></i>Distance BCA</a></li>
+                          <li><a href="distance-mca.html"><i class="fas fa-long-arrow-alt-right"></i>Distance MCA</a></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                   <div class="col-6 col-lg-3 mb-3">
@@ -281,7 +281,7 @@ class Footer extends HTMLElement {
                       <h5 class="widget-title">Quick Links</h5>
                       <ul class="courses-link-list">
                         <li><a href="contact-us.html"><i class="fas fa-long-arrow-alt-right"></i>Contact Us</a></li>
-                        <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Blogs</a></li>
+                        <li><a href="blog.html"><i class="fas fa-long-arrow-alt-right"></i>Our Blogs</a></li>
                         <li><a href="our-trust.html"><i class="fas fa-long-arrow-alt-right"></i>Our Trust</a></li>
                         <li><a href="t&c.html"><i class="fas fa-long-arrow-alt-right"></i>Terms and Conditions</a></li>
                       </ul>
