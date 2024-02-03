@@ -240,6 +240,7 @@ $(document).ready(function(){
     center: true,
     loop: true,
     arrows: false,
+    // variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
