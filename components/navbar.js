@@ -124,7 +124,7 @@ class Navbar extends HTMLElement {
       </style>
       <nav class="navbar navbar-expand-lg p-0">
       <div class="container-fluid center">
-        <a class="navbar-brand" href="#"x><img class="main-logo" src="./assets/images/logo.webp" alt=""/></a>
+        <a class="navbar-brand" href="#"x><img class="main-logo" src="/assets/images/logo.webp" alt=""/></a>
         <button
           class="navbar-toggler collapsed"
           type="button"
@@ -142,7 +142,7 @@ class Navbar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbar-content">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -153,11 +153,11 @@ class Navbar extends HTMLElement {
                 >Post Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
-                <li><a class="dropdown-item" href="online-mba-courses.html">Online MBA Courses</a></li>
-                <li><a class="dropdown-item" href="online-mca-courses.html">Online MCA Courses</a></li>
-                <li><a class="dropdown-item" href="online-msc-courses.html">Online MSC Courses</a></li>
-                <li><a class="dropdown-item" href="online-mcom-courses.html">Online MCOM Courses</a></li>
-                <li><a class="dropdown-item" href="online-ma-courses.html">Online MA Courses</a></li>
+                <li><a class="dropdown-item" href="/online-mba-courses.html">Online MBA Courses</a></li>
+                <li><a class="dropdown-item" href="/online-mca-courses.html">Online MCA Courses</a></li>
+                <li><a class="dropdown-item" href="/online-msc-courses.html">Online MSC Courses</a></li>
+                <li><a class="dropdown-item" href="/online-mcom-courses.html">Online MCOM Courses</a></li>
+                <li><a class="dropdown-item" href="/online-ma-courses.html">Online MA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -169,11 +169,11 @@ class Navbar extends HTMLElement {
                 >Under Graduate Program</a
               >
               <ul class="dropdown-menu fade-down">
-                <li><a class="dropdown-item" href="online-bba-courses.html">Online BBA Courses</a></li>
-                <li><a class="dropdown-item" href="online-bca-courses.html">Online BCA Courses</a></li>
-                <li><a class="dropdown-item" href="online-bsc-courses.html">Online BSC Courses</a></li>
-                <li><a class="dropdown-item" href="online-bcom-courses.html">Online BCOM Courses</a></li>
-                <li><a class="dropdown-item" href="online-ba-courses.html">Online BA Courses</a></li>
+                <li><a class="dropdown-item" href="/online-bba-courses.html">Online BBA Courses</a></li>
+                <li><a class="dropdown-item" href="/online-bca-courses.html">Online BCA Courses</a></li>
+                <li><a class="dropdown-item" href="/online-bsc-courses.html">Online BSC Courses</a></li>
+                <li><a class="dropdown-item" href="/online-bcom-courses.html">Online BCOM Courses</a></li>
+                <li><a class="dropdown-item" href="/online-ba-courses.html">Online BA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -185,20 +185,20 @@ class Navbar extends HTMLElement {
                 >Distance Courses</a
               >
               <ul class="dropdown-menu fade-down">
-              <li><a class="dropdown-item" href="distance-mba-courses.html">Distance MBA Courses</a></li>
-              <li><a class="dropdown-item" href="distance-bba-courses.html">Distance BBA Courses</a></li>
-              <li><a class="dropdown-item" href="distance-bca-courses.html">Distance BCA Courses</a></li>
-              <li><a class="dropdown-item" href="distance-mca-courses.html">Distance MCA Courses</a></li>
+              <li><a class="dropdown-item" href="/distance-mba-courses.html">Distance MBA Courses</a></li>
+              <li><a class="dropdown-item" href="/distance-bba-courses.html">Distance BBA Courses</a></li>
+              <li><a class="dropdown-item" href="/distance-bca-courses.html">Distance BCA Courses</a></li>
+              <li><a class="dropdown-item" href="/distance-mca-courses.html">Distance MCA Courses</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="top-online-universities.html">Top Universities</a>
+              <a class="nav-link" href="/top-online-universities.html">Top Universities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
+              <a class="nav-link" href="/blog.html">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contact Us</a>
+              <a class="nav-link" href="/contact-us.html">Contact Us</a>
             </li>
           </ul>
         </div>

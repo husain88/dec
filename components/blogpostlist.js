@@ -45,7 +45,7 @@ class Blogpost extends HTMLElement {
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="./assets/images/medium-shot-girl-portrait-with-graduation-background.webp"
+                              src="/assets/images/medium-shot-girl-portrait-with-graduation-background.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -56,13 +56,13 @@ class Blogpost extends HTMLElement {
                           Top 10 Reasons to Do Graduation or Post Graduation
                           from Manipal Online
                         </h6>
-                        <a href="https://www.distanceeducationcourses.in/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online/" class="read-more-button">Read More >></a>
+                        <a href="/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online.html" class="read-more-button">Read More >></a>
                       </div>
                     </div>
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="./assets/images/rear-view-young-college-student-paying-attention-listening-her-online-teacher-laptop-home.webp"
+                              src="/assets/images/rear-view-young-college-student-paying-attention-listening-her-online-teacher-laptop-home.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -71,13 +71,13 @@ class Blogpost extends HTMLElement {
                         <h6>
                           Explore Everything About SMU Distance Learning
                         </h6>
-                        <a href="https://www.distanceeducationcourses.in/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online/" class="read-more-button">Read More >></a>
+                        <a href="/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online.html" class="read-more-button">Read More >></a>
                       </div>
                     </div>
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="./assets/images/writing.webp"
+                              src="/assets/images/writing.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -87,13 +87,13 @@ class Blogpost extends HTMLElement {
                           Which Is Bеttеr Aftеr 12th Gradе? BBA vs. B.Com –
                           Clеar Insights
                         </h6>
-                        <a href="https://www.distanceeducationcourses.in/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online/" class="read-more-button">Read More >></a>
+                        <a href="/blog/top-10-reasons-to-do-graduation-or-post-graduation-from-manipal-online.html" class="read-more-button">Read More >></a>
                       </div>
                     </div>
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="./assets/images/writing.webp"
+                              src="/assets/images/writing.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -103,13 +103,13 @@ class Blogpost extends HTMLElement {
                         <h6>
                         What is Online BBA? – Courses, Fees, Career in 2023
                         </h6>
-                        <a href="https://www.distanceeducationcourses.in/blog/what-is-online-bba-courses-fees-career-in-2023/" class="read-more-button">Read More >></a>
+                        <a href="/blog/what-is-online-bba-courses-fees-career-in-2023.html" class="read-more-button">Read More >></a>
                       </div>
                     </div>
                     <div class="d-flex flex-row flex-sm-row mt-0 mb-3">
                         <div class="card-img-actions">
                             <img
-                              src="./assets/images/mba-graduate-person.webp"
+                              src="/assets/images/mba-graduate-person.webp"
                               class="img-fluid img-preview rounded"
                               alt=""
                             />
@@ -119,7 +119,7 @@ class Blogpost extends HTMLElement {
                         <h6>
                         MBA After BA: Eligibility, Salary, Scope, and Top Colleges
                         </h6>
-                        <a href="https://www.distanceeducationcourses.in/blog/mba-after-ba-eligibility-salary-scope-and-top-colleges/" class="read-more-button">Read More >></a>
+                        <a href="/blog/mba-after-ba-eligibility-salary-scope-and-top-colleges.html" class="read-more-button">Read More >></a>
                       </div>
                     </div>
                   </div>
